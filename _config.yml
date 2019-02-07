@@ -1,0 +1,35 @@
+# Site settings
+title: Floris Jansen – Design for Interaction student
+description: >-
+  Hey! I’m Floris, I study Design for Interaction and hope to improve our
+  planet’s well-being, bit by bit. I also do some freelance web development,
+  graphic design and photography on the side.
+baseurl: "" # the subpath
+url: "https://fmjansen.com"
+twitter_username: fmjansen
+github_username:  fmjansen
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Collection
+collections:
+  projects:
+    permalink: /:collection/:path/
+    output: true
+  project_categories:
+    output: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

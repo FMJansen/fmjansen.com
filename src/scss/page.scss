@@ -1,0 +1,34 @@
+/*-------------------------------------*\
+
+  Portfolio: Page
+
+  - Floris Jansen, hey@fmjansen.nl
+
+  project.scss
+  + Page
+
+\*-------------------------------------*/
+
+
+
+
+
+/*-------------------------------------*\
+  Project page
+\*-------------------------------------*/
+.page {
+  background: white;
+  padding-bottom: $pad;
+
+  $content-width: 38rem;
+
+  p,
+  ul,
+  ol,
+  h2,
+  h3 {
+    width: 100vw - $pad * 2;
+    max-width: $content-width;
+    margin: 1em auto;
+  }
+}
