@@ -34,7 +34,7 @@ $sec-color: lighten(#ef686c, 4%);
 $break--tablet: 768px;
 $break--laptop: 1200px;
 $break--desktop: 1600px;
-$pad: 5vw;
+$pad: 6vw;
 
 
 
@@ -169,7 +169,7 @@ a {
   border-radius: 1em 1em 1em .25em;
   display: inline-block;
   float: left;
-  border: 1px solid var(--color);
+  border: 1px solid $text;
 
   &-cont::after {
     clear: both;
@@ -264,7 +264,6 @@ header {
   &--top {
     margin: 0;
     font-size: 26px;
-    color: white;
 
     &::after {
       content: 'FMJansen';
@@ -282,7 +281,8 @@ header {
     }
 
     a {
-      color: #162933;
+      color: $text;
+      color: var(--background, $text);
       text-decoration: none;
 
       &:hover {
@@ -373,21 +373,26 @@ main {
 /*-------------------------------------*\
   Portfolio
 \*-------------------------------------*/
-$port-marg-hor: 3.5vw;
+$port-marg-hor: 4vw;
 $port-marg-vert: $pad;
 
 .portfolio {
   background: var(--background, $text);
 
   &--other {
-    padding: $pad;
-    padding-left: $pad - $port-marg-hor;
-    padding-bottom: $pad - $port-marg-vert;
+    padding: $pad * 1.5 $pad;
+    padding-left: $pad * 1.5 - $port-marg-hor;
+    padding-bottom: $pad * 1.5 - $port-marg-vert;
+    background: white;
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
+
+    &:last-of-type {
+      padding-bottom: $pad * 1.5;
+    }
   }
 
   &__industrial {
@@ -408,9 +413,8 @@ $port-marg-vert: $pad;
     flex-grow: 1;
     box-shadow: 0 1em 4em transparentize(black, 0.6);
 
-    &::before {
-      padding-top: 158.5%;
-      content: "";
+    img {
+      width: 100%;
       display: block;
     }
   }
@@ -440,12 +444,14 @@ $port-marg-vert: $pad;
     width: 12rem;
     flex-grow: 1.2;
     margin-left: $port-marg-hor;
-    margin-bottom: $port-marg-vert;
-    font-size: 1.1em;
+    align-self: flex-start;
+
+    :first-child {
+      margin-top: 0;
+    }
   }
 
   &__conversation {
-    color: var(--color);
     max-width: 30ch;
     margin: 0;
   }
@@ -457,9 +463,9 @@ $port-marg-vert: $pad;
     position: relative;
     background-size: cover;
     background-color: $main-color;
-    background-image: linear-gradient(-205deg, var(--gradient-start, $main-color), var(--gradient-end, $sec-color));
     transition: box-shadow 150ms ease-out,
       transform 150ms ease-out;
+    box-shadow: inset 0 -11em 6em -6em transparentize(black, .5);
 
     &::before {
       padding-top: 158.5%;
@@ -468,7 +474,8 @@ $port-marg-vert: $pad;
     }
 
     &:hover {
-      box-shadow: 0 .5em 3.5em transparentize(black, 0.5);
+      box-shadow: inset 0 -12em 6em -7em transparentize(black, .3),
+        0 .5em 3.5em transparentize(black, 0.7);
       transform: translateY(-.2em);
     }
   }
@@ -489,8 +496,15 @@ $port-marg-vert: $pad;
 .section-head {
   width: 100%;
   margin: $pad;
+  margin-top: .5 * $pad;
   margin-left: $port-marg-hor;
   font-size: calc(1.5 * var(--big-font));
+  text-align: center;
+  color: $text;
+
+  &--contact {
+    color: white;
+  }
 }
 
 
@@ -511,6 +525,7 @@ $port-marg-vert: $pad;
 
   .me {
     border-color: var(--color);
+    color: var(--color)
   }
 
   &__option {
