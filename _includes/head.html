@@ -36,8 +36,37 @@
   </head>
   <body>
 
+    {% if page.layout != "default"  %}
+    <nav>
+      <menu class="main-menu">
+        <li class="main-menu__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="/#projects">Main projects</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="/#web+development">Web development</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="/#graphic+design">Graphic design</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="/#photography">Photography</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="/#contact">Contact</a>
+        </li>
+      </menu>
+    </nav>
+
+    <header class="small-header">
+    {% else %}
+
     <header>
-      <h1 class="site_title site_title--top">
+    {% endif %}
+
+      <h1 class="site_title site_title--top" style="--background: #{{ page.background }};">
         <a href="/">FMJansen</a>
       </h1>
     </header>
