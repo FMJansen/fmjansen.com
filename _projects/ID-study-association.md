@@ -3,17 +3,28 @@ layout: project
 title: "ID study association"
 date: 2019-01-04 12:00:00 +0100
 category: "web development"
-color: ffffff;
-background: f8444f;
+color: ffffff
+background: 4dccba
+image: /static/img/id/id.png
 ---
 
 ## Updating an outdated website
 
 ID is one of Delft’s largest study associations and has a innovative image—partly because of its connection to Industrial Design Engineering. Sadly, in 2016, the website did not really fit with this image, both visually and technically.
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/id.tudelft.nl_-1024x640.png)
 
-Screenshot of the previous website.
+<div class="project__picture-group project__picture-group--light">
+  <figure class="project__picture">
+    <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
+      srcset="/static/img/id/id.tudelft.nl.png 1x,
+        /static/img/id/id.tudelft.nl.png 2x"
+      src="/static/img/id/id.tudelft.nl.png">
+    <figcaption class="project__caption">
+      Screenshot of the previous website.
+    </figcaption>
+  </figure>
+</div>
+
 
 ---
 
@@ -21,29 +32,71 @@ Screenshot of the previous website.
 
 Because of this, [Nils](https://nilswesthoff.com/) and I built a new website, with a front page focussed on upcoming events and our social media channels; the content most visitors (the ID Members) are interested in.
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/sketches-1-1024x1017.png)
 
-Sketches for the education page.
+<div class="project__picture-group">
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/sketches-2-1024x817.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="A scanned black-and-white sketch of a wireframe, with Dutch scribbled text."
+      srcset="/static/img/id/sketches-1.png 1x,
+        /static/img/id/sketches-1.png 2x"
+      src="/static/img/id/sketches-1.png">
+    <figcaption class="project__caption">
+      Sketches for the education page.
+    </figcaption>
+  </figure>
 
-Sketches for the about page.
+  <figure class="project__picture">
+    <img class="project__image" alt="A scanned black-and-white sketch of a wireframe, with Dutch scribbled text."
+      srcset="/static/img/id/sketches-2.png 1x,
+        /static/img/id/sketches-2.png 2x"
+      src="/static/img/id/sketches-2.png">
+    <figcaption class="project__caption">
+      Sketches for the about page.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/Wireframes-onderwijs-02-414x1024.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="A grayscale wireframe."
+      srcset="/static/img/id/wireframe.png 1x,
+        /static/img/id/wireframe.png 2x"
+      src="/static/img/id/wireframe.png">
+    <figcaption class="project__caption">
+      The wireframe for the education page.
+    </figcaption>
+  </figure>
 
-The wireframe for the education page.
+  <figure class="project__picture">
+    <img class="project__image" alt="A screenshot of several slightly differing forms for submitting education feedback."
+      srcset="/static/img/id/design-explorations-form.png 1x,
+        /static/img/id/design-explorations-form.png 2x"
+      src="/static/img/id/design-explorations-form.png">
+    <figcaption class="project__caption">
+      Visual design explorations for forms.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/design-explorations-form-1024x602.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="A screenshot of several slightly differing events."
+      srcset="/static/img/id/design-explorations-events.png 1x,
+        /static/img/id/design-explorations-events.png 2x"
+      src="/static/img/id/design-explorations-events.png">
+    <figcaption class="project__caption">
+      Visual design explorations for events as shown on other pages.
+    </figcaption>
+  </figure>
 
-Visual design explorations for forms.
+  <figure class="project__picture">
+    <img class="project__image" alt="A screenshot of three different ways to display social media postst from Instagram, Flickr and Vimeo, plus a link to Facebook."
+      srcset="/static/img/id/design-explorations-social-media.png 1x,
+        /static/img/id/design-explorations-social-media.png 2x"
+      src="/static/img/id/design-explorations-social-media.png">
+    <figcaption class="project__caption">
+      Visual design explorations for the latest social media posts as shown on the front page.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2017/06/design-explorations-events-1024x584.png)
+</div>
 
-Visual design explorations for events as shown on other pages.
-
-![](https://fmjansen.nl/wp-content/uploads/2017/06/design-explorations-social-media-916x1024.png)
-
-Visual design explorations for the latest social media posts as shown on the front page.
 
 We also integrated the [members’ administration](http://moeilijkedingen.nl/lassie), so members can edit their contact information themselves, for example. Furthermore, integration with Facebook allows the board to easily publish events on the website, which have already been created on Facebook.
 

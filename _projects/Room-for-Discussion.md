@@ -3,37 +3,68 @@ layout: project
 title: "Room for Discussion"
 date: 2019-01-06 12:00:00 +0100
 category: "web development"
-color: ffffff;
-background: f8444f;
+color: ffffff
+background: 4f0000
+image: /static/img/rfd/rfd.png
 ---
 
 ## Showing more content with a modern look
 
 [Room for Discussion](https://roomfordiscussion.com/) is the interview platform of the University of Amsterdam. They already had a website, but it wasn’t built for the amount of content the committee created. The brief: to build a website to account for the amount interviews they held, including the content around them, like recordings and photo albums.
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Screen-Shot-2018-03-16-at-14.42.17.png)
+<div class="project__picture-group">
 
-The previous website, where all interviews were listed on one page, together with all other (static) content.
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a gray, dark red one-page website."
+      srcset="/static/img/rfd/old.png 1x,
+        /static/img/rfd/old.png 2x"
+      src="/static/img/rfd/old.png">
+    <figcaption class="project__caption">
+      The previous website, where all interviews were listed on one page, together with all other (static) content.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Wireframe-02-519x1024.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="Grayscale wireframe of the frontpage."
+      srcset="/static/img/rfd/wireframe-1.png 1x,
+        /static/img/rfd/wireframe-1.png 2x"
+      src="/static/img/rfd/wireframe-1.png">
+    <figcaption class="project__caption">
+      Wireframe for the frontpage.
+    </figcaption>
+  </figure>
 
-Wireframe for a single interview.
+  <figure class="project__picture">
+    <img class="project__image" alt="Grayscale wireframe of the search page."
+      srcset="/static/img/rfd/wireframe-1.png 1x,
+        /static/img/rfd/wireframe-1.png 2x"
+      src="/static/img/rfd/wireframe-1.png">
+    <figcaption class="project__caption">
+      Wireframe for the search page.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Wireframe-05-552x1024.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of the top of the new frontpage with several event cards and a header image."
+      srcset="/static/img/rfd/homepage-exploration.png 1x,
+        /static/img/rfd/homepage-exploration.png 2x"
+      src="/static/img/rfd/homepage-exploration.png">
+    <figcaption class="project__caption">
+      Design exploration for the homepage.
+    </figcaption>
+  </figure>
 
-Wireframe for the interview overview
+</div>
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Wireframe-04-447x1024.png)
 
-Wireframe for the search page.
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Homepage-voorbeeld-asdf-01-1024x987.png)
 
-Design exploration for the homepage.
 
-![](https://fmjansen.nl/wp-content/uploads/2016/10/Homepage-voorbeeld-playknop-03-1024x987.png)
 
-Design exploration for the homepage.
+
+
+
+
 
 ---
 
@@ -41,17 +72,40 @@ Design exploration for the homepage.
 
 Based on an existing visual identity and the goal to present all interviews, guests and (previous) committee members, I built this website.
 
-![](https://fmjansen.nl/wp-content/uploads/2016/02/Screen-Shot-2018-02-17-at-22.01.47.png)
+<div class="project__picture-group">
 
-The current committee.
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of the page showing the current committee."
+      srcset="/static/img/rfd/members.png 1x,
+        /static/img/rfd/members.png 2x"
+      src="/static/img/rfd/members.png">
+    <figcaption class="project__caption">
+      The current committee.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2016/02/Screen-Shot-2018-02-17-at-22.02.19.png)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of the bottom of a page with three event cards."
+      srcset="/static/img/rfd/recommended.png 1x,
+        /static/img/rfd/recommended.png 2x"
+      src="/static/img/rfd/recommended.png">
+    <figcaption class="project__caption">
+      At the bottom of each page three interviews are shown, to make sure the visitor can always go somewhere.
+    </figcaption>
+  </figure>
 
-At the bottom of each page three interviews are shown, to make sure the visitor can always go somewhere.
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of the search page."
+      srcset="/static/img/rfd/search.png 1x,
+        /static/img/rfd/search.png 2x"
+      src="/static/img/rfd/search.png">
+    <figcaption class="project__caption">
+      Using the search functionality, multiple kinds of information had to be findable.
+    </figcaption>
+  </figure>
 
-![](https://fmjansen.nl/wp-content/uploads/2016/02/Screen-Shot-2018-02-17-at-22.03.04.png)
+</div>
 
-Using the search functionality, multiple kinds of information had to be findable.
 
 ---
 

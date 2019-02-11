@@ -25,7 +25,9 @@ layout: default
     <article class="portfolio__industrial"
       style="--color: #{{ post.color }}; --background: #{{ post.background }}">
 
-      <a class="portfolio__image" href="{{ post.url }}"></a>
+      <a class="portfolio__image" href="{{ post.url }}">
+        <img src="/static/img/{{ post.image }}" alt="{{ post.title }}">
+      </a>
 
       <div>
         <h2 class="portfolio__category">
@@ -60,7 +62,8 @@ layout: default
     </div>
     {% assign project_list = site.projects | where: 'category', cat.title %}
     {% for post in project_list %}
-      <a href="{{ post.url }}" class="portfolio__item">
+      <a href="{{ post.url }}" class="portfolio__item"
+        style="background-image: url({{ post.image }});">
         <article>
 
           <h3 class="portfolio__title">

@@ -7,13 +7,25 @@ category: "industrial design"
 design_kind: "Service design"
 color: ffffff;
 background: f8444f;
+image: driving/lapland.png
 ---
 
 ## Making Finnish car owners comfortable with renting their car to tourists
 
 Shareit Blox Car is a Finnish car sharing company. They were working on the expansion from the Helsinki metropolitan area to the north of Finland, Lapland. This posed new challenges for the company, because this area poses more demanding driving conditions in the winter due to extreme cold, slippery roads and large wild animals. This, in turn, makes it less attractive to rent out your car to tourists, because the borrowing party may not now how to deal with this conditions, which may lead to damage to the car. Blox Car asked us to bridge this gap by redesigning their service.
 
-[End presentation Group C (dragged) 3.pdf](https://www.notion.so/fb9cfc315e114e9daeba756eba4320f9#41397001dc5e4cbfb0c28fd9ceecee3a)
+
+<div class="project__picture-group project__picture-group--light">
+  <figure class="project__picture">
+    <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
+      srcset="/static/img/driving/goal.png 1x,
+        /static/img/driving/goal.png 2x"
+      src="/static/img/driving/goal.png">
+    <figcaption class="project__caption">
+      Screenshot of the previous website.
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -23,11 +35,31 @@ We proposed a solution where the user (car renter) would learn the required know
 
 We presented the results in the form of a short video, a service blueprint, touchpoint design opportunities and four key take aways. We also supplied Blox Car with the background research and user journey showing at which point information would be needed for both the user and the car owner.
 
-[End presentation Group C (dragged) 2.pdf](https://www.notion.so/fb9cfc315e114e9daeba756eba4320f9#ebb5b44e58f44725a8b6d456ce4b9edd)
 
-[End presentation Group C (dragged).pdf](https://www.notion.so/fb9cfc315e114e9daeba756eba4320f9#38853711ee614049b1f38c97b806d23c)
+<div class="project__picture-group">
 
-[video]
+  <figure class="project__picture">
+    <img class="project__image" alt="White slide with red boxes showing several categories of driving tips."
+      srcset="/static/img/driving/code.png 1x,
+        /static/img/driving/code.png 2x"
+      src="/static/img/driving/code.png">
+    <figcaption class="project__caption">
+      The code of conduct we created.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
+      srcset="/static/img/driving/blueprint.png 1x,
+        /static/img/driving/blueprint.png 2x"
+      src="/static/img/driving/blueprint.png">
+    <figcaption class="project__caption">
+      Our service blueprint.
+    </figcaption>
+  </figure>
+
+</div>
+
 
 ---
 

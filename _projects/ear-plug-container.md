@@ -5,8 +5,9 @@ description: "Improving sleep in the future with a redesigned glow-in-the-dark e
 date: 2019-01-02 12:00:00 +0100
 category: "industrial design"
 design_kind: "Product design"
-color: fbeee6;
-background: 272b69;
+color: fbeee6
+background: 272b69
+image: alpine/alpine.png
 ---
 
 ## Improving sleep in the future
@@ -15,17 +16,91 @@ Alpine is a hearing protection company, with a product base consisting mainly of
 
 In my reinterpretation of the case brief, I decided to look at what could be improved in the experience of their existing SleepSoft ear plug.
 
+
+<div class="project__picture-group project__picture-group--light">
+  <figure class="project__picture">
+    <img class="project__image" alt="Illustrated timeline showing a typical day and especially interactions with ear plugs."
+      srcset="/static/img/alpine/journey.png 1x,
+        /static/img/alpine/journey.png 2x"
+      src="/static/img/alpine/journey.png">
+    <figcaption class="project__caption">
+      I created a timeline to illustrate what people’s behaviour was, linked to ear plugs for sleeping. This helped me to validate my assumptions with users and find weak spots in the interaction.
+    </figcaption>
+  </figure>
+</div>
+
+
 ---
 
 ## A redesigned glow-in-the-dark ear plug container
 
 After interviews with users, I assembled a list of issues users currently have with their ear plugs for sleeping. Based on this, I redesigned the container for improved usage in the dark; by redoing the lay-out it becomes easier to take the ear plugs from the container without dropping them. Many users also reported problems with finding their ear plugs during the night, which I solved by adding glow-in-the-dark pigment to part of the container.
 
+
+<div class="project__picture-group">
+
+  <figure class="project__picture">
+    <img class="project__image" alt="Photo of seven 3D printed models."
+      srcset="/static/img/alpine/modelletjes.jpg 1x,
+        /static/img/alpine/modelletjes.jpg 2x"
+      src="/static/img/alpine/modelletjes.jpg">
+    <figcaption class="project__caption">
+      My 3D printed iterations.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="SolidWorks stiffness analysis screenshot."
+      srcset="/static/img/alpine/force.png 1x,
+        /static/img/alpine/force.png 2x"
+      src="/static/img/alpine/force.png">
+    <figcaption class="project__caption">
+      The stiffness analysis of one iteration of my design.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="Rendering of the final design on a black background."
+      srcset="/static/img/alpine/doosje.jpg 1x,
+        /static/img/alpine/doosje.jpg 2x"
+      src="/static/img/alpine/doosje.jpg">
+    <figcaption class="project__caption">
+      The final design.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="Two packaging designs, one mostly white focussing on a free cleaner, one mostly dark blue focussing on the glow in the dark container."
+      srcset="/static/img/alpine/packaging.png 1x,
+        /static/img/alpine/packaging.png 2x"
+      src="/static/img/alpine/packaging.png">
+    <figcaption class="project__caption">
+      The existing packaging (left) and imagined packacing (right) to validate whether the glow-in-the-dark container would work as a sales argument in a questionnaire.
+    </figcaption>
+  </figure>
+
+</div>
+
+
 ---
 
 ## Going through the design process from start to end
 
 This was an individual project of ten weeks, so the strategic and user research (interviews and questionnaires), communication with the client, project management and product design (including 3D modelling and printing) were executed by me.
+
+
+<div class="project__picture-group project__picture-group--light">
+  <figure class="project__picture">
+    <img class="project__image" alt="Poster showing the final design, the most important trend, problem and solution, plus some validation statistics."
+      srcset="/static/img/alpine/poster.png 1x,
+        /static/img/alpine/poster.png 2x"
+      src="/static/img/alpine/poster.png">
+    <figcaption class="project__caption">
+      My final presentation poster.
+    </figcaption>
+  </figure>
+</div>
+
 
 ---
 

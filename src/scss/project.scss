@@ -18,7 +18,7 @@
 \*-------------------------------------*/
 .project {
   background: white;
-  padding-bottom: $pad;
+  padding: $pad 0;
 
   $content-width: 38rem;
 
@@ -61,6 +61,75 @@
 
   li {
     margin: .8em 0;
+  }
+
+  &__picture-group {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: $pad 0;
+    background: $text;
+    padding: 0 1em;
+    align-items: baseline;
+
+    &--light {
+      background: transparent;
+      justify-content: center;
+      text-align: center;
+    }
+
+    & + hr {
+      display: none;
+    }
+  }
+
+  &__picture {
+    margin: 2em 1em 1em;
+    display: inline-block;
+
+    &:last-child {
+      padding-right: 2em;
+    }
+  }
+
+  &__image {
+    width: auto;
+    height: auto;
+    max-width: 100vw;
+    max-height: 70vh;
+    display: block;
+  }
+
+  &__caption {
+    display: block;
+    padding: 1em;
+    opacity: .8;
+    color: white;
+    font-size: .9em;
+    max-width: 80ch;
+  }
+
+  &__picture-group--light .project__picture:last-child {
+    margin: 2em 0 1em;
+    padding: 0;
+  }
+
+  &__picture-group--light .project__caption {
+    color: $text;
+  }
+}
+
+.full-width {
+  &__picture {
+    overflow: auto;
+    margin: $pad 0;
+  }
+
+  &__caption {
+    padding: 1em;
+    font-size: .9em;
+    opacity: .8;
   }
 }
 

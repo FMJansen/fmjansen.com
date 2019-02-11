@@ -3,8 +3,9 @@ layout: project
 title: "Cygnus Alumni"
 date: 2019-01-05 12:00:00 +0100
 category: "web development"
-color: ffffff;
-background: f8444f;
+color: ffffff
+background: "000066"
+image: /static/img/cygnus/cygnus.png
 ---
 
 ## Communicating events
@@ -17,17 +18,80 @@ The alumni association of my high school needed a website to communicate its eve
 
 I based the design on the colours and overall feel of the [high school itself](http://www.cygnusgymnasium.nl/) and built a Wordpress theme around that.
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#b1f84816f9e94b2bb424073fa1599180)
+<div class="project__picture-group">
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#1ac1a4d5ed1047e69b84e4e37dd9e4fa)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events, mostly white."
+      srcset="/static/img/cygnus/desktop-1.png 1x,
+        /static/img/cygnus/desktop-1.png 2x"
+      src="/static/img/cygnus/desktop-1.png">
+    <figcaption class="project__caption">
+      First design for the website.
+    </figcaption>
+  </figure>
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#eb574256c08d4c59a11e55ea5cbfeb7b)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events with a dark blue."
+      srcset="/static/img/cygnus/desktop-2.png 1x,
+        /static/img/cygnus/desktop-2.png 2x"
+      src="/static/img/cygnus/desktop-2.png">
+    <figcaption class="project__caption">
+      Second design for the website.
+    </figcaption>
+  </figure>
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#f13e324e5fb74810a7c8f9addb0fae2b)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a mobile homepage with upcoming and past events with a dark blue."
+      srcset="/static/img/cygnus/mobile-2.png 1x,
+        /static/img/cygnus/mobile-2.png 2x"
+      src="/static/img/cygnus/mobile-2.png">
+    <figcaption class="project__caption">
+      Second design for the website.
+    </figcaption>
+  </figure>
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#eb644b811d1847998cc016ff2f365cba)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of two possible logos with a random line behind the name ‘Cygnus Gymnasium Alumni’ with purple and turqoise and purple and orange."
+      srcset="/static/img/cygnus/style-exploration.png 1x,
+        /static/img/cygnus/style-exploration.png 2x"
+      src="/static/img/cygnus/style-exploration.png">
+    <figcaption class="project__caption">
+      A style exploration.
+    </figcaption>
+  </figure>
 
-[](https://www.notion.so/0695eeb2c89642a49090043bb08067ae#d65f831a7ed24bd8ba04a726941774a1)
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events, using the style explorations."
+      srcset="/static/img/cygnus/desktop-3.png 1x,
+        /static/img/cygnus/desktop-3.png 2x"
+      src="/static/img/cygnus/desktop-3.png">
+    <figcaption class="project__caption">
+      Third design for the website.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of a mobile homepage with upcoming and past events, using the style explorations."
+      srcset="/static/img/cygnus/mobile-3.png 1x,
+        /static/img/cygnus/mobile-3.png 2x"
+      src="/static/img/cygnus/mobile-3.png">
+    <figcaption class="project__caption">
+      Third design for the website.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image" alt="Screenshot of the desktop homepage with upcoming and past events."
+      srcset="/static/img/cygnus/frontpage.png 1x,
+        /static/img/cygnus/frontpage.png 2x"
+      src="/static/img/cygnus/frontpage.png">
+    <figcaption class="project__caption">
+      The final and used design for the website.
+    </figcaption>
+  </figure>
+
+</div>
+
 
 ---
 
