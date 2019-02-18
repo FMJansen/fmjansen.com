@@ -36,7 +36,6 @@
   </head>
   <body>
 
-    {% if page.layout != "default"  %}
     <nav>
       <menu class="main-menu">
         <li class="main-menu__item">
@@ -61,11 +60,6 @@
     </nav>
 
     <header class="small-header">
-    {% else %}
-
-    <header>
-    {% endif %}
-
       <h1 class="site_title site_title--top" style="--background: #{{ page.background }};">
         <a href="/">FMJansen</a>
       </h1>
