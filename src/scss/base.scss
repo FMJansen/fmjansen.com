@@ -171,6 +171,8 @@ a {
   display: inline-block;
   float: left;
   border: 1px solid $text;
+  border-color: var(--color, $text);
+  color: var(--color, $text);
 
   &-cont::after {
     clear: both;
@@ -381,19 +383,14 @@ $port-marg-vert: $pad;
   background: var(--background, $text);
 
   &--other {
-    padding: $pad * 1.5 $pad;
-    padding-left: $pad * 1.5 - $port-marg-hor;
-    padding-bottom: $pad * 1.5 - $port-marg-vert;
-    background: white;
+    padding: $pad * 1.2 $pad $pad * 1.5;
+    padding-left: $pad - $port-marg-hor;
+    padding-bottom: $pad;
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
-
-    &:last-of-type {
-      padding-bottom: $pad * 1.5;
-    }
   }
 
   &__industrial {
@@ -473,9 +470,10 @@ $port-marg-vert: $pad;
     position: relative;
     background-size: cover;
     background-color: $main-color;
+    margin-bottom: .5 * $pad;
     transition: box-shadow 150ms ease-out,
       transform 150ms ease-out;
-    box-shadow: inset 0 -11em 6em -6em transparentize(black, .5);
+    box-shadow: inset 0 -11em 6em -6em transparentize(black, .2);
 
     &::before {
       padding-top: 158.5%;
@@ -491,7 +489,7 @@ $port-marg-vert: $pad;
   }
 
   &__title {
-    color: var(--background);
+    color: white;
     position: absolute;
     bottom: 0;
     margin: 10%;
@@ -507,10 +505,10 @@ $port-marg-vert: $pad;
   width: 100%;
   margin: $pad;
   margin-top: .5 * $pad;
-  margin-left: $port-marg-hor;
+  margin-left: $pad + $port-marg-hor;
   font-size: calc(1.5 * var(--big-font));
   text-align: center;
-  color: $text;
+  color: var(--color, $text);
 
   &--contact {
     color: white;

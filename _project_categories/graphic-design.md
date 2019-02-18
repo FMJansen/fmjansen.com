@@ -2,6 +2,7 @@
 title: "graphic design"
 date: 2019-02-06 12:25:01 +0100
 color: ffffff
+background: 4e595f
 gradient-start: ffffff
 gradient-end: f69295
 you: "Huh, those websites don’t look <i>too</i> bad."
