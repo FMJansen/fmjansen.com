@@ -13,6 +13,7 @@ layout: default
         <li class="intro__list-item"><a href="#graphic+design">Graphic design</a></li>
         <li class="intro__list-item"><a href="#photography">Photography</a></li>
         <li class="intro__list-item"><a href="#contact">Contact</a></li>
+        <li class="intro__list-item"><a href="/about.html">About</a></li>
       </ul>
     </nav>
   </div>
