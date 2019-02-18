@@ -20,6 +20,8 @@ var cache = require('gulp-cache');
 // Include browsersync
 var browserSync = require('browser-sync').create();
 
+var child = require('child_process');
+
 
 
 // Paths
@@ -100,15 +102,39 @@ gulp.task('images', function() {
 
 
 
+gulp.task('jekyll', function() {
+  const jekyll = child.spawn('jekyll', ['build',
+    '--watch'
+  ]);
+
+  const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => log(('Jekyll: ' + message)));
+  };
+
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);
+
+  return Promise.resolve('done jekyll');
+});
+
+
+
 // Static Server + watching scss/html/js files
 gulp.task('serve', function() {
 
     browserSync.init({
-        proxy: "127.0.0.1:4000"
+        files: ['_site/**'],
+        port: 3000,
+        server: {
+            baseDir: '_site'
+        }
     });
 
     gulp.watch("src/scss/*.scss", gulp.series('sassDev'));
     gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("*.md").on('change', browserSync.reload);
     gulp.watch("src/js/*.js", gulp.series('scriptsDev'));
 });
 
@@ -117,15 +143,16 @@ gulp.task('serve', function() {
 // Default task: serve with browserSync
 gulp.task('default',
     gulp.series(
+        'jekyll',
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images', 'jekyll')
     )
 );
 
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'images', 'jekyll'));
 
 
 
