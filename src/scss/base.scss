@@ -412,10 +412,19 @@ $port-marg-vert: $pad;
     width: 16em;
     flex-grow: 1;
     box-shadow: 0 1em 4em transparentize(black, 0.6);
+    transition: transform 150ms ease-out;
 
     img {
       width: 100%;
       display: block;
+      margin-bottom: -1px;
+    }
+  }
+
+  @media (min-width: $break--laptop) {
+    &__industrial:hover .portfolio__image {
+      transform: perspective(300px) rotateY(calc(var(--mapped-x) * 7deg))
+        rotateX(calc(var(--mapped-y) * 7deg));
     }
   }
 
