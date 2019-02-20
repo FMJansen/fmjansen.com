@@ -152,9 +152,14 @@ gulp.task('default',
 
 
 // Build task: everything minified only
-gulp.task('build',
+gulp.task('build', gulp.parallel('scripts', 'sass', 'images'));
+
+
+
+// Build task: everything minified only
+gulp.task('jek-build',
     gulp.series(
-        gulp.parallel('scripts', 'sass', 'images'),
+        'build',
         'jekyll'
     )
 );

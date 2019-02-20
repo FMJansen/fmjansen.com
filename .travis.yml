@@ -10,7 +10,9 @@ before_install:
 - npm install -g gulp-cli
 - npm install
 install: gem install jekyll
-script: node  --max_old_space_size=9048 ./node_modules/gulp/bin/gulp.js build
+script:
+- node --max_old_space_size=9048 ./node_modules/gulp/bin/gulp.js build
+- node ./node_modules/gulp/bin/gulp.js jekyll
 deploy:
 - provider: script
   skip_cleanup: true
