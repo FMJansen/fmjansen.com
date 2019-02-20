@@ -11,8 +11,6 @@ github_username:  fmjansen
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
 
 # Collection
 collections:
