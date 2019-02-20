@@ -9,7 +9,9 @@ before_install:
   -in deploy_rsa.enc -out deploy_rsa -d
 - npm install -g gulp-cli
 - npm install
-install: gem install jekyll
+install:
+- gem install jekyll
+- gem install bundler
 script:
 - node --max_old_space_size=9048 ./node_modules/gulp/bin/gulp.js build
 - node ./node_modules/gulp/bin/gulp.js jekyll
