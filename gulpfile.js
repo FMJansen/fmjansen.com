@@ -103,9 +103,7 @@ gulp.task('images', function() {
 
 
 gulp.task('jekyll', function() {
-  const jekyll = child.spawn('jekyll', ['build',
-    '--watch'
-  ]);
+  const jekyll = child.spawn('jekyll', ['build']);
 
   const jekyllLogger = (buffer) => {
     buffer.toString()
