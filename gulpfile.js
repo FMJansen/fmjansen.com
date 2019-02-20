@@ -161,4 +161,5 @@ gulp.task('clear', function() {
     // Still pass the files to clear cache for
     gulp.src('images/**')
         .pipe(cache.clear());
+    return Promise.resolve('done clearing');
 });
