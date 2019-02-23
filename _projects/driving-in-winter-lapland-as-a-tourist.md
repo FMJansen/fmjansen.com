@@ -7,7 +7,7 @@ category: "industrial design"
 design_kind: "Service design"
 color: ffffff;
 background: f8444f;
-image: driving/lapland.png
+image: driving/lapland@2x.png
 ---
 
 ## Making Finnish car owners comfortable with renting their car to tourists

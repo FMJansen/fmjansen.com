@@ -7,7 +7,7 @@ category: "industrial design"
 design_kind: "Product design"
 color: fbeee6
 background: 272b69
-image: alpine/alpine.png
+image: alpine/alpine@2x.png
 ---
 
 ## Improving sleep in the future

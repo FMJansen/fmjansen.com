@@ -7,7 +7,7 @@ category: "industrial design"
 design_kind: "Interaction design"
 color: 374258;
 background: fee1c2;
-image: breaks/distracting.png
+image: breaks/distracting@2x.png
 ---
 
 

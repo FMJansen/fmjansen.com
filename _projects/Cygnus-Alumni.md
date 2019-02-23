@@ -5,7 +5,7 @@ date: 2019-01-05 12:00:00 +0100
 category: "web development"
 color: ffffff
 background: "000066"
-image: /static/img/cygnus/cygnus.png
+image: /static/img/cygnus/cygnus@2x.png
 ---
 
 ## Communicating events

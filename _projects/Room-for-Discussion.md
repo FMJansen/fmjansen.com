@@ -5,7 +5,7 @@ date: 2019-01-06 12:00:00 +0100
 category: "web development"
 color: ffffff
 background: 4f0000
-image: /static/img/rfd/rfd.png
+image: /static/img/rfd/rfd@2x.png
 ---
 
 ## Showing more content with a modern look

@@ -5,7 +5,7 @@ date: 2019-01-10 12:00:00 +0100
 category: "photography"
 color: ffffff
 background: 222222
-image: /static/img/comm/myfutures-1.jpg
+image: /static/img/comm/myfutures@2x.jpg
 ---
 
 At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myfutures/2018/02/06/myfutures-symposium-2018-provided-strategies-in-designing-for-personal-futures/) and, together with Nils Westhoff, at several Alumni Events of the Faculty of Industrial Design Engineering, I took photos for reports and promotion of later events.

@@ -5,7 +5,7 @@ date: 2019-01-04 12:00:00 +0100
 category: "web development"
 color: ffffff
 background: 4dccba
-image: /static/img/id/id.png
+image: /static/img/id/id@2x.png
 ---
 
 ## Updating an outdated website
