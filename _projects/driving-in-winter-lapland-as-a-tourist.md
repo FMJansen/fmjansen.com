@@ -19,7 +19,7 @@ Shareit Blox Car is a Finnish car sharing company. They were working on the expa
   <figure class="project__picture">
     <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
       srcset="/static/img/driving/goal.png 1x,
-        /static/img/driving/goal.png 2x"
+        /static/img/driving/goal@2x.png 2x"
       src="/static/img/driving/goal.png">
     <figcaption class="project__caption">
       Screenshot of the previous website.
@@ -41,7 +41,7 @@ We presented the results in the form of a short video, a service blueprint, touc
   <figure class="project__picture">
     <img class="project__image" alt="White slide with red boxes showing several categories of driving tips."
       srcset="/static/img/driving/code.png 1x,
-        /static/img/driving/code.png 2x"
+        /static/img/driving/code@2x.png 2x"
       src="/static/img/driving/code.png">
     <figcaption class="project__caption">
       The code of conduct we created.
@@ -51,7 +51,7 @@ We presented the results in the form of a short video, a service blueprint, touc
   <figure class="project__picture">
     <img class="project__image" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
       srcset="/static/img/driving/blueprint.png 1x,
-        /static/img/driving/blueprint.png 2x"
+        /static/img/driving/blueprint@2x.png 2x"
       src="/static/img/driving/blueprint.png">
     <figcaption class="project__caption">
       Our service blueprint.

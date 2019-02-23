@@ -63,7 +63,7 @@ After testing popping bubble wrap bubbles, planting basil shoots and an on-scree
   <figure class="project__picture">
     <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
       srcset="/static/img/breaks/final-prototype.jpg 1x,
-        /static/img/breaks/final-prototype.jpg 2x"
+        /static/img/breaks/final-prototype@2x.jpg 2x"
       src="/static/img/breaks/final-prototype.jpg">
     <figcaption class="project__caption">
       The user is guided through using the machine by lights. For the evaluation prototype, I attached several RGB LEDs to a Wemos D1 (WiFi connected microprocessor), in order to *Wizard of Oz* the process without using sensors.
@@ -73,7 +73,7 @@ After testing popping bubble wrap bubbles, planting basil shoots and an on-scree
   <figure class="project__picture">
     <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
       srcset="/static/img/breaks/final-render.jpg 1x,
-        /static/img/breaks/final-render.jpg 2x"
+        /static/img/breaks/final-render@2x.jpg 2x"
       src="/static/img/breaks/final-render.jpg">
     <figcaption class="project__caption">
       A rendering of the final prototype: a hand-driven coffee vending machine, where every action is visible. Through the manual grinding and water pumping, the user is distracted from their work.
@@ -95,7 +95,7 @@ This was an individual project of five months, where I did user research (observ
   <figure class="project__picture">
     <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
       srcset="/static/img/breaks/testing-faculty.jpg 1x,
-        /static/img/breaks/testing-faculty.jpg 2x"
+        /static/img/breaks/testing-faculty@2x.jpg 2x"
       src="/static/img/breaks/testing-faculty.jpg">
     <figcaption class="project__caption">
       A quick test at our faculty.
@@ -105,7 +105,7 @@ This was an individual project of five months, where I did user research (observ
   <figure class="project__picture">
     <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
       srcset="/static/img/breaks/testing-context.jpg 1x,
-        /static/img/breaks/testing-context.jpg 2x"
+        /static/img/breaks/testing-context@2x.jpg 2x"
       src="/static/img/breaks/testing-context.jpg">
     <figcaption class="project__caption">
       Testing in context: I observed as participants tried the machine and only approached them afterwards, to see the usage as naturally as possible.

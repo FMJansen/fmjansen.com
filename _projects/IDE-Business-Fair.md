@@ -58,7 +58,7 @@ The posters and floor stickers, which were spread around the faculty, targeted 
   <figure class="project__picture">
     <img class="project__image" alt="Banner showing the IDE Business Fair logo in large and the logos of all participating company grouped by colour."
       srcset="/static/img/idebf/logobanner.png 1x,
-        /static/img/idebf/logobanner.png 2x"
+        /static/img/idebf/logobanner@2x.png 2x"
       src="/static/img/idebf/logobanner.png">
     <figcaption class="project__caption">
       The banner (3 x 1 meter) with the logos of the participating companies.

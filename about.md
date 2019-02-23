@@ -10,7 +10,7 @@ background: e4485b
   <figure class="project__picture">
     <img class="project__image" alt="Me, in Levi, Lapland."
       srcset="/static/img/about/in_levi.jpg 1x,
-        /static/img/about/in_levi.jpg 2x"
+        /static/img/about/in_levi@2x.jpg 2x"
       src="/static/img/about/in_levi.jpg">
     <figcaption class="project__caption">
       I did my exchange minor in Finnish Lapland, where I enjoyed the snow.

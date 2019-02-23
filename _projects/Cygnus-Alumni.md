@@ -23,7 +23,7 @@ I based the design on the colours and overall feel of the [high school itself](h
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events, mostly white."
       srcset="/static/img/cygnus/desktop-1.png 1x,
-        /static/img/cygnus/desktop-1.png 2x"
+        /static/img/cygnus/desktop-1@2x.png 2x"
       src="/static/img/cygnus/desktop-1.png">
     <figcaption class="project__caption">
       First design for the website.
@@ -83,7 +83,7 @@ I based the design on the colours and overall feel of the [high school itself](h
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of the desktop homepage with upcoming and past events."
       srcset="/static/img/cygnus/frontpage.png 1x,
-        /static/img/cygnus/frontpage.png 2x"
+        /static/img/cygnus/frontpage@2x.png 2x"
       src="/static/img/cygnus/frontpage.png">
     <figcaption class="project__caption">
       The final and used design for the website.

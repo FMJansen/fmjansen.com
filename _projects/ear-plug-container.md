@@ -42,7 +42,7 @@ After interviews with users, I assembled a list of issues users currently have w
   <figure class="project__picture">
     <img class="project__image" alt="Photo of seven 3D printed models."
       srcset="/static/img/alpine/modelletjes.jpg 1x,
-        /static/img/alpine/modelletjes.jpg 2x"
+        /static/img/alpine/modelletjes@2x.jpg 2x"
       src="/static/img/alpine/modelletjes.jpg">
     <figcaption class="project__caption">
       My 3D printed iterations.
@@ -62,7 +62,7 @@ After interviews with users, I assembled a list of issues users currently have w
   <figure class="project__picture">
     <img class="project__image" alt="Rendering of the final design on a black background."
       srcset="/static/img/alpine/doosje.jpg 1x,
-        /static/img/alpine/doosje.jpg 2x"
+        /static/img/alpine/doosje@2x.jpg 2x"
       src="/static/img/alpine/doosje.jpg">
     <figcaption class="project__caption">
       The final design.
@@ -72,7 +72,7 @@ After interviews with users, I assembled a list of issues users currently have w
   <figure class="project__picture">
     <img class="project__image" alt="Two packaging designs, one mostly white focussing on a free cleaner, one mostly dark blue focussing on the glow in the dark container."
       srcset="/static/img/alpine/packaging.png 1x,
-        /static/img/alpine/packaging.png 2x"
+        /static/img/alpine/packaging@2x.png 2x"
       src="/static/img/alpine/packaging.png">
     <figcaption class="project__caption">
       The existing packaging (left) and imagined packacing (right) to validate whether the glow-in-the-dark container would work as a sales argument in a questionnaire.
@@ -93,7 +93,7 @@ This was an individual project of ten weeks, so the strategic and user research 
   <figure class="project__picture">
     <img class="project__image" alt="Poster showing the final design, the most important trend, problem and solution, plus some validation statistics."
       srcset="/static/img/alpine/poster.png 1x,
-        /static/img/alpine/poster.png 2x"
+        /static/img/alpine/poster@2x.png 2x"
       src="/static/img/alpine/poster.png">
     <figcaption class="project__caption">
       My final presentation poster.

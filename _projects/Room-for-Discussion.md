@@ -17,7 +17,7 @@ image: /static/img/rfd/rfd.png
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of a gray, dark red one-page website."
       srcset="/static/img/rfd/old.png 1x,
-        /static/img/rfd/old.png 2x"
+        /static/img/rfd/old@2x.png 2x"
       src="/static/img/rfd/old.png">
     <figcaption class="project__caption">
       The previous website, where all interviews were listed on one page, together with all other (static) content.
@@ -27,7 +27,7 @@ image: /static/img/rfd/rfd.png
   <figure class="project__picture">
     <img class="project__image" alt="Grayscale wireframe of the frontpage."
       srcset="/static/img/rfd/wireframe-1.png 1x,
-        /static/img/rfd/wireframe-1.png 2x"
+        /static/img/rfd/wireframe-1@2x.png 2x"
       src="/static/img/rfd/wireframe-1.png">
     <figcaption class="project__caption">
       Wireframe for the frontpage.
@@ -36,9 +36,9 @@ image: /static/img/rfd/rfd.png
 
   <figure class="project__picture">
     <img class="project__image" alt="Grayscale wireframe of the search page."
-      srcset="/static/img/rfd/wireframe-1.png 1x,
-        /static/img/rfd/wireframe-1.png 2x"
-      src="/static/img/rfd/wireframe-1.png">
+      srcset="/static/img/rfd/wireframe-2.png 1x,
+        /static/img/rfd/wireframe-2@2x.png 2x"
+      src="/static/img/rfd/wireframe-2.png">
     <figcaption class="project__caption">
       Wireframe for the search page.
     </figcaption>
@@ -77,7 +77,7 @@ Based on an existing visual identity and the goal to present all interviews, gue
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of the page showing the current committee."
       srcset="/static/img/rfd/members.png 1x,
-        /static/img/rfd/members.png 2x"
+        /static/img/rfd/members@2x.png 2x"
       src="/static/img/rfd/members.png">
     <figcaption class="project__caption">
       The current committee.
@@ -87,7 +87,7 @@ Based on an existing visual identity and the goal to present all interviews, gue
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of the bottom of a page with three event cards."
       srcset="/static/img/rfd/recommended.png 1x,
-        /static/img/rfd/recommended.png 2x"
+        /static/img/rfd/recommended@2x.png 2x"
       src="/static/img/rfd/recommended.png">
     <figcaption class="project__caption">
       At the bottom of each page three interviews are shown, to make sure the visitor can always go somewhere.
@@ -97,7 +97,7 @@ Based on an existing visual identity and the goal to present all interviews, gue
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of the search page."
       srcset="/static/img/rfd/search.png 1x,
-        /static/img/rfd/search.png 2x"
+        /static/img/rfd/search@2x.png 2x"
       src="/static/img/rfd/search.png">
     <figcaption class="project__caption">
       Using the search functionality, multiple kinds of information had to be findable.
