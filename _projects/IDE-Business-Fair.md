@@ -5,7 +5,7 @@ date: 2019-01-08 12:00:00 +0100
 category: "graphic design"
 color: ffffff
 background: e74c18
-image: /static/img/idebf/sticker.png
+image: /static/img/idebf/posters-02.png
 ---
 
 As part of the ID’s PR committee, I worked on the promotional material and digital communication channels together with [Emil Flach](http://emilflach.com/) and [Micha Lionarons](https://linkedin.com/in/michalionarons). We created a sign up form and printed material (stickers, posters, flyers, etc.).
@@ -14,6 +14,16 @@ The posters and floor stickers, which were spread around the faculty, targeted 
 
 
 <div class="project__picture-group">
+
+<figure class="project__picture">
+  <img class="project__image" alt="An orange sticker with the IDE Business Fair logo."
+    srcset="/static/img/idebf/sticker.png 1x,
+      /static/img/idebf/sticker.png 2x"
+    src="/static/img/idebf/sticker.png">
+  <figcaption class="project__caption">
+    The business card sized sticker.
+  </figcaption>
+</figure>
 
   <figure class="project__picture">
     <img class="project__image" alt="Poster saying ‘Stage als minor?’."
