@@ -76,6 +76,7 @@
     &--light {
       background: transparent;
       justify-content: center;
+      text-align: center;
     }
 
     & + hr {
@@ -111,6 +112,7 @@
     color: white;
     font-size: .9em;
     max-width: 80ch;
+    text-align: left;
   }
 
   &__picture-group--light .project__picture:last-child {
