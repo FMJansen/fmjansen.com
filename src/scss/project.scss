@@ -81,6 +81,10 @@
     & + hr {
       display: none;
     }
+
+    &.project__picture-group:last-child {
+      margin-bottom: -6vw;
+    }
   }
 
   &__picture {
