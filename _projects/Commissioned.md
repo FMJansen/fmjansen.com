@@ -8,7 +8,7 @@ background: 222222
 image: /static/img/comm/myfutures@2x.jpg
 ---
 
-At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myfutures/2018/02/06/myfutures-symposium-2018-provided-strategies-in-designing-for-personal-futures/) and, together with Nils Westhoff, at several Alumni Events of the Faculty of Industrial Design Engineering, I took photos for reports and promotion of later events.
+At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myfutures/2018/02/06/myfutures-symposium-2018-provided-strategies-in-designing-for-personal-futures/) and, together with Nils Westhoff, at several Alumni Events of the Faculty of Industrial Design Engineering ([2017](https://www.flickr.com/photos/idetudelft/sets/72157684725144740) and [2018](https://www.flickr.com/photos/idetudelft/albums/72157697829725654)), I took photos for reports and promotion of later events.
 
 <div class="project__picture-group">
 
@@ -79,5 +79,3 @@ At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myf
   </figure>
 
 </div>
-
-[https://www.flickr.com/photos/idetudelft/sets/72157684725144740](https://www.flickr.com/photos/idetudelft/sets/72157684725144740) [https://www.flickr.com/photos/idetudelft/albums/72157697829725654](https://www.flickr.com/photos/idetudelft/albums/72157697829725654)
