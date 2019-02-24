@@ -13,14 +13,23 @@ background: e4485b
         /static/img/about/in_levi@2x.jpg 2x"
       src="/static/img/about/in_levi.jpg">
     <figcaption class="project__caption">
-      I did my exchange minor in Finnish Lapland, where I enjoyed the snow.
+      I did my exchange minor in Finnish Lapland, where I enjoyed the snow—and Scandinavian culture even more.
     </figcaption>
   </figure>
 </div>
 
 
 ## In short
-I did a bachelor in Industrial Design Engineering and then went on to do a master in Design for Interaction at Delft University of Technology. Overall, my goal is to improve our planet’s well-being, bit by bit. To be more exact, I want to include human well-being and sustainability in every project I work on. Next to that, I’m interested in themes like household products and furniture; information security, AI and privacy; and branding.
+I got a bachelor in Industrial Design Engineering and then went on to do a master in Design for Interaction, both at Delft University of Technology.
+Overall, my goal is to improve our planet’s well-being, bit by bit. To be more exact, I want to include human well-being and sustainability in every project I work on. Next to that, I’m interested in themes like household products and furniture; information security, AI and privacy; and branding.
+
+### Resume
+
+This page should give a good feel for who I am, but who can resist a good old resume in PDF format? I know I can’t, so you can download that here:
+
+
+<a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button"
+  style="--background: #fff;">Download Floris’ resume</a>
 
 
 ---
@@ -70,43 +79,4 @@ Next to industrial design, I have some hobbies, too, of which some accidently tr
 </div>
 
 
-In my spare time I listen to music almost constantly, read books ([Murakami’s _Kafka on the Shore_](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore) and [Tolstoy’s _War and Peace_](https://www.goodreads.com/book/show/656.War_and_Peace) are among my favorites) visit museums and botanical gardens as much as possible and ride my racing bike (although that mostly happens in the summer, so I won’t win the _Tour de France_ anytime soon). Last but not least, I tend to my plants, like my basilicum which reached a height of 96 centimeters once.
-
-
----
-
-
-## My strengths and skills
-
-I hate boasting about myself, but if there’s a place for it, it’s probably in a portfolio. So, here’s a list of things which I like to think I’m quite good at.
-- **Design methods:** qualitative interviews, contextmapping, service design, Vision in Product design, circular product/service design, observations, questionnaires, usability testing
-- **Prototyping:** Arduino, soldering, basic circuiting, 3D-printing with Ultimaker, laser cutting, basic turning & milling
-- **Documenting:** taking notes, photography (and editing in Adobe Lightroom), making presentation movies (using Adobe Premiere Pro), visualising, copywriting in English (C2) and Dutch (native), SolidWorks & KeyShot
-- **Project management:** setting priorities, leading meetings, giving constructive feedback, presenting, keeping people up-to-date/in the loop, budgeting
-- **Graphic & interface design:** Adobe Illustrator, InDesign, Photoshop, Sketch
-- **Coding, programming & hosting:** HTML, CSS, JS, PHP, Python, Git, Nginx, Apache, Let‘s Encrypt
-
-
----
-
-
-## Skill gaps
-
-Luckily, I’m not perfect (yet). Some skills I lack and want to learn are:
-- Creative facilitation
-- Marketing
-- Wayfinding design
-- Interior design
-- Statistical analysis
-
-
----
-
-
-## Resume
-
-This page should give a good feel for who I am, but who can resist a good old resume in PDF format? I know I can’t, so you can download that here:
-
-
-<a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button"
-  style="--background: #fff;">Download Floris’ resume</a>
+In my spare time I listen to music almost constantly, read books visit museums and botanical gardens as often as possible and ride my racing bike (although that mostly happens in the summer, so I won’t win the _Tour de France_ anytime soon). Last but not least, I tend to my plants, like my basilicum which reached a height of 96 centimeters once 😎.
