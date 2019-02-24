@@ -126,6 +126,11 @@
     margin: $pad 0;
   }
 
+  &__image {
+    max-height: 60vh;
+    width: auto;
+  }
+
   &__caption {
     padding: 1em;
     font-size: .9em;
