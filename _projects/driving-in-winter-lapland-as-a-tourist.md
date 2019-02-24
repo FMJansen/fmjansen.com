@@ -7,7 +7,8 @@ category: "industrial design"
 design_kind: "Service design"
 color: ffffff;
 background: f8444f;
-image: driving/lapland@2x.jpeg
+image: driving/lapland.jpeg
+image-2x: driving/lapland@2x.jpeg
 ---
 
 ## Making Finnish car owners comfortable with renting their car to tourists
@@ -17,10 +18,11 @@ Shareit Blox Car is a Finnish car sharing company. They were working on the expa
 
 <div class="project__picture-group project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image" alt="A gray, dark blue and acid green website, in 2000s style."
-      srcset="/static/img/driving/goal.png 1x,
+    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+      data-srcset="/static/img/driving/goal.png 1x,
         /static/img/driving/goal@2x.png 2x"
-      src="/static/img/driving/goal.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/driving/goal.png">
     <figcaption class="project__caption">
       Screenshot of the previous website.
     </figcaption>
@@ -39,30 +41,33 @@ We presented the results in the form of a short video, a service blueprint, touc
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image" alt="White slide with red boxes showing several categories of driving tips."
-      srcset="/static/img/driving/code.png 1x,
+    <img class="project__image lazy" alt="White slide with red boxes showing several categories of driving tips."
+      data-srcset="/static/img/driving/code.png 1x,
         /static/img/driving/code@2x.png 2x"
-      src="/static/img/driving/code.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/driving/code.png">
     <figcaption class="project__caption">
       The code of conduct we created.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
-      srcset="/static/img/driving/blueprint.png 1x,
+    <img class="project__image lazy" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
+      data-srcset="/static/img/driving/blueprint.png 1x,
         /static/img/driving/blueprint@2x.png 2x"
-      src="/static/img/driving/blueprint.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/driving/blueprint.png">
     <figcaption class="project__caption">
       Our service blueprint.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="An animated gif of the chat bot with two questions on what to do."
-      srcset="/static/img/driving/chatbot.gif 1x,
+    <img class="project__image lazy" alt="An animated gif of the chat bot with two questions on what to do."
+      data-srcset="/static/img/driving/chatbot.gif 1x,
         /static/img/driving/chatbot.gif 2x"
-      src="/static/img/driving/chatbot.gif">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/driving/chatbot.gif">
     <figcaption class="project__caption">
       An example of the chatbot interaction.
     </figcaption>

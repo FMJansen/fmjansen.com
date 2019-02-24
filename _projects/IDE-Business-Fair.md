@@ -16,60 +16,66 @@ The posters and floor stickers, which were spread around the faculty, targeted 
 <div class="project__picture-group">
 
 <figure class="project__picture">
-  <img class="project__image" alt="An orange sticker with the IDE Business Fair logo."
-    srcset="/static/img/idebf/sticker.png 1x,
+  <img class="project__image lazy" alt="An orange sticker with the IDE Business Fair logo."
+    data-srcset="/static/img/idebf/sticker.png 1x,
       /static/img/idebf/sticker.png 2x"
-    src="/static/img/idebf/sticker.png">
+    src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/sticker.png">
   <figcaption class="project__caption">
     The business card sized sticker.
   </figcaption>
 </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Poster saying ‘Stage als minor?’."
-      srcset="/static/img/idebf/posters-01.png 1x,
+    <img class="project__image lazy" alt="Poster saying ‘Stage als minor?’."
+      data-srcset="/static/img/idebf/posters-01.png 1x,
         /static/img/idebf/posters-01.png 2x"
-      src="/static/img/idebf/posters-01.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/posters-01.png">
     <figcaption class="project__caption">
       The poster for bachelor students.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Poster saying ‘Need a JMP?’."
-      srcset="/static/img/idebf/posters-02.png 1x,
+    <img class="project__image lazy" alt="Poster saying ‘Need a JMP?’."
+      data-srcset="/static/img/idebf/posters-02.png 1x,
         /static/img/idebf/posters-02.png 2x"
-      src="/static/img/idebf/posters-02.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/posters-02.png">
     <figcaption class="project__caption">
       The poster for master students.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Poster saying ‘Need a job?’."
-      srcset="/static/img/idebf/posters-03.png 1x,
+    <img class="project__image lazy" alt="Poster saying ‘Need a job?’."
+      data-srcset="/static/img/idebf/posters-03.png 1x,
         /static/img/idebf/posters-03.png 2x"
-      src="/static/img/idebf/posters-03.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/posters-03.png">
     <figcaption class="project__caption">
       The poster for (almost) graduated students.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Poster saying ‘Graduation internship?’."
-      srcset="/static/img/idebf/posters-04.png 1x,
+    <img class="project__image lazy" alt="Poster saying ‘Graduation internship?’."
+      data-srcset="/static/img/idebf/posters-04.png 1x,
         /static/img/idebf/posters-04.png 2x"
-      src="/static/img/idebf/posters-04.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/posters-04.png">
     <figcaption class="project__caption">
       The poster for master students looking for a graduation project.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Banner showing the IDE Business Fair logo in large and the logos of all participating company grouped by colour."
-      srcset="/static/img/idebf/logobanner.png 1x,
+    <img class="project__image lazy" alt="Banner showing the IDE Business Fair logo in large and the logos of all participating company grouped by colour."
+      data-srcset="/static/img/idebf/logobanner.png 1x,
         /static/img/idebf/logobanner@2x.png 2x"
-      src="/static/img/idebf/logobanner.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/idebf/logobanner.png">
     <figcaption class="project__caption">
       The banner (3 x 1 meter) with the logos of the participating companies.
     </figcaption>

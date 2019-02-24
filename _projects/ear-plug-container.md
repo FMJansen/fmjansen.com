@@ -7,7 +7,8 @@ category: "industrial design"
 design_kind: "Product design"
 color: fbeee6
 background: 272b69
-image: alpine/alpine@2x.png
+image: alpine/alpine.png
+image-2x: alpine/alpine@2x.png
 ---
 
 ## Improving sleep in the future
@@ -19,10 +20,11 @@ In my reinterpretation of the case brief, I decided to look at what could be imp
 
 <div class="project__picture-group project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image" alt="Illustrated timeline showing a typical day and especially interactions with ear plugs."
-      srcset="/static/img/alpine/journey.png 1x,
+    <img class="project__image lazy" alt="Illustrated timeline showing a typical day and especially interactions with ear plugs."
+      data-srcset="/static/img/alpine/journey.png 1x,
         /static/img/alpine/journey.png 2x"
-      src="/static/img/alpine/journey.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/journey.png">
     <figcaption class="project__caption">
       I created a timeline to illustrate what people’s behaviour was, linked to ear plugs for sleeping. This helped me to validate my assumptions with users and find weak spots in the interaction.
     </figcaption>
@@ -40,40 +42,44 @@ After interviews with users, I assembled a list of issues users currently have w
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image" alt="Photo of seven 3D printed models."
-      srcset="/static/img/alpine/modelletjes.jpg 1x,
+    <img class="project__image lazy" alt="Photo of seven 3D printed models."
+      data-srcset="/static/img/alpine/modelletjes.jpg 1x,
         /static/img/alpine/modelletjes@2x.jpg 2x"
-      src="/static/img/alpine/modelletjes.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/modelletjes.jpg">
     <figcaption class="project__caption">
       My 3D printed iterations.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="SolidWorks stiffness analysis screenshot."
-      srcset="/static/img/alpine/force.png 1x,
+    <img class="project__image lazy" alt="SolidWorks stiffness analysis screenshot."
+      data-srcset="/static/img/alpine/force.png 1x,
         /static/img/alpine/force.png 2x"
-      src="/static/img/alpine/force.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/force.png">
     <figcaption class="project__caption">
       The stiffness analysis of one iteration of my design.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Rendering of the final design on a black background."
-      srcset="/static/img/alpine/doosje.jpg 1x,
+    <img class="project__image lazy" alt="Rendering of the final design on a black background."
+      data-srcset="/static/img/alpine/doosje.jpg 1x,
         /static/img/alpine/doosje@2x.jpg 2x"
-      src="/static/img/alpine/doosje.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/doosje.jpg">
     <figcaption class="project__caption">
       The final design.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Two packaging designs, one mostly white focussing on a free cleaner, one mostly dark blue focussing on the glow in the dark container."
-      srcset="/static/img/alpine/packaging.png 1x,
+    <img class="project__image lazy" alt="Two packaging designs, one mostly white focussing on a free cleaner, one mostly dark blue focussing on the glow in the dark container."
+      data-srcset="/static/img/alpine/packaging.png 1x,
         /static/img/alpine/packaging@2x.png 2x"
-      src="/static/img/alpine/packaging.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/packaging.png">
     <figcaption class="project__caption">
       The existing packaging (left) and imagined packacing (right) to validate whether the glow-in-the-dark container would work as a sales argument in a questionnaire.
     </figcaption>
@@ -91,10 +97,11 @@ This was an individual project of ten weeks, so the strategic and user research 
 
 <div class="project__picture-group project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image" alt="Poster showing the final design, the most important trend, problem and solution, plus some validation statistics."
-      srcset="/static/img/alpine/poster.png 1x,
+    <img class="project__image lazy" alt="Poster showing the final design, the most important trend, problem and solution, plus some validation statistics."
+      data-srcset="/static/img/alpine/poster.png 1x,
         /static/img/alpine/poster@2x.png 2x"
-      src="/static/img/alpine/poster.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/alpine/poster.png">
     <figcaption class="project__caption">
       My final presentation poster.
     </figcaption>

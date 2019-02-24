@@ -21,70 +21,77 @@ I based the design on the colours and overall feel of the [high school itself](h
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events, mostly white."
-      srcset="/static/img/cygnus/desktop-1.png 1x,
+    <img class="project__image lazy" alt="Screenshot of a desktop homepage with upcoming and past events, mostly white."
+      data-srcset="/static/img/cygnus/desktop-1.png 1x,
         /static/img/cygnus/desktop-1@2x.png 2x"
-      src="/static/img/cygnus/desktop-1.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/desktop-1.png">
     <figcaption class="project__caption">
       First design for the website.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events with a dark blue."
-      srcset="/static/img/cygnus/desktop-2.png 1x,
+    <img class="project__image lazy" alt="Screenshot of a desktop homepage with upcoming and past events with a dark blue."
+      data-srcset="/static/img/cygnus/desktop-2.png 1x,
         /static/img/cygnus/desktop-2.png 2x"
-      src="/static/img/cygnus/desktop-2.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/desktop-2.png">
     <figcaption class="project__caption">
       Second design for the website.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of a mobile homepage with upcoming and past events with a dark blue."
-      srcset="/static/img/cygnus/mobile-2.png 1x,
+    <img class="project__image lazy" alt="Screenshot of a mobile homepage with upcoming and past events with a dark blue."
+      data-srcset="/static/img/cygnus/mobile-2.png 1x,
         /static/img/cygnus/mobile-2.png 2x"
-      src="/static/img/cygnus/mobile-2.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/mobile-2.png">
     <figcaption class="project__caption">
       Second design for the website.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of two possible logos with a random line behind the name ‘Cygnus Gymnasium Alumni’ with purple and turqoise and purple and orange."
-      srcset="/static/img/cygnus/style-exploration.png 1x,
+    <img class="project__image lazy" alt="Screenshot of two possible logos with a random line behind the name ‘Cygnus Gymnasium Alumni’ with purple and turqoise and purple and orange."
+      data-srcset="/static/img/cygnus/style-exploration.png 1x,
         /static/img/cygnus/style-exploration.png 2x"
-      src="/static/img/cygnus/style-exploration.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/style-exploration.png">
     <figcaption class="project__caption">
       A style exploration.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of a desktop homepage with upcoming and past events, using the style explorations."
-      srcset="/static/img/cygnus/desktop-3.png 1x,
+    <img class="project__image lazy" alt="Screenshot of a desktop homepage with upcoming and past events, using the style explorations."
+      data-srcset="/static/img/cygnus/desktop-3.png 1x,
         /static/img/cygnus/desktop-3.png 2x"
-      src="/static/img/cygnus/desktop-3.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/desktop-3.png">
     <figcaption class="project__caption">
       Third design for the website.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of a mobile homepage with upcoming and past events, using the style explorations."
-      srcset="/static/img/cygnus/mobile-3.png 1x,
+    <img class="project__image lazy" alt="Screenshot of a mobile homepage with upcoming and past events, using the style explorations."
+      data-srcset="/static/img/cygnus/mobile-3.png 1x,
         /static/img/cygnus/mobile-3.png 2x"
-      src="/static/img/cygnus/mobile-3.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/mobile-3.png">
     <figcaption class="project__caption">
       Third design for the website.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Screenshot of the desktop homepage with upcoming and past events."
-      srcset="/static/img/cygnus/frontpage.png 1x,
+    <img class="project__image lazy" alt="Screenshot of the desktop homepage with upcoming and past events."
+      data-srcset="/static/img/cygnus/frontpage.png 1x,
         /static/img/cygnus/frontpage@2x.png 2x"
-      src="/static/img/cygnus/frontpage.png">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/cygnus/frontpage.png">
     <figcaption class="project__caption">
       The final and used design for the website.
     </figcaption>

@@ -27,7 +27,12 @@ layout: default
       style="--color: #{{ post.color }}; --background: #{{ post.background }}">
 
       <a class="portfolio__image" href="{{ post.url }}">
-        <img src="/static/img/{{ post.image }}" alt="{{ post.title }}">
+        <img class="lazy" alt="{{ post.title }}"
+          data-srcset="/static/img/{{ post.image }} 1x,
+            /static/img/{{ post.image-2x }} 2x"
+          src="/static/img/placeholder.jpg"
+      data-src="/static/img/{{ post.image }}"
+          src="/static/img/placeholder.jpg">
       </a>
 
       <div>

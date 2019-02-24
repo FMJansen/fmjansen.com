@@ -13,68 +13,76 @@ At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myf
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image" alt="People listening to a lecture."
-      srcset="/static/img/comm/myfutures-1.jpg 1x,
+    <img class="project__image lazy" alt="People listening to a lecture."
+      data-srcset="/static/img/comm/myfutures-1.jpg 1x,
         /static/img/comm/myfutures-1.jpg 2x"
-      src="/static/img/comm/myfutures-1.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-1.jpg">
     <figcaption class="project__caption">
       Photos taken during the MyFutures Symposium 2018.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Someone giving a lecture."
-      srcset="/static/img/comm/myfutures-2.jpg 1x,
+    <img class="project__image lazy" alt="Someone giving a lecture."
+      data-srcset="/static/img/comm/myfutures-2.jpg 1x,
         /static/img/comm/myfutures-2.jpg 2x"
-      src="/static/img/comm/myfutures-2.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-2.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Two people laughing at a table during a workshop."
-      srcset="/static/img/comm/myfutures-3.jpg 1x,
+    <img class="project__image lazy" alt="Two people laughing at a table during a workshop."
+      data-srcset="/static/img/comm/myfutures-3.jpg 1x,
         /static/img/comm/myfutures-3.jpg 2x"
-      src="/static/img/comm/myfutures-3.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-3.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Someone in thought while looking at a stakeholder map."
-      srcset="/static/img/comm/myfutures-4.jpg 1x,
+    <img class="project__image lazy" alt="Someone in thought while looking at a stakeholder map."
+      data-srcset="/static/img/comm/myfutures-4.jpg 1x,
         /static/img/comm/myfutures-4.jpg 2x"
-      src="/static/img/comm/myfutures-4.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-4.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Someone explaining something with hand gestures."
-      srcset="/static/img/comm/myfutures-5.jpg 1x,
+    <img class="project__image lazy" alt="Someone explaining something with hand gestures."
+      data-srcset="/static/img/comm/myfutures-5.jpg 1x,
         /static/img/comm/myfutures-5.jpg 2x"
-      src="/static/img/comm/myfutures-5.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-5.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Two people bending over a table two write on a sheet of paper."
-      srcset="/static/img/comm/myfutures-6.jpg 1x,
+    <img class="project__image lazy" alt="Two people bending over a table two write on a sheet of paper."
+      data-srcset="/static/img/comm/myfutures-6.jpg 1x,
         /static/img/comm/myfutures-6.jpg 2x"
-      src="/static/img/comm/myfutures-6.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-6.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Someone explaining something."
-      srcset="/static/img/comm/myfutures-7.jpg 1x,
+    <img class="project__image lazy" alt="Someone explaining something."
+      data-srcset="/static/img/comm/myfutures-7.jpg 1x,
         /static/img/comm/myfutures-7.jpg 2x"
-      src="/static/img/comm/myfutures-7.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-7.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image" alt="Two people presenting with a poster."
-      srcset="/static/img/comm/myfutures-8.jpg 1x,
+    <img class="project__image lazy" alt="Two people presenting with a poster."
+      data-srcset="/static/img/comm/myfutures-8.jpg 1x,
         /static/img/comm/myfutures-8.jpg 2x"
-      src="/static/img/comm/myfutures-8.jpg">
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-8.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
