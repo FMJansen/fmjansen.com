@@ -37,10 +37,8 @@
       document.addEventListener("DOMContentLoaded", function() {
         var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
         let active = false;
-        console.log('dom content loaded');
 
         if ("IntersectionObserver" in window) {
-          console.log('lazy observed');
           let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
             entries.forEach(function(entry) {
               if (entry.isIntersecting) {
@@ -57,7 +55,6 @@
             lazyImageObserver.observe(lazyImage);
           });
         } else {
-          console.log('lazy fallback');
           const lazyLoad = function() {
             if (active === false) {
               active = true;
