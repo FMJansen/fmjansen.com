@@ -143,7 +143,7 @@ This was project relatively strange, because Nils and I were both the project ow
   <figure class="project__picture">
     <img class="project__image" alt="The login page of the website on mobile."
       srcset="/static/img/id/login-mobile.png 1x,
-        /static/img/id/login-mobile@2x.png 2x"
+        /static/img/id/login-mobile.png 2x"
       src="/static/img/id/login-mobile.png">
     <figcaption class="project__caption">
       The website is of course fully responsive, so this login page works both on small screens...

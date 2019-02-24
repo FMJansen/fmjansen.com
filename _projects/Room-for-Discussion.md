@@ -87,7 +87,7 @@ Based on an existing visual identity and the goal to present all interviews, gue
   <figure class="project__picture">
     <img class="project__image" alt="Screenshot of the bottom of a page with three event cards."
       srcset="/static/img/rfd/recommended.png 1x,
-        /static/img/rfd/recommended@2x.png 2x"
+        /static/img/rfd/recommended.png 2x"
       src="/static/img/rfd/recommended.png">
     <figcaption class="project__caption">
       At the bottom of each page three interviews are shown, to make sure the visitor can always go somewhere.
