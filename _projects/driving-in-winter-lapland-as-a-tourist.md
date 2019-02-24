@@ -58,6 +58,16 @@ We presented the results in the form of a short video, a service blueprint, touc
     </figcaption>
   </figure>
 
+  <figure class="project__picture">
+    <img class="project__image" alt="An animated gif of the chat bot with two questions on what to do."
+      srcset="/static/img/driving/chatbot.gif 1x,
+        /static/img/driving/chatbot.gif 2x"
+      src="/static/img/driving/chatbot.gif">
+    <figcaption class="project__caption">
+      An example of the chatbot interaction.
+    </figcaption>
+  </figure>
+
 </div>
 
 
