@@ -125,6 +125,15 @@ a {
   }
 }
 
+blockquote {
+  margin: 0;
+
+  p {
+    box-sizing: border-box;
+    padding: 0 2em;
+  }
+}
+
 .button {
   font-weight: 800;
   padding: .6em 1em;
