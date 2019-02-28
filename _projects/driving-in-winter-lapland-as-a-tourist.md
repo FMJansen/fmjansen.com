@@ -18,13 +18,13 @@ Shareit Blox Car is a Finnish car sharing company. They were working on the expa
 
 <div class="project__picture-group project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+    <img class="project__image lazy" alt="The design goal: using driving as a catalyst, we will develop a way to integrate tourists’ behaviour with Finnish transportation culture."
       data-srcset="/static/img/driving/goal.png 1x,
         /static/img/driving/goal@2x.png 2x"
       src="/static/img/placeholder.jpg"
       data-src="/static/img/driving/goal.png">
     <figcaption class="project__caption">
-      Screenshot of the previous website.
+      Our design goal.
     </figcaption>
   </figure>
 </div>
