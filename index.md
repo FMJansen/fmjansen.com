@@ -3,8 +3,10 @@ layout: default
 ---
 
 <section class="intro">
-  <p class="intro__text">Hey! I’m Floris, I study Design for Interaction and hope to improve our planet’s well-being, bit by bit. I also do some freelance web development, graphic design and photo&shy;graphy on the side.</p>
+  <p class="intro__text">Hey! I’m Floris, I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</p>
+  <img src="/static/img/floris.jpg" class="intro__portrait" alt="Floris">
   <div style="--color: white;" class="intro__butt">
+    <div class="me">I also do some freelance web dev&shy;elopment, graphic design and photo&shy;graphy on the side.</div>
     <div class="you">Hi, that sounds a bit, uhm... ambitious—What are you doing to get there?</div>
     <a href="#projects" class="button">View my projects</a>
     <nav>
@@ -17,7 +19,6 @@ layout: default
       </ul>
     </nav>
   </div>
-  <img src="/static/img/floris.jpg" class="intro__portrait" alt="Floris">
 </section>
 
 <section class="portfolio portfolio--industrial" id="projects">
