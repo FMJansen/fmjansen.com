@@ -125,9 +125,7 @@ gulp.task('serve', function() {
     browserSync.init({
         files: ['_site/**'],
         port: 3000,
-        server: {
-            baseDir: '_site'
-        }
+        proxy: '127.0.0.1:4000'
     });
 
     gulp.watch("src/scss/*.scss", gulp.series('sassDev'));
@@ -141,9 +139,8 @@ gulp.task('serve', function() {
 // Default task: serve with browserSync
 gulp.task('default',
     gulp.series(
-        'jekyll',
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images', 'jekyll')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images')
     )
 );
 
