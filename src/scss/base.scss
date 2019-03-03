@@ -297,6 +297,11 @@ main {
 
   &__butt {
     margin-bottom: 8%;
+    text-align: center;
+
+    .me {
+      text-align: left;
+    }
 
     .me,
     .you {
@@ -324,9 +329,9 @@ main {
   }
 
   &__button {
-    width: 100%;
     text-align: center;
     box-sizing: border-box;
+    margin-top: 1em;
 
     @media (min-width: $break--tablet) {
       max-width: 25.5vw;
