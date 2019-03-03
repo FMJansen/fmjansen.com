@@ -1,5 +1,6 @@
 ---
 layout: default
+color: ffffff
 ---
 
 <section class="intro">
