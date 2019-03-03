@@ -10,10 +10,8 @@ image: /static/img/lapland/lapland@2x.jpg
 
 During my exchange minor at the University of Lapland, I took a course on photography, where we had to assemble a photobook with photos we took over the course of a five day excursion.
 
-<div data-configid="36988901/67737625" style="width:100%; height:500px;" class="issuuembed"></div>
+<div data-configid="36988901/67737625" style="width:100%; height:500px;margin:3vw 0 6vw;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-
----
 
 ### Lofoten, Norway
 
