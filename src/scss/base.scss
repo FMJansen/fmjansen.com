@@ -595,7 +595,7 @@ $port-marg-vert: $pad;
   }
 }
 
-main + .contact {
+.default + .contact {
   padding-top: 2 * $pad;
   margin-top: -2 * $pad;
 }
