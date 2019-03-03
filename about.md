@@ -75,10 +75,10 @@ Next to industrial design, I have some hobbies, too, of which some accidently tr
       src="/static/img/placeholder.jpg"
       data-src="/static/img/about/board.jpg">
     <figcaption class="project__caption">
-      The board I was in—together with our committees we organised a business fair with over 35 companies, a festival with more than 1500 visitors at our faculty and many more events.
+      _The board I was in._ Together with our committees we organised a business fair with over 35 companies, a festival with more than 1500 visitors at our faculty and many more events.
     </figcaption>
   </figure>
 </div>
 
 
-In my spare time I listen to music almost constantly, read books visit museums and botanical gardens as often as possible and ride my racing bike (although that mostly happens in the summer, so I won’t win the _Tour de France_ anytime soon). Last but not least, I tend to my plants, like my basilicum which reached a height of 96 centimeters once 😎.
+In my spare time I listen to music almost constantly, read books sometimes and visit museums and botanical gardens as often as possible and ride my racing bike once in a while (I won’t win the _Tour de France_ anytime soon, though). Last but not least, I take care of my plants, like my basilicum which reached a height of 96 centimeters at one point 🌿😎.
