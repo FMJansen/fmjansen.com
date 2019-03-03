@@ -40,13 +40,13 @@
     &::before {
       content: "The case:";
       display: block;
+      opacity: .4;
 
       @media (min-width: $break--laptop) {
-        left: -15rem;
+        left: -16rem;
         position: absolute;
         text-align: right;
-        width: 14rem;
-        opacity: .4;
+        width: 15rem;
       }
     }
 
