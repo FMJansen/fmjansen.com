@@ -115,6 +115,8 @@ Lastly, since its launch, our successors have requested adjustments to the websi
 
 This was project relatively strange, because Nils and I were both the project owners and developers at once; we decided it needed to be done and made the planning, but also did the designing (research for the requirements with users, sketching and wireframing), building (a Wordpress theme from scratch, with API integrations, using Git—[Emil Flach](http://emilflach.com/) en [Alexander Weiss](http://www.alexanderweiss.nl/) helped us with some features) and hosting (configuring a VPS with a LEMP and Let’s Encrypt, with the code deployed from Travis CI).
 
+All code is on [GitHub](http://github.com/studieverenigingid/i.d-Website).
+
 <div class="project__picture-group">
 
   <figure class="project__picture">
@@ -184,6 +186,3 @@ This was project relatively strange, because Nils and I were both the project ow
   </figure>
 
 </div>
-
-
-All code is on [GitHub](http://github.com/studieverenigingid/i.d-Website).
