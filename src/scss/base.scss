@@ -45,7 +45,7 @@ $pad: 6vw;
 \*-------------------------------------*/
 :root {
   --color: #{$text};
-  --background: #{$main-color};
+  --background: #{$text};
 
   --big-font: 1.4em;
 
@@ -76,7 +76,7 @@ body {
   font-size: 16px;
   color: $text;
   word-wrap: break-word;
-  background: white;
+  background: $text;
 
   @media (min-width: $break--laptop) {
     font-size: 18px;
