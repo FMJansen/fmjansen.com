@@ -251,49 +251,7 @@ blockquote {
         text-decoration: underline;
       }
     }
-  }
-}
 
-
-
-
-
-/*-------------------------------------*\
-  Logo
-\*-------------------------------------*/
-header {
-  margin: $pad $pad 0;
-}
-
-.small-header {
-  margin: $pad / 2 $pad 0;
-}
-
-.site_title {
-  text-align: center;
-  line-height: 1;
-  font-family: $sec-font;
-  font-weight: 900;
-
-  $hei: 0.6em;
-
-  &--top {
-    margin: 0;
-    font-size: 26px;
-
-    &::after {
-      content: 'FMJansen';
-      color: white;
-      display: block;
-      margin: -0.5em 0 (0 - $hei);
-      height: $hei;
-      overflow: hidden;
-      line-height: 0;
-      pointer-events: none;
-    }
-
-    &:hover::after {
-      color: $main-color;
     }
 
     a {
