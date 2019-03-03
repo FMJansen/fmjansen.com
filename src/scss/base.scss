@@ -312,26 +312,33 @@ main {
 
       .me,
       .you {
-        max-width: 21vw;
+        max-width: 25.5vw;
+        box-sizing: border-box;
       }
     }
   }
 
-  &__jump {
+  &__button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+
+    @media (min-width: $break--tablet) {
+      max-width: 25.5vw;
+    }
+  }
+
+  &__link {
     font-family: $sec-font;
-    margin: 1.5em 0 0;
-    padding-left: 1em;
+    margin: 1em 0 0;
     color: white;
-    font-size: .9em;
     opacity: .6;
+    display: block;
+    text-align: center;
 
     &:hover {
       opacity: 1;
     }
-  }
-
-  &__list-item {
-    margin: 1em 0;
   }
 
   &__portrait {

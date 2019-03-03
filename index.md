@@ -8,16 +8,8 @@ layout: default
   <div style="--color: white;" class="intro__butt">
     <div class="me">I also do some freelance web dev&shy;elopment, graphic design and photo&shy;graphy on the side.</div>
     <div class="you">Hi, that sounds a bit, uhm... ambitious—What are you doing to get there?</div>
-    <a href="#projects" class="button">View my projects</a>
-    <nav>
-      <ul class="intro__jump">
-        <li class="intro__list-item"><a href="#web+development">Web development</a></li>
-        <li class="intro__list-item"><a href="#graphic+design">Graphic design</a></li>
-        <li class="intro__list-item"><a href="#photography">Photography</a></li>
-        <li class="intro__list-item"><a href="#contact">Contact</a></li>
-        <li class="intro__list-item"><a href="/about.html">About</a></li>
-      </ul>
-    </nav>
+    <a href="#projects" class="button intro__button">View my projects</a>
+    <a href="/about.html" class="intro__link">About me</a>
   </div>
 </section>
 
