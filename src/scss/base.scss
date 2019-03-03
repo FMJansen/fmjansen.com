@@ -394,6 +394,10 @@ $port-marg-vert: $pad;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
+
+    &:nth-of-type(5) {
+      padding-bottom: 0;
+    }
   }
 
   &__industrial {
@@ -581,6 +585,11 @@ $port-marg-vert: $pad;
     border-radius: .1em;
     opacity: .7;
   }
+}
+
+main + .contact {
+  padding-top: 2 * $pad;
+  margin-top: -2 * $pad;
 }
 
 
