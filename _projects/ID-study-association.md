@@ -10,7 +10,9 @@ image: /static/img/id/id@2x.png
 
 ## Updating an outdated website
 
-ID is one of Delft’s largest study associations and has a innovative image—partly because of its connection to Industrial Design Engineering. Sadly, in 2016, the website did not really fit with this image, both visually and technically.
+[ID](https://studieverenigingid.nl) is one of Delft’s largest study associations and has a innovative image—partly because of its connection to Industrial Design Engineering. Sadly, in 2016, the website did not really fit with this image, both visually and technically.
+
+<a href="https://studieverenigingid.nl" class="button" target="_blank">Visit svid.nl</a>
 
 
 <div class="project__picture-group project__picture-group--light">

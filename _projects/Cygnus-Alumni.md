@@ -10,7 +10,9 @@ image: /static/img/cygnus/cygnus@2x.png
 
 ## Communicating events
 
-The alumni association of my high school needed a website to communicate its events. It had a logo (kind of), but no specific visual style yet. So, they asked me to design this style and build their website, which we later extended to include news messages.
+The [alumni association of my high school](https://cygnusalumni.nl) needed a website to communicate its events. It had a logo (kind of), but no specific visual style yet. So, they asked me to design this style and build their website, which we later extended to include news messages.
+
+<a href="https://cygnusalumni.nl" class="button" target="_blank">Visit cygnusalumni.nl</a>
 
 ---
 

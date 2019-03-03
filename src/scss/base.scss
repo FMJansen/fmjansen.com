@@ -148,7 +148,7 @@ blockquote {
 
   &:hover {
     background: var(--color);
-    color: var(--background, $text);
+    color: white;
   }
 
   &:active {
@@ -332,6 +332,10 @@ main {
     text-align: center;
     box-sizing: border-box;
     margin-top: 1em;
+
+    &:hover {
+      color: $text;
+    }
 
     @media (min-width: $break--tablet) {
       max-width: 25.5vw;

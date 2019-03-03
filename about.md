@@ -29,8 +29,7 @@ Overall, my goal is to improve our planet’s well-being, bit by bit. To be more
 This page should give a good feel for who I am, but who can resist a good old resume in PDF format? I know I can’t, so you can download that here:
 
 
-<a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button"
-  style="--background: #fff;">Download Floris’ resume</a>
+<a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button">Download Floris’ resume</a>
 
 
 ---
