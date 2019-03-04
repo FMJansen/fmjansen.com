@@ -261,7 +261,22 @@ blockquote {
 
     &--bright {
       background: $main-color;
-      a { color: white; }
+
+      a {
+        color: white;
+        font-size: 0;
+
+        &:after {
+          content: "Floris";
+          font-size: .85rem;
+          line-height: 1;
+
+          @media (min-width: $break--laptop) {
+            font-size: 1rem;
+            content: "✨Floris";
+          }
+        }
+      }
     }
   }
 
