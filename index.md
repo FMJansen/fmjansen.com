@@ -4,7 +4,7 @@ color: ffffff
 ---
 
 <section class="intro">
-  <p class="intro__text">Hey! I’m Floris, I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</p>
+  <p class="intro__text">Hej! I’m Floris, I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</p>
   <img src="/static/img/floris.jpg" class="intro__portrait" alt="Floris">
   <div style="--color: white;" class="intro__butt">
     <div class="me">I also do some freelance web development, graphic design and photo&shy;graphy on the side.</div>
