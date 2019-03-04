@@ -16,7 +16,6 @@ image-2x: breaks/distracting@2x.jpeg
   <div style="width:100%;height:0;padding-bottom:44%;position:relative;text-align:left;">
     <iframe src="https://player.vimeo.com/video/313379701" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="height:44vw;"></iframe>
   </div>
-  <figcaption class="project__caption">The video I made to show the end result of this project.</figcaption>
 </figure>
 
 
