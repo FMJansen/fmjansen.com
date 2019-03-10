@@ -24,9 +24,9 @@ color: ffffff
         <img class="lazy" alt="{{ post.title }}"
           data-srcset="/static/img/{{ post.image }} 1x,
             /static/img/{{ post.image-2x }} 2x"
+          data-src="/static/img/{{ post.image }}"
           src="/static/img/placeholder.jpg"
-      data-src="/static/img/{{ post.image }}"
-          src="/static/img/placeholder.jpg">
+          width="338" height="535">
       </a>
 
       <div>
