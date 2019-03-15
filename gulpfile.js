@@ -96,7 +96,7 @@ gulp.task('copy-scss', function() {
 // Minify images
 gulp.task('images', function() {
     return gulp.src(src + 'images/**/*')
-        .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+        //.pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
         .pipe(gulp.dest(dest + 'img'));
 });
 
