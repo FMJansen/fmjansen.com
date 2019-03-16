@@ -4,7 +4,7 @@ title: "Distracting coffee breaks"
 description: "Improving coffee breaks at a start-up incubator with a hand-driven coffee vending machine by designing an interaction through user research and tests"
 date: 2019-01-01 12:00:00 +0100
 category: "industrial design"
-design_kind: "Interaction design"
+design_kind: "interaction design"
 color: 374258;
 background: fee1c2;
 image: breaks/distracting@2x.jpeg

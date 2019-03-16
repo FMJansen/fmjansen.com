@@ -1,7 +1,12 @@
 {% include head.html %}
 
     <section class="title" style="--color: #{{ page.color }}; --background: #{{ page.background }};">
-      <h1>{{ page.title }}</h1>
+      <h1 class="title__heading">{{ page.title }}</h1>
+      {% if page.design_kind %}
+        <span class="title__category">{{ page.design_kind }}</span>
+      {% else %}
+        <span class="title__category">{{ page.category }}</span>
+      {% endif %}
     </section>
 
     <main class="project">
@@ -31,6 +36,11 @@
           --background: #{{ prev.background }};">
           Previous case:
           <span class="prevnext__title">{{ prev.title }}</span>
+          {% if prev.design_kind %}
+            <span class="prevnext__category">{{ prev.design_kind }}</span>
+          {% else %}
+            <span class="prevnext__category">{{ prev.category }}</span>
+          {% endif %}
         </a>
       {% endif %}
       {% if next %}
@@ -39,6 +49,11 @@
           --background: #{{ next.background }};">
           Next case:
           <span class="prevnext__title">{{ next.title }}</span>
+          {% if next.design_kind %}
+            <span class="prevnext__category">{{ next.design_kind }}</span>
+          {% else %}
+            <span class="prevnext__category">{{ next.category }}</span>
+          {% endif %}
         </a>
       {% endif %}
     </nav>

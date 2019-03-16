@@ -213,13 +213,22 @@ blockquote {
 .title {
   background: var(--background, $main-color);
   color: var(--color, white);
-  padding: $pad * 2 $pad * 2 $pad;
+  padding: $pad * 2;
   font-size: var(--big-font);
   font-family: $sec-font;
   line-height: 1.2;
 
   @media (min-width: $break--tablet) {
     padding: $pad * 1.5 $pad * 2;
+  }
+
+  &__heading {
+    margin-bottom: .3em;
+  }
+
+  &__category {
+    font-size: 1.2rem;
+    opacity: .5;
   }
 }
 

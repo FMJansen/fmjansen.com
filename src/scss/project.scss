@@ -178,5 +178,10 @@
     font-size: calc(var(--big-font) / 1.2);
     font-weight: 900;
     display: block;
+    line-height: 2;
+  }
+
+  &__category {
+    opacity: 0.5;
   }
 }
