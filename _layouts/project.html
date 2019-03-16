@@ -13,15 +13,15 @@
     {% endif %}
 
     {% for link in links %}
-    	{% if link.title == page.title %}
-    		{% unless forloop.first %}
-    			{% assign prev = tmpprev %}
-    		{% endunless %}
-    		{% unless forloop.last %}
-    			{% assign next = links[forloop.index] %}
-    		{% endunless %}
-    	{% endif %}
-    	{% assign tmpprev = link %}
+      {% if link.title == page.title %}
+        {% unless forloop.first %}
+          {% assign prev = tmpprev %}
+        {% endunless %}
+        {% unless forloop.last %}
+          {% assign next = links[forloop.index] %}
+        {% endunless %}
+      {% endif %}
+      {% assign tmpprev = link %}
     {% endfor %}
 
     <nav class="prevnext">
