@@ -4,9 +4,15 @@ color: ffffff
 ---
 
 <section class="intro">
-  <p class="intro__text">Hej! I’m Floris, I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</p>
-  <img src="/static/img/floris.jpg" class="intro__portrait" alt="Floris">
-  <div style="--color: white;" class="intro__butt">
+  <p class="intro__text">
+    <span class="intro__part">Hej!</span>
+    <span class="intro__part delayed delayed--1">I’m Floris,</span>
+    <span class="intro__part delayed delayed--2">I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</span>
+  </p>
+  <img src="/static/img/floris.jpg" alt="Floris"
+    class="intro__portrait intro__part delayed delayed--1">
+  <div style="--color: white;"
+    class="intro__butt intro__part delayed delayed--3">
     <div class="me">I also do some freelance web development, graphic design and photo&shy;graphy on the side.</div>
     <div class="you">Hi, that sounds a bit, uhm... ambitious—What are you doing to get there?</div>
     <a href="#projects" class="button intro__button">View my projects</a>

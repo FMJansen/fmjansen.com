@@ -15,3 +15,26 @@ function mousePos (e) {
 
     return true;
 }
+
+document.addEventListener("DOMContentLoaded", loadIntro);
+function loadIntro() {
+  loadPart('1', 1000);
+  loadPart('2', 2000);
+  loadPart('3', 4000);
+}
+
+document.addEventListener("scroll", loadConv);
+window.addEventListener("resize", loadConv);
+window.addEventListener("orientationchange", loadConv);
+function loadConv() {
+  loadPart('3', 500);
+}
+
+function loadPart(no, delay) {
+  setTimeout(function() {
+    let delayList = document.querySelectorAll('.delayed--' + no);
+    delayList.forEach(function(item) {
+      item.classList.remove('delayed');
+    });
+  }, delay);
+}

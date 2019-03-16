@@ -392,11 +392,22 @@ main {
     }
   }
 
+  &__part {
+    transition: all 500ms ease-out;
+    position: relative;
+    top: 0;
+  }
+
   &::after {
     clear: both;
     display: block;
     content: "";
   }
+}
+
+.delayed {
+  opacity: 0;
+  top: .5em;
 }
 
 
