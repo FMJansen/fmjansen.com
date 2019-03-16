@@ -445,6 +445,10 @@ $port-marg-vert: $pad;
     &:nth-of-type(5) {
       padding-bottom: 0;
     }
+
+    @media (min-width: $break--tablet) {
+      padding-bottom: $pad / 3;
+    }
   }
 
   &__industrial {
@@ -579,9 +583,13 @@ $port-marg-vert: $pad;
   font-size: calc(1.5 * var(--big-font));
   text-align: center;
   color: var(--color, $text);
+  line-height: 1.2;
 
-  &--contact {
-    color: white;
+  &--overlap {
+    @media (min-width: $break--tablet) {
+      font-size: calc(2.5 * var(--big-font));
+      margin: 3vw 0 -.25em 4vw;
+    }
   }
 }
 

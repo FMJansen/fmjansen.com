@@ -58,7 +58,9 @@ color: ffffff
     --gradient-start: #{{ cat.gradient-start }};
     --gradient-end: #{{ cat.gradient-end }}"
     id="{{ cat.title | url_encode }}">
-    <h2 class="section-head">{{ cat.title | capitalize }}</h2>
+    <h2 class="section-head section-head--overlap">
+      {{ cat.title | capitalize }}
+    </h2>
     <div class="portfolio__about-cat">
       <div class="you-cont">
         <p class="you">{{ cat.you }}</p>
