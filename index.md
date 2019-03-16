@@ -6,7 +6,8 @@ color: ffffff
 <section class="intro">
   <p class="intro__text">
     <span class="intro__part">Hej!</span>
-    <span class="intro__part delayed delayed--1">I’m Floris,</span>
+    <a class="intro__part delayed delayed--1 intro__text-link"
+      href="/about.html">I’m Floris,</a>
     <span class="intro__part delayed delayed--2">I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</span>
   </p>
   <img src="/static/img/floris.jpg" alt="Floris"

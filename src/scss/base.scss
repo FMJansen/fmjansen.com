@@ -398,6 +398,11 @@ main {
     top: 0;
   }
 
+  &__text-link,
+  &__text-link:visited {
+    color: white;
+  }
+
   &::after {
     clear: both;
     display: block;
