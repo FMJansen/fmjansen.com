@@ -32,7 +32,7 @@ function loadConv() {
 
 function loadPart(no, delay) {
   setTimeout(function() {
-    let delayList = document.querySelectorAll('.delayed--' + no);
+    var delayList = document.querySelectorAll('.delayed--' + no);
     delayList.forEach(function(item) {
       item.classList.remove('delayed');
     });
