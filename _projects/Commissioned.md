@@ -14,13 +14,22 @@ At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myf
 
   <figure class="project__picture">
     <img class="project__image lazy" alt="People listening to a lecture."
+      data-srcset="/static/img/comm/myfutures-12.jpg 1x,
+        /static/img/comm/myfutures-12.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/myfutures-12.jpg">
+    <figcaption class="project__caption">
+      Photos taken during the MyFutures Symposium 2018.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="People listening to a lecture."
       data-srcset="/static/img/comm/myfutures-1.jpg 1x,
         /static/img/comm/myfutures-1.jpg 2x"
       src="/static/img/placeholder.jpg"
       data-src="/static/img/comm/myfutures-1.jpg">
-    <figcaption class="project__caption">
-      Photos taken during the MyFutures Symposium 2018.
-    </figcaption>
+    <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
