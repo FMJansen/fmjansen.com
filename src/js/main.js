@@ -16,7 +16,7 @@ function mousePos (e) {
     return true;
 }
 
-document.addEventListener("DOMContentLoaded", loadIntro);
+window.onload = loadIntro();
 function loadIntro() {
   loadPart('1', 1000);
   loadPart('2', 2000);
