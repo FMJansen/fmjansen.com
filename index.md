@@ -38,7 +38,7 @@ color: ffffff
           <a href="{{ post.url }}">{{ post.description }}</a>
         </p>
 
-        <a class="button" href="{{ post.url }}">Read on</a>
+        <a class="button button--special" href="{{ post.url }}">Read on</a>
       </div>
 
     </article>

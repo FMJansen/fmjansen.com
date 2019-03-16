@@ -151,6 +151,10 @@ blockquote {
     color: white;
   }
 
+  &--special:hover {
+    color: var(--background, white);
+  }
+
   &:active {
     transform: scale(0.95);
   }
