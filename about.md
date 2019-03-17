@@ -7,7 +7,7 @@ background: e4485b
 
 
 <div class="project__picture-group--light">
-  <figure class="project__picture" style="margin:-4vw 0 1em;">
+  <figure class="project__picture" style="margin:-12vw 0 1em;">
     <img class="project__image lazy" alt="Me, in Levi, Lapland."
       data-srcset="/static/img/about/in_levi.jpg 1x,
         /static/img/about/in_levi@2x.jpg 2x"
