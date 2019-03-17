@@ -81,4 +81,4 @@ Next to industrial design, I have some hobbies, too, of which some accidently tr
 </div>
 
 
-In my spare time I listen to music almost constantly, read books sometimes, visit museums and botanical gardens as often as possible and ride my racing bike once in a while (I won’t win the _Tour de France_ anytime soon, though). Last but not least, I take care of my plants, like my basilicum which reached a height of 96 centimeters at one point 🌿😎.
+I listen to music almost constantly, read books sometimes, visit museums and botanical gardens as often as possible and ride my racing bike once in a while (I won’t win the _Tour de France_ anytime soon, though). Last but not least, I take care of my plants, like my basilicum which reached a height of 96 centimeters at one point 🌿😎.
