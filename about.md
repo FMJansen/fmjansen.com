@@ -75,7 +75,7 @@ Next to industrial design, I have some hobbies, too, of which some accidently tr
       src="/static/img/placeholder.jpg"
       data-src="/static/img/about/board.jpg">
     <figcaption class="project__caption">
-      <em>The board I was in.</em> Together with our committees we organised a business fair with over 35 companies, a festival with more than 1500 visitors at our faculty and many more events.
+      The board I was in. 💕 Together with our committees we organised a business fair with over 35 companies, a festival with more than 1500 visitors at our faculty and many more events.
     </figcaption>
   </figure>
 </div>
