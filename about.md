@@ -20,7 +20,7 @@ background: e4485b
 </div>
 
 
-## In short
+## Floris and design
 I got a bachelor in Industrial Design Engineering and then went on to do a master in Design for Interaction, both at Delft University of Technology.
 Overall, my goal is to improve our planet’s well-being, bit by bit. To be more exact, I want to include human well-being and sustainability in every project I work on. Next to that, I’m interested in themes like household products and furniture; information security, AI and privacy; and branding.
 
@@ -32,10 +32,7 @@ This page should give a good feel for who I am, but who can resist a good old re
 <a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button">Download Floris’ resume</a>
 
 
----
-
-
-## Vision on design
+### Vision on design
 For me, design in the narrowest sense revolves around something similar to Dieter Rams’ ten principles of good design; innovative, clean and sustainable design is something which I strive for. However, this view on its own would be limited, since it revolves mainly around physical product design. While I love well designed physical products, I would like to find other solutions wherever possible; if we don’t need to use physical resources, we shouldn’t.
 
 
@@ -62,7 +59,7 @@ Rams’ ten principles also fail to take some possibly desirable effects into ac
 ---
 
 
-## Hobbies
+## Floris and other things
 
 Next to industrial design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two committees and the board over the past few years. This year, I’m trying to improve our education in the [Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/), which is combined with the education committee of the study association.
 
