@@ -4,18 +4,18 @@
   "description": "Build script for fmjansen.com Jekyll site",
   "main": "gulpfile.js",
   "dependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp-autoprefixer": "^6.0.0",
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.1.1",
     "gulp-cli": "^2.0.1",
-    "gulp-plumber": "^1.2.1",
+    "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
     "gulp-sass": "^4.0.2",
-    "gulp-cache": "^1.1.1"
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
