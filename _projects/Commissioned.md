@@ -8,7 +8,7 @@ background: 222222
 image: /static/img/comm/myfutures@2x.jpg
 ---
 
-At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myfutures/2018/02/06/myfutures-symposium-2018-provided-strategies-in-designing-for-personal-futures/) and, together with Nils Westhoff, at several Alumni Events of the Faculty of Industrial Design Engineering ([2017](https://www.flickr.com/photos/idetudelft/sets/72157684725144740) and [2018](https://www.flickr.com/photos/idetudelft/albums/72157697829725654)), I took photos for reports and promotion of later events.
+At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myfutures/2018/02/06/myfutures-symposium-2018-provided-strategies-in-designing-for-personal-futures/) and, together with Nils Westhoff, at several Alumni Events of the Faculty of Industrial Design Engineering ([2017](https://www.flickr.com/photos/idetudelft/sets/72157684725144740), [2018](https://www.flickr.com/photos/idetudelft/albums/72157697829725654) and [2019](https://www.flickr.com/photos/idetudelft/albums/72157707785845934)), I took photos for reports and promotion of later events.
 
 <div class="project__picture-group">
 
@@ -92,6 +92,53 @@ At the [MyFutures Symposium 2018](http://studiolab.ide.tudelft.nl/studiolab/myf
         /static/img/comm/myfutures-8.jpg 2x"
       src="/static/img/placeholder.jpg"
       data-src="/static/img/comm/myfutures-8.jpg">
+    <figcaption class="project__caption"></figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="Three people talking."
+      data-srcset="/static/img/comm/ide_alumni-1.jpg 1x,
+        /static/img/comm/ide_alumni-1.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/ide_alumni-1.jpg">
+    <figcaption class="project__caption">
+      Photos taken during the IDE Alumni Event in 2019.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="People applauding after a lecture."
+      data-srcset="/static/img/comm/ide_alumni-2.jpg 1x,
+        /static/img/comm/ide_alumni-2.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/ide_alumni-2.jpg">
+    <figcaption class="project__caption"></figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="Two people working on a sheet of paper."
+      data-srcset="/static/img/comm/ide_alumni-3.jpg 1x,
+        /static/img/comm/ide_alumni-3.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/ide_alumni-3.jpg">
+    <figcaption class="project__caption"></figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="People talking."
+      data-srcset="/static/img/comm/ide_alumni-4.jpg 1x,
+        /static/img/comm/ide_alumni-4.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/ide_alumni-4.jpg">
+    <figcaption class="project__caption"></figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <img class="project__image lazy" alt="Someone giving a talk."
+      data-srcset="/static/img/comm/ide_alumni-5.jpg 1x,
+        /static/img/comm/ide_alumni-5.jpg 2x"
+      src="/static/img/placeholder.jpg"
+      data-src="/static/img/comm/ide_alumni-5.jpg">
     <figcaption class="project__caption"></figcaption>
   </figure>
 
