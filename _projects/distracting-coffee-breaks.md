@@ -45,7 +45,7 @@ The focus of the course was on designing an interaction through explorations, wi
 
 <div class="project__picture-group--light">
   <figure class="project__picture">
-    <div style="width:100%;height:0;padding-bottom:56%;position:relative;text-align:left;"><iframe src="https://giphy.com/embed/1Be2LI5Im94QZZsARS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <div style="width:100%;height:0;padding-bottom:56%;position:relative;text-align:left;"><iframe src="https://giphy.com/embed/ekHC0vBK0wEioJrzWb" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     <figcaption class="project__caption">
       The visualisation of my Interaction Vision. If you want to watch it completely (I get it), it’s on <a href="https://www.youtube.com/watch?v=tYEn9gfU9_0">YouTube</a>.
     </figcaption>
