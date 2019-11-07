@@ -2,7 +2,7 @@
 layout: project
 title: "Driving in winter Lapland as a tourist"
 description: "Making car owners comfortable with renting their car to tourists with a chat bot by doing service design in a group of international students"
-date: 2019-01-03 12:00:00 +0100
+date: 2019-10-03 12:00:00 +0100
 category: "industrial design - archive"
 design_kind: "service design"
 color: ffffff;
