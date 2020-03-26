@@ -61,7 +61,7 @@ Rams’ ten principles also fail to take some possibly desirable effects into ac
 
 ## Floris and other things
 
-Next to industrial design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two committees and the board over the past few years. This year, I’m trying to improve our education in the [Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/), which is combined with the education committee of the study association.
+Next to industrial design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two committees and the board over the past few years. Last year, I worked on improving our education as part of the [Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/).
 
 
 <div class="project__picture-group--light">
