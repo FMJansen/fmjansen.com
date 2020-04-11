@@ -242,6 +242,10 @@ blockquote {
 .menu-cont {
   position: absolute;
   width: 100%;
+
+  &--rel {
+    position: relative;
+  }
 }
 
 .main-menu {
