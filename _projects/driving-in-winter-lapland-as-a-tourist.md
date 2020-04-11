@@ -9,6 +9,8 @@ color: ffffff;
 background: f8444f;
 image: driving/lapland.jpeg
 image-2x: driving/lapland@2x.jpeg
+image-webp: driving/lapland.webp
+image-2x-webp: driving/lapland@2x.webp
 ---
 
 ## Making Finnish car owners comfortable with renting their car to tourists
@@ -18,11 +20,16 @@ Shareit Blox Car is a Finnish car sharing company. They were working on the expa
 
 <div class="project__picture-group project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image lazy" alt="The design goal: using driving as a catalyst, we will develop a way to integrate tourists’ behaviour with Finnish transportation culture."
-      data-srcset="/static/img/driving/goal.png 1x,
-        /static/img/driving/goal@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/driving/goal.png">
+    <picture>
+      <source data-srcset="/static/img/driving/goal.webp 1x,
+          /static/img/driving/goal@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="The design goal: using driving as a catalyst, we will develop a way to integrate tourists’ behaviour with Finnish transportation culture."
+        data-srcset="/static/img/driving/goal.png 1x,
+          /static/img/driving/goal@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/driving/goal.png">
+    </picture>
     <figcaption class="project__caption">
       Our design goal.
     </figcaption>
@@ -41,22 +48,32 @@ We presented the results in the form of a short video, a service blueprint, touc
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="White slide with red boxes showing several categories of driving tips."
-      data-srcset="/static/img/driving/code.png 1x,
-        /static/img/driving/code@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/driving/code.png">
+    <picture>
+      <source data-srcset="/static/img/driving/code.webp 1x,
+          /static/img/driving/code@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="White slide with red boxes showing several categories of driving tips."
+        data-srcset="/static/img/driving/code.png 1x,
+          /static/img/driving/code@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/driving/code.png">
+    </picture>
     <figcaption class="project__caption">
       The code of conduct we created.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
-      data-srcset="/static/img/driving/blueprint.png 1x,
-        /static/img/driving/blueprint@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/driving/blueprint.png">
+    <picture>
+      <source data-srcset="/static/img/driving/blueprint.webp 1x,
+          /static/img/driving/blueprint@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A slide showing a timeline with the layers of Support, Backstage, On stage and Customer."
+        data-srcset="/static/img/driving/blueprint.png 1x,
+          /static/img/driving/blueprint@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/driving/blueprint.png">
+    </picture>
     <figcaption class="project__caption">
       Our service blueprint.
     </figcaption>

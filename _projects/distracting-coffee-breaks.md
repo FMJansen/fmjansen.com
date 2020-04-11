@@ -9,6 +9,8 @@ color: 374258;
 background: fee1c2;
 image: breaks/distracting@2x.jpeg
 image-2x: breaks/distracting@2x.jpeg
+image-webp: breaks/distracting@2x.webp
+image-2x-webp: breaks/distracting@2x.webp
 ---
 
 
@@ -28,11 +30,16 @@ During the course Exploring Interactions, we had to choose a context. In it, we 
 
 <div class="project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image lazy" alt="Illustration with several people showing an abstraction of the current steps in the ‘customer’ journey."
-      data-srcset="/static/img/breaks/customer-journey.png 1x,
-        /static/img/breaks/customer-journey.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/breaks/customer-journey.png">
+    <picture>
+      <source data-srcset="/static/img/breaks/customer-journey.webp 1x,
+          /static/img/breaks/customer-journey.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Illustration with several people showing an abstraction of the current steps in the ‘customer’ journey."
+        data-srcset="/static/img/breaks/customer-journey.png 1x,
+          /static/img/breaks/customer-journey.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/breaks/customer-journey.png">
+    </picture>
     <figcaption class="project__caption">
       The current behaviour of my target audience.
     </figcaption>
@@ -62,22 +69,32 @@ After testing popping bubble wrap bubbles, planting basil shoots and an on-scree
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
-      data-srcset="/static/img/breaks/final-prototype.jpg 1x,
-        /static/img/breaks/final-prototype@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/breaks/final-prototype.jpg">
+    <picture>
+      <source data-srcset="/static/img/breaks/final-prototype.webp 1x,
+          /static/img/breaks/final-prototype@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+        data-srcset="/static/img/breaks/final-prototype.jpg 1x,
+          /static/img/breaks/final-prototype@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/breaks/final-prototype.jpg">
+    </picture>
     <figcaption class="project__caption">
       The user is guided through using the machine by lights. For the evaluation prototype, I attached several RGB LEDs to a Wemos D1 (WiFi connected microprocessor), in order to *Wizard of Oz* the process without using sensors.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
-      data-srcset="/static/img/breaks/final-render.jpg 1x,
-        /static/img/breaks/final-render@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/breaks/final-render.jpg">
+    <picture>
+      <source data-srcset="/static/img/breaks/final-render.webp 1x,
+          /static/img/breaks/final-render@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+        data-srcset="/static/img/breaks/final-render.jpg 1x,
+          /static/img/breaks/final-render@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/breaks/final-render.jpg">
+    </picture>
     <figcaption class="project__caption">
       A rendering of the final prototype: a hand-driven coffee vending machine, where every action is visible. Through the manual grinding and water pumping, the user is distracted from their work.
     </figcaption>
@@ -96,22 +113,32 @@ This was an individual project of five months, where I did user research (observ
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
-      data-srcset="/static/img/breaks/testing-faculty.jpg 1x,
-        /static/img/breaks/testing-faculty@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/breaks/testing-faculty.jpg">
+    <picture>
+      <source data-srcset="/static/img/breaks/testing-faculty.webp 1x,
+          /static/img/breaks/testing-faculty@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+        data-srcset="/static/img/breaks/testing-faculty.jpg 1x,
+          /static/img/breaks/testing-faculty@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/breaks/testing-faculty.jpg">
+    </picture>
     <figcaption class="project__caption">
       A quick test at our faculty.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
-      data-srcset="/static/img/breaks/testing-context.jpg 1x,
-        /static/img/breaks/testing-context@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/breaks/testing-context.jpg">
+    <picture>
+      <source data-srcset="/static/img/breaks/testing-context.webp 1x,
+          /static/img/breaks/testing-context@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A gray, dark blue and acid green website, in 2000s style."
+        data-srcset="/static/img/breaks/testing-context.jpg 1x,
+          /static/img/breaks/testing-context@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/breaks/testing-context.jpg">
+    </picture>
     <figcaption class="project__caption">
       Testing in context: I observed as participants tried the machine and only approached them afterwards, to see the usage as naturally as possible.
     </figcaption>

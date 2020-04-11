@@ -28,14 +28,14 @@
     <meta name="theme-color" content="#162933">
 
     <script src="/static/js/main.js?v={{ site.time }}" async></script>
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;900&family=Space+Mono:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/static/css/main.css?v={{ site.time }}">
     <link rel="shortcut icon" href="/favicon.png">
 
     <script type="text/javascript">
       document.addEventListener("DOMContentLoaded", function() {
-        var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+        var lazyImages = [].slice.call(document.querySelectorAll("img.lazy, source.lazy"));
         let active = false;
 
         if ("IntersectionObserver" in window) {
@@ -43,7 +43,8 @@
             entries.forEach(function(entry) {
               if (entry.isIntersecting) {
                 let lazyImage = entry.target;
-                lazyImage.src = lazyImage.dataset.src;
+                if (lazyImage.nodeName == "IMG")
+                  lazyImage.src = lazyImage.dataset.src;
                 lazyImage.srcset = lazyImage.dataset.srcset;
                 lazyImage.classList.remove("lazy");
                 lazyImageObserver.unobserve(lazyImage);

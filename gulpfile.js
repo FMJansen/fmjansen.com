@@ -17,6 +17,10 @@ var prefix = require('gulp-autoprefixer');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 
+var clone = require('gulp-clone');
+var sink = clone.sink();
+var webp = require('gulp-webp');
+
 // Include browsersync
 var browserSync = require('browser-sync').create();
 
@@ -93,10 +97,21 @@ gulp.task('copy-scss', function() {
 
 
 
-// Minify images
+// Copy & Webp images
 gulp.task('images', function() {
-    return gulp.src(src + 'images/**/*')
-        //.pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    return gulp.src([
+      src + 'images/**/*',
+      '!' + src + 'images/printers/design*'
+        ])
+        .pipe(sink)
+        .pipe(webp())
+        .pipe(sink.tap())
+        .pipe(gulp.dest(dest + 'img'));
+});
+gulp.task('images-no-webp', function() {
+    return gulp.src([
+      src + 'images/printers/design*'
+        ])
         .pipe(gulp.dest(dest + 'img'));
 });
 
@@ -140,14 +155,14 @@ gulp.task('serve', function() {
 gulp.task('default',
     gulp.series(
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images', 'images-no-webp')
     )
 );
 
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'images', 'images-no-webp'));
 
 
 

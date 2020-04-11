@@ -9,6 +9,8 @@ color: ffffff;
 background: 00ACE4;
 image: printers/printers.jpg
 image-2x: printers/printers@2x.jpg
+image-webp: printers/printers.webp
+image-2x-webp: printers/printers@2x.webp
 ---
 
 
@@ -26,22 +28,32 @@ Ultimaker, the Dutch 3D printer-manufacturing company, wanted a way for factorie
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="An overview of the ecosystem. 3D CAD software, Cura, Ultimaker app, Cura Connect and the Ultimaker display all play a part in the system. They run on a PC, 3rd party printers, Ultimaker printers and phones. The 3D CAD software and 3rd party printers are excluded from the scope border."
-      data-srcset="/static/img/printers/problem_overview.png 1x,
-        /static/img/printers/problem_overview@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/problem_overview.png">
+    <picture>
+      <source data-srcset="/static/img/printers/problem_overview.webp 1x,
+        /static/img/printers/problem_overview@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="An overview of the ecosystem. 3D CAD software, Cura, Ultimaker app, Cura Connect and the Ultimaker display all play a part in the system. They run on a PC, 3rd party printers, Ultimaker printers and phones. The 3D CAD software and 3rd party printers are excluded from the scope border."
+        data-srcset="/static/img/printers/problem_overview.png 1x,
+          /static/img/printers/problem_overview@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/problem_overview.png">
+    </picture>
     <figcaption class="project__caption">
       An overview of the ecosystem for Ultimaker’s products, showing a lot of overlap between interfaces, causing confusion for the user.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="Two assumptions: operators are not tied to a desk and they use multiple kinds of machines."
-      data-srcset="/static/img/printers/assumptions.png 1x,
-        /static/img/printers/assumptions@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/assumptions.png">
+    <picture>
+      <source data-srcset="/static/img/printers/assumptions.webp 1x,
+        /static/img/printers/assumptions@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Two assumptions: operators are not tied to a desk and they use multiple kinds of machines."
+        data-srcset="/static/img/printers/assumptions.png 1x,
+          /static/img/printers/assumptions@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/assumptions.png">
+    </picture>
     <figcaption class="project__caption">
       Two of our most important assumptions which we validated with the usability tests in the context.
     </figcaption>
@@ -58,60 +70,78 @@ We designed a mobile application for a company tablet that helps operators manag
 <div class="project__picture-group">
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A floating tablet showing the interface."
-      data-srcset="/static/img/printers/tablet.png 1x,
-        /static/img/printers/tablet@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/tablet.png">
+    <picture>
+      <source data-srcset="/static/img/printers/tablet.webp 1x,
+        /static/img/printers/tablet@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A floating tablet showing the interface."
+        data-srcset="/static/img/printers/tablet.png 1x,
+          /static/img/printers/tablet@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/tablet.png">
+    </picture>
     <figcaption class="project__caption">
       The app is meant for a tablet and the main screen features a task list and a printing schedule.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="A diagram showing the flow from Designer/Engineer, through Production manager to operator. In parallel, the file goes to a server, is accessed on a tablet and scheduled for printing."
-      data-srcset="/static/img/printers/getting_file.png 1x,
-        /static/img/printers/getting_file@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/getting_file.png">
+    <picture>
+      <source data-srcset="/static/img/printers/getting_file.webp 1x,
+        /static/img/printers/getting_file@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A diagram showing the flow from Designer/Engineer, through Production manager to operator. In parallel, the file goes to a server, is accessed on a tablet and scheduled for printing."
+        data-srcset="/static/img/printers/getting_file.png 1x,
+          /static/img/printers/getting_file@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/getting_file.png">
+    </picture>
     <figcaption class="project__caption">
       We also redesigned the process of designer to printer, as shown in this diagram.
     </figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="The main screen with the schedule and task view."
-      data-srcset="/static/img/printers/design-1.png 1x,
-        /static/img/printers/design-1@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/design-1.png">
+    <picture>
+      <img loading="lazy" class="project__image lazy" alt="The main screen with the schedule and task view."
+        data-srcset="/static/img/printers/design-1.png 1x,
+          /static/img/printers/design-1@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/design-1.png">
+    </picture>
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="The screens for adding a job."
-      data-srcset="/static/img/printers/design-2.png 1x,
-        /static/img/printers/design-2@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/design-2.png">
+    <picture>
+      <img loading="lazy" class="project__image lazy" alt="The screens for adding a job."
+        data-srcset="/static/img/printers/design-2.png 1x,
+          /static/img/printers/design-2@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/design-2.png">
+    </picture>
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="The screen for a job overview."
-      data-srcset="/static/img/printers/design-3.png 1x,
-        /static/img/printers/design-3@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/design-3.png">
+    <picture>
+      <img loading="lazy" class="project__image lazy" alt="The screen for a job overview."
+        data-srcset="/static/img/printers/design-3.png 1x,
+          /static/img/printers/design-3@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/design-3.png">
+    </picture>
     <figcaption class="project__caption"></figcaption>
   </figure>
 
   <figure class="project__picture">
-    <img class="project__image lazy" alt="The screens for the task list and an opened task."
-      data-srcset="/static/img/printers/design-4.png 1x,
-        /static/img/printers/design-4@2x.png 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/printers/design-4.png">
+    <picture>
+      <img loading="lazy" class="project__image lazy" alt="The screens for the task list and an opened task."
+        data-srcset="/static/img/printers/design-4.png 1x,
+          /static/img/printers/design-4@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/design-4.png">
+    </picture>
     <figcaption class="project__caption"></figcaption>
   </figure>
 

@@ -28,12 +28,17 @@ color: ffffff
       style="--color: #{{ post.color }}; --background: #{{ post.background }}">
 
       <a class="portfolio__image" href="{{ post.url }}">
-        <img class="lazy" alt="{{ post.title }}"
-          data-srcset="/static/img/{{ post.image }} 1x,
-            /static/img/{{ post.image-2x }} 2x"
-          data-src="/static/img/{{ post.image }}"
-          src="/static/img/placeholder.jpg"
-          width="338" height="535">
+        <picture>
+          <source data-srcset="/static/img/{{ post.image-webp }} 1x,
+            /static/img/{{ post.image-2x-webp }} 2x"
+            type="image/webp" class="lazy">
+          <img class="lazy" alt="{{ post.title }}"
+            data-srcset="/static/img/{{ post.image }} 1x,
+              /static/img/{{ post.image-2x }} 2x"
+            data-src="/static/img/{{ post.image }}"
+            src="/static/img/placeholder.jpg"
+            width="338" height="535">
+        </picture>
       </a>
 
       <div>

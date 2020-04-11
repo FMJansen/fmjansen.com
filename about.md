@@ -8,11 +8,16 @@ background: e4485b
 
 <div class="project__picture-group--light">
   <figure class="project__picture" style="margin:-12vw 0 1em;">
-    <img class="project__image lazy" alt="Me, in Levi, Lapland."
-      data-srcset="/static/img/about/in_levi.jpg 1x,
-        /static/img/about/in_levi@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/about/in_levi.jpg">
+    <picture>
+      <source data-srcset="/static/img/about/in_levi.webp 1x,
+        /static/img/about/in_levi@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Me, in Levi, Lapland."
+        data-srcset="/static/img/about/in_levi.jpg 1x,
+          /static/img/about/in_levi@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/about/in_levi.jpg">
+    </picture>
     <figcaption class="project__caption">
       I did my exchange minor in Finnish Lapland, where I enjoyed the snow—and Scandinavian culture even more.
     </figcaption>
@@ -40,7 +45,7 @@ For me, design in the narrowest sense revolves around something similar to Diete
   <figure class="project__picture">
     <picture>
       <source srcset="/static/img/about/principles.svg">
-      <img class="project__image lazy lazy" alt="A line drawing of Rams’ 10 principles of good design and the user in their context."
+      <img loading="lazy" class="project__image lazy" alt="A line drawing of Rams’ 10 principles of good design and the user in their context."
         data-srcset="/static/img/about/principles.png 1x,
           /static/img/about/principles@2x.png 2x"
         src="/static/img/placeholder.jpg"
@@ -66,11 +71,16 @@ Next to industrial design, I have some hobbies, too, of which some accidently tr
 
 <div class="project__picture-group--light">
   <figure class="project__picture">
-    <img class="project__image lazy lazy" alt="Board 44 of ID, the study association of the faculty of Industrial Design Engineering."
-      data-srcset="/static/img/about/board.jpg 1x,
-        /static/img/about/board@2x.jpg 2x"
-      src="/static/img/placeholder.jpg"
-      data-src="/static/img/about/board.jpg">
+    <picture>
+      <source data-srcset="/static/img/about/board.webp 1x,
+        /static/img/about/board@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Board 44 of ID, the study association of the faculty of Industrial Design Engineering."
+        data-srcset="/static/img/about/board.jpg 1x,
+          /static/img/about/board@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/about/board.jpg">
+    </picture>
     <figcaption class="project__caption">
       The board I was in. 💕 Together with our committees we organised a business fair with over 35 companies, a festival with more than 1500 visitors at our faculty and many more events.
     </figcaption>
