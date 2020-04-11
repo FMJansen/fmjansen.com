@@ -107,3 +107,5 @@ I based the design on the colours and overall feel of the [high school itself](h
 ## Designing and building
 
 This was a fairly small freelance project, where I got a detailed brief with all the requirements and wishes already worked out. I made a design with several iterations and then built a Wordpress theme.
+
+<a href="https://cygnusalumni.nl" class="button" target="_blank">See the end result at cygnusalumni.nl</a>

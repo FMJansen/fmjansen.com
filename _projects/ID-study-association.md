@@ -119,6 +119,8 @@ This was project relatively strange, because Nils and I were both the project ow
 
 All code is on [GitHub](http://github.com/studieverenigingid/i.d-Website).
 
+<a href="https://studieverenigingid.nl" class="button" target="_blank">See the end result at svid.nl</a>
+
 <div class="project__picture-group">
 
   <figure class="project__picture">
