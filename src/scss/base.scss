@@ -74,9 +74,13 @@ body {
   background: $text;
   color: $text;
   font-family: $main-font;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   word-wrap: break-word;
+
+  @media (min-width: $break--tablet) {
+    font-size: 16px;
+  }
 
   @media (min-width: $break--laptop) {
     font-size: 18px;
@@ -529,7 +533,20 @@ $port-marg-vert: $pad;
     flex-grow: 1.2;
     margin-bottom: $pad;
     margin-left: $port-marg-hor;
-    width: 12rem;
+    width: 9.5em;
+
+
+    @media (min-width: 496px) {
+      width: 12em;
+    }
+
+    @media (min-width: 625px) {
+      width: 18em;
+    }
+
+    @media (min-width: 1000px) {
+      width: 11em;
+    }
 
     :first-child {
       margin-top: 0;
