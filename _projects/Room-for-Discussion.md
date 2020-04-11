@@ -12,7 +12,7 @@ image: /static/img/rfd/rfd@2x.png
 
 [Room for Discussion](https://roomfordiscussion.com/) is the interview platform of the University of Amsterdam. They already had a website, but it wasn’t built for the amount of content the committee created. The brief: to build a website to account for the amount interviews they held, including the content around them, like recordings and photo albums.
 
-<a href="https://roomfordiscussion.com" class="button" target="_blank">Visit roomfordiscussion.com</a>
+<a href="https://roomfordiscussion.com" class="button" target="_blank" rel="noreferrer">Visit roomfordiscussion.com</a>
 
 
 <div class="project__picture-group">
@@ -123,4 +123,4 @@ Based on an existing visual identity and the goal to present all interviews, gue
 
 The brief was detailed in the wishes and requirements for content and structure, so I only had to adapt the existing style to fit this structure. Then, I worked in several stages towards a finished product, where some features, like search, were launched later than the first version.
 
-<a href="https://roomfordiscussion.com" class="button" target="_blank">See the end result at roomfordiscussion.com</a>
+<a href="https://roomfordiscussion.com" class="button" target="_blank" rel="noreferrer">See the end result at roomfordiscussion.com</a>

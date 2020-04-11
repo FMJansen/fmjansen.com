@@ -12,7 +12,7 @@ image: /static/img/id/id@2x.png
 
 [ID](https://studieverenigingid.nl) is one of Delft’s largest study associations and has a innovative image—partly because of its connection to Industrial Design Engineering. Sadly, in 2016, the website did not really fit with this image, both visually and technically.
 
-<a href="https://studieverenigingid.nl" class="button" target="_blank">Visit svid.nl</a>
+<a href="https://studieverenigingid.nl" class="button" target="_blank" rel="noreferrer">Visit svid.nl</a>
 
 
 <div class="project__picture-group project__picture-group--light">
@@ -119,7 +119,7 @@ This was project relatively strange, because Nils and I were both the project ow
 
 All code is on [GitHub](http://github.com/studieverenigingid/i.d-Website).
 
-<a href="https://studieverenigingid.nl" class="button" target="_blank">See the end result at svid.nl</a>
+<a href="https://studieverenigingid.nl" class="button" target="_blank" rel="noreferrer">See the end result at svid.nl</a>
 
 <div class="project__picture-group">
 

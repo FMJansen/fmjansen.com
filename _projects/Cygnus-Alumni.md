@@ -12,7 +12,7 @@ image: /static/img/cygnus/cygnus@2x.png
 
 The [alumni association of my high school](https://cygnusalumni.nl) needed a website to communicate its events. It had a logo (kind of), but no specific visual style yet. So, they asked me to design this style and build their website, which we later extended to include news messages.
 
-<a href="https://cygnusalumni.nl" class="button" target="_blank">Visit cygnusalumni.nl</a>
+<a href="https://cygnusalumni.nl" class="button" target="_blank" rel="noreferrer">Visit cygnusalumni.nl</a>
 
 ---
 
@@ -108,4 +108,4 @@ I based the design on the colours and overall feel of the [high school itself](h
 
 This was a fairly small freelance project, where I got a detailed brief with all the requirements and wishes already worked out. I made a design with several iterations and then built a Wordpress theme.
 
-<a href="https://cygnusalumni.nl" class="button" target="_blank">See the end result at cygnusalumni.nl</a>
+<a href="https://cygnusalumni.nl" class="button" target="_blank" rel="noreferrer">See the end result at cygnusalumni.nl</a>
