@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Cygnus Alumni"
-date: 2019-01-05 12:00:00 +0100
+date: 2020-01-01 12:00:00 +0100
 category: "web development"
 color: ffffff
 background: "000066"

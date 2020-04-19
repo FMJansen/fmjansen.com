@@ -75,7 +75,7 @@ color: ffffff
       </div>
     </div>
     {% assign project_list = site.projects | where: 'category', cat.title %}
-    {% for post in project_list %}
+    {% for post in project_list limit:3 %}
       <a href="{{ post.url }}" class="portfolio__item"
         style="background-image: url({{ post.image }});">
         <article>
