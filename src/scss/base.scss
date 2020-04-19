@@ -241,6 +241,33 @@ blockquote {
 
 
 /*-------------------------------------*\
+	Skip to content
+\*-------------------------------------*/
+.skip {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  display: block;
+  font-family: $sec-font;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 1em;
+  position: absolute;
+  text-decoration: none;
+  top: -5em;
+
+  &:focus {
+    left: 5px;
+    top: 5px;
+    z-index: 100000;
+  }
+}
+
+
+
+
+
+/*-------------------------------------*\
   Menu
 \*-------------------------------------*/
 .menu-cont {
