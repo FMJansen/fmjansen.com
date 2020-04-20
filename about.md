@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: "About Floris"
 color: ffffff
 background: e4485b
 ---
@@ -113,6 +113,12 @@ From what I’ve learned, we, designers, are good at the following three broad c
   </div>
 
 </section>
+
+
+
+---
+
+## Floris & education
 
 The basic curriculum of my **bachelor in Industrial Design Engineering** (2014-2018) involved the human, business/organisation and technology sides of design and my **master in Design for Interaction** (2018-2021) is more focussed on the human side.
 
