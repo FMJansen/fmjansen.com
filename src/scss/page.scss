@@ -4,8 +4,9 @@
 
   - Floris Jansen, hey@fmjansen.nl
 
-  project.scss
+  page.scss
   + Page
+  + Design skills
 
 \*-------------------------------------*/
 
@@ -14,7 +15,7 @@
 
 
 /*-------------------------------------*\
-  Project page
+  Page
 \*-------------------------------------*/
 .page {
   background: white;
@@ -39,5 +40,50 @@
 
   h3 {
     max-width: $content-width / 1.17;
+  }
+}
+
+
+
+
+
+/*-------------------------------------*\
+  Design skills
+\*-------------------------------------*/
+.competences {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $pad / 2;
+}
+
+.design-competence {
+  flex-grow: 1;
+  margin: $pad / 2;
+  width: 20em;
+
+  &__illustration {
+    text-align: center;
+  }
+
+  &__image {
+    display: inline-block;
+    max-width: 25em;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  &__skills {
+    opacity: .7;
+  }
+
+  &__sub {
+    color: $main-color;
+    margin-bottom: .5em;
+  }
+
+  &__example {
+    margin-top: -1em !important;
   }
 }
