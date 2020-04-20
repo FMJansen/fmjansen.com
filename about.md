@@ -19,7 +19,7 @@ background: e4485b
         data-src="/static/img/about/in_levi.jpg">
     </picture>
     <figcaption class="project__caption">
-      I did my exchange minor in Finnish Lapland, where I enjoyed the snow—and Scandinavian culture even more.
+      I did my exchange minor in Finnish Lapland, where I enjoyed the snow and Scandinavian culture.
     </figcaption>
   </figure>
 </div>
