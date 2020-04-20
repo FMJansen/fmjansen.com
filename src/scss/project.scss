@@ -20,7 +20,7 @@
   background: white;
   padding: $pad 0;
 
-  $content-width: 38rem;
+  $content-width: 38em;
 
   p,
   ul,
@@ -37,6 +37,7 @@
     line-height: 1.2;
     margin-top: $pad;
     position: relative;
+    max-width: $content-width / 1.5;
 
     &::before {
       content: "The case:";
