@@ -84,7 +84,7 @@ From what I’ve learned, we, designers, are good at the following three broad c
     </p>
     <h3 class="design-competence__sub">Example</h3>
     <p class="design-competence__example">
-      For Rabobank we researched how to support customers who don’t use the app, yet.
+      For <a href="/projects/understanding-banking-users/">Rabobank</a> we researched how to support customers who don’t use the app, yet.
     </p>
   </div>
 
