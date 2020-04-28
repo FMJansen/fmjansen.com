@@ -23,7 +23,7 @@ color: ffffff
 
 <section class="portfolio portfolio--industrial" id="projects">
   {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
-  {% for post in industrial_design_projects %}
+  {% for post in industrial_design_projects limit:3 %}
     <article class="portfolio__industrial"
       style="--color: #{{ post.color }}; --background: #{{ post.background }}">
 
