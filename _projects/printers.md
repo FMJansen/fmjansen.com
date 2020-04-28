@@ -2,7 +2,7 @@
 layout: project
 title: "Managing 3D printer fleets"
 description: "Facilitating the overview and control of 3D printer fleets in a factory environment with a tablet app by usability testing and redesigning"
-date: 2019-01-01 13:00:00 +0100
+date: 2019-01-03 12:00:00 +0100
 category: "industrial design"
 design_kind: "UX design"
 color: ffffff;

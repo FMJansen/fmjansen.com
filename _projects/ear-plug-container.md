@@ -5,8 +5,8 @@ description: "Improving sleep in the future with a redesigned glow-in-the-dark e
 date: 2019-01-02 12:00:00 +0100
 category: "industrial design"
 design_kind: "product design"
-color: fbeee6
-background: 272b69
+color: 272b69
+background: fbeee6
 image: alpine/alpine.png
 image-2x: alpine/alpine@2x.png
 image-webp: alpine/alpine.webp
