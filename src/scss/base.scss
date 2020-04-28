@@ -130,11 +130,27 @@ a {
 }
 
 blockquote {
-  margin: 0;
+  background: #fafafa;
+  border-left: .2em #eee solid;
+  margin: 2em auto;
+  max-width: 38em;
+  overflow: hidden;
+  width: 88vw;
 
   p {
     box-sizing: border-box;
-    padding: 0 2em;
+    padding: 0 1.5rem;
+  }
+
+  > p:first-child {
+    font-size: 1.2em;
+    line-height: 1.35;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  > :nth-child(2) {
+    margin-top: .5em;
   }
 }
 
