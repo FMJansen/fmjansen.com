@@ -134,7 +134,7 @@ I took several courses to get more in depth into circular product/service design
 
 ## Floris & other things
 
-Next to design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two committees and the board over the past few years. Last year, I worked on improving our education as part of the [Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/). I also volunteer at my [scouting club](https://scoutingoost1.nl/), where I manage things like the website, our IT and the finances as part of the board.
+Next to design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two **committees and the board** over the past few years. Last year, I worked on improving our education as part of the **[Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/)**. I also volunteer at my [scouting club](https://scoutingoost1.nl/), where I manage things like the website, our IT and the finances as part of the board.
 
 > You make sure everyone is the best version of themselves, that they get confidence out of doing their tasks.
 >
