@@ -7,8 +7,8 @@ category: "industrial design"
 design_kind: "Design research"
 color: ffffff;
 background: 000099;
-image: banking/banking.jpg
-image-2x: banking/banking@2x.jpg
+image: banking/banking.png
+image-2x: banking/banking@2x.png
 image-webp: banking/banking.webp
 image-2x-webp: banking/banking@2x.webp
 ---
@@ -56,11 +56,12 @@ Many [Rabobank](https://www.rabobank.nl/particulieren/) users have already start
 
   <figure class="project__picture">
     <picture>
-      <source data-srcset="/static/img/banking/audio.webp 1x"
+      <source data-srcset="/static/img/banking/audio.webp"
         type="image/webp" class="lazy">
       <img loading="lazy" class="project__image lazy" alt="A screenshot of a WhatsApp conversation with only audio messages."
+        data-srcset="/static/img/banking/audio.jpg"
         src="/static/img/placeholder.jpg"
-        data-src="/static/img/banking/audio.png">
+        data-src="/static/img/banking/audio.jpg">
     </picture>
     <figcaption class="project__caption">
       We used audio recordings to sensitise the visually impaired participants, which they really appreciated.
@@ -146,6 +147,7 @@ To make sure the design team was able to use the results as effectively as possi
       <source data-srcset="/static/img/banking/presentation.webp"
         type="image/webp" class="lazy">
       <img loading="lazy" class="project__image lazy" alt="Me, presenting in front of a screen."
+        data-srcset="/static/img/banking/presentation.jpeg"
         src="/static/img/placeholder.jpg"
         data-src="/static/img/banking/presentation.jpeg">
     </picture>
