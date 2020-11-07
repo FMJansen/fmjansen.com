@@ -16,7 +16,7 @@ year: 2019–2020
 
 
 
-## Helping users transition to the Rabobank app
+## Helping users transition to the Rabobank app {#case}
 
 Many [Rabobank](https://www.rabobank.nl/particulieren/) users have already started using the app to do their banking, instead of using the web version or even paper. However, there is a group who still uses online banking in the browser, but hasn’t adopted the app yet. So, the bank asked us to discover why this is and how they can support this customer group in the transition or with different solutions. To cover a broad range of users, Rabobank selected users with differing levels of literacy and various degrees of visual impairment. With [contextmapping](https://www.notion.so/fmjansen/Understanding-online-banking-users-587a804405ab43e5be210bb215b57edf#622516f28c8247b59b3ee0ac92705cab) we tried to answer the question: how can Rabobank support customers who aren’t making use of the mobile banking app, while their services tend to focus on digital technology?
 
@@ -89,7 +89,7 @@ Many [Rabobank](https://www.rabobank.nl/particulieren/) users have already start
 
 ---
 
-## A workshop and a persona set
+## A workshop and a persona set {#solution}
 
 To make sure the design team was able to use the results as effectively as possible, we didn’t just create a report, but also a persona set and a workshop. The team already had personas, but to make it easier to highlight important differences in attitudes and behaviours, we proposed a new representation of their users. The set also included takeaways on designing for visually impaired users, as their needs did not depend on the persona division. In the workshop, we presented the most surprising results (such as that limited phone storage is an important driver not to use the app) and let the team come up with ways to make sure their designs are more inclusive, at least for visually impaired users.
 
@@ -178,13 +178,13 @@ To make sure the design team was able to use the results as effectively as possi
 
 ---
 
-## Sensitising and interviewing users
+## Sensitising and interviewing users {#role}
 
 We worked on this project in a group of four students, with support and coaching from [Muzus](https://muzus.nl/en/). Contextmapping revolves partly around sensitising users with cultural probes and interviewing them afterwards. As my other group members were all international students, I had to translate some of the materials between Dutch and English. However, this also meant I was able to interview 3 of our 7 participants. After the interviews, we made sure to have each transcript be reviewed by at least two group members, so we were able to decrease the chances of missing insights. I drafted the workshop and focussed a lot on the insights on visually impaired users for the persona set.
 
 ---
 
-## Learnings
+## Learnings {#learnings}
 
 1. Many sensitising tools or cultural probes are not directly applicable for visually impaired participants. Audio recordings for the instructions and the participants’ responses worked well, but left less room to reflect than when filling in a paper booklet.
 2. Agreeing on the amount and kind of updates with your client about progress is really valuable. This can lead to a better relationship, higher involvement and—probably—better results.

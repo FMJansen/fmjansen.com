@@ -10,7 +10,7 @@ image-webp: /static/img/streamingguys/streamingguys@2x.webp
 year: 2020
 ---
 
-## Launching a brand
+## Launching a brand {#case}
 
 The video production company [Springstof Media](https://springstofmedia.nl/) noticed a growing need for streaming video. To better communicate their skills to their target audience, they wanted to have a separate brand, based on their uniquely accessible and transparent services.
 
@@ -18,7 +18,7 @@ The video production company [Springstof Media](https://springstofmedia.nl/) not
 
 ---
 
-## Branding and website
+## Branding and website {#solution}
 
 Based on the target audience, value proposition and market positioning we built a brand profile. Based on this, we developed several logos as a brand direction and iterated towards the final result together with the client. In this direction, we also developed a style guide and a post card to send to Springstof Media’s partners.
 
@@ -95,7 +95,7 @@ In parallel with the logo iterations, we worked out other brand elements and sta
 
 ---
 
-## Client communication, branding, frontend
+## Client communication, branding, frontend {#role}
 
 I asked [Fay de Grefte](https://www.linkedin.com/in/fay-de-grefte-b8b960a8/) to help me with the branding and to make the post card and style guide. [Laurens Besselsen](https://bes-sel-sen.studio/) did most of the WordPress implementation and built the cost estimation calculator. The website design and styling, project management and client communication were my responsibility.
 

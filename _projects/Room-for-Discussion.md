@@ -10,7 +10,7 @@ image-webp: /static/img/rfd/rfd@2x.webp
 year: 2016
 ---
 
-## Showing more content with a modern look
+## Showing more content with a modern look {#case}
 
 [Room for Discussion](https://roomfordiscussion.com/) is the interview platform of the University of Amsterdam. They already had a website, but it wasn’t built for the amount of content the committee created. The brief: to build a website to account for the amount interviews they held, including the content around them, like recordings and photo albums.
 
@@ -97,7 +97,7 @@ year: 2016
 
 ---
 
-## A website based on an existing branding
+## A website based on an existing branding {#solution}
 
 Based on an existing visual identity and the goal to present all interviews, guests and (previous) committee members, I built this website.
 
@@ -156,7 +156,7 @@ Based on an existing visual identity and the goal to present all interviews, gue
 
 ---
 
-## Designing and building
+## Designing and building {#role}
 
 The brief was detailed in the wishes and requirements for content and structure, so I only had to adapt the existing style to fit this structure. Then, I worked in several stages towards a finished product, where some features, like search, were launched later than the first version.
 

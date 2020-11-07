@@ -730,6 +730,8 @@ $port-marg-vert: $pad;
   flex-wrap: wrap;
   padding: $pad;
   padding-left: $pad - $port-marg-hor;
+  position: relative;
+  z-index: 3;
 
   .me {
     border-color: var(--color);

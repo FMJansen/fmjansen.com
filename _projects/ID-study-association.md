@@ -10,7 +10,7 @@ image-webp: /static/img/id/id@2x.webp
 year: 2017–now
 ---
 
-## Updating an outdated website
+## Updating an outdated website {#case}
 
 [ID](https://studieverenigingid.nl) is one of Delft’s largest study associations and has a innovative image—partly because of its connection to Industrial Design Engineering. Sadly, in 2016, the website did not really fit with this image, both visually and technically.
 
@@ -38,7 +38,7 @@ year: 2017–now
 
 ---
 
-## A new website, connected with our new members’ administration
+## A new website, connected with our new members’ administration {#solution}
 
 Because of this, [Nils](https://nilswesthoff.com/) and I built a new website, with a front page focussed on upcoming events and our social media channels; the content most visitors (the ID Members) are interested in.
 
@@ -150,7 +150,7 @@ Lastly, since its launch, our successors have requested adjustments to the websi
 
 ---
 
-## Designing, building and hosting
+## Designing, building and hosting {#role}
 
 This was project relatively strange, because Nils and I were both the project owners and developers at once; we decided it needed to be done and made the planning, but also did the designing (research for the requirements with users, sketching and wireframing), building (a Wordpress theme from scratch, with API integrations, using Git—[Emil Flach](http://emilflach.com/) en [Alexander Weiss](http://www.alexanderweiss.nl/) helped us with some features) and hosting (configuring a VPS with a LEMP and Let’s Encrypt, with the code deployed from Travis CI).
 

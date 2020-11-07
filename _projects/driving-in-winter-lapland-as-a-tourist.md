@@ -14,7 +14,7 @@ image-2x-webp: driving/lapland@2x.webp
 year: 2017
 ---
 
-## Making Finnish car owners comfortable with renting their car to tourists
+## Making Finnish car owners comfortable with renting their car to tourists {#case}
 
 Shareit Blox Car is a Finnish car sharing company. They were working on the expansion from the Helsinki metropolitan area to the north of Finland, Lapland. This posed new challenges for the company, because this area poses more demanding driving conditions in the winter due to extreme cold, slippery roads and large wild animals. This, in turn, makes it less attractive to rent out your car to tourists, because the borrowing party may not now how to deal with this conditions, which may lead to damage to the car. Blox Car asked us to bridge this gap by redesigning their service.
 
@@ -39,7 +39,7 @@ Shareit Blox Car is a Finnish car sharing company. They were working on the expa
 
 ---
 
-## A chat bot teacher
+## A chat bot teacher {#solution}
 
 We proposed a solution where the user (car renter) would learn the required knowledge to drive in winter Lapland in the time span between the booking and car pick-up from a chat bot. Additionally, the car owner would be informed of the user’s knowledge. This way, the user can drive the car safely and the car owner is reassured of leaving their car in competent hands.
 
@@ -85,13 +85,13 @@ We presented the results in the form of a short video, a service blueprint, touc
 
 ---
 
-## Designing a service in a group of international students
+## Designing a service in a group of international students {#role}
 
 Due to the short time span of the project, we had no strict division of tasks, so the work on the content (stakeholder mapping, customer journey mapping, service blueprinting, etc.) was mostly spread equally among each other. One other group member and I focussed on the project management.
 
 ---
 
-## Learnings
+## Learnings {#learnings}
 
 1. This was my first proper introduction to service design, so basically I learned all the methods we used.
 2. It was hard to find actual Finnish car owners. This made it quite hard to get enough representative insights, and in turn probably made the design less fitting than it could have been.

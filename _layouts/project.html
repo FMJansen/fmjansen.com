@@ -10,6 +10,20 @@
       {% endif %}
     </section>
 
+    <aside class="toc">
+      <ul class="toc__list">
+        <li class="toc__item"><a href="#site-content">Top</a></li>
+        {% if page.design_kind or page.category == "web development" %}
+        <li class="toc__item"><a href="#case">Case</a></li>
+        <li class="toc__item"><a href="#solution">Solution</a></li>
+        <li class="toc__item"><a href="#role">My role</a></li>
+        {% endif %}
+        {% if page.design_kind %}
+        <li class="toc__item"><a href="#learnings">Learnings</a></li>
+        {% endif %}
+      </ul>
+    </aside>
+
     <main class="project">
       {{ content }}
     </main>

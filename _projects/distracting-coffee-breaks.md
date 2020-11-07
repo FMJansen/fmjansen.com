@@ -22,7 +22,7 @@ year: 2019
 </figure>
 
 
-## Improving coffee breaks at a start-up incubator
+## Improving coffee breaks at a start-up incubator {#case}
 
 During the course Exploring Interactions, we had to choose a context. In it, we had to pick a target audience and design *something with a specific effect in a certain way*. I picked coffee breaks at a start-up incubator in Delft and its employees. By doing observations and a [contextmapping](http://contextmapping.com/about/) session, I discovered they did not take ‘proper’ breaks, even though they wanted to. So my design goal became:
 
@@ -62,7 +62,7 @@ The focus of the course was on designing an interaction through explorations, wi
 
 ---
 
-## A hand-driven coffee vending machine
+## A hand-driven coffee vending machine {#solution}
 
 After testing popping bubble wrap bubbles, planting basil shoots and an on-screen interaction, I tried to let people focus on the coffee making itself during their break. By letting users grind their own coffee, fold a filter and pour on some water, I got people to think about something unrelated to their work for a bit. After iterating through some configurations of this concept, I came to my final design: a hand-driven coffee vending machine.
 
@@ -106,7 +106,7 @@ After testing popping bubble wrap bubbles, planting basil shoots and an on-scree
 
 ---
 
-## Designing an interaction through user research and tests
+## Designing an interaction through user research and tests {#role}
 
 This was an individual project of five months, where I did user research (observations and contextmapping), interventions (rapid prototyping, model making and programming an Arduino) and evaluations (in-context testing with observations and interviews).
 
@@ -150,7 +150,7 @@ This was an individual project of five months, where I did user research (observ
 
 ---
 
-## Learnings
+## Learnings {#learnings}
 
 1. Doing in-context observations and interviews requires you to overcome quite a bit of anxiety, but it’s definitely worth it.
 2. However, every bit of research or test needs prepared questions—both for yourself and to ask the potential participant.

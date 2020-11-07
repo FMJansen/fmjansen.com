@@ -80,6 +80,8 @@
     margin: ($pad * 2) 0;
     overflow-x: auto;
     padding: 0 1em;
+    position: relative;
+    z-index: 3;
 
     &--light {
       background: transparent;
@@ -161,6 +163,8 @@
 .prevnext {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 3;
 
   &__item {
     background: var(--background, $text);
@@ -191,5 +195,43 @@
 
   &__category {
     opacity: .5;
+  }
+}
+
+.toc {
+  --color: white;
+  background: $text;
+  bottom: 0;
+  font-size: .9em;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+
+  @media (min-width: 1024px) {
+    --color: #{$text};
+    background: none;
+    height: 0;
+    position: sticky;
+    top: 0;
+    width: 12em;
+    z-index: 2;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: .25em 2vw;
+
+    @media (min-width: 1024px) {
+      flex-flow: column;
+      padding-top: $pad * 1.25;
+    }
+  }
+
+  &__item a {
+    display: block;
+    padding: .25em .85em;
   }
 }

@@ -14,7 +14,7 @@ image-2x-webp: alpine/alpine@2x.webp
 year: 2018
 ---
 
-## Improving sleep in the future
+## Improving sleep in the future {#case}
 
 Alpine is a hearing protection company, with a product base consisting mainly of ear plugs. They produce an ear plug specifically for sleeping, the SleepSoft, but were wondering what the future of sleep would look like and what kind of role they could play in it. Their main focus was on sleep in relation to the increasing urbanisation around the world.
 
@@ -42,7 +42,7 @@ In my reinterpretation of the case brief, I decided to look at what could be imp
 
 ---
 
-## A redesigned glow-in-the-dark ear plug container
+## A redesigned glow-in-the-dark ear plug container {#solution}
 
 After interviews with users, I assembled a list of issues users currently have with their ear plugs for sleeping. Based on this, I redesigned the container for improved usage in the dark; by redoing the lay-out it becomes easier to take the ear plugs from the container without dropping them. Many users also reported problems with finding their ear plugs during the night, which I solved by adding glow-in-the-dark pigment to part of the container.
 
@@ -118,7 +118,7 @@ After interviews with users, I assembled a list of issues users currently have w
 
 ---
 
-## Going through the design process from start to end
+## Going through the design process from start to end {#role}
 
 This was an individual project of ten weeks, so the strategic and user research (interviews and questionnaires), communication with the client, project management and product design (including 3D modelling and printing) were executed by me.
 
@@ -144,7 +144,7 @@ This was an individual project of ten weeks, so the strategic and user research 
 
 ---
 
-## Learnings
+## Learnings {#learnings}
 
 1. The value of experts while designing is enormous, both in finding solutions to technical problems and in finding out there might be none (in an early stage of the project, I wanted to design a sound damping product outside the human ear—this turned out to be infeasible without covering all window or using expensive electronics).
 2. Integration through iteration—in earlier projects, I hadn’t managed to properly integrate every aspect of the product. During this project, I managed to improve the design in areas like producibility, usability and sustainability several times through iteration.

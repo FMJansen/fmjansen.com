@@ -21,7 +21,7 @@ year: 2019
   </div>
 </figure> -->
 
-## Facilitating the management of 3D printer fleets in a factory environment
+## Facilitating the management of 3D printer fleets in a factory environment {#case}
 
 Ultimaker, the Dutch 3D printer-manufacturing company, wanted a way for factories to work with fleets of 3D printers. They already have Cura Connect, which allows users to control and monitor printers over a network. However, this is not built for large amounts of printers. From our research with existing users and factory machine operators, we also noticed there was confusion about what interaction should take place on which device. Additionally, users felt they did not have the necessary control and status information.
 
@@ -64,7 +64,7 @@ Ultimaker, the Dutch 3D printer-manufacturing company, wanted a way for factorie
 
 ---
 
-## A tablet app designed for overview and control
+## A tablet app designed for overview and control {#solution}
 
 We designed a mobile application for a company tablet that helps operators manage their fleet of 3D printers. They can open the app and monitor the schedule from a distance, or they can get a notification about an important task that is due. Problems can be solved quickly, without the operator having to monitor the printers at all time. To help with this, the operator gets a notification when something is wrong.
 
@@ -151,13 +151,13 @@ We designed a mobile application for a company tablet that helps operators manag
 
 ---
 
-## Project management, usability testing and UX design
+## Project management, usability testing and UX design {#role}
 
 I was part of a group of five students and we tried to switch roles in such a way everyone was able to different project related activities. We all did project management, usability tests (with the existing product, paper mockups and digital prototypes), and reporting. Personally, my emphasis was also more on the recruitment of test participants, UI design and the prototyping of the app.
 
 ---
 
-## Learnings
+## Learnings {#learnings}
 
 1. Interviewing and testing in the context of the user leads to more rich insights. For example, a tour through a factory at one of the user tests led to new insights on how people work on the factory floor and it allowed the participant to refer to what we had seen in that tour.
 2. When communicating about a design, it works well to talk about the research after showing the design, so the audience can link insights to the design choices more easily. This makes the foundation for a design stronger and keeps it interesting.
