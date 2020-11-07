@@ -42,14 +42,7 @@
     &::before {
       content: "The case:";
       display: block;
-      opacity: .4;
-
-      @media (min-width: $break--laptop) {
-        left: -16rem;
-        position: absolute;
-        text-align: right;
-        width: 15rem;
-      }
+      opacity: .6;
     }
 
     &:nth-of-type(2)::before {
@@ -58,6 +51,11 @@
 
     &:nth-of-type(3)::before {
       content: "My role:";
+    }
+
+    @media (min-width: $break--tablet) {
+      font-size: 2em;
+      max-width: $content-width / 2;
     }
   }
 
