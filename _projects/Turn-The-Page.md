@@ -9,6 +9,8 @@ image: /static/img/ttp/cover-58.png
 image-webp: /static/img/ttp/cover-58.webp
 year: 2015–2016
 ---
+
+
 For the Industrial Design Engineering oriented magazine ‘[Turn The Page](https://svid.nl/turnthepage)’, I was the commissioner of layout, for a year. This meant I was focused on making sure the layout was coherent throughout the magazine and helping people realise their vision for their spreads. I also created the covers and wrote and designed several articles myself. For promotional activities, I created a website (which was later merged in to [svid.nl](/projects/ID-study-association/)) and some posters.
 
 
