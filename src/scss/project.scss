@@ -73,7 +73,7 @@
 
   &__picture-group {
     align-items: baseline;
-    background: transparentize($text, .9);
+    background: lighten($text, 82%);
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
