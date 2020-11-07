@@ -39,9 +39,10 @@
 
   h2 {
     line-height: 1.2;
-    margin-top: $pad;
-    position: relative;
+    margin-top: 0;
     max-width: $content-width / 1.5;
+    padding-top: $pad;
+    position: relative;
 
     &::before {
       content: "The case:";
