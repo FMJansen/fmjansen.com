@@ -781,15 +781,15 @@ $port-marg-vert: $pad;
   Footer
 \*-------------------------------------*/
 footer {
-  background: #eee;
-  color: #999;
+  --color: #{lighten($text, 65%)};
+  color: var(--color);
   overflow: hidden;
   text-align: center;
 }
 
 .footer {
   &__colofon {
-    margin: $pad;
+    margin: 2em $pad;
   }
 }
 
