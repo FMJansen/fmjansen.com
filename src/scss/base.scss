@@ -285,11 +285,15 @@ blockquote {
   padding: $pad * 2;
 
   @media (min-width: $break--tablet) {
-    padding: $pad * 1.5 $pad * 2;
+    padding: $pad * 1.1 $pad * 1.5;
   }
 
   &__heading {
     margin-bottom: .3em;
+
+    @media (min-width: $break--laptop) {
+      margin-bottom: 0;
+    }
   }
 
   &__category {
