@@ -184,7 +184,7 @@ We worked on this project in a group of four students, with support and coaching
 
 ---
 
-### Learnings
+## Learnings
 
 1. Many sensitising tools or cultural probes are not directly applicable for visually impaired participants. Audio recordings for the instructions and the participants’ responses worked well, but left less room to reflect than when filling in a paper booklet.
 2. Agreeing on the amount and kind of updates with your client about progress is really valuable. This can lead to a better relationship, higher involvement and—probably—better results.

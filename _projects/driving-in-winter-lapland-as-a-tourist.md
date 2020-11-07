@@ -91,7 +91,7 @@ Due to the short time span of the project, we had no strict division of tasks, s
 
 ---
 
-### Learnings
+## Learnings
 
 1. This was my first proper introduction to service design, so basically I learned all the methods we used.
 2. It was hard to find actual Finnish car owners. This made it quite hard to get enough representative insights, and in turn probably made the design less fitting than it could have been.

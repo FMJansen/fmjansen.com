@@ -144,7 +144,7 @@ This was an individual project of ten weeks, so the strategic and user research 
 
 ---
 
-### Learnings
+## Learnings
 
 1. The value of experts while designing is enormous, both in finding solutions to technical problems and in finding out there might be none (in an early stage of the project, I wanted to design a sound damping product outside the human ear—this turned out to be infeasible without covering all window or using expensive electronics).
 2. Integration through iteration—in earlier projects, I hadn’t managed to properly integrate every aspect of the product. During this project, I managed to improve the design in areas like producibility, usability and sustainability several times through iteration.

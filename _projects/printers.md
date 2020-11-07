@@ -157,7 +157,7 @@ I was part of a group of five students and we tried to switch roles in such a wa
 
 ---
 
-### Learnings
+## Learnings
 
 1. Interviewing and testing in the context of the user leads to more rich insights. For example, a tour through a factory at one of the user tests led to new insights on how people work on the factory floor and it allowed the participant to refer to what we had seen in that tour.
 2. When communicating about a design, it works well to talk about the research after showing the design, so the audience can link insights to the design choices more easily. This makes the foundation for a design stronger and keeps it interesting.

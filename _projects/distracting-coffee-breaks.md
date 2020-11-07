@@ -150,7 +150,7 @@ This was an individual project of five months, where I did user research (observ
 
 ---
 
-### Learnings
+## Learnings
 
 1. Doing in-context observations and interviews requires you to overcome quite a bit of anxiety, but it’s definitely worth it.
 2. However, every bit of research or test needs prepared questions—both for yourself and to ask the potential participant.

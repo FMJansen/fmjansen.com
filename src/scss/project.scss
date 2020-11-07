@@ -53,6 +53,10 @@
       content: "My role:";
     }
 
+    &:nth-of-type(4)::before {
+      display: none;
+    }
+
     @media (min-width: $break--tablet) {
       font-size: 2em;
       max-width: $content-width / 2;
