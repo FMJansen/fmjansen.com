@@ -7,6 +7,7 @@ color: ffffff
 background: 4f0000
 image: /static/img/rfd/rfd@2x.png
 image-webp: /static/img/rfd/rfd@2x.webp
+year: 2016
 ---
 
 ## Showing more content with a modern look

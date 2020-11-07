@@ -4,9 +4,9 @@
       style="--color: #{{ page.color }}; --background: #{{ page.background }};">
       <h1 class="title__heading">{{ page.title }}</h1>
       {% if page.design_kind %}
-        <span class="title__category">{{ page.design_kind }}</span>
+        <span class="title__category">{{ page.design_kind }} • {{ page.year }}</span>
       {% else %}
-        <span class="title__category">{{ page.category }}</span>
+        <span class="title__category">{{ page.category }} • {{ page.year }}</span> 
       {% endif %}
     </section>
 

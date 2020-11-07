@@ -7,6 +7,7 @@ color: ffffff
 background: "ee2737"
 image: /static/img/streamingguys/streamingguys@2x.png
 image-webp: /static/img/streamingguys/streamingguys@2x.webp
+year: 2020
 ---
 
 ## Launching a brand

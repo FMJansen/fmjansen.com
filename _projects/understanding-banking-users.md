@@ -11,6 +11,7 @@ image: banking/banking.png
 image-2x: banking/banking@2x.png
 image-webp: banking/banking.webp
 image-2x-webp: banking/banking@2x.webp
+year: 2019–2020
 ---
 
 

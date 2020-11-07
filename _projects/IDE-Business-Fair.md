@@ -7,6 +7,7 @@ color: ffffff
 background: e74c18
 image: /static/img/idebf/posters-02.png
 image-webp: /static/img/idebf/posters-02.webp
+year: 2015
 ---
 
 As part of the ID’s PR committee, I worked on the promotional material and digital communication channels together with [Emil Flach](http://emilflach.com/) and [Micha Lionarons](https://linkedin.com/in/michalionarons). We created a sign up form and printed material (stickers, posters, flyers, etc.).

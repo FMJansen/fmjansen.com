@@ -7,6 +7,7 @@ color: ffffff
 background: 325b72
 image: /static/img/lapland/lapland@2x.jpg
 image-webp: /static/img/lapland/lapland@2x.webp
+year: 2017
 ---
 
 During my exchange minor at the University of Lapland, I took a course on photography, where we had to assemble a photobook with photos we took over the course of a five day excursion.

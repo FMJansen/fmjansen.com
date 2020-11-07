@@ -11,6 +11,7 @@ image: driving/lapland.jpeg
 image-2x: driving/lapland@2x.jpeg
 image-webp: driving/lapland.webp
 image-2x-webp: driving/lapland@2x.webp
+year: 2017
 ---
 
 ## Making Finnish car owners comfortable with renting their car to tourists

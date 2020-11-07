@@ -7,6 +7,7 @@ color: ffffff
 background: "000066"
 image: /static/img/cygnus/cygnus@2x.png
 image-webp: /static/img/cygnus/cygnus@2x.webp
+year: 2018
 ---
 
 ## Communicating events

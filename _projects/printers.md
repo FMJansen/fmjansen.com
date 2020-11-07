@@ -11,6 +11,7 @@ image: printers/printers.jpg
 image-2x: printers/printers@2x.jpg
 image-webp: printers/printers.webp
 image-2x-webp: printers/printers@2x.webp
+year: 2019
 ---
 
 

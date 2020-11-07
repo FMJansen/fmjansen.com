@@ -7,6 +7,7 @@ color: ffffff
 background: 8200fe
 image: /static/img/workshops/vpi-2.jpg
 image-webp: /static/img/workshops/vpi-2.webp
+year: 2018–now
 ---
 
 It is often said you only truly understand something when you're also able to explain it. Even though I have no idea if that's true, I did manage to get to a level where I'm able to teach others something about graphic design.
