@@ -11,7 +11,7 @@ year: 2017
 ---
 
 
-<figure class="project__picture-group--light" style="margin:-12vw 0 8vw;">
+<figure class="project__picture-group--light" style="margin:-6vw 0 8vw;">
   <div style="width:100%;height:0;padding-bottom:44%;position:relative;text-align:left;">
     <iframe src="https://player.vimeo.com/video/355866914" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="height:44vw;"></iframe>
   </div>
