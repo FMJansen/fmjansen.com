@@ -25,6 +25,20 @@ Ultimaker, the Dutch 3D printer-manufacturing company, wanted a way for factorie
 
   <figure class="project__picture">
     <picture>
+      <source data-srcset="/static/img/printers/florenradica_workfloor.webp"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A room with about 45 Ultimaker 3D printers and two operators."
+        data-srcset="/static/img/printers/florenradica_workfloor.jpg"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/florenradica_workfloor.jpg">
+    </picture>
+    <figcaption class="project__caption">
+      An example of the context: a room with a lot of printers, all used for production of end parts or tooling for other machines or production activities.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
       <source data-srcset="/static/img/printers/problem_overview.webp 1x,
         /static/img/printers/problem_overview@2x.webp 2x"
         type="image/webp" class="lazy">
@@ -36,6 +50,82 @@ Ultimaker, the Dutch 3D printer-manufacturing company, wanted a way for factorie
     </picture>
     <figcaption class="project__caption">
       An overview of the ecosystem for Ultimaker’s products, showing a lot of overlap between interfaces, causing confusion for the user.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/printers/paperprototypedesktop.webp 1x,
+        /static/img/printers/paperprototypedesktop@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A flow of a desktop web app mockup and a photo of a printed version shown in use."
+        data-srcset="/static/img/printers/paperprototypedesktop.png 1x,
+          /static/img/printers/paperprototypedesktop@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/paperprototypedesktop.png">
+    </picture>
+    <figcaption class="project__caption">
+      We created a paper prototype for a desktop concept...
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/printers/paperprototypesmartphone.webp 1x,
+        /static/img/printers/paperprototypesmartphone@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A flow of a smartphone app mockup and a photo of a printed version shown in use."
+        data-srcset="/static/img/printers/paperprototypesmartphone.png 1x,
+          /static/img/printers/paperprototypesmartphone@2x.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/paperprototypesmartphone.png">
+    </picture>
+    <figcaption class="project__caption">
+      ...and one for a mobile concept.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/printers/usertest.webp 1x,
+        /static/img/printers/usertest@2x.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="An industrial environment with two cardboard printers, one participant, one interviewer and two observers during a usability test."
+        data-srcset="/static/img/printers/usertest.jpg 1x,
+          /static/img/printers/usertest@2x.jpg 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/usertest.jpg">
+    </picture>
+    <figcaption class="project__caption">
+      Using the paper prototypes and the later digital version, we did usability tests with students, turning and milling machine operators, and 3D printer operators. In total, we executed 9 tests.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/printers/prototypev1.webp"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Screenshot of the first digital prototype for the app, showing a printer schedule and a task list."
+        data-srcset="/static/img/printers/prototypev1.png"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/prototypev1.png">
+    </picture>
+    <figcaption class="project__caption">
+      After choosing a concept based on the paper prototype and the first usability tests, we created a digital prototype.
+    </figcaption>
+  </figure>
+
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/printers/prototypev2.webp"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="Screenshot of the second digital prototype for the app, showing a task list and a printer schedule."
+        data-srcset="/static/img/printers/prototypev2.png"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/printers/prototypev2.png">
+    </picture>
+    <figcaption class="project__caption">
+      Then, we created a second version, incorporating the insights from the usability tests with the first digital prototype.
     </figcaption>
   </figure>
 
