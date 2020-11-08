@@ -413,7 +413,7 @@ main {
 }
 
 .intro {
-  padding: $pad * 3 10vw $pad * 2;
+  padding: $pad * 2 10vw $pad;
 
   @media (min-width: $break--tablet) {
     padding: $pad * 1.75 10vw $pad;
