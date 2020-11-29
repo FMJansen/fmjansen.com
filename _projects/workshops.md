@@ -36,11 +36,11 @@ In 2018 and 2019, I gave several workshops on the basics of designing a beautifu
   <figure class="project__picture">
     <picture>
       <source data-srcset="/static/img/workshops/vpi-1.webp 1x,
-        /static/img/workshops/vpi-1.webp 2x"
+        /static/img/workshops/vpi-1@2x.webp 2x"
         type="image/webp" class="lazy">
       <img loading="lazy" class="project__image lazy" alt="Someone cutting an image from a magazine."
         data-srcset="/static/img/workshops/vpi-1.jpg 1x,
-          /static/img/workshops/vpi-1.jpg 2x"
+          /static/img/workshops/vpi-1@2x.jpg 2x"
         src="/static/img/placeholder.jpg"
         data-src="/static/img/workshops/vpi-1.jpg">
     </picture>
@@ -52,11 +52,11 @@ In 2018 and 2019, I gave several workshops on the basics of designing a beautifu
   <figure class="project__picture">
     <picture>
       <source data-srcset="/static/img/workshops/vpi-2.webp 1x,
-        /static/img/workshops/vpi-2.webp 2x"
+        /static/img/workshops/vpi-2@2x.webp 2x"
         type="image/webp" class="lazy">
       <img loading="lazy" class="project__image lazy" alt="Four people working on their collage."
         data-srcset="/static/img/workshops/vpi-2.jpg 1x,
-          /static/img/workshops/vpi-2.jpg 2x"
+          /static/img/workshops/vpi-2@2x.jpg 2x"
         src="/static/img/placeholder.jpg"
         data-src="/static/img/workshops/vpi-2.jpg">
     </picture>
@@ -68,11 +68,11 @@ In 2018 and 2019, I gave several workshops on the basics of designing a beautifu
   <figure class="project__picture">
     <picture>
       <source data-srcset="/static/img/workshops/vpi-3.webp 1x,
-        /static/img/workshops/vpi-3.webp 2x"
+        /static/img/workshops/vpi-3@2x.webp 2x"
         type="image/webp" class="lazy">
       <img loading="lazy" class="project__image lazy" alt="Two finished collages."
         data-srcset="/static/img/workshops/vpi-3.jpg 1x,
-          /static/img/workshops/vpi-3.jpg 2x"
+          /static/img/workshops/vpi-3@2x.jpg 2x"
         src="/static/img/placeholder.jpg"
         data-src="/static/img/workshops/vpi-3.jpg">
     </picture>
