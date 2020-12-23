@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Understanding online banking users"
-description: "Helping users transition to the Rabobank app with a workshop and a persona set after sensitising and interviewing users"
+description: "Helping users transition to the Rabobank app with a workshop and a persona set"
 date: 2019-01-01 12:00:00 +0100
 category: "industrial design"
 design_kind: "Design research"
