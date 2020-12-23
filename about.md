@@ -26,7 +26,7 @@ background: e4485b
 
 Overall, my goal is to improve our planet’s well-being, bit by bit. To be more exact, I want to include human well-being and sustainability in every project I work on. If you like old-fashioned CVs, you can download it here. But otherwise, this page should give you some info on my skills and career path.
 
-<a href="/Resume_Floris_Jansen-fmjansen.nl.pdf" class="button">Download Floris’ resume</a>
+<a href="/Resume_Floris_Jansen-fmjansen.com.pdf" class="button">Download Floris’ resume</a>
 
 
 
