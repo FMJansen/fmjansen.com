@@ -34,7 +34,7 @@ Overall, my goal is to improve our planet’s well-being, bit by bit. To be more
 
 
 ## Floris & design
-‘Design’ is a very generic word, of course, but for me it an activity which can go from the shaping of simple products, to improving a societal systems. Within that broad spectrum, these topics interest me: environmental sustainability and ethical production; household products and furniture; information security, AI and privacy; and branding.
+‘Design’ is a very generic word, of course, but for me it is an activity which can go from the shaping of simple products, to improving a societal systems. Within that broad spectrum, these topics interest me: environmental sustainability and ethical production; household products and furniture; information security, AI and privacy; and branding.
 
 From what I’ve learned, we, designers, are good at the following three broad competences.
 
