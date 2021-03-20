@@ -145,4 +145,20 @@ Since 2018, I have been giving several workshops on the basics of designing a be
     </figcaption>
   </figure>
 
+  <figure class="project__picture">
+    <picture>
+      <source data-srcset="/static/img/workshops/miro.webp 1x,
+        /static/img/workshops/miro.webp 2x"
+        type="image/webp" class="lazy">
+      <img loading="lazy" class="project__image lazy" alt="A screenshot of a Miro board with several frames with post-its; illegible."
+        data-srcset="/static/img/workshops/miro.png 1x,
+          /static/img/workshops/miro.png 2x"
+        src="/static/img/placeholder.jpg"
+        data-src="/static/img/workshops/miro.png">
+    </picture>
+    <figcaption class="project__caption">
+      In 2020/2021, we had to move the workshops online. Using a Miro board and breakout rooms, we were able to replace some of the room interactivity with a proper remote alternative.
+    </figcaption>
+  </figure>
+
 </div>
