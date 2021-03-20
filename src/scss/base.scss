@@ -83,8 +83,12 @@ $pad: 6vw;
 
   --big-font: 1.4em;
 
+  @media(min-width: $break--tablet) {
+    --big-font: 1.8em;
+  }
+
   @media(min-width: $break--laptop) {
-    --big-font: 2.4em;
+    --big-font: 2.2em;
   }
 
   @media(min-width: $break--desktop) {
@@ -549,7 +553,7 @@ $port-marg-vert: $pad;
   }
 
   &__industrial {
-    align-items: flex-end;
+    align-items: center;
     background: var(--background);
     display: flex;
     flex-wrap: wrap;
