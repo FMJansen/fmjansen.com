@@ -12,7 +12,7 @@ year: 2018–now
 
 It is often said you only truly understand something when you're also able to explain it. Even though I have no idea if that's true, I did manage to get to a level where I'm able to teach others something about graphic design.
 
-In 2018 and 2019, I gave several workshops on the basics of designing a beautiful and readable report, as well as a workshop on *Visualising your personal identity*. While the latter was just a iteration by [Bart](https://bartjanse.nl) and myself on the existing workshop by [Mark](https://markjanssen.design) and [Eva](http://evaoosterlaken.com), the former one I developed from scratch together with four other students, with whom I gave the workshop two times.
+Since 2018, I have been giving several workshops on the basics of designing a beautiful and readable report, as well as a workshop on *Visualising your personal identity*. While the latter was just a iteration by [Bart](https://bartjanse.nl) and myself on the existing workshop by [Mark](https://markjanssen.design) and [Eva](http://evaoosterlaken.com), the former one I developed from scratch together with four other students, with whom I gave the workshop two times.
 
 
 <div class="project__picture-group">
