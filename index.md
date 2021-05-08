@@ -24,8 +24,7 @@ color: ffffff
 <section class="portfolio portfolio--industrial" id="projects">
   {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
   {% for post in industrial_design_projects limit:3 %}
-    <article class="portfolio__industrial"
-      style="--color: #{{ post.color }}; --background: #{{ post.background }}">
+    <article class="portfolio__industrial">
 
       <a class="portfolio__image" href="{{ post.url }}">
         <picture>
@@ -59,9 +58,6 @@ color: ffffff
 
 {% for cat in site.project_categories %}
   <section class="portfolio portfolio--other"
-    style="--color: #{{ cat.color }}; --background: #{{ cat.background }};
-    --gradient-start: #{{ cat.gradient-start }};
-    --gradient-end: #{{ cat.gradient-end }}"
     id="{{ cat.title | url_encode }}">
     <h2 class="section-head section-head--overlap">
       {{ cat.title | capitalize }}
