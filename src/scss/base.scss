@@ -226,13 +226,12 @@ blockquote {
   background: linear-gradient(155deg, $main-color, $sec-color);
   border-radius: 1em 1em .25em;
   color: white;
-  display: inline-block;
-  float: right;
-  margin: .5em 0;
-  padding: 1em;
+  float: left;
+  margin: .5em 0 .4em 3em;
+  padding: .8em;
   text-align: right;
 
-  &-cont::after {
+  &::after {
     clear: both;
     content: "";
     display: block;
@@ -243,15 +242,13 @@ blockquote {
   border: 1px solid $text;
   border-color: var(--color, $text);
   border-radius: 1em 1em 1em .25em;
-  display: inline-block;
+  clear: both;
   float: left;
-  margin: .5em 0;
-  padding: 1em;
+  margin: 0 0 1em;
+  padding: .8em;
 
-  &-cont::after {
+  & + * {
     clear: both;
-    content: "";
-    display: block;
   }
 }
 
