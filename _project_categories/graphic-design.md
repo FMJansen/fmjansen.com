@@ -6,5 +6,5 @@ background: 162933
 gradient-start: ffffff
 gradient-end: f69295
 you: "Huh, those websites don’t look <i>too</i> bad."
-conversation: "Thanks! Next to developing websites, I quite like graphic design. I got to work on a magazine and some assignments of clients."
+conversation: "Thanks! I also quite like graphic design. I got to work on a magazine and some assignments of clients."
 ---
