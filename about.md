@@ -12,7 +12,7 @@ background: e4485b
       <source data-srcset="/static/img/about/in_levi.webp 1x,
         /static/img/about/in_levi@2x.webp 2x"
         type="image/webp" class="lazy">
-      <img loading="lazy" class="project__image lazy" alt="Me, in Levi, Lapland."
+      <img loading="lazy" class="project__image lazy" alt="Me, in Levi, Lapland, against a snowy backdrop."
         data-srcset="/static/img/about/in_levi.jpg 1x,
           /static/img/about/in_levi@2x.jpg 2x"
         src="/static/img/placeholder.jpg"
