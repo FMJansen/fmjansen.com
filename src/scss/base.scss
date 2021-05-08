@@ -109,8 +109,15 @@ body {
   font-size: clamp(14px, 4vw, 20px);
   margin: 0;
   word-wrap: break-word;
+}
 
+*:focus-visible {
+  outline: .2em dashed blue;
+  outline-offset: .5em;
 
+  @media (prefers-color-scheme: dark) {
+    outline-color: gold;
+  }
 }
 
 
