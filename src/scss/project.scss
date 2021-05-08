@@ -188,7 +188,7 @@
 
   &__title {
     display: block;
-    font-size: calc(var(--big-font) / 1.2);
+    font-size: clamp(1.5em, 5vw, 3em);
     font-weight: 900;
     line-height: 1.2;
   }
