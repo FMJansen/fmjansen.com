@@ -108,6 +108,8 @@ function draggable (element) {
 
 window.addEventListener('DOMContentLoaded', (event) => {
   draggable(document.querySelector('.intro__portrait'));
+  document.querySelector('#toggle').onclick = openMenu;
+  document.querySelector('#menu').onclick = closeMenu;
 });
 
 
@@ -137,4 +139,16 @@ function loadPart (no, delay) {
       item.classList.remove('delayed');
     });
   }, delay);
+}
+
+
+
+function openMenu (event) {
+  let menu = document.querySelector('#menu');
+  menu.classList.add('open');
+}
+
+function closeMenu (event) {
+  let menu = document.querySelector('#menu');
+  menu.classList.remove('open');
 }

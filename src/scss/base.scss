@@ -9,11 +9,10 @@
   + CSS Variables
   + Reset
   + Paragraph styles
-  + Logo
-  + Menu
+  + Site top
   + Front page
   + Portfolio
-  + Contact
+  + Menu
   + Footer
   + Imports
 
@@ -285,108 +284,21 @@ blockquote {
 
 
 /*-------------------------------------*\
-	Skip to content
+  Site top
 \*-------------------------------------*/
-.skip {
-  background: white;
-  border: 1px solid black;
-  color: black;
-  display: block;
-  font-family: $sec-font;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 1em;
-  position: absolute;
-  text-decoration: none;
-  top: -5em;
-
-  &:focus {
-    left: 5px;
-    top: 5px;
-    z-index: 100000;
-  }
-}
-
-
-
-
-
-/*-------------------------------------*\
-  Menu
-\*-------------------------------------*/
-.menu-cont {
-  position: absolute;
-  width: 100%;
-
-  &--rel {
-    position: relative;
-  }
-}
-
-.main-menu {
+.site-top {
   display: flex;
   font-family: $sec-font;
-  font-size: .9em;
-  justify-content: flex-start;
-  list-style: none;
-  margin: 0;
-  overflow-x: auto;
-  padding: 0;
-  transition: opacity 150ms ease-out;
+  justify-content: space-between;
 
-  &__item {
-    opacity: .5;
-    padding: 1em;
-
-    a {
-      color: var(--color, white);
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-    &--bright {
-      opacity: 1;
-      width: 5em;
-    }
-
-    &--external {
-      opacity: 1;
-    }
+  &__title {
+    display: inline-block;
+    margin: var(--pad);
   }
 
-  &:hover &__item {
-    opacity: 1;
-
-    &--bright {
-      background: $main-color;
-
-      a {
-        color: white;
-        font-size: 0;
-
-        &:after {
-          content: "Floris";
-          font-size: .85rem;
-          line-height: 1;
-
-          @media (min-width: $break--laptop) {
-            content: "✨Floris";
-            font-size: 1rem;
-          }
-        }
-      }
-    }
-
-    &--external {
-      a {
-        text-decoration-color: $sec-color;
-      }
-    }
+  &__menu-link {
+    margin: var(--pad);
   }
-
 }
 
 
@@ -612,11 +524,48 @@ main {
 
 
 
+/*-------------------------------------*\
+  Menu
+\*-------------------------------------*/
+.main-menu {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: $sec-font;
+  font-size: .9em;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: opacity 150ms ease-out;
 
+  &:target {
+    border: .2em dotted rgba(var(--color), 1);
+  }
 
+  &__item {
+    padding: 1em;
 
+    a {
+      text-decoration: none;
 
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 
+  &.open {
+    background: rgba(var(--background), 0.9);
+    bottom: 0;
+    box-sizing: border-box;
+    flex-flow: column;
+    padding: var(--pad);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+  }
+}
 
 
 
