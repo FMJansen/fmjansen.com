@@ -254,7 +254,7 @@ blockquote {
 
 .me {
   border: 1px solid $text;
-  border-color: var(--color, $text);
+  border-color: rgba(var(--color), 1);
   border-radius: 1em 1em 1em .25em;
   clear: both;
   float: left;
