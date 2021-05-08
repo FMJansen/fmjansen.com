@@ -28,28 +28,29 @@ Of course! I’ve been...
 {: .me}
 
 <section class="portfolio portfolio--industrial" id="projects">
+  <div></div>
+
   {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
   {% for post in industrial_design_projects limit:3 %}
     <article class="portfolio__industrial">
 
-      <a class="portfolio__image" href="{{ post.url }}">
-        <picture>
-          <source data-srcset="/static/img/{{ post.image-webp }} 1x,
-            /static/img/{{ post.image-2x-webp }} 2x"
-            type="image/webp" class="lazy">
-          <img class="lazy" alt="{{ post.title }}"
-            data-srcset="/static/img/{{ post.image }} 1x,
-              /static/img/{{ post.image-2x }} 2x"
-            data-src="/static/img/{{ post.image }}"
-            src="/static/img/placeholder.jpg"
-            width="338" height="535">
-        </picture>
-      </a>
+      <picture class="portfolio__image">
+        <source data-srcset="/static/img/{{ post.image-webp }} 1x,
+          /static/img/{{ post.image-2x-webp }} 2x"
+          type="image/webp" class="lazy">
+        <img class="portfolio__image lazy" alt="{{ post.title }}"
+          data-srcset="/static/img/{{ post.image }} 1x,
+            /static/img/{{ post.image-2x }} 2x"
+          data-src="/static/img/{{ post.image }}"
+          src="/static/img/placeholder.jpg"
+          width="338" height="535"
+          data-target="{{ post.url }}">
+      </picture>
 
-      <div>
-        <h2 class="portfolio__category">
-          <a href="{{ post.url }}">{{ post.design_kind }}</a>
-        </h2>
+      <div class="portfolio__text">
+        <p class="portfolio__category">
+          {{ post.design_kind }}
+        </p>
 
         <p class="portfolio__description">
           <a href="{{ post.url }}">{{ post.description }}</a>
@@ -58,22 +59,28 @@ Of course! I’ve been...
 
     </article>
   {% endfor %}
+
+  <div></div>
 </section>
 
 {% for cat in site.project_categories %}
   <section class="portfolio portfolio--other"
     id="{{ cat.title | url_encode }}">
-    <h2 class="section-head section-head--overlap">
-      {{ cat.title | capitalize }}
-    </h2>
-    <div class="portfolio__about-cat">
-      <div class="you-cont">
-        <p class="you">{{ cat.you }}</p>
-      </div>
-      <div class="me">
-        <p class="portfolio__conversation">{{ cat.conversation }}</p>
+
+    <div></div>
+
+    <div class="conversation">
+      <h2 class="section-head section-head--overlap">
+        {{ cat.title | capitalize }}
+      </h2>
+      <div class="portfolio__about-cat">
+        <div class="you-cont">
+          <p class="you">{{ cat.you }}</p>
+        </div>
+        <p class="me">{{ cat.conversation }}</p>
       </div>
     </div>
+
     {% assign project_list = site.projects | where: 'category', cat.title %}
     {% for post in project_list limit:3 %}
       <a href="{{ post.url }}" class="portfolio__item"
@@ -87,5 +94,7 @@ Of course! I’ve been...
         </article>
       </a>
     {% endfor %}
+
+    <div></div>
   </section>
 {% endfor %}

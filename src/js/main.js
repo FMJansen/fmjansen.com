@@ -110,6 +110,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
   draggable(document.querySelector('.intro__portrait'));
   document.querySelector('#toggle').onclick = openMenu;
   document.querySelector('#menu').onclick = closeMenu;
+  document.querySelectorAll('.portfolio__image').forEach(item => {
+    item.onclick = navigateToItem;
+  });
+
 });
 
 
@@ -151,4 +155,10 @@ function openMenu (event) {
 function closeMenu (event) {
   let menu = document.querySelector('#menu');
   menu.classList.remove('open');
+}
+
+
+
+function navigateToItem(item) {
+  window.location.href = item.target.getAttribute('data-target');
 }
