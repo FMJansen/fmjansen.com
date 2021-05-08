@@ -119,6 +119,8 @@ function loadIntro() {
   loadPart('3', 4000);
 }
 
+
+
 document.addEventListener("scroll", loadConv);
 window.addEventListener("resize", loadConv);
 window.addEventListener("orientationchange", loadConv);
@@ -126,7 +128,9 @@ function loadConv() {
   loadPart('3', 500);
 }
 
-function loadPart(no, delay) {
+
+
+function loadPart (no, delay) {
   setTimeout(function() {
     var delayList = document.querySelectorAll('.delayed--' + no);
     delayList.forEach(function(item) {
