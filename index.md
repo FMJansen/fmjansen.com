@@ -6,7 +6,7 @@ color: ffffff
 <img src="/static/img/floris.jpg" alt="A photo of me, Floris, happily smiling"
   class="intro__portrait">
 
-# Hej! I’m Floris, I design for inclusion and sustainability
+# {{ site.description }}
 {: .intro}
 
 I’m in my last year of [Design for Interaction (TU Delft)](https://www.tudelft.nl/onderwijs/opleidingen/masters/dfi/msc-design-for-interaction/) and I like designing interactions, services and systems with a focus on sustainability and inclusion.
