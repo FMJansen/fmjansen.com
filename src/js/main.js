@@ -16,6 +16,16 @@ function mousePos (e) {
     return true;
 }
 
+function handleOrientation (event) {
+  const x = -event.gamma;
+  const y = event.beta - 45;
+  document.documentElement.style.setProperty('--mapped-x', x);
+  document.documentElement.style.setProperty('--mapped-y', y);
+}
+
+
+
+window.addEventListener('deviceorientation', handleOrientation);
 window.onload = loadIntro();
 function loadIntro() {
   loadPart('1', 1000);
