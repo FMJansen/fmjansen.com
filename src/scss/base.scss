@@ -359,10 +359,13 @@ main {
 
   &__portrait {
     left: calc(var(--pad) * 1.5);
-    max-width: calc(100vw - var(--pad));
+    max-width: calc(100vw - var(--pad) * 1.5);
     position: absolute;
-    top: calc(27.5vh - var(--pad) * 3);
-    transform: translateX(calc(var(--orientation-move) * 1%));
+    top: calc(var(--pad) * 2 + 1em);
+
+    @media (pointer: coarse) {
+      transform: translateX(calc(var(--orientation-move) * 1%));
+    }
 
     @media (min-width: $break--laptop) {
       left: auto;
