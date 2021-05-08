@@ -1,7 +1,7 @@
 document.onmousemove = function (e) {mousePos(e);};
 
-var mouseX = 0;
-var mouseY = 0;
+let mouseX = 0;
+let mouseY = 0;
 let isMouseDown = false;
 
 function mousePos (e) {
