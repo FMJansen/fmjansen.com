@@ -132,7 +132,9 @@ h6 {
 p,
 ol,
 ul {
-  line-height: 1.6;
+  line-height: 1.5;
+  max-width: 45ch;
+}
 }
 
 hr {
@@ -603,6 +605,7 @@ footer {
 .footer {
   &__colofon {
     margin: 2em var(--pad);
+    max-width: none;
   }
 }
 
