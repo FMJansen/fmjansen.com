@@ -100,6 +100,7 @@ $pad: 6vw;
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  --orientation-move: -100;
 }
 
 body {
@@ -477,16 +478,18 @@ main {
   }
 
   &__portrait {
-    margin: 0 0 $pad -10vw;
-    width: 90vw;
-
-    @media (min-width: $break--tablet) {
-      float: left;
-      width: 60vw;
-    }
+    left: calc(var(--pad) * 1.5);
+    max-width: calc(100vw - var(--pad));
+    position: absolute;
+    top: calc(27.5vh - var(--pad) * 3);
+    transform: translateX(calc(var(--orientation-move) * 1%));
 
     @media (min-width: $break--laptop) {
-      margin-bottom: -$pad * 2;
+      left: auto;
+      right: var(--pad);
+      transform: none;
+      top: calc(var(--pad) * 2);
+      width: 40vw;
     }
   }
 

@@ -16,11 +16,32 @@ function mousePos (e) {
     return true;
 }
 
+
+
+let prevMove = 0;
+let orientationMove = -100;
+
 function handleOrientation (event) {
+  if (isMouseDown) {
+    prevMove = 0;
+    return; // When dragging the image, stop listening for orientation
+  }
+
   const x = -event.gamma;
   const y = event.beta - 45;
   document.documentElement.style.setProperty('--mapped-x', x);
   document.documentElement.style.setProperty('--mapped-y', y);
+  prevMove = x / 80 + prevMove / 16;
+  orientationMove = orientationMove - prevMove;
+  if (orientationMove < -100) {
+    prevMove = 0;
+    orientationMove = -100;
+  }
+  if (orientationMove > 0) {
+    prevMove = 0;
+    orientationMove = 0;
+  }
+  document.documentElement.style.setProperty('--orientation-move', orientationMove);
 }
 
 
