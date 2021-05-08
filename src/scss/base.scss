@@ -158,11 +158,13 @@ hr {
   margin: var(--pad);
 }
 
-
 a {
   color: rgba(var(--text), 1);
   text-decoration-color: rgba(var(--color), 1);
+}
 
+strong {
+  font-weight: bold;
 }
 
 blockquote {
