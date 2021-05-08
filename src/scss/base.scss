@@ -90,6 +90,7 @@ $pad: 6vw;
   @media(min-width: $break--laptop) {
     --big-font: 2.2em;
   }
+  --pad: 7vw;
 
   @media(min-width: $break--desktop) {
     --big-font: 3.1em;
@@ -155,7 +156,7 @@ hr {
   border-color: #ddd;
   border-style: solid;
   border-width: 1px 0 0;
-  margin: $pad;
+  margin: var(--pad);
 }
 
 
@@ -278,10 +279,10 @@ blockquote {
   font-family: $sec-font;
   font-size: var(--big-font);
   line-height: 1.2;
-  padding: $pad * 2;
+  padding: var(--pad);
 
   @media (min-width: $break--tablet) {
-    padding: $pad * 1.1 $pad * 1.5;
+    padding: calc(var(--pad) * 1.1) calc(var(--pad) * 1.5);
   }
 
   &__heading {
@@ -539,9 +540,6 @@ main {
 /*-------------------------------------*\
   Portfolio
 \*-------------------------------------*/
-$port-marg-hor: 4vw;
-$port-marg-vert: $pad;
-
 .portfolio {
   background: var(--background, $text);
 
@@ -708,9 +706,6 @@ $port-marg-vert: $pad;
   color: var(--color, $text);
   font-size: calc(1.5 * var(--big-font));
   line-height: 1.2;
-  margin: $pad;
-  margin-left: $pad + $port-marg-hor;
-  margin-top: .5 * $pad;
   text-align: center;
   width: 100%;
 
@@ -768,7 +763,7 @@ footer {
 
 .footer {
   &__colofon {
-    margin: 2em $pad;
+    margin: 2em var(--pad);
   }
 }
 

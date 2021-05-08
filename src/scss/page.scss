@@ -19,8 +19,8 @@
 \*-------------------------------------*/
 .page {
   background: white;
-  padding-bottom: $pad;
-  padding-top: $pad;
+  padding-bottom: var(--pad);
+  padding-top: var(--pad);
 
   $content-width: 38em;
 
@@ -31,7 +31,7 @@
   h3 {
     margin: 1em auto;
     max-width: $content-width;
-    width: 100vw - $pad * 2;
+    width: 100vw - calc(var(--pad) * 2);
   }
 
   h2 {
@@ -53,13 +53,13 @@
 .competences {
   display: flex;
   flex-wrap: wrap;
-  padding: $pad / 2;
+  padding: var(--pad) 0;
 }
 
 .design-competence {
   flex-grow: 1;
-  margin: $pad / 2;
   width: 20em;
+  margin: calc(var(--pad) / 2) 0;
 
   &__illustration {
     text-align: center;
