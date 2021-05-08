@@ -48,8 +48,6 @@ color: ffffff
         <p class="portfolio__description">
           <a href="{{ post.url }}">{{ post.description }}</a>
         </p>
-
-        <a class="button button--special" href="{{ post.url }}">Read on</a>
       </div>
 
     </article>
