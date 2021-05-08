@@ -3,23 +3,29 @@ layout: default
 color: ffffff
 ---
 
-<section class="intro">
-  <p class="intro__text">
-    <span class="intro__part">Hej!</span>
-    <a class="intro__part delayed delayed--1 intro__text-link"
-      href="/about.html">I’m Floris,</a>
-    <span class="intro__part delayed delayed--2">I study Design for Interaction and hope to improve our planet’s well-being, bit by bit.</span>
-  </p>
-  <img src="/static/img/floris.jpg" alt="Floris"
-    class="intro__portrait intro__part delayed delayed--1">
-  <div style="--color: white;"
-    class="intro__butt intro__part delayed delayed--3">
-    <div class="me">I also do some freelance web development, graphic design and photo&shy;graphy on the side.</div>
-    <div class="you">Hi, that sounds a bit, uhm... ambitious—What are you doing to get there?</div>
-    <a href="#projects" class="button intro__button">View my projects</a>
-    <a href="/about.html" class="intro__link">About me</a>
-  </div>
-</section>
+<img src="/static/img/floris.jpg" alt="A photo of me, Floris, happily smiling"
+  class="intro__portrait">
+
+# Hej! I’m Floris, I design for inclusion and sustainability
+{: .intro}
+
+I’m in my last year of [Design for Interaction (TU Delft)](https://www.tudelft.nl/onderwijs/opleidingen/masters/dfi/msc-design-for-interaction/) and I like designing interactions, services and systems with a focus on sustainability and inclusion.
+
+My runaway hobbies-turned-freelance-activities are graphic design, giving workshops, creating websites (with code and stuff) and photography.
+
+Alrighty, so are you doing anything fun?
+{: .you}
+Well right now, I’m...
+{: .me}
+
+- working on making energy transition renovations more inclusive (my graduation project)
+- collecting information at [inclusief.design](https://inclusief.design)
+{: #currently}
+
+Cool, cool, cool, and could you tell me something about earlier projects?
+{: .you}
+Of course! I’ve been...
+{: .me}
 
 <section class="portfolio portfolio--industrial" id="projects">
   {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
