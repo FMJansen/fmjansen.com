@@ -50,15 +50,21 @@
   Design skills
 \*-------------------------------------*/
 .competences {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-column-gap: calc(var(--pad) / 2);
+  grid-template-columns: calc(var(--pad) / 2) 1fr 1fr 1fr calc(var(--pad) / 2);
+  justify-items: center;
+  margin: 0 calc(-1 * var(--pad)) var(--pad);
+  overflow-x: auto;
+  overflow-y: visible;
   padding: var(--pad) 0;
 }
 
 .design-competence {
-  flex-grow: 1;
-  width: 20em;
   margin: calc(var(--pad) / 2) 0;
+  max-width: 22em;
+  min-width: 18em;
+  width: 100%;
 
   &__illustration {
     text-align: center;
@@ -79,10 +85,6 @@
 
   &__sub {
     color: $main-color;
-    margin-bottom: .5em;
-  }
-
-  &__example {
-    margin-top: -1em !important;
+    margin-top: 1.5em;
   }
 }
