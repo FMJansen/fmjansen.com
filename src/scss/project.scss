@@ -228,8 +228,12 @@
     }
   }
 
-  &__item a {
-    display: block;
-    padding: .25em .85em;
+  &__item {
+    margin-bottom: 0;
+
+    a {
+      display: block;
+      padding: .25em .85em;
+    }
   }
 }
