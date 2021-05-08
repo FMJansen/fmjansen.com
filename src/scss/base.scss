@@ -726,58 +726,11 @@ $port-marg-vert: $pad;
 
 
 
-/*-------------------------------------*\
-  Contact
-\*-------------------------------------*/
-.contact {
-  --color: white;
-  background: $main-color;
-  color: var(--color);
-  display: flex;
-  flex-wrap: wrap;
-  padding: $pad;
-  padding-left: $pad - $port-marg-hor;
-  position: relative;
-  z-index: 3;
 
-  .me {
-    border-color: var(--color);
-    color: var(--color);
-  }
 
-  &__option {
-    flex-grow: 1;
-    margin-left: $port-marg-hor;
-    width: 15em;
-  }
 
-  &__link {
-    font-family: $sec-font;
-    text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 
-  &__addition {
-    $add-bg: transparentize(black, .5);
-
-    background: $add-bg;
-    border-radius: .1em;
-    box-shadow: 0 0 0 .2em $add-bg;
-    display: inline-block;
-    font-family: $sec-font;
-    margin: .1em .2em .4em;
-    opacity: .7;
-    padding: 0 .2em;
-  }
-}
-
-.default + .contact {
-  margin-top: -2 * $pad;
-  padding-top: 2 * $pad;
-}
 
 
 
@@ -786,6 +739,26 @@ $port-marg-vert: $pad;
 /*-------------------------------------*\
   Footer
 \*-------------------------------------*/
+.contact {
+  background: rgba(var(--color), .1);
+  border-radius: 1.8em 1.8em .4em .4em;
+  margin: calc(var(--pad) * 2) auto calc(var(--pad) * 2);
+  max-width: 18em;
+  padding: calc(var(--pad) / 2 - .5em) calc(var(--pad) / 2) calc(var(--pad) / 2 - 1em);
+}
+
+.networks {
+  columns: 2;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  li {
+    column-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+  }
+}
+
 footer {
   --color: #{lighten($text, 65%)};
   color: var(--color);

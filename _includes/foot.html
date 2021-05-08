@@ -1,69 +1,7 @@
-    <section class="contact" id="contact">
-      <h2 class="section-head">Contact</h2>
-
-      <div class="contact__option">
-        <div class="you-cont">
-          <p class="you">
-            Oh, right. Yeah, yeah sure. So... talk to you later?
-          </p>
-        </div>
-        <div class="you-cont">
-          <div class="me">
-            Yeah please do! :D
-          </div>
-        </div>
-      </div>
-
-      <div class="contact__option">
-        <h3>Communication</h3>
-        <ul>
-          <li>
-            <a class="contact__link" href="mailto:hej@fmjansen.nl">✉️ e-mail</a>
-            <br>
-            <code class="contact__addition">hej@fmjansen.nl</code>
-          </li>
-          <li>
-            <a class="contact__link" href="https://telegram.me/fmjansen">💬 Telegram</a>
-          </li>
-          <li>
-            <a class="contact__link" href="https://keybase.io/fmjansen">
-              🔑 Keybase
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="contact__option">
-        <h3>Following</h3>
-        <ul>
-          <li>
-            <a class="contact__link" href="https://www.twitter.com/fmjansen">
-              🐦 Twitter
-            </a>
-          </li>
-          <li>
-            <a class="contact__link" href="https://www.instagram.com/fmjansennl/">
-              🖼 Instagram
-            </a>
-          </li>
-          <li>
-            <a class="contact__link" href="https://linkedin.com/in/florismartijnjansen">
-              💼 LinkedIn
-            </a>
-          </li>
-          <li>
-            <a class="contact__link" href="https://github.com/fmjansen">
-              💻 Github
-            </a>
-          </li>
-          <li>
-            <a class="contact__link" href="https://www.last.fm/user/lastfmjansen">
-              🎧 Last.fm
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <div class="contact">
+      {% capture contact %}{% include contact.md %}{% endcapture %}
+      {{ contact | markdownify }}
+    </div>
 
     <nav class="menu-cont menu-cont--rel">
       <menu class="main-menu"
