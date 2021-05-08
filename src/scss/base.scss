@@ -127,6 +127,8 @@ h5,
 h6 {
   font-family: $sec-font;
   color: rgba(var(--color), 1);
+  line-height: 1.1;
+  margin: var(--pad) 0 .5em;
 }
 
 p,
