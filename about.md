@@ -40,6 +40,8 @@ From what I’ve learned, we, designers, are good at the following three broad c
 
 <section class="competences">
 
+  <div></div>
+
   <div class="design-competence">
     <figure class="design-competence__illustration">
       <picture>
@@ -111,6 +113,8 @@ From what I’ve learned, we, designers, are good at the following three broad c
       For <a href="/projects/ear-plug-container/">Alpine</a> I created a new container for ear buds, using modelling and 3D-printing to make it concrete.
     </p>
   </div>
+
+  <div></div>
 
 </section>
 
