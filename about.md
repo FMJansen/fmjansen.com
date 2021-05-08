@@ -19,12 +19,14 @@ background: e4485b
         data-src="/static/img/about/in_levi.jpg">
     </picture>
     <figcaption class="project__caption">
-      I did my exchange minor in Finnish Lapland, where I enjoyed the snow and Scandinavian culture.
+      I spent a semester in Finnish Lapland—it was cold, but amazing.
     </figcaption>
   </figure>
 </div>
 
-Overall, my goal is to improve our planet’s well-being, bit by bit. To be more exact, I want to include human well-being and sustainability in every project I work on. If you like old-fashioned CVs, you can download it here. But otherwise, this page should give you some info on my skills and career path.
+Overall, my goal is to improve our planet’s well-being, bit by bit. So I like to focus on sustainability and inclusion when designing interactions, services and systems.
+
+If you like old-fashioned CVs, you can download it here. But otherwise, this page should give you some info on my skills and career path.
 
 <a href="/Resume_Floris_Jansen-fmjansen.com.pdf" class="button">Download Floris’ resume</a>
 
