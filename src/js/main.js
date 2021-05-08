@@ -110,6 +110,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   draggable(document.querySelector('.intro__portrait'));
   document.querySelector('#toggle').onclick = openMenu;
   document.querySelector('#menu').onclick = closeMenu;
+  fetchExtraContent(document.querySelector('#currently'));
   document.querySelectorAll('.portfolio__image').forEach(item => {
     item.onclick = navigateToItem;
   });
@@ -155,6 +156,45 @@ function openMenu (event) {
 function closeMenu (event) {
   let menu = document.querySelector('#menu');
   menu.classList.remove('open');
+}
+
+
+
+function fetchExtraContent (currently) {
+
+  if (currently === null) return;
+
+  fetch("https://beta.readng.co/rss/collection/DO6HG")
+    .then(response => response.text())
+    .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+    .then(data => {
+      const items = data.querySelectorAll("item");
+      let html = `<li>reading `;
+      items.forEach((el, i, arr) => {
+        html += `<a href="${el.querySelector("link").innerHTML}"
+          target="_blank" rel="noopener">
+            ${el.querySelector("title").innerHTML}</a>`;
+        if (i < arr.length - 2) {
+          html += `, `;
+        } else if (i < arr.length - 1) {
+          html += ` and `;
+        }
+      });
+      html += `</li>`;
+      currently.insertAdjacentHTML("beforeend", html);
+    });
+
+  fetch("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lastfmjansen&api_key=d59a4413c4942067e266cfee0c5c5ca1&format=json&limit=1")
+    .then(response => response.json())
+    .then(data => {
+      const track = data.recenttracks.track[0];
+      let html = `<li>listening to
+        <a href="${track.url}" target="_blank" rel="noopener">
+          ${track.name}</a> by ${track.artist["#text"]}
+        </li>`;
+      currently.insertAdjacentHTML("beforeend", html);
+    });
+
 }
 
 
