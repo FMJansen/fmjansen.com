@@ -3,7 +3,10 @@ layout: default
 color: ffffff
 ---
 
-<img src="/static/img/floris.jpg" alt="A photo of me, Floris, happily smiling"
+<img alt="A photo of me, Floris, happily smiling"
+  srcset="/static/img/floris.jpg 1x,
+    /static/img/floris@2x.jpg 2x"
+  src="/static/img/floris.jpg"
   class="intro__portrait">
 
 # {{ site.description }}
