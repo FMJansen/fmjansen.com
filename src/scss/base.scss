@@ -22,35 +22,39 @@
 
 
 
-/* space-mono-700 - latin */
+/* space-grotesk-700 - latin */
 @font-face {
   font-display: swap;
-  font-family: 'Space Mono';
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
-  src: url('/static/fonts/space-mono-v6-latin-700.woff2') format('woff2'),
-       url('/static/fonts/space-mono-v6-latin-700.ttf') format('truetype');
+  src: local(''),
+       url('../fonts/space-grotesk-v5-latin-700.woff2') format('woff2'),
+       url('../fonts/space-grotesk-v5-latin-700.woff') format('woff');
 }
 
-/* mulish-regular - latin */
+/* mulish-300 - latin */
 @font-face {
   font-display: swap;
   font-family: 'Mulish';
   font-style: normal;
-  font-weight: 400;
-  src: url('/static/fonts/mulish-v3-latin-regular.woff2') format('woff2'),
-       url('/static/fonts/mulish-v3-latin-regular.ttf') format('truetype');
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/mulish-v3-latin-300.woff2') format('woff2'),
+       url('../fonts/mulish-v3-latin-300.woff') format('woff');
 }
 
-/* mulish-900 - latin */
+/* mulish-800 - latin */
 @font-face {
   font-display: swap;
   font-family: 'Mulish';
   font-style: normal;
-  font-weight: 900;
-  src: url('/static/fonts/mulish-v3-latin-900.woff2') format('woff2'),
-       url('/static/fonts/mulish-v3-latin-900.ttf') format('truetype');
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/mulish-v3-latin-800.woff2') format('woff2'),
+       url('../fonts/mulish-v3-latin-800.woff') format('woff');
 }
+
 
 
 
@@ -60,7 +64,7 @@
   SCSS Variables
 \*-------------------------------------*/
 $main-font: 'Mulish', 'Helvetica Neue', Arial, sans-serif;
-$sec-font: 'Space Mono', monospace;
+$sec-font: 'Space Grotesk', monospace;
 $text: #162933;
 $main-color: #e4485b;
 $sec-color: lighten(#ef686c, 4%);
@@ -130,6 +134,7 @@ h1 {
   font-size: clamp(1.5em, 7vw, 3em);
   margin-bottom: var(--pad);
   margin-top: 0;
+  font-family: $sec-font;
   max-width: 18ch;
   position: relative;
 }
@@ -139,8 +144,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $sec-font;
   color: rgba(var(--color), 1);
+  font-family: $sec-font;
   line-height: 1.1;
   margin: var(--pad) 0 .5em;
 }
@@ -214,7 +219,6 @@ blockquote {
   display: inline-block;
   font-family: $sec-font;
   font-size: 1em;
-  font-weight: 800;
   padding: .6em 1em;
   text-decoration: none;
 
@@ -418,6 +422,7 @@ main {
   }
 
   &__category {
+    font-family: $sec-font;
     margin-top: 2em;
     opacity: .7;
   }
