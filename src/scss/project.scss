@@ -17,7 +17,6 @@
   Project page
 \*-------------------------------------*/
 .project {
-  background: white;
   padding: var(--pad) 0;
 
   $content-width: 38em;
@@ -74,7 +73,7 @@
 
   &__picture-group {
     align-items: baseline;
-    background: lighten($text, 82%);
+    background: rgba(var(--text), .1);
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -131,7 +130,7 @@
   }
 
   &__picture-group--light .project__caption {
-    color: $text;
+    color: rgba(var(--text), 1);
     margin: auto;
     padding-left: var(--pad);
     padding-right: var(--pad);
@@ -200,8 +199,7 @@
 }
 
 .toc {
-  --color: white;
-  background: $text;
+  background: rgba(var(--background), 1);
   bottom: 0;
   font-size: .9em;
   position: fixed;
@@ -209,7 +207,6 @@
   z-index: 4;
 
   @media (min-width: 1024px) {
-    --color: #{$text};
     background: none;
     height: 0;
     position: sticky;
