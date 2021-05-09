@@ -102,7 +102,7 @@ $break--desktop: 1600px;
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  --orientation-move: -100;
+  --orientation-move: 0;
 }
 
 body {
