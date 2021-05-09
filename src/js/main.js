@@ -20,7 +20,7 @@ function mousePos (e) {
 
 
 let prevMove = 0;
-let orientationMove = -100;
+let orientationMove = 0;
 
 function handleOrientation (event) {
   if (isMouseDown) {
