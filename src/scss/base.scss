@@ -243,7 +243,7 @@ blockquote {
 .you {
   background: linear-gradient(155deg, $main-color, $sec-color);
   border-radius: 1em 1em .25em;
-  color: $text;
+  color: rgba(var(--background), 1);
   float: left;
   margin: .5em 0 .4em 3em;
   padding: .8em;
