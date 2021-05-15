@@ -37,6 +37,16 @@ Of course! I’ve been...
   {% for post in industrial_design_projects limit:3 %}
     <article class="portfolio__industrial">
 
+      <div class="portfolio__text">
+        <p class="portfolio__category">
+          {{ post.design_kind }}
+        </p>
+
+        <p class="portfolio__description">
+          <a href="{{ post.url }}">{{ post.description }}</a>
+        </p>
+      </div>
+
       <picture class="portfolio__image">
         <source data-srcset="/static/img/{{ post.image-webp }} 1x,
           /static/img/{{ post.image-2x-webp }} 2x"
@@ -49,16 +59,6 @@ Of course! I’ve been...
           width="338" height="535"
           data-target="{{ post.url }}">
       </picture>
-
-      <div class="portfolio__text">
-        <p class="portfolio__category">
-          {{ post.design_kind }}
-        </p>
-
-        <p class="portfolio__description">
-          <a href="{{ post.url }}">{{ post.description }}</a>
-        </p>
-      </div>
 
     </article>
   {% endfor %}
