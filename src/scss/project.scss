@@ -94,7 +94,7 @@
     }
 
     &.project__picture-group:last-child {
-      margin-bottom: -6vw;
+      margin-bottom: calc(-1 * var(--pad));
     }
   }
 
