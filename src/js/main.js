@@ -184,7 +184,7 @@ function fetchExtraContent (currently) {
       currently.insertAdjacentHTML("beforeend", html);
     });
 
-  fetch("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lastfmjansen&api_key=d59a4413c4942067e266cfee0c5c5ca1&format=json&limit=1")
+  fetch("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lastfmjansen&api_key=d59a4413c4942067e266cfee0c5c5ca1&format=json&limit=1")
     .then(response => response.json())
     .then(data => {
       const track = data.recenttracks.track[0];
