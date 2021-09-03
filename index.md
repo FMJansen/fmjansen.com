@@ -21,7 +21,7 @@ Alrighty, so are you doing anything fun?
 Well right now, I’m...
 {: .me}
 
-- working on making energy transition renovations more inclusive (my graduation project)
+- enjoying some free time after finishing [my graduation project on inclusive sustainable renovations](https://graduation.fmjansen.com)
 - collecting information at [inclusief.design](https://inclusief.design)
 {: #currently}
 
