@@ -4,25 +4,36 @@
 
     <meta charset="utf-8">
 
+    {% if page.url == '/' %}
     <title>{{ site.title }}</title>
-
     <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="https://fmjansen.nl/static/img/ogimg.png">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="https://fmjansen.nl/static/img/ogimg.png">
+    <meta name="description" content="{{ site.description }}">
+    {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="https://fmjansen.nl/static/img/{{ page.image-2x }}">
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="https://fmjansen.nl/static/img/{{ page.image-2x }}">
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fmjansen.nl">
-    <meta property="og:image" content="https://fmjansen.nl/static/img/ogimg.png">
-    <meta property="og:description" content="{{ site.description }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="https://fmjansen.nl/static/img/ogimg.png">
 
     <meta name="robots" content="index,follow">
     <meta name="keywords" content="floris, jansen, fmjansen, design, web, developer, interaction, netherlands">
     <meta name="author" content="Floris Jansen">
-    <meta name="description" content="{{ site.description }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#162933">
