@@ -12,7 +12,7 @@ color: ffffff
 # {{ site.description }}
 {: .intro}
 
-I’m in my last year of [Design for Interaction (TU Delft)](https://www.tudelft.nl/onderwijs/opleidingen/masters/dfi/msc-design-for-interaction/) and I like designing interactions, services and systems with a focus on sustainability and inclusion.
+I’ve just finished [Design for Interaction (TU Delft)](https://www.tudelft.nl/onderwijs/opleidingen/masters/dfi/msc-design-for-interaction/) and I like designing interactions, services and systems with a focus on sustainability and inclusion.
 
 My runaway hobbies-turned-freelance-activities are graphic design, giving workshops, creating websites (with code and stuff) and photography.
 
