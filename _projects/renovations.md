@@ -15,7 +15,7 @@ year: 2021
 ---
 
 
-<figure class="project__picture-group--light" style="margin:-6vw 0 0;">
+<figure class="project__picture-group--light" style="margin:0;">
   <div style="width:100%;height:0;padding-bottom:44%;position:relative;text-align:left;">
     <iframe src="https://player.vimeo.com/video/589756616?h=9806ee0bb5&color=A1A9FF&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="height:44vw;"></iframe>
   </div>
