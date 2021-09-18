@@ -412,18 +412,6 @@ main {
     }
   }
 
-  &__industrial .portfolio__image {
-    transform: perspective(300px) rotateY(calc(var(--mapped-x) * .2deg))
-      rotateX(calc(var(--mapped-y) * .2deg));
-  }
-
-  @media (pointer: fine) {
-    &__industrial .portfolio__image {
-      transform: perspective(300px) rotateY(calc(var(--mapped-x) * 10deg))
-        rotateX(calc(var(--mapped-y) * 5deg));
-    }
-  }
-
   &__category {
     font-family: $sec-font;
     margin-bottom: 2em;
