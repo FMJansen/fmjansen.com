@@ -1,3 +1,4 @@
+let isMouseDown = false;
 let prevMove = 0;
 let orientationMove = 0;
 
