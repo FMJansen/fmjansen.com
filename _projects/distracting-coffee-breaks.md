@@ -24,9 +24,7 @@ year: 2019
 
 ## Improving coffee breaks at a start-up incubator {#case}
 
-During the course Exploring Interactions, we had to choose a context. In it, we had to pick a target audience and design *something with a specific effect in a certain way*. I picked coffee breaks at a start-up incubator in Delft and its employees. By doing observations and a [contextmapping](http://contextmapping.com/about/) session, I discovered they did not take ‘proper’ breaks, even though they wanted to. So my design goal became:
-
-> something for employees of YES!Delft start-ups, to have a coffee break which captures their focus
+During the course Exploring Interactions, we had to choose a context. In it, we had to pick a target audience and design *something with a specific effect in a certain way*. I picked coffee breaks at a start-up incubator in Delft and its employees. By doing observations and a [contextmapping](http://contextmapping.com/about/) session, I discovered they did not take ‘proper’ breaks, even though they wanted to. So my design goal became: _something for employees of YES!Delft start-ups, to have a coffee break which captures their focus_.
 
 
 <div class="project__picture-group--light">
