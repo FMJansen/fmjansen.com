@@ -126,6 +126,7 @@ function loadPart (no, delay) {
 
 
 function openMenu (event) {
+  event.preventDefault();
   let menu = document.querySelector('#menu');
   menu.classList.add('open');
 }
