@@ -12,7 +12,7 @@ color: ffffff
 # {{ site.description }}
 {: .intro}
 
-I’ve just finished [Design for Interaction (TU Delft)](https://www.tudelft.nl/onderwijs/opleidingen/masters/dfi/msc-design-for-interaction/) and I like designing interactions, services and systems with a focus on sustainability and inclusion.
+I’m an interaction designer and researcher at [Hike One](https://hike.one/) and I like designing with a focus on sustainability and inclusion.
 
 My runaway hobbies-turned-freelance-activities are graphic design, giving workshops, creating websites (with code and stuff) and photography.
 
