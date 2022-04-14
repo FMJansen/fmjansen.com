@@ -142,7 +142,7 @@ function fetchExtraContent (currently) {
 
   if (currently === null) return;
 
-  fetch("https://beta.readng.co/rss/collection/DO6HG")
+  fetch("https://oku.club/rss/collection/DO6HG")
     .then(response => response.text())
     .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
     .then(data => {
