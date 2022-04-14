@@ -98,6 +98,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 window.onload = loadIntro();
 function loadIntro() {
+  console.log('did I do something stupid? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
   loadPart('1', 1000);
   loadPart('2', 2000);
   loadPart('3', 4000);
