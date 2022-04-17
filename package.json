@@ -18,7 +18,7 @@
     "gulp-sourcemaps": "*",
     "gulp-uglify": "*",
     "gulp-webp": "*",
-    "node-sass": "^7.0.1"
+    "node-sass": "*"
   },
   "browserslist": {
     "production": [
