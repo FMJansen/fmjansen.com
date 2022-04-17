@@ -3,7 +3,7 @@ layout: project
 title: "ID study association"
 date: 2019-01-04 12:00:00 +0100
 category: "web development"
-color: ffffff
+color: 000000
 background: 4dccba
 image: /static/img/id/id@2x.png
 image-webp: /static/img/id/id@2x.webp

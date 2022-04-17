@@ -5,7 +5,7 @@ description: "Facilitating the overview and control of 3D printer fleets in a fa
 date: 2019-01-03 12:00:00 +0100
 category: "industrial design"
 design_kind: "UX design"
-color: ffffff;
+color: 000000;
 background: 00ACE4;
 image: printers/printers.jpg
 image-2x: printers/printers@2x.jpg
