@@ -41,7 +41,7 @@ Well, I think so, I’ve been..
           <source data-srcset="/static/img/{{ post.image-webp }} 1x,
             /static/img/{{ post.image-2x-webp }} 2x"
             type="image/webp" class="lazy">
-          <img class="portfolio__image lazy" alt="{{ post.title }}"
+          <img class="portfolio__image lazy"
             data-srcset="/static/img/{{ post.image }} 1x,
               /static/img/{{ post.image-2x }} 2x"
             data-src="/static/img/{{ post.image }}"
@@ -81,7 +81,7 @@ Well, I think so, I’ve been..
             <source data-srcset="{{ post.image-webp }} 1x,
               {{ post.image-2x-webp }} 2x"
               type="image/webp" class="lazy">
-            <img class="portfolio__thumb lazy" alt="{{ post.title }}"
+            <img class="portfolio__thumb lazy"
               data-srcset="{{ post.image }} 1x,
                 {{ post.image-2x }} 2x"
               data-src="{{ post.image }}"
