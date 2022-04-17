@@ -21,13 +21,12 @@ Well, I think so, I’ve been..
 {: .me}
 
 <section class="portfolio portfolio--industrial" id="projects">
-  <div></div>
 
   {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
   {% for post in industrial_design_projects limit:3 %}
     <article class="portfolio__industrial">
 
-      <a href="{{ post.url }}">
+      <a href="{{ post.url }}" class="portfolio__link">
         <div class="portfolio__text">
           <p class="portfolio__category">
             {{ post.design_kind }}
@@ -47,8 +46,7 @@ Well, I think so, I’ve been..
               /static/img/{{ post.image-2x }} 2x"
             data-src="/static/img/{{ post.image }}"
             src="/static/img/placeholder.jpg"
-            width="338" height="535"
-            data-target="{{ post.url }}">
+            width="338" height="535">
         </picture>
       </a>
 
@@ -61,8 +59,6 @@ Well, I think so, I’ve been..
 {% for cat in site.project_categories %}
   <section class="portfolio portfolio--other"
     id="{{ cat.title | url_encode }}">
-
-    <div></div>
 
     <div class="conversation">
       <h2 class="section-head section-head--overlap">
@@ -78,9 +74,19 @@ Well, I think so, I’ve been..
 
     {% assign project_list = site.projects | where: 'category', cat.title %}
     {% for post in project_list limit:3 %}
-      <a href="{{ post.url }}" class="portfolio__item"
-        style="background-image: url({{ post.image }});">
+      <a href="{{ post.url }}" class="portfolio__item">
         <article>
+
+          <picture class="portfolio__thumb">
+            <source data-srcset="{{ post.image-webp }} 1x,
+              {{ post.image-2x-webp }} 2x"
+              type="image/webp" class="lazy">
+            <img class="portfolio__thumb lazy" alt="{{ post.title }}"
+              data-srcset="{{ post.image }} 1x,
+                {{ post.image-2x }} 2x"
+              data-src="{{ post.image }}"
+              src="/static/img/placeholder.jpg">
+          </picture>
 
           <h3 class="portfolio__title">
             {{ post.title }}
