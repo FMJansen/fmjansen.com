@@ -557,7 +557,8 @@ main {
   padding-left: 0;
 
   li {
-    column-break-inside: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
   }
 }
