@@ -12,22 +12,12 @@ color: ffffff
 # {{ site.description }}
 {: .intro}
 
-I’m an interaction designer and researcher at [Hike One](https://hike.one/) and I like designing with a focus on sustainability and inclusion.
-
-My runaway hobbies-turned-freelance-activities are graphic design, giving workshops, creating websites (with code and stuff) and photography.
-
-Alrighty, so are you doing anything fun?
-{: .you}
-Well right now, I’m...
+I’m an interaction designer and researcher at [Hike One](https://hike.one/) and on the side I build websites (with code and stuff), take [photos](https://photos.fmjansen.com) and give workshops on graphic design.
 {: .me}
 
-- enjoying some free time after finishing [my graduation project on inclusive sustainable renovations](https://graduation.fmjansen.com)
-- collecting information at [inclusief.design](https://inclusief.design)
-{: #currently}
-
-Cool, cool, cool, and could you tell me something about earlier projects?
+Alrighty, did you do anything fun?
 {: .you}
-Of course! I’ve been...
+Well, I think so, I’ve been..
 {: .me}
 
 <section class="portfolio portfolio--industrial" id="projects">
@@ -37,28 +27,30 @@ Of course! I’ve been...
   {% for post in industrial_design_projects limit:3 %}
     <article class="portfolio__industrial">
 
-      <div class="portfolio__text">
-        <p class="portfolio__category">
-          {{ post.design_kind }}
-        </p>
+      <a href="{{ post.url }}">
+        <div class="portfolio__text">
+          <p class="portfolio__category">
+            {{ post.design_kind }}
+          </p>
 
-        <p class="portfolio__description">
-          <a href="{{ post.url }}">{{ post.description }}</a>
-        </p>
-      </div>
+          <p class="portfolio__description">
+            {{ post.description }}
+          </p>
+        </div>
 
-      <picture class="portfolio__image">
-        <source data-srcset="/static/img/{{ post.image-webp }} 1x,
-          /static/img/{{ post.image-2x-webp }} 2x"
-          type="image/webp" class="lazy">
-        <img class="portfolio__image lazy" alt="{{ post.title }}"
-          data-srcset="/static/img/{{ post.image }} 1x,
-            /static/img/{{ post.image-2x }} 2x"
-          data-src="/static/img/{{ post.image }}"
-          src="/static/img/placeholder.jpg"
-          width="338" height="535"
-          data-target="{{ post.url }}">
-      </picture>
+        <picture class="portfolio__image">
+          <source data-srcset="/static/img/{{ post.image-webp }} 1x,
+            /static/img/{{ post.image-2x-webp }} 2x"
+            type="image/webp" class="lazy">
+          <img class="portfolio__image lazy" alt="{{ post.title }}"
+            data-srcset="/static/img/{{ post.image }} 1x,
+              /static/img/{{ post.image-2x }} 2x"
+            data-src="/static/img/{{ post.image }}"
+            src="/static/img/placeholder.jpg"
+            width="338" height="535"
+            data-target="{{ post.url }}">
+        </picture>
+      </a>
 
     </article>
   {% endfor %}

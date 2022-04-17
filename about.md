@@ -24,7 +24,7 @@ background: e4485b
   </figure>
 </div>
 
-Overall, my goal is to improve our planet’s well-being, bit by bit. So I like to focus on sustainability and inclusion when designing interactions, services and systems.
+My goal is to improve our planet’s well-being, bit by bit. So I like to focus on sustainability and inclusion when designing interactions, services and systems.
 
 If you like old-fashioned CVs, you can download it here. But otherwise, this page should give you some info on my skills and career path.
 
@@ -126,9 +126,9 @@ From what I’ve learned, we, designers, are good at the following three broad c
 
 ## Floris & education
 
-The basic curriculum of my **bachelor in Industrial Design Engineering** (2014-2018) involved the human, business/organisation and technology sides of design and my **master in Design for Interaction** (2018-2021) is more focussed on the human side.
+The basic curriculum of my **bachelor in Industrial Design Engineering** (2014-2018) involved the human, business/organisation and technology sides of design and my **master in Design for Interaction** (2018-2021) was more focused on the human side.
 
-I took several courses to get more in depth into circular product/service design, systemic design and lighting design. During my bachelor, I did a **minor at the University of Lapland** (Rovaniemi, northern Finland, 2017) and recently (2019) I participated in a **study trip, Flight Case**, where we worked on cases for four large Japanese companies.
+I took several courses to get more in depth into circular product/service design, systemic design and lighting design. During my bachelor, I did a **minor at the University of Lapland** (Rovaniemi, northern Finland, 2017) and in 2019 I participated in a **study trip, Flight Case**, where we worked on cases for four large Japanese companies.
 
 > A very pleasant cooperator, well organised and a creative thinker.
 >
@@ -140,7 +140,7 @@ I took several courses to get more in depth into circular product/service design
 
 ## Floris & other things
 
-Next to design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on activities by the [study association](https://svid.nl/about) of our faculty: I was in two **committees and the board** over the past few years. Last year, I worked on improving our education as part of the **[Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/)**. I also volunteer at my [scouting club](https://scoutingoost1.nl/), where I manage things like the website, our IT and the finances as part of the board.
+Next to design, I have some hobbies, too, of which some accidently transformed into freelancing activities: web development, graphic design and photo&shy;graphy. Additionally, I end up spending a lot of my spare time on the [study association](https://svid.nl/about) of our faculty: I was in two **committees and the board** and I worked on improving our education as part of the **[Faculty Student Council](https://www.tudelft.nl/en/student/faculties/ide-student-portal/organisation/faculty-student-council-fsr/)**. I also volunteer at my [scouting club](https://scoutingoost1.nl/), where I manage things like the website, our IT and the finances as part of the board.
 
 In 2020, I created [Inclusief Design](https://inclusief.design), an initiative to make the Dutch design scene more inclusive. Right now, it’s mostly a collection of insights and resources.
 
