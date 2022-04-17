@@ -3,11 +3,15 @@ layout: default
 color: ffffff
 ---
 
-<img alt="A photo of me, Floris, happily smiling"
-  srcset="/static/img/floris.jpg 1x,
-    /static/img/floris@2x.jpg 2x"
-  src="/static/img/floris.jpg"
-  class="intro__portrait">
+<picture>
+  <source srcset="/static/img/floris.webp 1x,
+    /static/img/floris@2x.webp 2x"
+    type="image/webp">
+  <img class="intro__portrait" alt="A photo of me, Floris, happily smiling"
+    srcset="/static/img/floris.jpg 1x,
+      /static/img/floris@2x.jpg 2x"
+    src="/static/img/floris.jpg">
+</picture>
 
 # {{ site.description }}
 {: .intro}
