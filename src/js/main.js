@@ -19,7 +19,6 @@ function openMenu (event) {
 }
 
 function closeMenu (event) {
-  event.preventDefault();
   let menu = document.querySelector('#menu');
   menu.classList.remove('open');
 }
