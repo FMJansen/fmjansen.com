@@ -46,19 +46,19 @@
     &:nth-of-type(1)::before {
       content: "The case:";
       display: block;
-      opacity: .8;
+      opacity: .6;
     }
 
     &:nth-of-type(2)::before {
       content: "The solution:";
       display: block;
-      opacity: .8;
+      opacity: .6;
     }
 
     &:nth-of-type(3)::before {
       content: "My role:";
       display: block;
-      opacity: .8;
+      opacity: .6;
     }
 
     @media (min-width: $break--tablet) {
