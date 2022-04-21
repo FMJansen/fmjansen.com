@@ -12,13 +12,12 @@ function init () {
   console.log('did I do something stupid? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
 }
 
-function openMenu (event) {
-  event.preventDefault();
+function openMenu () {
   let menu = document.querySelector('#menu');
   menu.classList.add('open');
 }
 
-function closeMenu (event) {
+function closeMenu () {
   let menu = document.querySelector('#menu');
   menu.classList.remove('open');
 }
