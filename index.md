@@ -73,6 +73,10 @@ Well, I think so, I’ve been..
       <a href="{{ post.url }}" class="portfolio__item">
         <article>
 
+          <h3 class="portfolio__title">
+            {{ post.title }}
+          </h3>
+
           <picture class="portfolio__thumb">
             <source data-srcset="{{ post.image-webp }} 1x,
               {{ post.image-2x-webp }} 2x"
@@ -83,10 +87,6 @@ Well, I think so, I’ve been..
               data-src="{{ post.image }}"
               src="/static/img/placeholder.jpg">
           </picture>
-
-          <h3 class="portfolio__title">
-            {{ post.title }}
-          </h3>
 
         </article>
       </a>
