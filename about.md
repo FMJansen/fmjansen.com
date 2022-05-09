@@ -47,12 +47,7 @@ From what I’ve learned, we, designers, are good at the following three broad c
   <div class="design-competence">
     <figure class="design-competence__illustration">
       <picture>
-        <source srcset="/static/img/about/future.svg">
-        <img loading="lazy" class="design-competence__image lazy" alt="An arrow going towards the future."
-          data-srcset="/static/img/about/future.png 1x,
-            /static/img/about/future@2x.png 2x"
-          src="/static/img/placeholder.jpg"
-        data-src="/static/img/about/future.png">
+        <img class="design-competence__image" alt="" src="/static/img/about/future.svg">
       </picture>
     </figure>
 
@@ -71,12 +66,7 @@ From what I’ve learned, we, designers, are good at the following three broad c
   <div class="design-competence">
     <figure class="design-competence__illustration">
       <picture>
-        <source srcset="/static/img/about/empathising.svg">
-        <img loading="lazy" class="design-competence__image lazy" alt="A large heart, two people and a post-it, representing empathy in a design project."
-          data-srcset="/static/img/about/empathising.png 1x,
-            /static/img/about/empathising@2x.png 2x"
-          src="/static/img/placeholder.jpg"
-        data-src="/static/img/about/empathising.png">
+        <img class="design-competence__image" alt="" src="/static/img/about/empathising.svg">
       </picture>
     </figure>
 
@@ -95,12 +85,7 @@ From what I’ve learned, we, designers, are good at the following three broad c
   <div class="design-competence">
     <figure class="design-competence__illustration">
       <picture>
-        <source srcset="/static/img/about/life.svg">
-        <img loading="lazy" class="design-competence__image lazy" alt="An LED, 3D printer and scissors, representing prototyping tools."
-          data-srcset="/static/img/about/life.png 1x,
-            /static/img/about/life@2x.png 2x"
-          src="/static/img/placeholder.jpg"
-        data-src="/static/img/about/life.png">
+        <img class="design-competence__image" alt="" src="/static/img/about/life.svg">
       </picture>
     </figure>
 
