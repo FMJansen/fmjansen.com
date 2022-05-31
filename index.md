@@ -78,7 +78,7 @@ Well, I think so, I’ve been..
             {{ post.title }}
           </h3>
 
-          <picture class="portfolio__thumb">
+          <picture>
             <source data-srcset="{{ post.image-webp }} 1x,
               {{ post.image-2x-webp }} 2x"
               type="image/webp" class="lazy">
