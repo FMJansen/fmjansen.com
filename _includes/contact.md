@@ -5,6 +5,7 @@ In a lot of places I guess, but definitely here:
 
 - 💬 [Telegram](https://telegram.me/fmjansen)
 - 🔑 [Keybase](https://keybase.io/fmjansen)
+- 🦣 [Mastodon](https://freeradical.zone/@floris){: rel="me"}
 - 🐦 [Twitter](https://www.twitter.com/fmjansen)
 - 💌 [E-mail](mailto:hej@fmjansen.nl)
 - 🖼 [Instagram](https://www.instagram.com/fmjansennl)
