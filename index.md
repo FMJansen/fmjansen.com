@@ -11,10 +11,12 @@ color: ffffff
 I’m an interaction designer and researcher at [Hike One](https://hike.one/) and on the side I build websites (with code and stuff), take [photos](https://photos.fmjansen.com) and give workshops on graphic design.
 {: .me}
 
-Alrighty, did you do anything fun?
+Alrighty, are you doing anything fun?
 {: .you}
 Well, I think so, I’ve been..
 {: .me}
+
+<p id="currently" class="me"></p>
 
 <section class="portfolio portfolio--industrial" id="projects">
 
