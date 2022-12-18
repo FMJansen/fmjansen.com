@@ -26,9 +26,7 @@ background: e4485b
 
 My goal is to improve our planet’s well-being, bit by bit. So I like to focus on sustainability and inclusion when designing interactions, services and systems.
 
-If you like old-fashioned CVs, you can download it here. But otherwise, this page should give you some info on my skills and career path.
-
-<a href="/Resume_Floris_Jansen-fmjansen.com.pdf" class="button">Download Floris’ resume</a>
+I’ve got an [old-fashioned CV](/resume). But otherwise, this page should give you some info on my skills and career path.
 
 
 

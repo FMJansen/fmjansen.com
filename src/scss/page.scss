@@ -38,6 +38,7 @@
   }
 
   h3 {
+    margin-top: 2em;
     max-width: $content-width / 1.17;
   }
 }
@@ -77,4 +78,21 @@
     color: $main-color;
     margin-top: 1.5em;
   }
+}
+
+
+
+
+
+/*-------------------------------------*\
+  Resume
+\*-------------------------------------*/
+.experience {
+  list-style: none;
+}
+
+.time {
+  color: rgba(var(--text), .6);
+  display: block;
+  margin-left: 1em;
 }
