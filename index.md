@@ -5,97 +5,31 @@ color: ffffff
 
 
 
-# {{ site.description }}
+# Hej ✨ I’m Floris
+
+I’m a designer and developer. I’ll also annoy your head off about inclusion, accessibility and sustainability ❤️ 🌱 (in a nice way, hopefully).
 {: .intro}
 
-I’m an interaction designer and researcher at [Hike One](https://hike.one/) and on the side I build websites (with code and stuff), take [photos](https://photos.fmjansen.com) and give workshops on graphic design.
-{: .me}
+## What I do
+- at [Hike&nbsp;One](https://hike.one/) I’m doing interaction design and research
+- [Inclusief&nbsp;Design](https://inclusief.design/) is my side project about inclusion in design
+- I build websites for things like [This&nbsp;is&nbsp;Gendered](https://thisisgendered.org) and [Scouting&nbsp;Oost&nbsp;1](https://scoutingoost1.nl/)
+- [my graduation](https://graduation.fmjansen.com/) was about making sustainable renovations more inclusive
+- [my photos](https://photos.fmjansen.com/) are cool (I think)
+- [workshops](/workshops)
 
-Alrighty, are you doing anything fun?
-{: .you}
-Well, I think so, I’ve been..
-{: .me}
+## Right now, I’m
+- ...probably annoyed by password requirements somewhere
+{: #currently}
 
-<p id="currently" class="me"></p>
-
-<section class="portfolio portfolio--industrial" id="projects">
-
-  {% assign industrial_design_projects = site.projects | where: 'category', "industrial design" %}
-  {% for post in industrial_design_projects limit:3 %}
-    <article class="portfolio__industrial">
-
-      <a href="{{ post.url }}" class="portfolio__link">
-        <div class="portfolio__text">
-          <p class="portfolio__category">
-            {{ post.design_kind }}
-          </p>
-
-          <p class="portfolio__description">
-            {{ post.description }}
-          </p>
-        </div>
-
-        <picture class="portfolio__image">
-          <source data-srcset="/static/img/{{ post.image-webp }} 1x,
-            /static/img/{{ post.image-2x-webp }} 2x"
-            type="image/webp" class="lazy">
-          <img class="portfolio__image lazy"
-            alt=""
-            data-srcset="/static/img/{{ post.image }} 1x,
-              /static/img/{{ post.image-2x }} 2x"
-            data-src="/static/img/{{ post.image }}"
-            src="/static/img/placeholder.jpg"
-            width="338" height="535">
-        </picture>
-      </a>
-
-    </article>
-  {% endfor %}
-
-  <div></div>
-</section>
-
-{% for cat in site.project_categories %}
-  <section class="portfolio portfolio--other"
-    id="{{ cat.title | url_encode }}">
-
-    <div class="conversation">
-      <h2 class="section-head section-head--overlap">
-        {{ cat.title | capitalize }}
-      </h2>
-      <div class="portfolio__about-cat">
-        <div class="you-cont">
-          <p class="you">{{ cat.you }}</p>
-        </div>
-        <p class="me">{{ cat.conversation }}</p>
-      </div>
-    </div>
-
-    {% assign project_list = site.projects | where: 'category', cat.title %}
-    {% for post in project_list limit:3 %}
-      <a href="{{ post.url }}" class="portfolio__item">
-        <article>
-
-          <h3 class="portfolio__title">
-            {{ post.title }}
-          </h3>
-
-          <picture>
-            <source data-srcset="{{ post.image-webp }} 1x,
-              {{ post.image-2x-webp }} 2x"
-              type="image/webp" class="lazy">
-            <img class="portfolio__thumb lazy"
-              alt=""
-              data-srcset="{{ post.image }} 1x,
-                {{ post.image-2x }} 2x"
-              data-src="{{ post.image }}"
-              src="/static/img/placeholder.jpg">
-          </picture>
-
-        </article>
-      </a>
-    {% endfor %}
-
-    <div></div>
-  </section>
-{% endfor %}
+## Other places
+{: .social}
+- 🔑 [Keybase](https://keybase.io/fmjansen){: rel="me"}
+- 🦣 [Mastodon](https://freeradical.zone/@floris){: rel="me"}
+- 🖼 [Instagram](https://www.instagram.com/fmjansennl){: rel="me"}
+- 💼 [LinkedIn](https://linkedin.com/in/florismartijnjansen){: rel="me"}
+- 💻 [Github](https://github.com/fmjansen){: rel="me"}
+- 🎧 [Last.fm](https://www.last.fm/user/lastfmjansen){: rel="me"}
+- 💬 [Telegram](https://telegram.me/fmjansen){: rel="me"}
+- 💌 [E-mail](mailto:hej@fmjansen.nl)
+{: .social}
