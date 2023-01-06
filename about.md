@@ -26,7 +26,7 @@ background: e4485b
 
 My goal is to improve our planet’s well-being, bit by bit. So I like to focus on sustainability and inclusion when designing interactions, services and systems.
 
-I’ve got an [old-fashioned CV](/resume). But otherwise, this page should give you some info on my skills and career path.
+I’ve got an [old-fashioned CV](/resume.html). But otherwise, this page should give you some info on my skills and career path.
 
 
 
