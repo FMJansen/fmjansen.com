@@ -41,7 +41,7 @@ gulp.task('scripts', function() {
             log(colors.red(error.message));
             this.emit('end');
         }))
-        .pipe(concat('main.js'))
+        .pipe(concat('2023.js'))
         .pipe(uglify())
         .pipe(gulp.dest(dest + 'js'));
 });
@@ -54,7 +54,7 @@ gulp.task('scriptsDev', function() {
             this.emit('end');
         }))
         .pipe(sourcemaps.init())
-        .pipe(concat('main.js'))
+        .pipe(concat('2023.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(dest + 'js'));
 });
@@ -63,20 +63,20 @@ gulp.task('scriptsDev', function() {
 
 // Process & compress SCSS
 gulp.task('sass', function() {
-    return gulp.src(src + 'scss/base.scss')
+    return gulp.src(src + 'scss/2023.scss')
         .pipe(plumber(function(error) {
             log(colors.red(error.message));
             this.emit('end');
         }))
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(prefix())
-        .pipe(rename('main.css'))
+        .pipe(rename('2023.css'))
         .pipe(gulp.dest(dest + 'css'));
 });
 
 // Process & sourcemap SCSS
 gulp.task('sassDev', function() {
-    return gulp.src(src + 'scss/base.scss')
+    return gulp.src(src + 'scss/2023.scss')
         .pipe(plumber(function(error) {
             log(colors.red(error.message));
             this.emit('end');
@@ -84,7 +84,7 @@ gulp.task('sassDev', function() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write())
-        .pipe(rename('main.css'))
+        .pipe(rename('2023.css'))
         .pipe(gulp.dest(dest + 'css'))
         .pipe(browserSync.stream());
 });
