@@ -19,10 +19,32 @@ function fetchExtraContent (currently) {
     .then(response => response.json())
     .then(data => {
       const track = data.recenttracks.track[0];
-      let html = `...listening to
+      let html = `<li>…listening to
         <a href="${track.url}" rel="noopener">
-          ${track.name}</a> by ${track.artist["#text"]} and...`;
+          ${track.name}</a> by ${track.artist["#text"]}
+        </li>`;
       currently.insertAdjacentHTML("beforeend", html);
     });
 
+  fetch("https://oku.club/api/collections/user/fmjansen/reading")
+    .then(response => response.json())
+    .then(data => {
+      const books = data.books;
+      let html = `<li>…reading any of these books
+        <ul>`;
+        books.forEach((book, i) => {
+          html += `<li>
+            <a href="https://oku.club/book/${book.slug}" rel="noopener">
+            ${book.title}</a> by `;
+          book.authors.forEach(author => {
+            html += `${author.name}, `
+          });
+          html = html.slice(0, -2);
+          html += `</li>`;
+        });
+      html += `</ul></li>`;
+      currently.insertAdjacentHTML("beforeend", html);
+    });
 }
+
+
