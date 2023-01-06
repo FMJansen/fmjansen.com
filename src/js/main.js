@@ -7,20 +7,8 @@ if (document.readyState !== 'loading') {
 }
 
 function init () {
-  document.querySelector('#toggle').onclick = openMenu;
-  document.querySelector('#menu').onclick = closeMenu;
   fetchExtraContent(document.querySelector('#currently'));
   console.log('did I do something stupid? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
-}
-
-function openMenu () {
-  let menu = document.querySelector('#menu');
-  menu.classList.add('open');
-}
-
-function closeMenu () {
-  let menu = document.querySelector('#menu');
-  menu.classList.remove('open');
 }
 
 function fetchExtraContent (currently) {

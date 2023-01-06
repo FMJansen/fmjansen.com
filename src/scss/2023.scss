@@ -1,0 +1,186 @@
+/*-------------------------------------*\
+
+  Home
+
+  - Floris Jansen, hey@fmjansen.nl
+
+  2023.scss
+  + Fonts
+  + CSS Variables
+  + Reset
+  + Paragraph styles
+
+\*-------------------------------------*/
+
+@font-face {
+	font-display: swap;
+	font-family: "Satoshi";
+	font-style: normal;
+	font-weight: 400;
+	src: local(""),
+		url("../fonts/Satoshi-Regular.woff2") format("woff2"),
+		url("../fonts/Satoshi-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Gambarino";
+	font-style: normal;
+	font-weight: 400;
+	src: local(""),
+		url("../fonts/Gambarino-Regular.woff2") format("woff2"),
+		url("../fonts/Gambarino-Regular.woff") format("woff");
+}
+
+/*-------------------------------------*\
+  CSS Variables
+\*-------------------------------------*/
+:root {
+	--dark: 12, 21, 31;
+	--theme: 228, 72, 91;
+	--light: 254, 225, 194;
+	--pad: 7vw;
+	--sans-serif: "Satoshi", "Inter", "Helvetica Neue", Arial,
+		sans-serif;
+	--serif: "Gambarino", "Baskerville", serif;
+
+	--background: var(--light);
+	--color: var(--theme);
+	--text: var(--dark);
+
+	@media (prefers-color-scheme: dark) {
+		--background: var(--dark);
+		--color: var(--theme);
+		--text: var(--light);
+	}
+}
+
+/*-------------------------------------*\
+  Reset
+\*-------------------------------------*/
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: rgba(var(--background), 1);
+	color: rgba(var(--text), 1);
+	font-family: var(--sans-serif);
+	font-size: clamp(1.1em, 4vw, 1.75em);
+	line-height: 1.5;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+*:focus-visible {
+	outline: 0.2em dashed blue;
+	outline-offset: 0.2em;
+
+	@media (prefers-color-scheme: dark) {
+		outline-color: gold;
+	}
+}
+
+/*-------------------------------------*\
+  Paragraph styles
+\*-------------------------------------*/
+h1,
+h2,
+h3 {
+	font-family: var(--serif);
+	font-weight: 400;
+}
+
+h1 {
+	font-size: Min(20vw, 7rem);
+	line-height: 1.1;
+	margin: 2.5em 0 2em;
+	text-align: center;
+}
+
+h2 {
+	margin: 2em 0 0.5em;
+	font-size: 2em;
+}
+
+p,
+ul {
+	max-width: 50ch;
+}
+
+ul {
+	padding-left: 4vw;
+}
+
+li {
+	border-bottom: 1px solid rgba(var(--text), 0.2);
+	list-style: none;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+
+	&:last-child {
+		border: none;
+	}
+}
+
+a {
+	color: mediumblue;
+
+	@media (prefers-color-scheme: dark) {
+		color: #e4485b;
+	}
+
+	&[href^="http"]::after {
+		content: " ↗";
+		color: rgba(var(--color), 1);
+
+		@media (prefers-color-scheme: dark) {
+			color: gold;
+		}
+	}
+}
+
+/*-------------------------------------*\
+  Blocks
+\*-------------------------------------*/
+main,
+footer {
+	padding: var(--pad);
+}
+
+.intro {
+	font-size: 1.5em;
+	line-height: 1.4;
+	max-width: 33ch;
+
+	@media (min-width: 40em) {
+		margin-bottom: 10vw;
+		margin-left: 25vw;
+	}
+}
+
+.social {
+	column-gap: 2em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 2.75em;
+	max-width: none;
+	row-gap: 1em;
+
+	li {
+		border: none;
+		padding: 0;
+	}
+}
+
+footer {
+	font-size: .8em;
+	text-align: center;
+
+	p {
+		margin: auto;
+		max-width: none;
+	}
+}
