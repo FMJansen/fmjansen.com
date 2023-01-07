@@ -93,7 +93,7 @@ h3 {
 }
 
 h1 {
-	font-size: Min(20vw, 7rem);
+	font-size: Min(18vw, 7rem);
 	line-height: 1.1;
 	margin: 2.5em 0 2em;
 	text-align: center;
@@ -132,7 +132,7 @@ a {
 	}
 
 	&[href^="http"]::after {
-		content: " ↗";
+		content: " ↗";
 		color: rgba(var(--color), 1);
 
 		@media (prefers-color-scheme: dark) {

@@ -7,7 +7,7 @@ color: ffffff
 
 # Hej ✨ I’m Floris
 
-I’m a designer and developer. I’ll also annoy your head off about inclusion, accessibility and sustainability ❤️ 🌱 (in a nice way, hopefully).
+I’m a designer & developer. I’ll also annoy your head off about inclusion, accessibility and sustainability ❤️ 🌱 (in a nice way, hopefully).
 {: .intro}
 
 ## What I do
@@ -16,7 +16,7 @@ I’m a designer and developer. I’ll also annoy your head off about inclusion,
 - I build websites for things like [This&nbsp;is&nbsp;Gendered](https://thisisgendered.org) and [Scouting&nbsp;Oost&nbsp;1](https://scoutingoost1.nl/)
 - [my graduation](https://graduation.fmjansen.com/) was about making sustainable renovations more inclusive
 - [my photos](https://photos.fmjansen.com/) are cool (I think)
-- [workshops](/workshops)
+- once in a while I’ll give a [workshop](/workshops)
 
 ## Right now, I’m
 - ...probably annoyed by password requirements somewhere
