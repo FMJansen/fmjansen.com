@@ -26,5 +26,3 @@ function fetchExtraContent (currently) {
       currently.insertAdjacentHTML("beforeend", html);
     });
 }
-
-
