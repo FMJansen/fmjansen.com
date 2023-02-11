@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Privacy policy
-color: ffffff
-background: e4485b
 ---
+
+# Privacy policy
 
 ## Who am I?
 FMJansen is a one-man company, registered at the Dutch Chamber of Commerce under number 64878627.
