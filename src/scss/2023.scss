@@ -24,6 +24,16 @@
 
 @font-face {
 	font-display: swap;
+	font-family: "Satoshi";
+	font-style: normal;
+	font-weight: 700;
+	src: local(""),
+		url("../fonts/Satoshi-Bold.woff2") format("woff2"),
+		url("../fonts/Satoshi-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-display: swap;
 	font-family: "Gambarino";
 	font-style: normal;
 	font-weight: 400;
