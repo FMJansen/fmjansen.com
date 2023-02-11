@@ -1,40 +1,12 @@
-    <div class="contact">
-      {% capture contact %}{% include contact.md %}{% endcapture %}
-      {{ contact | markdownify }}
-    </div>
+	<footer>
+		<p class="footer__colofon">
+			Floris Jansen (fmjansen.com) –
+			<a href="{% link privacy.md %}">Privacy</a> –
+			KvK: 64878627 –
+			btw-id: NL002361041B09 –
+			Last update: {{ site.time | date: '%B %Y' }}
+		</p>
+	</footer>
 
-    <nav class="menu-cont menu-cont--rel">
-      <ul class="main-menu" id="menu">
-        <li class="main-menu__item main-menu__item--close">
-          <a href="#">Close menu</a>
-        </li>
-        <li class="main-menu__item main-menu__item--bright">
-          <a href="/">Home</a>
-        </li>
-        <li class="main-menu__item">
-          <a href="/about.html">About</a>
-        </li>
-        <li class="main-menu__item">
-          <a href="/#projects">Projects</a>
-        </li>
-        <li class="main-menu__item">
-          <a href="https://photos.fmjansen.com">Photography ></a>
-        </li>
-        <li class="main-menu__item">
-          <a href="https://inclusief.design">inclusief.design ></a>
-        </li>
-      </ul>
-    </nav>
-
-    <footer>
-      <p class="footer__colofon">
-        FMJansen –
-        KvK: 64878627 –
-        btw-id: NL002361041B09 –
-        Last update: {{ site.time | date: '%B %Y' }} –
-        <a href="{% link privacy.md %}">Privacy</a>
-      </p>
-    </footer>
-
-  </body>
+	</body>
 </html>

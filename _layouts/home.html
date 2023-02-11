@@ -1,57 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+{% include head.html %}
 
-		<meta charset="utf-8">
+<main class="default" id="site-content">
+	{{ content }}
+</main>
 
-		<title>{{ site.title }}</title>
-		
-		<meta name="description" content="{{ site.description }}">
-
-		<meta property="og:title" content="{{ site.title }}">
-		<meta property="og:description" content="{{ site.description }}">
-		<meta property="og:image" content="https://fmjansen.com/static/img/ogimg.png">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://fmjansen.com">
-
-		<meta name="twitter:title" content="{{ site.title }}">
-		<meta name="twitter:description" content="{{ site.description }}">
-		<meta name="twitter:image" content="https://fmjansen.com/static/img/ogimg.png">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@{{ site.twitter_username }}">
-		<meta name="twitter:creator" content="@{{ site.twitter_username }}">
-
-		<meta name="robots" content="index,follow">
-		<meta name="keywords" content="floris, jansen, fmjansen, design, web, developer, interaction, netherlands">
-		<meta name="author" content="Floris Jansen">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-		<meta name="theme-color" content="#162933">
-
-		<script src="/static/js/2023.js?v={{ site.time }}" async></script>
-
-		<link rel="stylesheet" href="/static/css/2023.css?v={{ site.time }}">
-		<link rel="shortcut icon" href="/favicon.png">
-
-		<link rel="preload" href="/static/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/static/fonts/Gambarino-Regular.woff2" as="font" type="font/woff2" crossorigin>
-
-	</head>
-	<body>
-
-		<main class="default" id="site-content">
-			{{ content }}
-		</main>
-
-		<footer>
-			<p class="footer__colofon">
-				Floris Jansen (fmjansen.com) –
-				<a href="{% link privacy.md %}">Privacy</a> –
-				KvK: 64878627 –
-				btw-id: NL002361041B09 –
-				Last update: {{ site.time | date: '%B %Y' }}
-			</p>
-		</footer>
-
-	</body>
-</html>
+{% include foot.html %}

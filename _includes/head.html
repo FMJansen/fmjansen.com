@@ -1,124 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
 
-    <meta charset="utf-8">
+		<meta charset="utf-8">
 
-    {% if page.url == '/' %}
-    <title>{{ site.title }}</title>
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:image" content="https://fmjansen.nl/static/img/ogimg.png">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="https://fmjansen.nl/static/img/ogimg.png">
-    <meta name="description" content="{{ site.description }}">
-    {% else %}
-    <title>{{ page.title }} – {{ site.title }}</title>
-    <meta property="og:title" content="{{ page.title }} – {{ site.title }}">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta property="og:image" content="https://fmjansen.nl/static/img/{{ page.image }}">
-    <meta name="twitter:title" content="{{ page.title }} – {{ site.title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="https://fmjansen.nl/static/img/{{ page.image }}">
-    <meta name="description" content="{{ page.description }}">
-    {% endif %}
+		<title>{{ page.title | default: 'Home' }} – {{ site.title }}</title>
+		
+		<meta name="description" content="{{ site.description }}">
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fmjansen.nl">
+		<meta property="og:title" content="{{ page.title }} – {{ site.title }}">
+		<meta property="og:description" content="{{ site.description }}">
+		<meta property="og:image" content="https://fmjansen.com/static/img/ogimg.png">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://fmjansen.com">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ site.twitter_username }}">
-    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+		<meta name="twitter:title" content="{{ page.title }} – {{ site.title }}">
+		<meta name="twitter:description" content="{{ site.description }}">
+		<meta name="twitter:image" content="https://fmjansen.com/static/img/ogimg.png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@{{ site.twitter_username }}">
+		<meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
-    <meta name="robots" content="index,follow">
-    <meta name="keywords" content="floris, jansen, fmjansen, design, web, developer, interaction, netherlands">
-    <meta name="author" content="Floris Jansen">
+		<meta name="robots" content="index,follow">
+		<meta name="keywords" content="floris, jansen, fmjansen, design, web, developer, interaction, netherlands">
+		<meta name="author" content="Floris Jansen">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#162933">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<meta name="theme-color" content="#162933">
 
-    <script src="/static/js/main.js?v={{ site.time }}" async></script>
+		<script src="/static/js/2023.js?v={{ site.time }}" async></script>
 
-    <link rel="stylesheet" href="/static/css/main.css?v={{ site.time }}">
-    <link rel="shortcut icon" href="/favicon.png">
+		<link rel="stylesheet" href="/static/css/2023.css?v={{ site.time }}">
+		<link rel="shortcut icon" href="/favicon.png">
 
-    <link rel="preload" href="/static/fonts/space-grotesk-v5-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/static/fonts/mulish-v3-latin-300.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/static/fonts/mulish-v3-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/static/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/static/fonts/Gambarino-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function() {
-        var lazyImages = [].slice.call(document.querySelectorAll("img.lazy, source.lazy"));
-        let active = false;
-
-        if ("IntersectionObserver" in window) {
-          let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-            entries.forEach(function(entry) {
-              if (entry.isIntersecting) {
-                let lazyImage = entry.target;
-                if (lazyImage.nodeName == "IMG")
-                  lazyImage.src = lazyImage.dataset.src;
-                lazyImage.srcset = lazyImage.dataset.srcset;
-                lazyImage.classList.remove("lazy");
-                lazyImageObserver.unobserve(lazyImage);
-              }
-            });
-          });
-
-          lazyImages.forEach(function(lazyImage) {
-            lazyImageObserver.observe(lazyImage);
-          });
-        } else {
-          const lazyLoad = function() {
-            if (active === false) {
-              active = true;
-
-              setTimeout(function() {
-                lazyImages.forEach(function(lazyImage) {
-                  if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
-                    lazyImage.src = lazyImage.dataset.src;
-                    lazyImage.srcset = lazyImage.dataset.srcset;
-                    lazyImage.classList.remove("lazy");
-
-                    lazyImages = lazyImages.filter(function(image) {
-                      return image !== lazyImage;
-                    });
-
-                    if (lazyImages.length === 0) {
-                      document.removeEventListener("scroll", lazyLoad);
-                      window.removeEventListener("resize", lazyLoad);
-                      window.removeEventListener("orientationchange", lazyLoad);
-                    }
-                  }
-                });
-
-                active = false;
-              }, 200);
-            }
-          };
-
-          document.addEventListener("scroll", lazyLoad);
-          window.addEventListener("resize", lazyLoad);
-          window.addEventListener("orientationchange", lazyLoad);
-        }
-      });
-    </script>
-
-    <script>
-      (function(s,q,e,a,u,k,y){
-        s._sqSettings={site_id:'ffad76b9-8865-44f2-8b71-dab5268bf520'};
-        u=q.getElementsByTagName('head')[0];
-        k=q.createElement('script');
-        k.src=e+s._sqSettings.site_id;
-        u.appendChild(k);
-      })(window,document,'https://cdn.squeaky.ai/g/0.4.0/script.js?');
-    </script>
-
-  </head>
-  <body>
-
-    <nav class="site-top">
-      <a href="/" class="site-top__title" title="Home">Floris Jansen</a>
-      <a href="#menu" class="site-top__menu-link" id="toggle">Menu</a>
-    </nav>
+	</head>
+	<body>
