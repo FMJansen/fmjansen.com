@@ -95,24 +95,20 @@ gulp.task('copy-scss', function() {
         .pipe(gulp.dest(dest + 'css'));
 });
 
+// Copy fonts
+gulp.task('copy-fonts', function() {
+    return gulp.src(src + 'fonts/*')
+        .pipe(gulp.dest(dest + 'fonts'));
+});
+
 
 
 // Copy & Webp images
 gulp.task('images', function() {
-    return gulp.src([
-      src + 'images/**/*',
-      '!' + src + 'images/printers/design*'
-        ])
+    return gulp.src(src + 'og/*')
         .pipe(sink)
-        .pipe(webp())
         .pipe(sink.tap())
-        .pipe(gulp.dest(dest + 'img'));
-});
-gulp.task('images-no-webp', function() {
-    return gulp.src([
-      src + 'images/printers/design*'
-        ])
-        .pipe(gulp.dest(dest + 'img'));
+        .pipe(gulp.dest(dest + 'og'));
 });
 
 
@@ -155,14 +151,14 @@ gulp.task('serve', function() {
 gulp.task('default',
     gulp.series(
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images', 'images-no-webp')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images')
     )
 );
 
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'images', 'images-no-webp'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'images'));
 
 
 
