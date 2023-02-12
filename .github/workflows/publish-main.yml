@@ -42,9 +42,9 @@ jobs:
     - name: Run Gulp
       run: gulp build
 
-    - name: Configure OpenSSL
-      run: |
-        mkdir .bundle && echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
+    # - name: Configure OpenSSL
+    #   run: |
+    #     mkdir .bundle && echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
 
     - uses: lemonarc/jekyll-action@1.0.0
 
