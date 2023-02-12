@@ -43,7 +43,7 @@ jobs:
       run: gulp build
 
     - name: Install and run jekyll
-      run: sh github-jekyll.sh
+      run: sh ./github-jekyll.sh
 
     # - name: Configure OpenSSL
     #   run: |
