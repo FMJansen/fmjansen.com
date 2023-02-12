@@ -44,7 +44,7 @@ jobs:
 
     - name: Configure OpenSSL
       run: |
-        echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
+        mkdir .bundle && echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
 
     - uses: lemonarc/jekyll-action@1.0.0
 
