@@ -155,6 +155,10 @@ a {
 	}
 }
 
+.light {
+	color: rgba(var(--text), .7);
+}
+
 /*-------------------------------------*\
   Blocks
 \*-------------------------------------*/
@@ -190,15 +194,20 @@ footer {
 	}
 }
 
-.workshops {
-	color: rgba(var(--text), .8);
+.workshops,
+.posts {
+	@extend .light;
 	font-size: .8em;
 
-	strong {
-		color: rgba(var(--text), 1);
+	strong,
+	p > a {
 		display: block;
 		font-size: 1.25em;
 		margin-bottom: .5em;
+	}
+
+	strong {
+		color: rgba(var(--text), 1);
 	}
 }
 
