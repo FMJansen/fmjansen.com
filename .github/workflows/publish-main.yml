@@ -42,6 +42,9 @@ jobs:
     - name: Run Gulp
       run: gulp build
 
+    - name: Try installing openssl
+      run: gem install openssl -v '3.1.0' --source 'https://rubygems.org/'
+
     # - name: Configure OpenSSL
     #   run: |
     #     mkdir .bundle && echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
