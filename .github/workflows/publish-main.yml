@@ -43,7 +43,7 @@ jobs:
       run: gulp build
 
     - name: Try installing openssl
-      run: gem install openssl -v '3.1.0' --source 'https://rubygems.org/'
+      run: sudo gem install openssl -v '3.1.0' --source 'https://rubygems.org/'
 
     # - name: Configure OpenSSL
     #   run: |
