@@ -43,7 +43,7 @@ jobs:
       run: gulp build
 
     - name: Configure OpenSSL
-      run: which openssl
+      run: bundle config build.openssl --with-openssl-dir=/usr/bin/openssl
 
     - uses:  lemonarc/jekyll-action@1.0.0
 
