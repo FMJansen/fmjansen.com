@@ -42,14 +42,14 @@ jobs:
     - name: Run Gulp
       run: gulp build
 
-    - name: Try installing openssl
-      run: sudo gem install openssl -v '3.1.0' --source 'https://rubygems.org/'
+    - name: Install and run jekyll
+      run: sh github-jekyll.sh
 
     # - name: Configure OpenSSL
     #   run: |
     #     mkdir .bundle && echo -e '---\nBUNDLE_BUILD__OPENSSL: "--with-openssl-dir=/usr/bin/openssl"' >> .bundle/config
 
-    - uses: lemonarc/jekyll-action@1.0.0
+    # - uses: lemonarc/jekyll-action@1.0.0
 
     - name: Copying files to server
       uses: appleboy/scp-action@master
