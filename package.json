@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "*",
+    "canvas": "*",
     "gulp": "*",
     "gulp-autoprefixer": "*",
     "gulp-cache": "*",

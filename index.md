@@ -1,6 +1,7 @@
 ---
 layout: home
 color: ffffff
+title: Home
 ---
 
 
