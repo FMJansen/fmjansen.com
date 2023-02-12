@@ -42,6 +42,9 @@ jobs:
     - name: Run Gulp
       run: gulp build
 
+    - name: Configure OpenSSL
+      run: which openssl
+
     - uses:  lemonarc/jekyll-action@1.0.0
 
     - name: Copying files to server
