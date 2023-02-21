@@ -181,7 +181,7 @@ button {
 	transition: all 150ms cubic-bezier(.19,1,.22,1);
 
 	&:hover,
-	&:focus {
+	&:focus-visible {
 		transform: translateY(-.12em);
 		box-shadow: 0 .2em .4em rgba(0, 0, 0, .2),
 			inset 0 0 .2em rgba(var(--background), .4);
