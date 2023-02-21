@@ -25,7 +25,7 @@ Designers have the power and responsibility to allow people to access a website.
 
 ---
 
-Over the past few years, I’ve learned things about accessibility. How to [make specific components](https://inclusive-components.design/), or check colour contrast. There’s a lot of very specific information, especially for developers. Or articles on the very basics: what disabilities and accessibility are. Or, even more common, rewordings of the [WCAG](#Guidelines). But how do you work towards an accessible product? How should you change your design process? Or: how do you get started with accessibility as a designer?
+Over the past few years, I’ve learned things about accessibility. How to [make specific components](https://inclusive-components.design/), or check colour contrast. There’s a lot of very specific information, especially for developers. Or articles on the very basics: what disabilities and accessibility are. Or, even more common, paraphrasings of the [WCAG](#Guidelines). But how do you work towards an accessible product? How should you change your design process? Or: how do you get started with accessibility as a designer?
 
 I’ve read one article on [guidelines and key principles](https://www.ramotion.com/blog/accessibility-in-ux-design/) and [one with three approaches](https://www.a11yproject.com/posts/starting-a-design-with-accessibility/). Expanding on that, I’ve got some ideas on approaches for web design. That means a lot will translate to app design and other digital formats, too. It also means, however, that it’s not a tried and true methodology. Rather, you should see this as a note-to-self. A reminder of what I think might work, so I can try it out and check if it does.
 
@@ -54,7 +54,7 @@ It feels weird trying to convince someone that it is important to make a product
 3. It leads to [innovation](https://www.bbc.co.uk/programmes/w3cszmtp) and an easier-to-use product for everyone
 4. it decreases the amount of ‘unnecessary’ customer support requests[^2]
 5. For a lot of ‘new’[^3] products, it will become [legally required in the EU](https://ec.europa.eu/social/main.jsp?catId=1202), so it decreases legal risks
-6. Doing it from the start is not that difficult[^4], but i4 does reduce costs later on, due to fewer bugs and complaints
+6. Doing it from the start is not that difficult[^4], but it does reduce costs later on, due to fewer bugs and complaints
 7. It includes people, which is just nice and probably ethical
 
 So I’d say it’s a no-brainer: we should definitely design accessible products. But how do we ensure we make our products accessible?
@@ -86,7 +86,7 @@ Make a list of possible hurdles (disabilities, skills, circumstances, resources)
 
 Hopefully, we’re already doing research into the people who use your product. However, it’s important to specifically include [people who use assistive technologies](https://tetralogical.com/blog/2022/08/01/inclusive-user-research-recruiting-participants/), might face extra hurdles and/or don’t use our service (yet). This way, we uncover more needs and we prevent [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias). In other words: we’re not just talking to people who have been able to survive the current obstacles like jargon, lack of keyboard support, and confusing parallax pages. 
 
-We can turn the results of this research in the usual formats: [need-based personas](https://playbook.hike.one/methods/mapping/personas), [journey maps](https://playbook.hike.one/methods/mapping/user-journeys), or just a list of pain points. This way we expose hurdles (existing or possible) to our stakeholders, colleagues and ourselves. In turn, that makes it easier to make accessible design decisions later on.
+We can turn the results of this research into the usual formats: [need-based personas](https://playbook.hike.one/methods/mapping/personas), [journey maps](https://playbook.hike.one/methods/mapping/user-journeys), or just a list of pain points. This way we expose hurdles (existing or possible) to our stakeholders, colleagues and ourselves. In turn, that makes it easier to make accessible design decisions later on.
 
 Do explorative research with people who use assistive technologies and/or don’t already use the product
 {: .take-away}
@@ -124,7 +124,7 @@ When it comes to videos, we might not have the transcript available at this poin
 Additionally, do we really need several full-width photos of two megabytes? Or would a line drawing suffice? The first makes a visit to our website eat up a significant portion of someone’s monthly data plan, while the second might work just as well. So: consider for each large asset (images, videos, fonts, tracking scripts) whether it actually adds value and if there’s a lighter weight version.
 
 ### Animations: keep it small
-Animations can support the understanding of the interface: they tell the us what we could do and what the computer is doing. Large or pulsating animations might do the job very well for some people, but make sure that *if* we need them, there is an alternative (small or no animation). Otherwise, it will cause problems with something like a vestibular disorder or epilepsy.
+Animations can support the understanding of the interface: they tell us what we could do and what the computer is doing. Large or pulsating animations might do the job very well for some people, but make sure that *if* we need them, there is an alternative (small or no animation). Otherwise, it will cause problems with something like a vestibular disorder or epilepsy.
 
 ### Interactions: make it easier
 For each interaction, it’s nice to start with a keyboard-only version. So if we need to rearrange elements, add buttons to move the element up and down. Then, we can add a second mode of interactions: for example, use the mouse to click-and-drag the element to a different position. The keyboard version is still available to those who use something like [speech input](https://support.apple.com/en-us/HT210539) or just their keyboard, but the mouse version allows other people to do it in a faster way.
@@ -153,6 +153,7 @@ However, we’re already learning one new thing (accessibility), so it might not
 - Element with an **On click** interaction are seen by the screen reader as an accessible buttons
 - Shapes with an image fill use the layers’ name as alt text
 - Top-level frames and components use the layers’ names as the label of a section
+
 It will probably not be perfect (nor will our own HTML be perfect), but it might allow us to already test more things with more people.
 
 #### Webflow
@@ -196,6 +197,8 @@ Make your organisation inclusive and focussed on accessibility
 ## Resources
 
 So now we know why and how we could change our process to (hopefully) make our products more accessible. However, there’s a lot more to learn.
+
+_Thanks for proofreading, Yvonne and Simon!_
 
 Keep on learning
 {: .take-away}
