@@ -164,6 +164,32 @@ a {
 	color: rgba(var(--text), .7);
 }
 
+button {
+	background-color: rgba(var(--text), 1);
+	border-radius: .4em;
+	border: none;
+	box-shadow: 0 .1em .3em rgba(0, 0, 0, .1),
+		inset 0 0 .2em rgba(var(--background), .2);
+	color:rgba(var(--background), 1);
+	font-family: inherit;
+	font-size: 1em;
+	font-weight: bold;
+	padding: .6em 1em;
+	text-shadow: 0 .05em .1em rgba(var(--background), .2);
+	transition: all 150ms cubic-bezier(.19,1,.22,1);
+
+	&:hover,
+	&:focus {
+		transform: translateY(-.12em);
+		box-shadow: 0 .2em .4em rgba(0, 0, 0, .2),
+			inset 0 0 .2em rgba(var(--background), .4);
+	}
+
+	&:active {
+		transform: translate(0);
+	}
+}
+
 /*-------------------------------------*\
   Blocks
 \*-------------------------------------*/
@@ -229,6 +255,29 @@ footer {
 
 	strong {
 		color: rgba(var(--text), 1);
+	}
+}
+
+.toc[aria-hidden="true"] {
+	display: none;
+	visibility: hidden;
+}
+
+p:has(> button) {
+	text-align: center;
+	width: 100%;
+}
+
+.take-away {
+	background-color: rgba(var(--text), .1);
+	border: 2.5px solid rgba(var(--text), 1);
+	border-radius: .4em;
+	box-sizing: border-box;
+	margin-top: 2em;
+	padding: .8em 1em;
+
+	&::before {
+		content: "👉 ";
 	}
 }
 
