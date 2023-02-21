@@ -103,13 +103,14 @@ h3 {
 }
 
 h1 {
-	font-size: Min(18vw, 7rem);
+	font-size: Min(16vw, 6rem);
 	line-height: 1.1;
 	margin: .5em 0 2em;
 	text-align: center;
 }
 
 .home {
+	font-size: Min(18vw, 7rem);
 	margin-top: 2.5em;
 }
 
@@ -195,6 +196,7 @@ button {
 \*-------------------------------------*/
 nav,
 main,
+aside,
 footer {
 	padding: var(--pad);
 }

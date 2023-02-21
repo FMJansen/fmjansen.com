@@ -3,7 +3,7 @@ layout: default
 title: Working towards accessibility as a designer
 ---
 
-# Working towards access&shy;ibility as a designer
+# Working towards accessi&shy;bility as a designer
 {:.no_toc}
 
 ## In short
