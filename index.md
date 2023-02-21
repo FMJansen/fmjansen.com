@@ -18,11 +18,13 @@ I’m a designer & developer. I’ll also annoy your head off about inclusion, a
 - I build websites for things like [This&nbsp;is&nbsp;Gendered](https://thisisgendered.org) and [Scouting&nbsp;Oost&nbsp;1](https://scoutingoost1.nl/)
 - [my graduation](https://graduation.fmjansen.com/) was about making sustainable renovations more inclusive
 - [my photos](https://photos.fmjansen.com/) are cool (I think)
-- once in a while I’ll give a [workshop](/workshops)
+- once in a while I’ll give a [workshop](/workshops.html)
+{: .activities}
+
 
 ## Right now, I’m
 - ...probably annoyed by password requirements somewhere
-{: #currently}
+{: #currently .activities}
 
 ## Other places
 {: .social}

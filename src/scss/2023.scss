@@ -114,35 +114,40 @@ h1 {
 }
 
 h2 {
-	margin: 2em 0 0.5em;
 	font-size: 2em;
+	margin: 2em 0 .5em;
 }
 
-p,
-ul {
+h3 {
+	font-size: 1.5em;
+	margin-top: 3em;
+}
+
+h4 {
+	margin: 2em 0 -.5em;
+}
+
+hr {
+	margin: 5vw 0;
 	max-width: 50ch;
 }
 
-ul {
-	padding-left: 4vw;
+p,
+ul,
+ol {
+	max-width: 50ch;
 }
 
 li {
-	border-bottom: 1px solid rgba(var(--text), 0.2);
-	list-style: none;
-	padding-bottom: 1.5em;
-	padding-top: 1.5em;
-
-	&:last-child {
-		border: none;
-	}
+	margin: .5em 0;
 }
 
 a {
-	color: mediumblue;
+	color: rgba(var(--text), 1);
+	text-decoration-color: mediumblue;
 
 	@media (prefers-color-scheme: dark) {
-		color: #e4485b;
+		text-decoration-color: #e4485b;
 	}
 
 	&[href^="http"]::after {
@@ -179,6 +184,21 @@ footer {
 	}
 }
 
+.activities {
+	padding-left: 4vw;
+
+	li {
+		border-bottom: 1px solid rgba(var(--text), .2);
+		list-style: none;
+		padding-bottom: 1.5em;
+		padding-top: 1.5em;
+	
+		&:last-child {
+			border: none;
+		}
+	}
+}
+
 .social {
 	column-gap: 2em;
 	display: flex;
@@ -197,10 +217,11 @@ footer {
 .workshops,
 .posts {
 	@extend .light;
+	@extend .activities;
 	font-size: .8em;
 
 	strong,
-	p > a {
+	.title {
 		display: block;
 		font-size: 1.25em;
 		margin-bottom: .5em;
