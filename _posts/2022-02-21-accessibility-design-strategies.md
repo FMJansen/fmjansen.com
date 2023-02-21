@@ -82,7 +82,7 @@ A starting point of things to think about:
 Make a list of possible hurdles (disabilities, skills, circumstances, resources)
 {: .take-away}
 
-## Do research
+## Do research, not just with active users
 
 Hopefully, we’re already doing research into the people who use your product. However, it’s important to specifically include [people who use assistive technologies](https://tetralogical.com/blog/2022/08/01/inclusive-user-research-recruiting-participants/), might face extra hurdles and/or don’t use our service (yet). This way, we uncover more needs and we prevent [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias). In other words: we’re not just talking to people who have been able to survive the current obstacles like jargon, lack of keyboard support, and confusing parallax pages. 
 
