@@ -39,7 +39,7 @@ Why accessibility specific design approaches? Because that bakes accessibility i
 Sometimes you’ll have to explain what accessibility is. Here’s my short version of it: it’s about allowing people to access something. You could think of permanent disabilities, like [visual impairments](https://www.a11yproject.com/posts/understanding-visual-impairment/) such as blindness, motor disorders, or problems with balance (such as [vestibular disorders](https://www.a11yproject.com/posts/understanding-vestibular-disorders/)), but that’s not all; it’s about [anyone using the web](https://alistapart.com/article/reframing-accessibility-for-the-web/). For example, there are also [temporary and situational impairments](https://www.microsoft.com/design/inclusive/), such as having a broken arm, spotty internet connection, or being in a very sunny location. 
 
 #### Guidelines
-To make digital products more accessible, the World Wide Web Consortium ([W3C](https://www.w3.org/)) maintains the [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG22/). If you haven’t read them yet, you could start with a [designer focussed set](https://gerireid.com/wcag-for-designers.html) (which are also a bit easier to read). 
+To make digital products more accessible, the World Wide Web Consortium ([W3C](https://www.w3.org/)) maintains the [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG22/). If you haven’t read them yet, you could start with a [designer focussed set](https://gerireid.com/wcag-for-designers.html) (which is also a bit easier to read). 
 
 These guidelines allow us to test the accessibility of a product. It’s often used in legislation, such as the European Accessibility Act coming up in 2025. That means it’s not the most simple text to read and, more importantly, it only covers the [bare minimum](https://toot.cat/@nickcolley/109709920570049524) of what you should pay attention to. It makes sure people can _technically_ use the product, but it doesn’t by itself make it a pleasant experience. 
 
@@ -54,7 +54,7 @@ It feels weird trying to convince someone that it is important to make a product
 3. It leads to [innovation](https://www.bbc.co.uk/programmes/w3cszmtp) and an easier-to-use product for everyone
 4. it decreases the amount of ‘unnecessary’ customer support requests[^2]
 5. For a lot of ‘new’[^3] products, it will become [legally required in the EU](https://ec.europa.eu/social/main.jsp?catId=1202), so it decreases legal risks
-6. Doing it from the start is not that difficult[^4], but it does reduce costs later on, due to fewer bugs and complaints
+6. Doing it from the start is not that difficult[^4], while it does reduce costs later on, due to fewer bugs and complaints
 7. It includes people, which is just nice and probably ethical
 
 So I’d say it’s a no-brainer: we should definitely design accessible products. But how do we ensure we make our products accessible?
