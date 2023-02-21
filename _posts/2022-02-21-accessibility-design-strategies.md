@@ -6,11 +6,6 @@ title: Working towards accessibility as a designer
 # Working towards access&shy;ibility as a designer
 {:.no_toc}
 
-<button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
-  Show table of contents</button>
-* TOC
-{:toc .toc}
-
 ## In short
 
 Designers have the power and responsibility to allow people to access a website. I think we can bake that into our process by:
@@ -20,6 +15,13 @@ Designers have the power and responsibility to allow people to access a website.
 - Testing concepts with accessible prototypes
 - Performing automated, manual and usability tests of live products
 - Making your organisation inclusive and focussed on accessibility
+
+---
+
+<button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
+  Show table of contents</button>
+* TOC
+{:toc .toc}
 
 ---
 

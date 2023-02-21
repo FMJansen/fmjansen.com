@@ -263,11 +263,6 @@ footer {
 	visibility: hidden;
 }
 
-p:has(> button) {
-	text-align: center;
-	width: 100%;
-}
-
 .take-away {
 	background-color: rgba(var(--text), .1);
 	border: 2.5px solid rgba(var(--text), 1);
