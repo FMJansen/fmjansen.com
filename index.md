@@ -21,6 +21,12 @@ I’m a designer & developer. I’ll also annoy your head off about inclusion, a
 - once in a while I’ll give a [workshop](/workshops.html)
 {: .activities}
 
+## I wrote about
+
+{: .posts}
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string}}
+{% endfor %}
 
 ## Right now, I’m
 - ...probably annoyed by password requirements somewhere
