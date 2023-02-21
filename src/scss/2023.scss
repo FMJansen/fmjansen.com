@@ -84,8 +84,8 @@ body {
 }
 
 *:focus-visible {
-	outline: 0.2em dashed blue;
-	outline-offset: 0.2em;
+	outline: .2em dashed blue;
+	outline-offset: .2em;
 
 	@media (prefers-color-scheme: dark) {
 		outline-color: gold;
