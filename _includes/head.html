@@ -8,15 +8,15 @@
 		<meta property="og:title" content="{{ page.title }} – {{ site.title }}">
 		<meta name="twitter:title" content="{{ page.title }} – {{ site.title }}">
 
-    <!-- TODO: excerpt -->
+		<!-- TODO: excerpt -->
 		<meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}">
+		<meta property="og:description" content="{{ site.description }}">
 		<meta name="twitter:description" content="{{ site.description }}">
 
 		<meta property="og:image" content="{{ site.url }}{% og_filter %}">
 		<meta name="twitter:image" content="{{ site.url }}{% og_filter %}">
 
-    <meta property="og:type" content="website">
+		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ page.permalink }}">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@{{ site.twitter_username }}">
@@ -29,7 +29,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 		<meta name="theme-color" content="#162933">
 
-    <link rel="alternate" type="application/atom+xml" title="Feed for Floris’ posts" href="/feed.xml">
+		<link rel="alternate" type="application/atom+xml" title="Feed for Floris’ posts" href="/feed.xml">
 
 		<script src="/static/js/2023.js?v={{ site.time }}" async></script>
 
@@ -40,7 +40,7 @@
 		<link rel="preload" href="/static/fonts/Satoshi-Bold.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="/static/fonts/Gambarino-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-    {% webmentions_head %}
+		{% webmentions_head %}
 
 	</head>
 	<body>
