@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy policy
+excerpt: I don’t actively collect any data, but I’ll carefully handle the data you send me.
 ---
 
 # Privacy policy

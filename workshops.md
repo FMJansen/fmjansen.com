@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Workshops
+excerpt: I have been giving several workshops at TU Delft on different design topics.
 ---
 
 # Workshops

@@ -9,9 +9,9 @@
 		<meta name="twitter:title" content="{{ page.title }} – {{ site.title }}">
 
 		<!-- TODO: excerpt -->
-		<meta name="description" content="{{ site.description }}">
-		<meta property="og:description" content="{{ site.description }}">
-		<meta name="twitter:description" content="{{ site.description }}">
+		<meta name="description" content="{{ page.excerpt | default: site.description }}">
+		<meta property="og:description" content="{{ page.excerpt | default: site.description }}">
+		<meta name="twitter:description" content="{{ page.excerpt | default: site.description }}">
 
 		<meta property="og:image" content="{{ site.url }}{% og_filter %}">
 		<meta name="twitter:image" content="{{ site.url }}{% og_filter %}">
