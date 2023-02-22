@@ -38,11 +38,13 @@ function toggleToc() {
 
 	if (toggle.getAttribute('aria-expanded') === 'true') {
 
+		toggle.textContent = "Show table of contents";
 		toggle.setAttribute('aria-expanded', false);
 		toc.setAttribute('aria-hidden', true);
 
 	} else {
 
+		toggle.textContent = "Hide table of contents";
 		toggle.setAttribute('aria-expanded', true);
 		toc.setAttribute('aria-hidden', false);
 
