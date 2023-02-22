@@ -7,6 +7,9 @@ excerpt: Designers have the power and responsibility to allow people to access a
 # Accessi&shy;bility in a digital design process
 {:.no_toc}
 
+Published: {{page.date | date_to_long_string}}
+{: .date}
+
 ## In short
 
 Designers have the power and responsibility to allow people to access a website. I think we can bake that into our process by:
