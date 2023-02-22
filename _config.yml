@@ -12,11 +12,9 @@ markdown: kramdown
 
 # Collection
 collections:
-  projects:
-    permalink: /:collection/:path/
+  posts:
+    permalink: /:collection/:title/
     output: true
-  project_categories:
-    output: false
 
 webmentions:
   username: fmjansen.com
