@@ -240,8 +240,10 @@ footer {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	list-style: none;
 	margin-top: 2.75em;
 	max-width: none;
+	padding: 0;
 	row-gap: 1em;
 
 	li {
