@@ -22,7 +22,7 @@ ctx.textBaseline = "top";
 // Write title
 ctx.font = '110px Gambarino';
 ctx.fillStyle = '#fee1c2';
-wrapText(ctx, title, 80, 80, 1100, 110);
+wrapText(ctx, title, 80, 80, 1050, 110);
 
 // Write date
 ctx.textBaseline = "bottom";
