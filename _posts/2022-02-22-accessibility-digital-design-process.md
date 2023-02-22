@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Working towards accessibility as a designer
+title: Accessibility in a digital design process
 ---
 
-# Working towards accessi&shy;bility as a designer
+# Accessi&shy;bility in a digital design process
 {:.no_toc}
 
 ## In short
@@ -36,19 +36,23 @@ Why accessibility specific design approaches? Because that bakes accessibility i
 ### What accessibility is
 
 #### It’s about access
+{:.no_toc}
 Sometimes you’ll have to explain what accessibility is. Here’s my short version of it: it’s about allowing people to access something. You could think of permanent disabilities, like [visual impairments](https://www.a11yproject.com/posts/understanding-visual-impairment/) such as blindness, motor disorders, or problems with balance (such as [vestibular disorders](https://www.a11yproject.com/posts/understanding-vestibular-disorders/)), but that’s not all; it’s about [anyone using the web](https://alistapart.com/article/reframing-accessibility-for-the-web/). For example, there are also [temporary and situational impairments](https://www.microsoft.com/design/inclusive/), such as having a broken arm, spotty internet connection, or being in a very sunny location. 
 
 #### Guidelines
+{:.no_toc}
 To make digital products more accessible, the World Wide Web Consortium ([W3C](https://www.w3.org/)) maintains the [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG22/). If you haven’t read them yet, you could start with a [designer focussed set](https://gerireid.com/wcag-for-designers.html) (which is also a bit easier to read). 
 
 These guidelines allow us to test the accessibility of a product. It’s often used in legislation, such as the European Accessibility Act coming up in 2025. That means it’s not the most simple text to read and, more importantly, it only covers the [bare minimum](https://toot.cat/@nickcolley/109709920570049524) of what you should pay attention to. It makes sure people can _technically_ use the product, but it doesn’t by itself make it a pleasant experience. 
 
 #### Inclusive design includes accessibility
+{:.no_toc}
 Some consider it an end product of an [inclusive design process](https://xd.adobe.com/ideas/principles/design-systems/what-is-inclusive-design-principles-and-examples/), but I would say [inclusive design is just broader](https://scribe.rip/a-beginners-guide-to-inclusive-ux-design-b8dcc94f5068) than accessibility. Mostly, it also looks at identity, culture and situation, and it’s about involving people in the design process and giving them power.
 
 ### Why it is important
 
 It feels weird trying to convince someone that it is important to make a product which can be used by people. Why would you exclude about a fifth or even half[^1] of all people, by not making your website accessible? But just to be sure, these are some benefits of making a product accessible:
+0. Access to information and communication technologies is [a human right](https://www.who.int/about/communications/accessible/ensuring-accessibility)
 1. In allowing more people to use the product, it will increase our favourite metrics (like active users, click through rates, profits, etc.)
 2. It’s good for [search engine optimisation](https://alistapart.com/article/accessibilityseo/) (SEO), so the website is easier to find
 3. It leads to [innovation](https://www.bbc.co.uk/programmes/w3cszmtp) and an easier-to-use product for everyone
@@ -139,6 +143,7 @@ Testing is part of any good design process. We test our prototypes to figure out
 ### Accessible prototypes
 
 #### HTML
+{:.no_toc}
 When we create prototypes, we might be tempted to sketch something on paper or make a clickable prototype. However, those don’t work well with assistive technologies out of the box. So, we could try our hand at HTML. The prototype will then work for most people and technologies. We can turn our priority guide into a simple web page using a few elements, like
 - headings `<h1>`, `<h2>`, etc.
 - running/body text in paragraphs `<p>`
@@ -149,6 +154,7 @@ When we create prototypes, we might be tempted to sketch something on paper or m
 It’s easy to make changes, and maybe even easy to add interactivity by using javascript or just creating different HTML files for different states (just as we might do with your design tool). If we share and discuss this prototype with our fellow developers, they will be able to provide valuable input and raise (accessibility) concerns earlier on.
 
 #### Figma
+{:.no_toc}
 However, we’re already learning one new thing (accessibility), so it might not be attractive to take up another (development). Luckily, Figma allows us to turn on an ‘[accessibility mode](https://help.figma.com/hc/en-us/articles/7810391964695-Accessible-prototypes-in-Figma)’, which turns our prototype into HTML. We should pay attention to a few things:
 - Element with an **On click** interaction are seen by the screen reader as an accessible buttons
 - Shapes with an image fill use the layers’ name as alt text
@@ -157,6 +163,7 @@ However, we’re already learning one new thing (accessibility), so it might not
 It will probably not be perfect (nor will our own HTML be perfect), but it might allow us to already test more things with more people.
 
 #### Webflow
+{:.no_toc}
 Alternatively, something like Webflow might be an option. They are [working actively](https://webflow.com/accessibility/statement) to make the output adhere to the WCAG, so that sounds promising. However, we still need to pay close attention to how we build the pages and use the correct elements. Webflow provides some [guidance](https://university.webflow.com/lesson/accessible-elements-in-webflow) on how to do this.
 
 ### Testing a live product
@@ -164,14 +171,17 @@ Alternatively, something like Webflow might be an option. They are [working acti
 Once our designs are built, or if we’re doing an expert review of an existing product, we might want to figure out how accessible they are. 
 
 #### Automated
+{:.no_toc}
 The easiest way to get started is using automated testers like the [Axe browser plugin](https://www.deque.com/axe/browser-extensions/), but we shouldn’t [rely on just that](https://www.voorhoede.nl/en/blog/don-t-rely-on-automated-tests-for-solid-accessibility/), because it won’t find everything. Partly because the tools are not perfect, but more importantly because some things can’t be tested automatically. We could also use similar tools in the [development pipeline](https://www.deque.com/axe/devtools/), so we don’t have to run these tests ourselves.
 
 #### Manual
+{:.no_toc}
 We could also test it ourselves, [by hand](https://appt.org/en/guidelines/beginnersguide-accessibility-testing). We can try out everything using a keyboard and learn how to use a [mobile screen reader](https://screenreader.app/), [VoiceOver on macOS](https://yakim.nl/articles/voiceover-testing/) or another [desktop screen reader](https://www.sarasoueidan.com/blog/testing-environment-setup/) to check a product. Still, this isn’t perfect, since someone who uses a screen reader daily will have different strategies to *surf the web* than us.
 
 Of course, we can combine automated and manual testing. At [gov.uk](https://www.gov.uk/guidance/accessibility-monitoring-how-we-test), they’ve outlined how they do that.
 
 #### Testing with people
+{:.no_toc}
 I hope it’s clear we also need to do usability testing with people who use assistive technologies such as braille readers. It’s smart to let people use their own device while doing usability testing, so:
 - we can see what kind of accessibility features they’ve got turned on for more informed decisions in the future,
 - we learn what problems between specific kinds of assistive technologies and our product arise,
