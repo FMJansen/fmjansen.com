@@ -29,7 +29,7 @@ Designers have the power and responsibility to allow people to access a website.
 
 ---
 
-Over the past few years, I’ve learned things about accessibility. How to [make specific components](https://inclusive-components.design/), or check colour contrast. There’s a lot of very specific information, especially for developers. Or articles on the very basics: what disabilities and accessibility are. Or, even more common, paraphrasings of the [WCAG](#Guidelines). But how do you work towards an accessible product? How should you change your design process? Or: how do you get started with accessibility as a designer?
+Over the past few years, I’ve learned things about accessibility. How to [make specific components](https://inclusive-components.design/), or check colour contrast. There’s a lot of very specific information, especially for developers. Or articles on the very basics: what disabilities and accessibility are. Or, even more common, paraphrasings of the [WCAG](#guidelines). But how do you work towards an accessible product? How should you change your design process? Or: how do you get started with accessibility as a designer?
 
 I’ve read one article on [guidelines and key principles](https://www.ramotion.com/blog/accessibility-in-ux-design/) and [one with three approaches](https://www.a11yproject.com/posts/starting-a-design-with-accessibility/). Expanding on that, I’ve got some ideas on approaches for web design. That means a lot will translate to app design and other digital formats, too. It also means, however, that it’s not a tried and true methodology. Rather, you should see this as a note-to-self. A reminder of what I think might work, so I can try it out and check if it does.
 
