@@ -105,13 +105,13 @@ h3 {
 
 h1 {
 	font-size: Min(16vw, 6rem);
-	margin: .5em 0 2em;
+	margin: 0 0 2em;
 	text-align: center;
 }
 
 .home {
 	font-size: Min(18vw, 7rem);
-	margin-top: 2.5em;
+	margin-top: 2em;
 }
 
 h2 {
@@ -195,7 +195,7 @@ button {
 .date {
 	color: rgba(var(--text), .7);
 	max-width: 100%;
-	margin: -3em 0 6em;
+	margin: -4em 0 4em;
 	text-align: center;
 }
 
@@ -207,6 +207,10 @@ main,
 aside,
 footer {
 	padding: var(--pad);
+}
+
+nav {
+	padding: Calc(var(--pad) / 1.5) var(--pad);
 }
 
 .intro {
