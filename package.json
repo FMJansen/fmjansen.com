@@ -19,7 +19,7 @@
     "gulp-sourcemaps": "*",
     "gulp-uglify": "*",
     "gulp-webp": "*",
-    "node-sass": "*"
+    "sass": "*"
   },
   "browserslist": {
     "production": [
@@ -46,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/FMJansen/fmjansen.com/issues"
   },
-  "homepage": "https://github.com/FMJansen/fmjansen.com#readme"
+  "homepage": "https://github.com/FMJansen/fmjansen.com#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
 }
