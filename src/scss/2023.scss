@@ -78,7 +78,7 @@ body {
 	color: rgba(var(--text), 1);
 	font-family: var(--sans-serif);
 	font-size: clamp(1.1em, 4vw, 1.75em);
-	line-height: 1.5;
+	line-height: 1.65;
 	margin: 0;
 	word-wrap: break-word;
 }
@@ -107,6 +107,7 @@ h1 {
 	font-size: Min(16vw, 6rem);
 	margin: 0 0 2em;
 	text-align: center;
+	text-wrap: balance;
 }
 
 .home {
