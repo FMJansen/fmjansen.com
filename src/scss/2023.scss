@@ -111,8 +111,22 @@ h1 {
 }
 
 .home {
-	font-size: Min(18vw, 7rem);
-	margin-top: 2em;
+	font-size: Min(15vw, 7rem);
+	margin-top: 2.5em;
+	
+	&::after {
+		width: 45vw;
+		height: 45vw;
+		content: "";
+		background: none;
+		display: block;
+		position: absolute;
+		border-radius: 50% 50% 0 0;
+		box-shadow: -4vw -4vw 3vw -4vw;
+		opacity: 0.25;
+		top: Max(14vh, 12vw);
+		left: 8vw;
+	}
 }
 
 h2 {
