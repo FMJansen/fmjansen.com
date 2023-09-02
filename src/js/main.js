@@ -9,11 +9,17 @@ if (document.readyState !== 'loading') {
 }
 
 function init () {
+
 	toggle = document.getElementById('tocgle');
 	fetchExtraContent(document.querySelector('#currently'));
-	toggleToc(toggle);
-	toggle.addEventListener('click', toggleToc);
+
+	if (toggle !== null) {
+		toggleToc(toggle);
+		toggle.addEventListener('click', toggleToc);
+	}
+
 	console.log('did I do something stupid? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
+
 }
 
 function fetchExtraContent (currently) {
