@@ -9,7 +9,8 @@ title: Home
 # Hej ✨ I’m Floris
 {: .home}
 
-I’m a designer & developer. I’ll also annoy your head off about inclusion, accessibility and sustainability ❤️ 🌱 (in a nice way, hopefully).
+I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability ❤️ 🌱.
+
 {: .intro}
 
 ## What I do
