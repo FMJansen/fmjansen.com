@@ -11,6 +11,12 @@ title: Home
 
 I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability ❤️ 🌱.
 
+## I wrote about
+
+{: .posts}
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string}}
+{% endfor %}
 {: .intro}
 
 ## What I do
@@ -21,13 +27,6 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 - [my photos](https://photos.fmjansen.com/) are cool (I think)
 - once in a while I’ll give a [workshop](/workshops.html)
 {: .activities}
-
-## I wrote about
-
-{: .posts}
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string}}
-{% endfor %}
 
 ## Right now, I’m
 - ...probably annoyed by password requirements somewhere
