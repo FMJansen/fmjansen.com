@@ -9,7 +9,8 @@ title: Home
 # Hej ✨ I’m Floris
 {: .home}
 
-I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability ❤️ 🌱.
+I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability. ❤️ 🌱
+{: .intro}
 
 ## I wrote about
 
@@ -17,7 +18,6 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string}}
 {% endfor %}
-{: .intro}
 
 ## What I do
 - at [Hike&nbsp;One](https://hike.one/) I’m doing interaction design and research
