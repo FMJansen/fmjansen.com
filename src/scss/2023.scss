@@ -325,6 +325,14 @@ nav {
 	}
 }
 
+.webmentions {
+	&__not-found {
+		opacity: .7;
+		text-align: center;
+		max-width: 100%;
+	}
+}
+
 footer {
 	font-size: .8em;
 	text-align: center;
