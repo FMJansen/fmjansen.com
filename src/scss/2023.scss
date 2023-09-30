@@ -188,25 +188,27 @@ button {
 	background-color: rgba(var(--text), 1);
 	border-radius: .4em;
 	border: none;
-	box-shadow: 0 .1em .3em rgba(0, 0, 0, .1),
-		inset 0 0 .2em rgba(var(--background), .2);
+	box-shadow: 0 .1em .3em rgba(0, 0, 0, 1),
+		inset 0 -.1em .2em rgba(var(--background), .2);
 	color:rgba(var(--background), 1);
 	font-family: inherit;
 	font-size: 1em;
 	font-weight: bold;
 	padding: .6em 1em;
 	text-shadow: 0 .05em .1em rgba(var(--background), .2);
-	transition: all 150ms cubic-bezier(.19,1,.22,1);
+	transition: all 250ms cubic-bezier(.19,1,.22,1);
 
 	&:hover,
 	&:focus-visible {
-		transform: translateY(-.12em);
-		box-shadow: 0 .2em .4em rgba(0, 0, 0, .2),
-			inset 0 0 .2em rgba(var(--background), .4);
+		box-shadow: 0 .25em .4em rgba(0, 0, 0, 1),
+			inset 0 -.1em .2em rgba(var(--background), .2);
+		transform: translateY(-.15em);
+		transition: all 250ms cubic-bezier(.19,1,.22,1);
 	}
 
 	&:active {
 		transform: translate(0);
+		transition: all 0ms cubic-bezier(.19,1,.22,1);
 	}
 }
 
