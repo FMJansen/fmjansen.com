@@ -10,6 +10,9 @@ excerpt: Designing in an ethical way is difficult. I think capitalism is the rea
 Published: {{page.date | date_to_long_string}}
 {: .date}
 
+{::options parse_block_html="true" /}
+<div class="summary">
+
 ## In short
 
 Designing in an ethical way is difficult. I think capitalism is a major reason, because it
@@ -25,14 +28,12 @@ So, I try to find ways to escape or dismantle it, such as:
 
 I hope this helps other designers, too.
 
----
+</div>
 
 <button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
   Show table of contents</button>
 * TOC
 {:toc .toc}
-
----
 
 Design sucks. I love finding the right interface pattern, I love listening to users, and I love beautiful products. However, my transition from university to a job has still left me disappointed. I was hoping, as most designers I know, to _make the world a better place_. We try to make a product easier to use, which should better the user’s life. If we want to go the extra mile, we consider [sustainability](https://www.ibm.com/design/practices/design-for-sustainability/), accessibility & [inclusion](https://inclusivedesignprinciples.org/), [mental health](https://createwithconscience.com/principles), [well-being](https://humanebydesign.com/) or just [ethics](https://ethicaldesign.guide/) in general.
 

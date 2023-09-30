@@ -10,6 +10,9 @@ excerpt: Designers have the power and responsibility to allow people to access a
 Published: {{page.date | date_to_long_string}}
 {: .date}
 
+{::options parse_block_html="true" /}
+<div class="summary">
+
 ## In short
 
 Designers have the power and responsibility to allow people to access a website. I think we can bake that into our process by:
@@ -20,14 +23,12 @@ Designers have the power and responsibility to allow people to access a website.
 - Performing automated, manual and usability tests of live products
 - Making your organisation inclusive and focussed on accessibility
 
----
+</div>
 
 <button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
   Show table of contents</button>
 * TOC
 {:toc .toc}
-
----
 
 Over the past few years, I’ve learned things about accessibility. How to [make specific components](https://inclusive-components.design/), or check colour contrast. There’s a lot of very specific information, especially for developers. Or articles on the very basics: what disabilities and accessibility are. Or, even more common, paraphrasings of the [WCAG](#guidelines). But how do you work towards an accessible product? How should you change your design process? Or: how do you get started with accessibility as a designer?
 
