@@ -313,9 +313,22 @@ nav {
 	}
 }
 
-.toc[aria-hidden="true"] {
-	display: none;
-	visibility: hidden;
+p:has(.tocgle) {
+	max-width: none;
+}
+
+.tocgle {
+	margin: 5vw auto 5vw;
+	display: block;
+}
+
+.toc {
+	margin: 0 auto 10vw;
+
+	&[aria-hidden="true"] {
+		display: none;
+		visibility: hidden;
+	}
 }
 
 .take-away {
