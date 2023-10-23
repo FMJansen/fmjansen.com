@@ -9,7 +9,8 @@ title: Home
 # Hej ✨ I’m Floris
 {: .home}
 
-I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability. ❤️ 🌱
+I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability. ❤️ 🌱 
+Right now, I’m working on [Op wie kan ik stemmen?](https://tweedekamer2023.opwiekanikstemmen.nl/)
 {: .intro}
 
 ## I wrote about
