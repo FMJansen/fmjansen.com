@@ -7,7 +7,7 @@ excerpt: Designing in an ethical way is difficult. I think capitalism is the rea
 # (No) ethical design under capitalism
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}}
+Published: {{page.date | date_to_long_string}} (Updated 1 December 2023)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -119,6 +119,7 @@ Luckily, there are others, too, who have written about ethical design and capita
 - Erik Olin Wright wrote about [how to be an anticapitalist today](https://jacobin.com/2015/12/erik-olin-wright-real-utopias-anticapitalism-democracy/). It provides a short analysis of capitalism and shows four ways people try to be anticapitalist. It makes it more specific, which is quite nice. I’m not sure about “the only viable options” part in the conclusion, though.
 - In [Design after Capitalism](https://designaftercapitalism.org/), Matthew Wizinsky writes a far more comprehensive critique of capitalism and its link with design, before explaining possible ways and shapes of design ‘after’ capitalism.
 - [Design for the Real World](https://thamesandhudson.com/design-for-the-real-world-9780500295335) by Victor Papanek is a classic book discussing how designers should do better. It’s outdated in some respects (both technology and language; the latest edition is from 2019, but most of the content was written in 1970 and last updated in 1984). However, a lot of the things Papanek argues for are still relevant. I feel like it does lack the capitalist analysis, even though it scratches the surfaces in a few chapters.
+- In [The Aura of Care](https://fasterandworse.com/the-aura-of-care/), Stephen Farrugia explains that UX is often used for companies to show that they ‘care’, even though it’s often still part of exploitation. But they don’t really seem to want to blame capitalism for it.
 
 On my to-read list is [Future Ethics](https://cennydd.com/future-ethics) (Cennydd Bowles).
 
