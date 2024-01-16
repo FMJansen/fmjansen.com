@@ -8,7 +8,7 @@ excerpt: I try to make my website as accessible as possible.
 
 ## Conformance status
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements to improve accessibility for for things like websites. There are conformance levels (A, AA and AAA) and versions. My website is partially conformant with WCAG 2.1 level AA. This means that some parts do not fully conform to the accessibility standard.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements to improve accessibility for for things like websites. There are conformance levels (A, AA and AAA) and versions. My website is partially conformant with WCAG 2.2 level AA. This means that some parts do not fully conform to the accessibility standard.
 
 ## Feedback
 
@@ -27,7 +27,7 @@ I use HTML and CSS, which should work together with the web browser and any assi
 
 ## Limitations and alternatives
 
-Although I try my best, there are some known problems on this website. Please contact us if you observe an issue not listed below.
+Although I try my best, there are some known problems on this website. Please contact me if you observe an issue not listed below.
 
 Known limitations:
 
@@ -41,4 +41,4 @@ I only did self-evaluation.
 
 ## Date
 
-This statement was created on 20 July 2023 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/). Then, I rewrote it on the 29th of August 2023.
+This statement was created on 20 July 2023 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/). Then, I rewrote it on the 29th of August 2023. The last update is from the 16th of January 2024.
