@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Build script for fmjansen.com Jekyll site",
   "main": "gulpfile.js",
+  "type": "module",
   "dependencies": {
     "browser-sync": "*",
     "canvas": "*",

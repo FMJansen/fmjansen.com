@@ -1,30 +1,33 @@
 // Include gulp
-var gulp = require('gulp');
+import gulp from 'gulp';
 
 // Include plugins
-var log = require('fancy-log');
-var colors = require('ansi-colors');
+import log from 'fancy-log';
+import colors from 'ansi-colors';
 
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
+import concat from 'gulp-concat';
+import uglify from 'gulp-uglify';
+import rename from 'gulp-rename';
 
-var plumber = require('gulp-plumber');
-var sass = require('gulp-sass')(require('sass'));
-var sourcemaps = require('gulp-sourcemaps');
-var prefix = require('gulp-autoprefixer');
+import plumber from 'gulp-plumber';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
+import sourcemaps from 'gulp-sourcemaps';
+import prefix from 'gulp-autoprefixer';
 
 var imagemin = import('gulp-imagemin');
-var cache = require('gulp-cache');
+import cache from 'gulp-cache';
 
-var clone = require('gulp-clone');
+import clone from 'gulp-clone';
 var sink = clone.sink();
-var webp = require('gulp-webp');
+// import webp from 'gulp-webp';
 
 // Include browsersync
-var browserSync = require('browser-sync').create();
+import browserSyncImport from 'browser-sync'
+var browserSync = browserSyncImport.create();
 
-var child = require('child_process');
+import child from 'child_process'
 
 
 
