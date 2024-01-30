@@ -331,6 +331,10 @@ p:has(.tocgle) {
 	}
 }
 
+h2 + .toc {
+	margin: 0;
+}
+
 .summary {
 	background-color: rgba(var(--text), .07);
 	border: 2.5px solid rgba(var(--text), 1);
