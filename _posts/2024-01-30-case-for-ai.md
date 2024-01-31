@@ -32,6 +32,8 @@ The UK government framework also lists [use cases to avoid](https://www.gov.uk/g
 
 You _could_ leave some concerns aside. For example, worker exploitation and environmental destruction are inherent to the capitalist system, and it’s impossible to stop that completely by spending your money otherwise. Some use cases might then indeed be excusable, like summarising content you already know, or could verify easily. Heck, it makes translations and transcriptions available in more situations, which improves the accessibility of information. So there might be some good in its use. 
 
+---
+
 ## Downsides
 {:.no_toc}
 So should you use it? That’s hardly up to me. Either way, I think it’s important to know the downsides of the creation and use of generative AI. So here’s my collection of publications I’ve come across.
@@ -42,6 +44,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 * TOC
 {:toc .toc}
 
+---
 
 ### Based on stealing content and privacy infringements
 - MidJourney created [near-copies of copyrighted images](https://www.nytimes.com/interactive/2024/01/25/business/ai-image-generators-openai-microsoft-midjourney-copyright.html)
