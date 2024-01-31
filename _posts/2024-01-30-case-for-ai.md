@@ -109,6 +109,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 ### Devaluing your brand
 - [DPD AI chatbot swears, calls itself ‘useless’ and criticises delivery firm](https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-firm)
 - AI art quickly developed the same status as [stock images](https://ia.net/topics/ai-art-is-the-new-stock-image)
+- [Clock are telling the wrong time](https://arstechnica.com/information-technology/2024/01/rhyming-ai-powered-clock-sometimes-lies-about-the-time-makes-up-words/)
 
 ### Used by companies to devalue our work
 - Apparently already in 2023, [jobs were eliminated](https://www.cbsnews.com/news/ai-job-losses-artificial-intelligence-challenger-report/)
