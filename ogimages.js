@@ -1,5 +1,5 @@
-const { registerFont, createCanvas } = require('canvas');
-const fs = require ('fs');
+import { registerFont, createCanvas } from 'canvas';
+import fs from 'fs';
 
 const title = process.argv[2];
 const date = process.argv[3];
