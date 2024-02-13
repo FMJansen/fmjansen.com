@@ -30,7 +30,7 @@ Recently, the UK government published a framework which includes [ten principles
 
 The UK government framework also lists [use cases to avoid](https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html#use-cases-to-avoid), but I must say I find it harder to find any [use case](https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html#identifying-use-cases) which remains when you actually take all those concerns into account. Large language models, although called ‘artificial intelligence’, [aren’t actually intelligent](https://buttondown.email/ninelives/archive/language-is-a-poor-heuristic-for-intelligence/), of course. And because of its nature, generative AI *will* make mistakes and it *will* perpetuate biases.
 
-You _could_ leave some concerns aside. For example, worker exploitation and environmental destruction are inherent to the capitalist system, and it’s impossible to stop that completely by spending your money otherwise. Some use cases might then indeed be excusable, like summarising content you already know, or could verify easily. Heck, it makes translations and transcriptions available in more situations, which improves the accessibility of information. So there might be some good in its use. 
+You _could_ leave some concerns aside. For example, worker exploitation and environmental destruction are inherent to the capitalist system, and it’s impossible to stop that completely by spending your money otherwise. Some use cases might then indeed be excusable, like summarising content you already know, or could verify easily. Heck, it makes translations and transcriptions available in more situations, which improves the accessibility of information. So there might be some good in its use.
 
 ---
 
@@ -51,12 +51,12 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Artists](https://news.artnet.com/art-world/federal-judge-sides-with-ai-companies-in-artists-copyright-dispute-2387654), [authors](https://www.theguardian.com/books/2023/sep/20/authors-lawsuit-openai-george-rr-martin-john-grisham) and [The New York Times](https://www.theguardian.com/media/2023/dec/27/new-york-times-openai-microsoft-lawsuit), among others, are claiming it’s copyright infringement
 - OpenAI says [copyrighted material is required](https://www.theguardian.com/technology/2024/jan/08/ai-tools-chatgpt-copyrighted-material-openai) to build an LLM
 - Adobe retains the right to [train their AI models on your work](https://www.howtogeek.com/858952/adobe-is-using-your-data-to-train-ai-how-to-turn-it-off/) (even if it isn’t published, but only in Adobe’s cloud solutions), unless you opt-out
-- [Meta, Google, OpenAI](https://www.vox.com/technology/2023/7/27/23808499/ai-openai-google-meta-data-privacy-nope) and [Lensa](https://twitter.com/CatStaggs/status/1599145701954707456) have similar policies (although you might not be able to opt-out)
+- [Meta](https://petapixel.com/2024/02/02/zuckerbergs-going-to-use-your-instagram-photos-to-train-his-ai-machines/), [Google, OpenAI](https://www.vox.com/technology/2023/7/27/23808499/ai-openai-google-meta-data-privacy-nope) and [Lensa](https://twitter.com/CatStaggs/status/1599145701954707456) have similar policies (although you might not be able to opt-out)
 - Stable Diffusion spat out [exact copies of its training data](https://www.vice.com/en/article/m7gznn/ai-spits-out-exact-copies-of-training-images-real-people-logos-researchers-find)
 - As did, ChatGPT, and it spat out [privately identifiable information](https://www.404media.co/google-researchers-attack-convinces-chatgpt-to-reveal-its-training-data/)
 
 ### Based on worker exploitation
-- [OpenAI underpaid its contractor workers](https://time.com/6247678/openai-chatgpt-kenya-workers/) cleaning up ChatGPT output which included child sexual abuse, bestiality, torture, suicide, etc., but gave little to no mental health support 
+- [OpenAI underpaid its contractor workers](https://time.com/6247678/openai-chatgpt-kenya-workers/) cleaning up ChatGPT output which included child sexual abuse, bestiality, torture, suicide, etc., but gave little to no mental health support
 - Google Assistant contractors [alleged the company of wage theft](https://www.theguardian.com/technology/2019/may/28/a-white-collar-sweatshop-google-assistant-contractors-allege-wage-theft)
 
 ### Perpetuating biases
@@ -70,7 +70,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 
 ### Causing information pollution
 - An entrepreneur generated articles based on the [sitemap of a competitor](https://www.dailydot.com/debug/ai-tech-bro-jake-ward-brags-google-seo-heist/), producing more unreliable content
-- Google returned an AI generated image for the [Tiananmen Square “Tank Man”](https://www.404media.co/first-google-search-result-for-tiananmen-square-tank-man-is-ai-generated-selfie/) 
+- Google returned an AI generated image for the [Tiananmen Square “Tank Man”](https://www.404media.co/first-google-search-result-for-tiananmen-square-tank-man-is-ai-generated-selfie/)
 - Generating website content with AI is already leading to [worse search results](https://9to5google.com/2023/02/07/google-seo-spam-ai/) in general
 - [Sites are ripping off other outlets](https://www.404media.co/google-news-is-boosting-garbage-ai-generated-articles/) (stealing income from those outlets in the process), and they’re promoted by Google
 - GitHub [Copilot seemingly leads to lower code quality](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx)
@@ -104,7 +104,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 ### Doing your work in a worse way
 - [UX reviews](https://baymard.com/blog/gpt-ux-audit) with GPT-4 lead to low discovery, high failure rates
 - When [answering code questions](https://www.theregister.com/2023/08/07/chatgpt_stack_overflow_ai/), it has wrong answers more than half of the time
-- [Writing code for websites](https://nitter.net/AshleeMBoyer/status/1702367107130720534) with many accessibility mistakes
+- [Writing code for websites](https://nitter.net/AshleeMBoyer/status/1702367107130720534) with many accessibility mistakes or at least the [need for oversight](https://tetralogical.com/blog/2024/02/12/can-generative-ai-help-write-accessible-code/)
 - [Infographics](https://social.vivaldi.net/@brucelawson/110661660308637621) are just useless
 - [Fake users](https://www.syntheticusers.com/) to design “with confidence” even though research is about the specifics, details and behaviour of real people
 - [AI generated promotion social media posts](https://replyguy.com/) are just repackaged spam with unreliable results, which might lead to the next point
@@ -118,4 +118,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Apparently already in 2023, [jobs were eliminated](https://www.cbsnews.com/news/ai-job-losses-artificial-intelligence-challenger-report/)
 - [AI threatens wages](https://www.reuters.com/technology/ai-threatens-wages-not-jobs-so-far-ecb-paper-finds-2023-11-28/)
 - More people are loosing their jobs or have them de-skilled (lowering skill requirements and thus wages because of technology replacing those workers; from [You Deserve a Tech Union](https://abookapart.com/products/you-deserve-a-tech-union), chapter 5, page 99)
-- And it [increase the wealth concentration](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) 
+- And it [increase the wealth concentration](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey)
