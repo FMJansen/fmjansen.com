@@ -63,6 +63,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Stable Diffusion shows (‘worse than reality’) [sexist and racist](https://www.bloomberg.com/graphics/2023-generative-ai-bias/) tendencies
 - Lensa, [based on](https://techcrunch.com/2022/12/05/lensa-ai-app-store-magic-avatars-artists/) Stable Diffusion, [‘undressed’ women](https://www.technologyreview.com/2022/12/12/1064751/the-viral-ai-avatar-app-lensa-undressed-me-without-my-consent/) and [children](https://www.wired.com/story/lensa-artificial-intelligence-csem/), while whitening skin of women of color.
 - Several LLMs [propagate racist and harmful medicine](https://www.nature.com/articles/s41746-023-00939-z)
+- Image generating models are horrible at images of [people doing things left-handedly](https://fosstodon.org/@gabrielesvelto/111930375742973633), this might translate to other marginalised/less visible human traits
 
 ### Making it easier to spread misinformation
 - [Researchers warn about possible misinformation](https://www.nytimes.com/2023/02/08/technology/ai-chatbots-disinformation.html), but it’s already happening in [political campaigns in the USA](https://www.cnet.com/news/misinformation/ai-misinformation-how-it-works-and-ways-to-spot-it/) and [Israel](https://www.newsguardtech.com/special-reports/ai-generated-site-sparks-viral-hoax-claiming-the-suicide-of-netanyahus-purported-psychiatrist/), for example
