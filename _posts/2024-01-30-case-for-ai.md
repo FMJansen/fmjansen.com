@@ -74,7 +74,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Google returned an AI generated image for the [Tiananmen Square “Tank Man”](https://www.404media.co/first-google-search-result-for-tiananmen-square-tank-man-is-ai-generated-selfie/)
 - Generating website content with AI is already leading to [worse search results](https://9to5google.com/2023/02/07/google-seo-spam-ai/) in general
 - [Sites are ripping off other outlets](https://www.404media.co/google-news-is-boosting-garbage-ai-generated-articles/) (stealing income from those outlets in the process), and they’re promoted by Google
-- GitHub [Copilot seemingly leads to lower code quality](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx)
+- GitHub [Copilot seemingly leads to lower code quality](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx), although there is definitely [some nuance to that](https://shively-sanders.com/gitclear-copilot-code-quality.html)
 - Lots of [translations of web pages are seemingly machine made](https://arxiv.org/pdf/2401.05749.pdf), with low quality as a result
 
 ### Making phishing easier and more sophisticated
