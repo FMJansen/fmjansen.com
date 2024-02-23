@@ -116,7 +116,7 @@ h1 {
 .home {
 	font-size: Min(15vw, 7rem);
 	margin-top: 2.5em;
-	
+
 	&::after {
 		width: 45vw;
 		height: 45vw;
@@ -124,6 +124,7 @@ h1 {
 		background: none;
 		display: block;
 		position: absolute;
+		pointer-events: none;
 		border-radius: 50% 50% 0 0;
 		box-shadow: -4vw -4vw 3vw -4vw;
 		opacity: 0.25;
@@ -258,7 +259,7 @@ nav {
 		list-style: none;
 		padding-bottom: 1.5em;
 		padding-top: 1.5em;
-	
+
 		&:last-child {
 			border: none;
 		}
