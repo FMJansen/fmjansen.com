@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}} (Updated 15 February 2024)
+Published: {{page.date | date_to_long_string}} (Updated 16 March 2024)
 {: .date}
 
 
@@ -76,6 +76,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Sites are ripping off other outlets](https://www.404media.co/google-news-is-boosting-garbage-ai-generated-articles/) (stealing income from those outlets in the process), and they’re promoted by Google
 - GitHub [Copilot seemingly leads to lower code quality](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx), although there is definitely [some nuance to that](https://shively-sanders.com/gitclear-copilot-code-quality.html)
 - Lots of [translations of web pages are seemingly machine made](https://arxiv.org/pdf/2401.05749.pdf), with low quality as a result
+- Papers are being published with [literal language model output](https://www.sciencedirect.com/science/article/pii/S1930043324001298#:~:text=I%27m%20very%20sorry%2C%20but%20I%20don%27t%20have%20access%20to%20real%2Dtime%20information%20or%20patient%2Dspecific%20data%2C%20as%20I%20am%20an%20AI%20language%20model.%20I%20can%20provide%20general%20information%20about)
 
 ### Making phishing easier and more sophisticated
 - GPT was [better at writing phishing emails than humans](https://www.wired.com/story/ai-phishing-emails/), already in 2021
