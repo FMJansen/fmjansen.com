@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Accessibility in a digital design process
 excerpt: Designers have the power and responsibility to allow people to access a website. I think we can bake that into our process in several ways.
 ---

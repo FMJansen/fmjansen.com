@@ -371,6 +371,15 @@ h2 + .toc {
 	}
 }
 
+.chrono-links {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-between;
+	max-width: none;
+	padding: 0;
+}
+
 footer {
 	font-size: .8em;
 	text-align: center;

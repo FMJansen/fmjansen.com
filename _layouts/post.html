@@ -1,0 +1,35 @@
+{% include head.html %}
+
+<nav aria-label="Going home">
+	<a href="/">← Home</a> <span class="light">(</span>Floris Jansen<span class="light">)</span>
+</nav>
+
+<main class="default" id="site-content">
+	{{ content }}
+</main>
+
+<aside>
+	{% webmentions page.url %}
+</aside>
+
+{% if page.previous.url || page.next.url %}
+<nav aria-labelledby="posts">
+	<h2 id="posts">Older and newer posts</h2>
+	<ul class="chrono-links">
+		{% if page.previous.url %}
+			<li>
+				Newer post:
+				<a href="{{page.previous.url}}">{{page.previous.title}}</a>
+			</li>
+		{% endif %}
+		{% if page.next.url %}
+			<li>
+				Older post:
+				<a href="{{page.next.url}}">{{page.next.title}}</a>
+			</li>
+		{% endif %}
+	</ul>
+</nav>
+{% endif %}
+
+{% include foot.html %}
