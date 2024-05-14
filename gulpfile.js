@@ -16,7 +16,7 @@ const sass = gulpSass(dartSass);
 import sourcemaps from 'gulp-sourcemaps';
 import prefix from 'gulp-autoprefixer';
 
-var imagemin = import('gulp-imagemin');
+import imagemin from 'gulp-imagemin';
 import cache from 'gulp-cache';
 
 import clone from 'gulp-clone';
@@ -106,12 +106,23 @@ gulp.task('copy-fonts', function() {
 
 
 
-// Copy & Webp images
-gulp.task('images', function() {
+// Copy og images
+gulp.task('og-images', function() {
     return gulp.src(src + 'og/*')
         .pipe(sink)
         .pipe(sink.tap())
         .pipe(gulp.dest(dest + 'og'));
+});
+
+
+
+// Copy & min images
+gulp.task('images', function() {
+    return gulp.src(src + 'img/*')
+        .pipe(sink)
+        .pipe(sink.tap())
+        .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+        .pipe(gulp.dest(dest + 'img'));
 });
 
 
@@ -154,14 +165,14 @@ gulp.task('serve', function() {
 gulp.task('default',
     gulp.series(
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'images')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'og-images')
     )
 );
 
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'og-images', 'images'));
 
 
 
