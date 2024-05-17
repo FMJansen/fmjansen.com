@@ -181,6 +181,11 @@ a {
 	}
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .light {
 	color: rgba(var(--text), .7);
 }
