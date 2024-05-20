@@ -99,6 +99,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - OpenAI says building ‘AI’ models requires [new methods of generating electricity](https://www.news18.com/tech/openai-ceo-sam-altman-says-future-of-ai-depends-on-nuclear-fusion-breakthrough-8743104.html) because it uses so much energy
 - [Making an image with generative AI uses as much energy as charging your phone](https://www.technologyreview.com/2023/12/01/1084189/making-an-image-with-generative-ai-uses-as-much-energy-as-charging-your-phone/)
 - [New data centres threaten the water supply in Mexico](https://news.mongabay.com/2024/03/critics-fear-catastrophic-energy-crisis-as-ai-is-outsourced-to-latin-america/)
+- [Microsoft’s CO2 emissions](https://www.theverge.com/2024/5/15/24157496/microsoft-ai-carbon-footprint-greenhouse-gas-emissions-grow-climate-pledge) have risen instead of shrunk due to AI, “jeopardizing its climate ambitions”
 
 ### Leading to the statistical average
 
