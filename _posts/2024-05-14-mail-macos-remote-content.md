@@ -15,10 +15,10 @@ Published: {{page.date | date_to_long_string}}
 * TOC
 {:toc .toc}
 
-![A banner in macOS Mail with the message ‘This message contains remote content.’ and a button ‘Load Remote Content’.](/static/img/macos-mail-load-content-banner.png)
-
 ## Load remote content
 There used to be an option in macOS’s mail called ‘Load remote content in messages’. However, since Monterey (version 12), this feature has disappeared. Instead, there’s a specific privacy tab in the Mail Settings and different options. 
+
+![A banner in macOS Mail with the message ‘This message contains remote content.’ and a button ‘Load Remote Content’.](/static/img/macos-mail-load-content-banner.png)
 
 ## Protect Mail Activity
 The default ‘Protect Mail Activity’ loads all images, but just routes them through servers and obfuscates the moment of loading by pre-loading it when the email arrives in the app. 
