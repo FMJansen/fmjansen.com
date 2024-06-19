@@ -109,8 +109,6 @@ gulp.task('copy-fonts', function() {
 // Copy og images
 gulp.task('og-images', function() {
     return gulp.src(src + 'og/*')
-        .pipe(sink)
-        .pipe(sink.tap())
         .pipe(gulp.dest(dest + 'og'));
 });
 
