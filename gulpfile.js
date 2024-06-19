@@ -10,7 +10,7 @@ import uglify from 'gulp-uglify';
 import rename from 'gulp-rename';
 
 import plumber from 'gulp-plumber';
-import dartSass from 'sass';
+import * as sass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
 import sourcemaps from 'gulp-sourcemaps';
