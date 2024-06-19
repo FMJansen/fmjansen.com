@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}} (Updated 16 March 2024)
+Published: {{page.date | date_to_long_string}} (Updated 19 June 2024)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -67,6 +67,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Lensa, [based on](https://techcrunch.com/2022/12/05/lensa-ai-app-store-magic-avatars-artists/) Stable Diffusion, [‘undressed’ women](https://www.technologyreview.com/2022/12/12/1064751/the-viral-ai-avatar-app-lensa-undressed-me-without-my-consent/) and [children](https://www.wired.com/story/lensa-artificial-intelligence-csem/), while whitening skin of women of color.
 - Several LLMs [propagate racist and harmful medicine](https://www.nature.com/articles/s41746-023-00939-z)
 - Image generating models are horrible at images of [people doing things left-handedly](https://fosstodon.org/@gabrielesvelto/111930375742973633), this might translate to other marginalised/less visible human traits
+- A tool promising to remove bias from applications [perpetuated several kinds of bias](https://interaktiv.br.de/ki-bewerbung/en/)
 
 ### Making it easier to spread misinformation
 
