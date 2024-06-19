@@ -12,7 +12,7 @@ import rename from 'gulp-rename';
 import plumber from 'gulp-plumber';
 import * as sass from 'sass';
 import gulpSass from 'gulp-sass';
-const sass = gulpSass(dartSass);
+const usingSass = gulpSass(sass);
 import sourcemaps from 'gulp-sourcemaps';
 import prefix from 'gulp-autoprefixer';
 
@@ -71,7 +71,7 @@ gulp.task('sass', function() {
             log(colors.red(error.message));
             this.emit('end');
         }))
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(usingSass({outputStyle: 'compressed'}).on('error', usingSass.logError))
         .pipe(prefix())
         .pipe(rename('2023.css'))
         .pipe(gulp.dest(dest + 'css'));
@@ -85,7 +85,7 @@ gulp.task('sassDev', function() {
             this.emit('end');
         }))
         .pipe(sourcemaps.init())
-        .pipe(sass().on('error', sass.logError))
+        .pipe(usingSass().on('error', usingSass.logError))
         .pipe(sourcemaps.write())
         .pipe(rename('2023.css'))
         .pipe(gulp.dest(dest + 'css'))
