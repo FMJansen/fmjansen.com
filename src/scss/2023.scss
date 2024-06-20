@@ -17,7 +17,6 @@
 	font-family: 'Satoshi';
 	font-style: normal;
 	font-weight: 300 900;
-	unicode-range: "U+00-U+7F, U+2000-U+206F, U+2197";
 	src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
 		 url('../fonts/Satoshi-Variable.woff') format('woff'),;
   }
@@ -27,7 +26,6 @@
 	font-family: "Gambarino";
 	font-style: normal;
 	font-weight: 400;
-	unicode-range: "U+00-U+7F, U+2000-U+206F";
 	src: local("Gambarino"),
 		url("../fonts/Gambarino-Regular.woff2") format("woff2"),
 		url("../fonts/Gambarino-Regular.woff") format("woff");
