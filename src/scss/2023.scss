@@ -14,11 +14,13 @@
 
 @font-face {
 	font-display: swap;
-	font-family: 'Satoshi';
+	font-family: "Satoshi";
 	font-style: normal;
 	font-weight: 300 900;
-	src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
-		 url('../fonts/Satoshi-Variable.woff') format('woff'),;
+	unicode-range: "U+00-U+7F, U+2000-U+206F, U+2197";
+	src: local("Satoshi"),
+		 url("../fonts/Satoshi-Variable.woff2") format("woff2"),
+		 url("../fonts/Satoshi-Variable.woff") format("woff"),;
   }
 
 @font-face {
@@ -67,6 +69,7 @@ body {
 	color: rgba(var(--text), 1);
 	font-family: var(--sans-serif);
 	font-size: clamp(1.2em, 4vw, 1.6em);
+	font-weight: 400;
 	line-height: 1.65;
 	margin: 0;
 	word-wrap: break-word;
