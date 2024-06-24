@@ -12,27 +12,6 @@
 
 \*-------------------------------------*/
 
-@font-face {
-	font-display: swap;
-	font-family: "Satoshi";
-	font-style: normal;
-	font-weight: 300 900;
-	unicode-range: "U+00-U+7F, U+2000-U+206F, U+2197";
-	src: local("Satoshi"),
-		 url("../fonts/Satoshi-Variable.woff2") format("woff2"),
-		 url("../fonts/Satoshi-Variable.woff") format("woff"),;
-  }
-
-@font-face {
-	font-display: swap;
-	font-family: "Gambarino";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Gambarino"),
-		url("../fonts/Gambarino-Regular.woff2") format("woff2"),
-		url("../fonts/Gambarino-Regular.woff") format("woff");
-}
-
 /*-------------------------------------*\
   CSS Variables
 \*-------------------------------------*/
