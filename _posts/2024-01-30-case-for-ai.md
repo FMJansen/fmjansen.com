@@ -142,3 +142,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [AI threatens wages](https://www.reuters.com/technology/ai-threatens-wages-not-jobs-so-far-ecb-paper-finds-2023-11-28/)
 - More people are loosing their jobs or have them de-skilled (lowering skill requirements and thus wages because of technology replacing those workers; from [You Deserve a Tech Union](https://abookapart.com/products/you-deserve-a-tech-union), chapter 5, page 99)
 - And it [increase the wealth concentration](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey)
+- [Copywriters](https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human) have to do less skilled work and others are fired
