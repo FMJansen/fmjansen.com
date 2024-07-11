@@ -42,6 +42,24 @@
 		 url('../fonts/satoshi-variableitalic.woff') format('woff');
 }
 
+@keyframes changeBackground {
+	0% {
+		background: var(--sand);
+	}
+	100% {
+		background: var(--pink-light);
+	}
+}
+@keyframes changeColor {
+	0% {
+		color: var(--sand);
+	}
+	100% {
+		color: var(--pink-light);
+	}
+}
+
+
 /*-------------------------------------*\
   CSS Variables
 \*-------------------------------------*/
@@ -86,6 +104,15 @@ body {
 	margin: 0;
 	word-wrap: break-word;
 	font-feature-settings: "ss02" on;
+
+	@media (prefers-color-scheme: light) {
+		animation: changeBackground auto linear forwards;
+		animation-timeline: scroll(root);
+	}
+	@media (prefers-color-scheme: dark) {
+		animation: changeColor auto linear forwards;
+		animation-timeline: scroll(root);
+	}
 
 	@supports (font-variant-ligatures: discretionary-ligatures) {
 		font-variant-ligatures: discretionary-ligatures;
