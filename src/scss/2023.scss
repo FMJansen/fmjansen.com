@@ -12,6 +12,17 @@
 
 \*-------------------------------------*/
 
+@font-face {
+	font-display: swap;
+	font-family: 'Instrument Serif';
+	src: local("Instrument Serif"),
+		 url('../fonts/instrumentserif-regular.woff2') format('woff2'),
+		 url('../fonts/instrumentserif-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /*-------------------------------------*\
   CSS Variables
 \*-------------------------------------*/
@@ -22,7 +33,7 @@
 	--pad: 7vw;
 	--sans-serif: "Satoshi", "Inter", "Helvetica Neue", Arial,
 		sans-serif;
-	--serif: "Gambarino", "Baskerville", serif;
+	--serif: "Instrument Serif", "Gambarino", "Baskerville", serif;
 
 	--background: var(--light);
 	--color: var(--theme);
