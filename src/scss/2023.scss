@@ -80,6 +80,14 @@ body {
 	line-height: 1.65;
 	margin: 0;
 	word-wrap: break-word;
+	font-feature-settings: "ss02" on;
+
+	@supports (font-variant-ligatures: discretionary-ligatures) {
+		font-variant-ligatures: discretionary-ligatures;
+	}
+	@supports (font-variant-numeric: diagonal-fractions) {
+		font-variant-numeric: diagonal-fractions;
+	}
 }
 
 *:focus-visible {
