@@ -98,6 +98,12 @@ gulp.task('copy-scss', function() {
         .pipe(gulp.dest(dest + 'css'));
 });
 
+// Copy fonts
+gulp.task('copy-fonts', function() {
+    return gulp.src(src + 'fonts/*', { encoding: false })
+        .pipe(gulp.dest(dest + 'fonts'));
+});
+
 
 
 // Copy og images
@@ -110,7 +116,7 @@ gulp.task('og-images', function() {
 
 // Copy & min images
 gulp.task('images', function() {
-    return gulp.src(src + 'img/*')
+    return gulp.src(src + 'img/*',  { encoding: false })
         .pipe(sink)
         .pipe(sink.tap())
         .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
@@ -164,7 +170,7 @@ gulp.task('default',
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'og-images', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'og-images', 'images'));
 
 
 
