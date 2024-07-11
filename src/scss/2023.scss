@@ -27,7 +27,8 @@
 	font-family: "Satoshi";
 	font-style: normal;
 	font-weight: 300 900;
-	src: url('../fonts/satoshi-variable.woff2') format('woff2'),
+	src: local("Satoshi Variable"),
+		 url('../fonts/satoshi-variable.woff2') format('woff2'),
 		 url('../fonts/satoshi-variable.woff') format('woff');
 }
 
@@ -36,7 +37,8 @@
 	font-family: "Satoshi";
 	font-style: italic;
 	font-weight: 300 900;
-	src: url('../fonts/satoshi-variableitalic.woff2') format('woff2'),
+	src: local("Satoshi Variable Italic"),
+		 url('../fonts/satoshi-variableitalic.woff2') format('woff2'),
 		 url('../fonts/satoshi-variableitalic.woff') format('woff');
 }
 
