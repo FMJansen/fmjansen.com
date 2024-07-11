@@ -106,12 +106,16 @@ body {
 	font-feature-settings: "ss02" on;
 
 	@media (prefers-color-scheme: light) {
-		animation: changeBackground auto linear forwards;
-		animation-timeline: scroll(root);
+		&, a {
+			animation: changeBackground auto linear forwards;
+			animation-timeline: scroll(root);
+		}
 	}
 	@media (prefers-color-scheme: dark) {
-		animation: changeColor auto linear forwards;
-		animation-timeline: scroll(root);
+		&, a {
+			animation: changeColor auto linear forwards;
+			animation-timeline: scroll(root);
+		}
 	}
 
 	@supports (font-variant-ligatures: discretionary-ligatures) {
@@ -200,7 +204,7 @@ li {
 }
 
 a {
-	color: inherit;
+	color: currentColor;
 	text-decoration-color: mediumblue;
 
 	@media (prefers-color-scheme: dark) {
