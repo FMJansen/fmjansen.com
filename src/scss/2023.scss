@@ -404,7 +404,7 @@ h2 + .toc {
 	padding: .8em 1em;
 
 	&::before {
-		content: "👉 ";
+		content: "👉 " / "";
 	}
 }
 
