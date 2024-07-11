@@ -98,12 +98,6 @@ gulp.task('copy-scss', function() {
         .pipe(gulp.dest(dest + 'css'));
 });
 
-// Copy fonts
-gulp.task('copy-fonts', function() {
-    return gulp.src(src + 'fonts/*')
-        .pipe(gulp.dest(dest + 'fonts'));
-});
-
 
 
 // Copy og images
@@ -170,7 +164,7 @@ gulp.task('default',
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'og-images', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'og-images', 'images'));
 
 
 
