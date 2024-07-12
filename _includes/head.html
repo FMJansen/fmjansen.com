@@ -45,4 +45,102 @@
 	</head>
 	<body>
 
+		<script>
+			// Color scheme toggle based on https://brandur.org/fragments/dark-mode-notes
+			const LOCAL_STORAGE_KEY_THEME = 'theme';
+
+			const THEME_VALUE_AUTO  = 'auto';
+			const THEME_VALUE_DARK  = 'dark';
+			const THEME_VALUE_LIGHT = 'light';
+
+			const THEME_CLASS_ALL = Object.freeze([
+				THEME_VALUE_DARK,
+				THEME_VALUE_LIGHT
+			])
+
+			window.addEventListener('DOMContentLoaded', () => {
+				document.querySelectorAll('.color-scheme-toggle').forEach((toggle) => {
+					toggle.addEventListener('change', (e) => {
+						if (e.target.checked) {
+							if (e.target.value == THEME_VALUE_AUTO) {
+								localStorage.removeItem(LOCAL_STORAGE_KEY_THEME)
+							} else {
+								localStorage.setItem(LOCAL_STORAGE_KEY_THEME, e.target.value)
+							}
+						}
+
+						setThemeFromLocalStorageOrMediaPreference()
+					}, false)
+				})
+				setThemeFromLocalStorageOrMediaPreference()
+			})
+
+			function setThemeFromLocalStorageOrMediaPreference() {
+				const theme = localStorage.getItem(LOCAL_STORAGE_KEY_THEME) || THEME_VALUE_AUTO
+				console.log('init');
+
+				switch (theme) {
+					case THEME_VALUE_AUTO:
+						if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+							setDocumentClasses(THEME_VALUE_DARK)
+						} else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+							setDocumentClasses(THEME_VALUE_LIGHT)
+						}
+						break
+
+					case THEME_VALUE_DARK:
+						setDocumentClasses(THEME_VALUE_DARK)
+						break
+
+					case THEME_VALUE_LIGHT:
+						setDocumentClasses(THEME_VALUE_LIGHT)
+						break
+				}
+
+				document.querySelectorAll(`.color-scheme-toggle[value='${theme}']`).forEach(function(toggle) {
+					toggle.checked = true;
+					console.log(theme);
+				})
+			}
+
+
+			function setDocumentClasses(...classes) {
+				THEME_CLASS_ALL.forEach((themeClass) => {
+					if (classes.includes(themeClass)) {
+						document.documentElement.classList.add(themeClass)
+					} else {
+						document.documentElement.classList.remove(themeClass)
+					}
+				})
+			}
+
+			window.addEventListener("storage", (e) => {
+				if (e.key == LOCAL_STORAGE_KEY_THEME) {
+					setThemeFromLocalStorageOrMediaPreference()
+				}
+			})
+
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+				setThemeFromLocalStorageOrMediaPreference()
+			})
+
+			setThemeFromLocalStorageOrMediaPreference()
+		</script>
+
+		<fieldset class="color-scheme">
+			<legend>theme</legend>
+			<label>
+				<input value="light" name="theme_toggle_state" type="radio" class="color-scheme-toggle">
+				light
+			</label>
+			<label>
+				<input value="auto" name="theme_toggle_state" type="radio" class="color-scheme-toggle">
+				auto
+			</label>
+			<label>
+				<input value="dark" name="theme_toggle_state" type="radio" class="color-scheme-toggle">
+				dark
+			</label>
+		</fieldset>
+
 
