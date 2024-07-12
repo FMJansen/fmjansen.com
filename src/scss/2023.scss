@@ -144,6 +144,15 @@ body {
 	}
 }
 
+.light *:focus-visible {
+	outline-color: blue;
+}
+
+.dark *:focus-visible {
+	outline-color: gold;
+}
+
+
 /*-------------------------------------*\
   Paragraph styles
 \*-------------------------------------*/
@@ -217,7 +226,7 @@ a {
 	text-decoration-color: mediumblue;
 
 	@media (prefers-color-scheme: dark) {
-		text-decoration-color: #e4485b;
+		text-decoration-color: var(--pink);
 	}
 
 	&[href^="http"]::after {
@@ -229,6 +238,28 @@ a {
 		}
 	}
 }
+
+.light {
+	a {
+		text-decoration-color: mediumblue;
+	}
+
+	&[href^="http"]::after {
+		color: var(--color);
+	}
+}
+
+.dark {
+	a {
+		text-decoration-color: var(--pink);
+	}
+
+	&[href^="http"]::after {
+		color: gold;
+	}
+}
+
+
 
 img {
 	max-width: 100%;
@@ -271,6 +302,14 @@ button {
 		transform: translate(0);
 		transition: all 0ms cubic-bezier(.19,1,.22,1);
 	}
+}
+
+.light button {
+	--shadow: rgba(0, 0, 0, 0.2);
+}
+
+.dark button {
+	--shadow: rgba(0, 0, 0, 1);
 }
 
 .date {
