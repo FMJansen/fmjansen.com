@@ -72,6 +72,14 @@
 	--pink: oklch(0.63 0.19 17.8);
 	--pink-light: oklch(from var(--pink) calc(l + .3) calc(c - .1) h);
 	--blue: oklch(0.19 0.02 251.72);
+}
+
+/*-------------------------------------*\
+  Reset
+\*-------------------------------------*/
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 
 	@media (prefers-color-scheme: light) {
 		--background: var(--sand);
@@ -84,14 +92,28 @@
 		--color: var(--pink);
 		--text: var(--sand);
 	}
-}
 
-/*-------------------------------------*\
-  Reset
-\*-------------------------------------*/
-html {
-	overflow-x: hidden;
-	scroll-behavior: smooth;
+	&.light {
+		--background: var(--sand);
+		--color: var(--pink);
+		--text: var(--blue);
+
+		body, a {
+			animation: changeBackground auto linear forwards;
+			animation-timeline: scroll(root);
+		}
+	}
+
+	&.dark {
+		--background: var(--blue);
+		--color: var(--pink);
+		--text: var(--sand);
+
+		body, a {
+			animation: changeColor auto linear forwards;
+			animation-timeline: scroll(root);
+		}
+	}
 }
 
 body {
@@ -104,19 +126,6 @@ body {
 	margin: 0;
 	word-wrap: break-word;
 	font-feature-settings: "ss02" on;
-
-	@media (prefers-color-scheme: light) {
-		&, a {
-			animation: changeBackground auto linear forwards;
-			animation-timeline: scroll(root);
-		}
-	}
-	@media (prefers-color-scheme: dark) {
-		&, a {
-			animation: changeColor auto linear forwards;
-			animation-timeline: scroll(root);
-		}
-	}
 
 	@supports (font-variant-ligatures: discretionary-ligatures) {
 		font-variant-ligatures: discretionary-ligatures;
