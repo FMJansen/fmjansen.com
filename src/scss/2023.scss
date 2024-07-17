@@ -319,6 +319,19 @@ button {
 	text-align: center;
 }
 
+.color-scheme {
+	border: none;
+	padding: 1em;
+	background: oklch(from var(--text) l c h / calc(alpha - 0.9));
+	display: flex;
+	justify-content: center;
+
+	legend {
+		float: left;
+		margin-inline-end: .5em;
+	}
+}
+
 /*-------------------------------------*\
   Blocks
 \*-------------------------------------*/
