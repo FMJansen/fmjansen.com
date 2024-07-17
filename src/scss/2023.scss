@@ -241,6 +241,7 @@ a {
 
 .light {
 	a {
+		color: var(--text);
 		text-decoration-color: mediumblue;
 	}
 
@@ -251,6 +252,7 @@ a {
 
 .dark {
 	a {
+		color: var(--text);
 		text-decoration-color: var(--pink);
 	}
 
@@ -266,7 +268,7 @@ img {
 	height: auto;
 }
 
-.light {
+.light-box {
 	color: oklch(from var(--text) l c h / calc(alpha - 0.3));
 }
 
@@ -404,7 +406,7 @@ nav {
 
 .workshops,
 .posts {
-	@extend .light;
+	@extend .light-box;
 	@extend .activities;
 	font-size: .8em;
 
