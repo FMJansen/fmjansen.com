@@ -18,7 +18,7 @@ function init () {
 		toggle.addEventListener('click', toggleToc);
 	}
 
-	console.log('did I do something stupid? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
+	console.log('did I break something? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
 
 }
 
