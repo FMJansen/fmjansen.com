@@ -61,6 +61,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 
 - [OpenAI underpaid its contractor workers](https://time.com/6247678/openai-chatgpt-kenya-workers/) cleaning up ChatGPT output which included child sexual abuse, bestiality, torture, suicide, etc., but gave little to no mental health support
 - Google Assistant contractors [alleged the company of wage theft](https://www.theguardian.com/technology/2019/may/28/a-white-collar-sweatshop-google-assistant-contractors-allege-wage-theft)
+- OpenAI [barred staff from airing safety risks](https://www.washingtonpost.com/technology/2024/07/13/openai-safety-risks-whistleblower-sec/), violating laws protecting whistleblowers
 
 ### Perpetuating biases
 
