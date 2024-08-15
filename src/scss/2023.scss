@@ -339,7 +339,7 @@ button {
 \*-------------------------------------*/
 nav,
 main,
-aside,
+aside:not(:has(fieldset)),
 footer {
 	padding: var(--pad);
 }
