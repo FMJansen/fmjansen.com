@@ -12,7 +12,7 @@
 	{% webmentions page.url %}
 </aside>
 
-{% if page.previous.url || page.next.url %}
+{% if page.previous.url or page.next.url %}
 <nav aria-labelledby="posts">
 	<h2 id="posts">Older and newer posts</h2>
 	<ul class="chrono-links">
