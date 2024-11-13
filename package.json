@@ -13,13 +13,11 @@
     "gulp-cli": "*",
     "gulp-clone": "*",
     "gulp-concat": "*",
-    "gulp-imagemin": "*",
     "gulp-plumber": "*",
     "gulp-rename": "*",
     "gulp-sass": "*",
     "gulp-sourcemaps": "*",
     "gulp-uglify": "*",
-    "gulp-webp": "*",
     "sass": "*"
   },
   "browserslist": {

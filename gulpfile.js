@@ -16,12 +16,10 @@ const usingSass = gulpSass(sass);
 import sourcemaps from 'gulp-sourcemaps';
 import prefix from 'gulp-autoprefixer';
 
-import imagemin from 'gulp-imagemin';
 import cache from 'gulp-cache';
 
 import clone from 'gulp-clone';
 var sink = clone.sink();
-// import webp from 'gulp-webp';
 
 // Include browsersync
 import browserSyncImport from 'browser-sync'
@@ -117,9 +115,6 @@ gulp.task('og-images', function() {
 // Copy & min images
 gulp.task('images', function() {
     return gulp.src(src + 'img/*',  { encoding: false })
-        .pipe(sink)
-        .pipe(sink.tap())
-        .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
         .pipe(gulp.dest(dest + 'img'));
 });
 
