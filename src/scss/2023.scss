@@ -524,11 +524,21 @@ h2 + .toc {
 }
 
 .chrono-links {
+	display: grid;
+	gap: 1em;
 	grid-column: centered;
+	grid-template-columns: 
+		[newer-start] 1fr
+		[newer-end older-start] 1fr
+		[older-end];
 	list-style: none;
-	justify-content: space-between;
 	max-width: none;
 	padding: 0;
+
+	.older {
+		text-align: right;
+		grid-column: older;
+	}
 }
 
 footer {

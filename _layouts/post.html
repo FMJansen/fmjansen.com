@@ -19,13 +19,13 @@
 	<h2 id="posts">Older and newer posts</h2>
 	<ul class="chrono-links">
 		{% if page.next.url %}
-			<li>
+			<li class="newer">
 				Newer post:
 				<a href="{{page.next.url}}">{{page.next.title}}</a>
 			</li>
 		{% endif %}
 		{% if page.previous.url %}
-			<li>
+			<li class="older">
 				Older post:
 				<a href="{{page.previous.url}}">{{page.previous.title}}</a>
 			</li>
