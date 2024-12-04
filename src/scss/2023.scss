@@ -350,12 +350,13 @@ button {
 	padding: 1em;
 	background: oklch(from var(--text) l c h / calc(alpha - 0.9));
 	display: flex;
+	flex-wrap: wrap;
 	grid-column: full;
 	justify-content: center;
+	gap: .5em;
 
 	legend {
 		float: left;
-		margin-inline-end: .5em;
 	}
 }
 
