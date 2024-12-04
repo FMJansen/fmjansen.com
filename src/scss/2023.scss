@@ -389,19 +389,19 @@ nav {
 	grid-column-end: filler-end;
 
 	@media (min-width: 40em) {
-		margin-bottom: 10vw;
-		margin-left: 25vw;
+		margin-block-end: 10vw;
+		margin-inline-start: 25vw;
 	}
 }
 
 .activities {
-	padding-left: 4vw;
+	padding-inline-start: 0;
 
 	li {
 		border-bottom: 1px solid oklch(from var(--text) l c h / calc(alpha - 0.8));
 		list-style: none;
-		padding-bottom: 1.5em;
-		padding-top: 1.5em;
+		padding-block-end: 1.5em;
+		padding-block-start: 1.5em;
 
 		&:last-child {
 			border: none;
@@ -416,6 +416,7 @@ nav {
 	justify-content: center;
 	list-style: none;
 	grid-column: wide;
+	margin-block-start: 2.75em;
 	max-width: none;
 	padding: 0;
 	row-gap: 1em;
@@ -450,7 +451,7 @@ nav {
 	.title {
 		display: block;
 		font-size: 1.25em;
-		margin-bottom: .5em;
+		margin-block-end: .5em;
 	}
 
 	strong {
@@ -496,7 +497,7 @@ h2 + .toc {
 	padding: 1.6em 2em;
 
 	h2 {
-		margin-top: .5em;
+		margin-block-start: .5em;
 	}
 }
 
@@ -505,7 +506,7 @@ h2 + .toc {
 	border: 2.5px solid var(--text);
 	border-radius: .4em;
 	box-sizing: border-box;
-	margin-top: 2em;
+	margin-block-start: 2em;
 	padding: .8em 1em;
 
 	&::before {
