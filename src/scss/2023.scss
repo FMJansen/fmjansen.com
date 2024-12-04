@@ -338,7 +338,7 @@ button {
 }
 
 .date {
-	color: oklch(from var(--background) l c h / calc(alpha - 0.3));
+	color: oklch(from var(--text) l c h / calc(alpha - 0.3));
 	grid-column: centered;
 	max-width: 100%;
 	margin: -4em 0 4em;
