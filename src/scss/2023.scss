@@ -514,6 +514,10 @@ h2 + .toc {
 	}
 }
 
+.footnotes {
+	grid-column: content;
+}
+
 .webmentions {
 	grid-column: wide;
 
