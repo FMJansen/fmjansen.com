@@ -69,7 +69,7 @@ gulp.task('sass', function() {
             log(colors.red(error.message));
             this.emit('end');
         }))
-        .pipe(usingSass({outputStyle: 'compressed'}).on('error', usingSass.logError))
+        .pipe(usingSass({style: 'compressed'}).on('error', usingSass.logError))
         .pipe(prefix())
         .pipe(rename('2023.css'))
         .pipe(gulp.dest(dest + 'css'));
