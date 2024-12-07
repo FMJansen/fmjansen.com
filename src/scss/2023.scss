@@ -513,6 +513,26 @@ h2 + .toc {
 		content: "👉 " / "";
 	}
 }
+
+table {
+	border-collapse: collapse;
+	display: block;
+	grid-column: wide;
+	grid-column-start: content-start;
+	overflow: auto;
+	margin-block: 1em;
+}
+
+tr:nth-child(2n) {
+	background-color: oklch(from var(--text) l c h / calc(alpha - 0.9));
+}
+
+td,
+th {
+	white-space: pre;
+	padding: .1em .7em .1em 0;
+}
+
 .language-html {
 	background-color: oklch(from var(--text) l c h / calc(alpha - 0.9));
 	grid-column: wide;
