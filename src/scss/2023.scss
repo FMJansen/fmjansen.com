@@ -513,6 +513,25 @@ h2 + .toc {
 		content: "👉 " / "";
 	}
 }
+.language-html {
+	background-color: oklch(from var(--text) l c h / calc(alpha - 0.9));
+	grid-column: wide;
+	margin-block: 1em;
+	overflow: auto;
+}
+
+.highlight {
+	padding: 1em var(--pad);
+	width: fit-content;
+}
+
+.nt {
+	color: oklch(from var(--color) calc(l + 0.1) c h);
+}
+
+.na {
+	color: oklch(from var(--color) calc(l + 0.3) c h);
+}
 
 .footnotes {
 	grid-column: content;
