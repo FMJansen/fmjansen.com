@@ -77,7 +77,6 @@
 
 			function setThemeFromLocalStorageOrMediaPreference() {
 				const theme = localStorage.getItem(LOCAL_STORAGE_KEY_THEME) || THEME_VALUE_AUTO
-				console.log('init');
 
 				switch (theme) {
 					case THEME_VALUE_AUTO:
@@ -99,7 +98,6 @@
 
 				document.querySelectorAll(`.color-scheme-toggle[value='${theme}']`).forEach(function(toggle) {
 					toggle.checked = true;
-					console.log(theme);
 				})
 			}
 
