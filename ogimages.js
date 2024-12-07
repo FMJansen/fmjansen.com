@@ -5,7 +5,7 @@ const title = process.argv[2];
 const date = process.argv[3];
 const path = process.argv[4];
 
-registerFont('./src/fonts/Gambarino-Regular.otf', { family: 'Gambarino' })
+registerFont('./src/fonts/InstrumentSerif-Regular.ttf', { family: 'Instrument' })
 registerFont('./src/fonts/Satoshi-Regular.otf', { family: 'Satoshi' })
 
 const width = 1200;
@@ -20,7 +20,7 @@ ctx.fillRect(0, 0, width, height);
 ctx.textBaseline = "top";
 
 // Write title
-ctx.font = '110px Gambarino';
+ctx.font = '110px Instrument';
 ctx.fillStyle = '#fee1c2';
 wrapText(ctx, title, 80, 80, 1050, 110);
 
