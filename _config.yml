@@ -4,7 +4,6 @@ description: >-
   Hej! I’m Floris, I design and develop for inclusion, accessibility, privacy and sustainability.
 baseurl: "" # the subpath
 url: "https://fmjansen.com"
-twitter_username: fmjansen
 github_username:  fmjansen
 
 # Build settings
