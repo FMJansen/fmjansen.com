@@ -7,7 +7,7 @@ excerpt: Designing in an ethical way is difficult. I think capitalism is the rea
 # (No) ethical design under capitalism
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}} (Updated 1 December 2023)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 1st December 2023)
 {: .date}
 
 {::options parse_block_html="true" /}

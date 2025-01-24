@@ -7,7 +7,7 @@ excerpt: Designers have the power and responsibility to allow people to access a
 # Accessi&shy;bility in a digital design process
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}}
+Published: {{page.date | date_to_long_string: "ordinal"}}
 {: .date}
 
 {::options parse_block_html="true" /}

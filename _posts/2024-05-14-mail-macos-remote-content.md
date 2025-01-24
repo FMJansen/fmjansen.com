@@ -7,7 +7,7 @@ excerpt: .
 # Stop Mail on macOS from loading images
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}}
+Published: {{page.date | date_to_long_string: "ordinal"}}
 {: .date}
 
 <button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">

@@ -7,7 +7,7 @@ excerpt: A flex container button within an anchor creates a keyboard trap in Fir
 # Firefox button-anchor keyboard trap
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string}}
+Published: {{page.date | date_to_long_string: "ordinal"}}
 {: .date}
 
 Recently, I tested a website for accessibility issues and came across a keyboard trap. However, it only showed up in Firefox and I couldn’t figure out what caused it. I wanted to share this for the next person who comes along and gets stumped, but I’ve filed [a bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1935639) as well.

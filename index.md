@@ -15,7 +15,7 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 
 {: .posts}
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string}}
+- [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string: "ordinal" }}
 {% endfor %}
 
 ## What I do
