@@ -146,7 +146,7 @@ body {
 }
 
 *:focus-visible {
-	outline: .2em dashed blue;
+	outline: .2em solid blue;
 	outline-offset: .2em;
 
 	@media (prefers-color-scheme: dark) {
