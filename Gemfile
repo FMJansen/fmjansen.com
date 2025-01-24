@@ -13,3 +13,6 @@ end
 gem "wdm", "~> 0.2" if Gem.win_platform?
 
 gem "webrick", "~> 1.9.1"
+
+gem "csv"
+gem "base64"
