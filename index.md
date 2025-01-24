@@ -36,7 +36,6 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 {: .social}
 - 🔑 [Keybase](https://keybase.io/fmjansen){: rel="me"}
 - 🦣 [Mastodon](https://freeradical.zone/@floris){: rel="me"}
-- 🖼 [Instagram](https://www.instagram.com/fmjansennl){: rel="me"}
 - 💼 [LinkedIn](https://linkedin.com/in/florismartijnjansen){: rel="me"}
 - 💻 [Github](https://github.com/fmjansen){: rel="me"}
 - 🎧 [Last.fm](https://www.last.fm/user/lastfmjansen){: rel="me"}
