@@ -6,6 +6,12 @@ excerpt: I have been giving several workshops at TU Delft on different design to
 
 # Workshops
 
+## Work
+
+- **Designing with accessibility in mind** Developed and ran for clients at Hike One
+
+## University
+
 Since 2018, I have been giving several workshops and lectures at TU Delft on the topics of:
 
 - **Creating a beautiful and readable report** Developed and ran together with several other people
