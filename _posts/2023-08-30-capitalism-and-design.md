@@ -30,12 +30,12 @@ I hope this helps other designers, too.
 
 </div>
 
-<button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
-  Show table of contents</button>
+<a href="#start" class="tocskip">Skip table of contents</a>
 * TOC
 {:toc .toc}
 
 Design sucks. I love finding the right interface pattern, I love listening to users, and I love beautiful products. However, my transition from university to a job has still left me disappointed. I was hoping, as most designers I know, to _make the world a better place_. We try to make a product easier to use, which should better the user’s life. If we want to go the extra mile, we consider [sustainability](https://www.ibm.com/design/practices/design-for-sustainability/), accessibility & [inclusion](https://inclusivedesignprinciples.org/), [mental health](https://createwithconscience.com/principles), [well-being](https://humanebydesign.com/) or just [ethics](https://ethicaldesign.guide/) in general.
+{: #start}
 
 We also try to convince our employers of those values. We might explain that diverse teams lead to [higher productivity](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/). We explain that inclusive and sustainable products sell more because they work [better for everyone](https://mosaicofminds.medium.com/the-curb-cut-effect-how-making-public-spaces-accessible-to-people-with-disabilities-helps-everyone-d69f24c58785) or [are just more attractive](https://www.punctuatedesign.com/insights/why-does-sustainable-product-design-create-value). Or we calculate the [return on investment](https://karlgroves.com/understanding-the-cost-of-not-being-accessible/) of accessibility since it saves money by preventing legal actions.
 

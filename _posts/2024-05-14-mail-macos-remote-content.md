@@ -10,8 +10,7 @@ excerpt: .
 Published: {{page.date | date_to_long_string: "ordinal"}}
 {: .date}
 
-<button id="tocgle" class="tocgle" type="button" aria-expanded="true" aria-controls="markdown-toc">
-  Show table of contents</button>
+<a href="#load-remote-content" class="tocskip">Skip table of contents</a>
 * TOC
 {:toc .toc}
 

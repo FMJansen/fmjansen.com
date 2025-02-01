@@ -463,22 +463,33 @@ nav {
 	grid-column-start: wide-start;
 }
 
-p:has(.tocgle) {
-	grid-column: centered;
+p:has(.tocskip) {
+	grid-column: wide;
+	margin-block-start: 2em;
 }
 
-.tocgle {
-	margin: 5vw auto 5vw;
-	display: block;
+.tocskip {
+	font-size: .85em;
 }
 
 .toc {
-	margin: 0 auto 10vw;
-	grid-column: centered;
+	font-size: .85em;
+	grid-column: wide;
+	list-style: none;
+	margin: 0 0 2em;
+	opacity: .9;
+	padding-inline-start: 0;
 
-	&[aria-hidden="true"] {
+	ul {
+		list-style-type: none;
+		opacity: .9;
+		padding-inline-start: 2em;
 		display: none;
-		visibility: hidden;
+	}
+
+	li:focus-within ul,
+	li:hover ul {
+		display: block;
 	}
 }
 

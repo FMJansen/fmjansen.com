@@ -41,7 +41,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 {:.no_toc}
 
 - TOC
-{:toc .toc}
+{:toc}
 
 ---
 

@@ -1,5 +1,3 @@
-var toggle;
-
 if (document.readyState !== 'loading') {
 	init();
 } else {
@@ -10,13 +8,7 @@ if (document.readyState !== 'loading') {
 
 function init () {
 
-	toggle = document.getElementById('tocgle');
 	fetchExtraContent(document.querySelector('#currently'));
-
-	if (toggle !== null) {
-		toggleToc(toggle);
-		toggle.addEventListener('click', toggleToc);
-	}
 
 	console.log('did I break something? Let me know with a PR or issue 🌸 https://github.com/fmjansen/fmjansen.com');
 
@@ -37,23 +29,3 @@ function fetchExtraContent (currently) {
 			currently.insertAdjacentHTML("beforeend", html);
 		});
 }
-
-function toggleToc() {
-
-	const toc = document.getElementById(toggle.getAttribute('aria-controls'));
-
-	if (toggle.getAttribute('aria-expanded') === 'true') {
-
-		toggle.textContent = "Show table of contents";
-		toggle.setAttribute('aria-expanded', false);
-		toc.setAttribute('aria-hidden', true);
-
-	} else {
-
-		toggle.textContent = "Hide table of contents";
-		toggle.setAttribute('aria-expanded', true);
-		toc.setAttribute('aria-hidden', false);
-
-	}
-
-};
