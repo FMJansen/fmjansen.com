@@ -569,16 +569,6 @@ div.highlight {
 	grid-column: content;
 }
 
-.webmentions {
-	grid-column: wide;
-
-	&__not-found {
-		opacity: .7;
-		text-align: center;
-		max-width: 100%;
-	}
-}
-
 .chrono-links {
 	display: grid;
 	gap: 1em;
