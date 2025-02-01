@@ -9,6 +9,7 @@ excerpt: I have been giving several workshops at TU Delft on different design to
 ## Work
 
 - **Designing with accessibility in mind** Developed and ran for clients at Hike One
+{: .workshops}
 
 ## University
 
