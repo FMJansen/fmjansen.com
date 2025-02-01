@@ -249,7 +249,7 @@ a {
 	}
 
 	&[href^="http"]::after {
-		content: " ↗";
+		content: " ↗" / "(external)";
 		color: var(--color);
 
 		@media (prefers-color-scheme: dark) {
