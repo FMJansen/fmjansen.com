@@ -499,13 +499,13 @@ h2 + .toc {
 
 .summary {
 	background-color: oklch(from var(--text) l c h / calc(alpha - 0.93));
-	border: 2.5px solid var(--text);
+	border: 2px solid var(--text);
 	border-radius: .4em;
 	grid-column: wide;
 	box-sizing: border-box;
-	margin: auto;
+	margin: 2em 0;
 	max-width: 60ch;
-	padding: 1.6em 2em;
+	padding: .5em 1.5em 1em;
 
 	h2 {
 		margin-block-start: .5em;
