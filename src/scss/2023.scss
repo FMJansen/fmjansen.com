@@ -262,10 +262,10 @@ a {
 	a {
 		color: var(--text);
 		text-decoration-color: mediumblue;
-	}
-
-	&[href^="http"]::after {
-		color: var(--color);
+		
+		&[href^="http"]::after {
+			color: var(--color);
+		}
 	}
 }
 
