@@ -348,7 +348,6 @@ button {
 .color-scheme {
 	border: none;
 	padding: 1em;
-	background: oklch(from var(--text) l c h / calc(alpha - 0.9));
 	display: flex;
 	flex-wrap: wrap;
 	grid-column: full;
