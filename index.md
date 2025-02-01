@@ -44,14 +44,9 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 - 💌 [E-mail](mailto:hej@fmjansen.nl)
 {: .social}
 
-## Webrings
-{: .social}
-Webrings are an old-school way of linking and discovering websites. 
-{: .social}
-
 <nav class="a11y-webring-club" aria-labelledby="a11y-webring-club">
-  <h3 id="a11y-webring-club">a11y-webring.club</h3>
-  <p>This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
+  <h2 id="a11y-webring-club">a11y-webring.club</h2>
+  <p>Webrings are an old-school way of linking and discovering websites. This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
   <ul class="social">
     <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</a></li>
     <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</a></li>
