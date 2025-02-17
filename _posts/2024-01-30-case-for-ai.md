@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 15th August 2024)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 17th February 2024)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -119,6 +119,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Some people call this ‘hallucinations’, but this might [not be the most fitting](https://www.theguardian.com/commentisfree/2023/may/08/ai-machines-hallucinating-naomi-klein)
 - When used specifically for the knowledge base of MDN, an LLM still produced [lies and half-truths](https://seirdy.one/posts/2024/04/04/mdn-ai-help-and-lucid-lies/)
 - A New York City chatbot, meant to help local businesses, was tellings those businesses to [break the law](https://apnews.com/article/new-york-city-chatbot-misinformation-6ebc71db5b770b9969c906a7ee4fae21) (“Yes, you can still serve the cheese to customers if it has rat bites,”)
+- BBC found that just over half of answers on questions about BBC news articles contained significant issues, and [a fifth contained clear factual errors (PDF, 1.7MB)](https://www.bbc.co.uk/aboutthebbc/documents/bbc-research-into-ai-assistants.pdf)
 
 ### Exposing your private information
 
