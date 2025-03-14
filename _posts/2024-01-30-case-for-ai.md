@@ -115,7 +115,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - One result of that is that LLMs are largely [unable to infer _B is A_ from _A is B_](https://garymarcus.substack.com/p/elegant-and-powerful-new-result-that)
 - But in general, it means the models are unable to reliably convey the truth, even if for [simple truths](https://notes.aimodels.fyi/researchers-discover-emergent-linear-strucutres-llm-truth/) they ‘point’ more towards the truth
 
-### Telling you lies
+### Producing incorrect statements
 
 - The AI-generated [snippets on Google](https://hachyderm.io/@thomasfuchs/111756297494607526) and [Bing are serving false responses to queries](https://wetdry.world/@keat/111479034674203372), and [asking ChatGPT](https://front-end.social/@heydon/111743110743971774) directly doesn’t fare much better
 - Some people call this ‘hallucinations’, but this might [not be the most fitting](https://www.theguardian.com/commentisfree/2023/may/08/ai-machines-hallucinating-naomi-klein)
