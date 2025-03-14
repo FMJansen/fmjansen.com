@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 17th February 2024)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 14th March 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
