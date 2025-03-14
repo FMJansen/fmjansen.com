@@ -71,11 +71,13 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Several LLMs [propagate racist and harmful medicine](https://www.nature.com/articles/s41746-023-00939-z)
 - Image generating models are horrible at images of [people doing things left-handedly](https://fosstodon.org/@gabrielesvelto/111930375742973633), this might translate to other marginalised/less visible human traits
 - A tool promising to remove bias from applications [perpetuated several kinds of bias](https://interaktiv.br.de/ki-bewerbung/en/)
+- The Los Angeles Times application of AI [defended the KKK](https://web.archive.org/web/20250306115751/https://www.thedailybeast.com/maga-newspaper-owners-ai-bot-defends-kkk/)
 
 ### Making it easier to spread misinformation
 
 - [Researchers warn about possible misinformation](https://www.nytimes.com/2023/02/08/technology/ai-chatbots-disinformation.html), but it’s already happening in [political campaigns in the USA](https://www.cnet.com/news/misinformation/ai-misinformation-how-it-works-and-ways-to-spot-it/) and [Israel](https://www.newsguardtech.com/special-reports/ai-generated-site-sparks-viral-hoax-claiming-the-suicide-of-netanyahus-purported-psychiatrist/), for example
 - AI models which replicate voices are also used to [imitate politicians and influence voting](https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocall-tells-new-hampshire-democrats-not-vote-tuesday-rcna134984)
+- A state funded network of websites had its content used in the training of models, leading to those models [parroting Russian propaganda](https://web.archive.org/web/20250308143132/https://www.newsguardrealitycheck.com/p/a-well-funded-moscow-based-global)
 
 ### Causing information pollution
 
@@ -120,6 +122,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - When used specifically for the knowledge base of MDN, an LLM still produced [lies and half-truths](https://seirdy.one/posts/2024/04/04/mdn-ai-help-and-lucid-lies/)
 - A New York City chatbot, meant to help local businesses, was tellings those businesses to [break the law](https://apnews.com/article/new-york-city-chatbot-misinformation-6ebc71db5b770b9969c906a7ee4fae21) (“Yes, you can still serve the cheese to customers if it has rat bites,”)
 - BBC found that just over half of answers on questions about BBC news articles contained significant issues, and [a fifth contained clear factual errors (PDF, 1.7MB)](https://www.bbc.co.uk/aboutthebbc/documents/bbc-research-into-ai-assistants.pdf)
+- The Columbia Journalist Review found [37% to 94% error rates](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php) when answering citation questions
 
 ### Exposing your private information
 
