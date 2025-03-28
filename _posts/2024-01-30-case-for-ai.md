@@ -72,6 +72,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Image generating models are horrible at images of [people doing things left-handedly](https://fosstodon.org/@gabrielesvelto/111930375742973633), this might translate to other marginalised/less visible human traits
 - A tool promising to remove bias from applications [perpetuated several kinds of bias](https://interaktiv.br.de/ki-bewerbung/en/)
 - The Los Angeles Times application of AI [defended the KKK](https://web.archive.org/web/20250306115751/https://www.thedailybeast.com/maga-newspaper-owners-ai-bot-defends-kkk/)
+- An often cited, non-generative AI model [doesn’t detect diseases in marginalised groups](https://www.science.org/content/article/ai-models-miss-disease-black-female-patients) properly
 
 ### Making it easier to spread misinformation
 
@@ -108,6 +109,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [New data centres threaten the water supply in Mexico](https://news.mongabay.com/2024/03/critics-fear-catastrophic-energy-crisis-as-ai-is-outsourced-to-latin-america/)
 - [Microsoft’s CO2 emissions](https://www.theverge.com/2024/5/15/24157496/microsoft-ai-carbon-footprint-greenhouse-gas-emissions-grow-climate-pledge) have risen instead of shrunk due to AI, “jeopardizing its climate ambitions”
 - Google says [reducing emissions is hard](https://www.npr.org/2024/07/12/g-s1-9545/ai-brings-soaring-emissions-for-google-and-microsoft-a-major-contributor-to-climate-change) to combine with building and implementing more AI
+- [Phasing out fossil fuels is halted](https://wimvanderbauwhede.codeberg.page/articles/the-real-problem-with-AI/) and lots of new materials are mind for the AI hype
 
 ### Leading to the statistical average
 
@@ -152,3 +154,8 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - And it [increase the wealth concentration](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey)
 - [Copywriters](https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human) have to do less skilled work and others are fired
 - Employees feel like employers [ask for productivity increases](https://www.upwork.com/research/ai-enhanced-work-models) which they don’t know how to achieve using AI (and maybe aren’t even possible, if you ask me)
+
+### Destroys open projects
+- Libraries and archives are facing problems from [AI bots swarming their websites](https://go-to-hellman.blogspot.com/2025/03/ai-bots-are-destroying-open-access.html?m=1) and driving up costs
+- [Free and open source software hosters](https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/) face the same problems
+- Amazon’s crawler pushed someone with a git server to [build a tool blocking AI crawlers](https://xeiaso.net/notes/2025/amazon-crawler/) because of the increased costs
