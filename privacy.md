@@ -12,7 +12,7 @@ FMJansen is a one-man company, registered at the Dutch Chamber of Commerce under
 ## What data I collect and why
 I don’t actively collect any personal data. Data could end up in my possession, though, if you send me an e-email or message on a social network. In that case, I will receive the data you send me, and this gets stored on the servers of the respective service, so I can actually see and read your message.
 
-I do use [Cabin](https://withcabin.com/) for basic analytics, but they don’t store any personal data, either, nor do they use cookies. 
+I do use a self-hosted version of [Umami](https://umami.is/) (and for now [Cabin](https://withcabin.com/)) for basic analytics, but without storing any personal data or using cookies. 
 
 ## With whom I share your data
 The short answer: nobody ✨ The long answer: as mentioned above, the data is probably stored on the servers of the service through which you’re trying to reach me. If you send me an email, this data will end up on the servers of [Fastmail](https://www.fastmail.com/), my email provider. Next to this, I will never share your data with any third party, unless we’ve explicitly agreed on this.
