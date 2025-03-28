@@ -10,7 +10,7 @@ excerpt: I don’t actively collect any data, but I’ll carefully handle the da
 FMJansen is a one-man company, registered at the Dutch Chamber of Commerce under number 64878627.
 
 ## What data I collect and why
-I don’t actively collect any personal data. Data could end up in my possession, though, if you send me an e-email or message on a social network. In that case, I will receive the data you send me, and this gets stored on the servers of the respective service, so I can actually see and read your message.
+I don’t actively collect any personal data. Data could end up in my possession, though, if you send me an email or message on a social network. In that case, I will receive the data you send me, and this gets stored on the servers of the respective service, so I can actually see and read your message.
 
 I do use a self-hosted version of [Umami](https://umami.is/) (and for now [Cabin](https://withcabin.com/)) for basic analytics, but without storing any personal data or using cookies. 
 
