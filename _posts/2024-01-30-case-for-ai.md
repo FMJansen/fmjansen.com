@@ -92,6 +92,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Image generating models are already [trained with models](https://knowingmachines.org/models-all-the-way) trained with models, with arbitrary cut-off points 
 - News, videos for kids and books are generated with [low-quality content](https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by)
 - Image and text generators will [turn to mush](https://www.nature.com/articles/d41586-024-02420-7) by training on their own output
+- [Over 40% of new articles](https://www.wired.com/story/ai-generated-medium-posts-content-moderation/) on Medium are AI slop 
 
 ### Making phishing easier and more sophisticated
 
@@ -159,3 +160,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Libraries and archives are facing problems from [AI bots swarming their websites](https://go-to-hellman.blogspot.com/2025/03/ai-bots-are-destroying-open-access.html?m=1) and driving up costs
 - [Free and open source software hosters](https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/) face the same problems
 - Amazon’s crawler pushed someone with a git server to [build a tool blocking AI crawlers](https://xeiaso.net/notes/2025/amazon-crawler/) because of the increased costs
+- 65% of [Wikimedia’s most expensive traffic](https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/) comes from bots
