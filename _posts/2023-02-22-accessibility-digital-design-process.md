@@ -57,14 +57,14 @@ Some consider it an end product of an [inclusive design process](https://xd.adob
 ### Why it is important
 
 It feels weird trying to convince someone that it is important to make a product which can be used by people. Why would you exclude about a fifth or even half[^1] of all people, by not making your website accessible? But just to be sure, these are some benefits of making a product accessible:
-0. Access to information and communication technologies is [a human right](https://www.who.int/about/communications/accessible/ensuring-accessibility)
-1. In allowing more people to use the product, it will increase our favourite metrics (like active users, click through rates, profits, etc.)
-2. It’s good for [search engine optimisation](https://alistapart.com/article/accessibilityseo/) (SEO), so the website is easier to find
-3. It leads to [innovation](https://www.bbc.co.uk/programmes/w3cszmtp) and an easier-to-use product for everyone
-4. it decreases the amount of ‘unnecessary’ customer support requests[^2]
-5. For a lot of ‘new’[^3] products, it will become [legally required in the EU](https://ec.europa.eu/social/main.jsp?catId=1202), so it decreases legal risks
-6. Doing it from the start is not that difficult[^4], while it does reduce costs later on, due to fewer bugs and complaints
-7. It includes people, which is just nice and probably ethical
+1. Access to information and communication technologies is [a human right](https://www.who.int/about/communications/accessible/ensuring-accessibility)
+2. In allowing more people to use the product, it will increase our favourite metrics (like active users, click-through rates, profits, etc.)
+3. It’s good for [search engine optimisation](https://alistapart.com/article/accessibilityseo/) (SEO), so the website is easier to find
+4. It leads to [innovation](https://www.bbc.co.uk/programmes/w3cszmtp) and an easier-to-use product for everyone
+5. it decreases the amount of ‘unnecessary’ customer support requests[^2]
+6. For a lot of ‘new’[^3] products, it will become [legally required in the EU](https://ec.europa.eu/social/main.jsp?catId=1202), so it decreases legal risks
+7. Doing it from the start is not that difficult[^4], while it does reduce costs later on, due to fewer bugs and complaints
+8. It includes people, which is just nice and probably ethical
 
 So I’d say it’s a no-brainer: we should definitely design accessible products. But how do we ensure we make our products accessible?
 

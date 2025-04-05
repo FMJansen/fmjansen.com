@@ -20,7 +20,7 @@ There used to be an option in macOS’s mail called ‘Load remote content in me
 ![A banner in macOS Mail with the message ‘This message contains remote content.’ and a button ‘Load Remote Content’.](/static/img/macos-mail-load-content-banner.png)
 
 ## Protect Mail Activity
-The default ‘Protect Mail Activity’ loads all images, but just routes them through servers and obfuscates the moment of loading by pre-loading it when the email arrives in the app. 
+The default ‘Protect Mail Activity’ loads all images, but just routes them through servers and obfuscates the moment of loading by preloading it when the email arrives in the app. 
 
 ## Desired behaviour
 That’s not the behaviour I wanted: I want to stop images from loading in messages in my Junk folder (and some in other folders) entirely. This way, spammers (or marketeers) also don’t learn whether the email has arrived or has been opened at all.
@@ -30,4 +30,4 @@ It took me a while to figure out you can still achieve this by unchecking ‘Pro
 
 ![The macOS Mail settings with the Privacy tab activated. Protect Mail Activity is unchecked, ‘Hide IP Address’ and ‘Block All Remote Content’ are checked.](/static/img/macos-mail-privacy-settings.png)
 
-Hope this helps anyone looking for the ‘Load remote content’ option to no avail. 
+Hope this helps anyone look for the ‘Load remote content’ option to no avail. 

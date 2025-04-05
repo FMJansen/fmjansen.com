@@ -55,13 +55,13 @@ For example, adding an automated accessibility checker to the development pipeli
 
 ### Our scope limits us in preventing harm
 
-Another roadblock is of a different scale. We have some control over the layout of a page, the setup of research activities, or the features of a product. However, the overall concept or aim of a product is often already decided. That also means we’re sometimes just applying bandaids while actively doing harm.
+Another roadblock is of a different scale. We have some control over the layout of a page, the setup of research activities, or the features of a product. However, the overall concept or aim of a product is often already decided. That also means we’re sometimes just applying band-aids while actively doing harm.
 - We could make a large webshop more accessible and easier to use. That means more people get access to online shopping, which could improve their lives. But it also puts more pressure on warehouse employees and delivery drivers who are already exploited. It also leads to more consumption, so more extraction of natural resources.
 - We could switch the plastic of a disposable bottle to a recycled or bio-based version. That might reduce the CO2 impact of the bottle, which is great. However, it’s likely to then get advertised as being ‘greener,’ (leading to increased sales) while the product itself still isn’t sustainable.
 
 ### Design always serves capital growth
 
-Sometimes, we’re lucky and we get involved earlier in the creation of a product. We might be called strategic designers, or we can influence the direction of product development as researchers. Still, we’re beholden to the focus on economic growth, because it dictates what organisations invest in. Designers, either in-house, freelance or through an agency, will only be hired if there’s:
+Sometimes, we’re lucky, and we get involved earlier in the creation of a product. We might be called strategic designers, or we can influence the direction of product development as researchers. Still, we’re beholden to the focus on economic growth, because it dictates what organisations invest in. Designers, either in-house, freelance or through an agency, will only be hired if there’s:
 1. enough money within the organisation and;
 2. it’s plausible that there will be a return on investment.
 
@@ -73,7 +73,7 @@ Charities and other non-governmental organisations are less likely to have that 
 
 The need to cut costs incentivises those organisations to hire designers when it promises to deliver a return on investment. If administrative software or more user-friendly citizen-facing apps lead to less time spent by employees of that organisation, it will reduce operational costs: a great investment.
 
-The focus on increasing productivity and efficiency isn’t necessarily a bad thing, of course. It’s not _bad_ to make a governmental website more user friendly. It helps both citizens and civil servants save time on repetitive and boring tasks. We should, however, watch out for the potential detrimental effects. You could easily imagine an organisation that decides to remove the options to call or visit a counter, because ‘the website is now easy to use’. The exclusion of people who need those options is likely to be ignored when we’re focused on profit.
+The focus on increasing productivity and efficiency isn’t necessarily a bad thing, of course. It’s not _bad_ to make a governmental website more user-friendly. It helps both citizens and civil servants save time on repetitive and boring tasks. We should, however, watch out for the potential detrimental effects. You could easily imagine an organisation that decides to remove the options to call or visit a counter, because ‘the website is now easy to use’. The exclusion of people who need those options is likely to be ignored when we’re focused on profit.
 
 ## Escaping capitalism
 
@@ -93,7 +93,7 @@ We don’t have to wait for the right place and time to finally be able to do so
 
 ### Designing without an employer
 
-Another option is designing outside of your job. This takes a bit more effort, dedication and imagination. It could look like building non-capitalist[^3], communal alternatives to values which companies or governments provide right now. Repair cafes, (tool) [libraries](https://www.youtube.com/watch?v=NOYa3YzVtyk) and co-owned farms are some great examples. You could put your skills to use in designing the communication, reservation systems and logistical chains for those organisations.
+Another option is designing outside your job. This takes a bit more effort, dedication and imagination. It could look like building non-capitalist[^3], communal alternatives to values which companies or governments provide right now. Repair cafés, (tool) [libraries](https://www.youtube.com/watch?v=NOYa3YzVtyk) and co-owned farms are some great examples. You could put your skills to use in designing the communication, reservation systems and logistical chains for those organisations.
 
 If actually starting a co-op sounds a bit daunting, showing alternatives to capitalism in a lively way through art, could be a smaller way to put design to good use. Or, as Wesley Taylor said in a [critique of design thinking](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/) by Rebecca Ackermann: “Let’s try to imagine and acknowledge that capitalism is not inevitable, not necessarily a foundational principle of nature.”
 
@@ -115,7 +115,7 @@ Luckily, there are others, too, who have written about ethical design and capita
 - Next to the earlier mentioned [critique of design thinking](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/) by Rebecca Ackermann, I also liked [Maggie Gram’s analysis](https://www.nplusonemag.com/issue-35/reviews/on-design-thinking/), which also ends by pointing out that we won’t solve our wicked problems by doing iterations instead of finding one complete solution.
 - Curt Arledge discusses the [limits of the ethical designer](https://www.viget.com/articles/design-ethics-and-the-limits-of-the-ethical-designer/), also pointing out that “most of the decisions that influence a design are made long before designers get involved”.
 - Astrid Poot is researching [ethics in relation to design](https://astridpoot.nl/2020/12/31/ontwerper-wees-geen-printer-wees-een-veranderaar/) and has a slightly broader and different view on what makes it difficult to design more ethically.
-- iA was possibly even more direct by saying “There is no point discussing “ethics”, if, in the end, all you believe in is cash and power, if everything you are motivated to do is geared towards increasing your user base and your ROI.” in their [article on ethics](https://ia.net/topics/ethics-and-ethics). Then, they analyse the use of the word ‘ethics’.
+- iA was possibly even more direct by saying “There is no point discussing ‘ethics’, if, in the end, all you believe in is cash and power, if everything you are motivated to do is geared towards increasing your user base and your ROI.” in their [article on ethics](https://ia.net/topics/ethics-and-ethics). Then, they analyse the use of the word ‘ethics’.
 - Erik Olin Wright wrote about [how to be an anticapitalist today](https://jacobin.com/2015/12/erik-olin-wright-real-utopias-anticapitalism-democracy/). It provides a short analysis of capitalism and shows four ways people try to be anticapitalist. It makes it more specific, which is quite nice. I’m not sure about “the only viable options” part in the conclusion, though.
 - In [Design after Capitalism](https://designaftercapitalism.org/), Matthew Wizinsky writes a far more comprehensive critique of capitalism and its link with design, before explaining possible ways and shapes of design ‘after’ capitalism.
 - [Design for the Real World](https://thamesandhudson.com/design-for-the-real-world-9780500295335) by Victor Papanek is a classic book discussing how designers should do better. It’s outdated in some respects (both technology and language; the latest edition is from 2019, but most of the content was written in 1970 and last updated in 1984). However, a lot of the things Papanek argues for are still relevant. I feel like it does lack the capitalist analysis, even though it scratches the surfaces in a few chapters.
