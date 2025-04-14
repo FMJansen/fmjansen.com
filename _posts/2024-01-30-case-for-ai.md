@@ -140,6 +140,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Infographics](https://social.vivaldi.net/@brucelawson/110661660308637621) are just useless
 - [Fake users](https://www.syntheticusers.com/) to design “with confidence” even though research is about the specifics, details and behaviour of real people
 - [AI generated promotion social media posts](https://replyguy.com/) are just repackaged spam with unreliable results, which might lead to the next point
+- LLMs write [non-existing packages](https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/) which are then created by bad actors to load malware, leading to security issues
 
 ### Devaluing your brand
 
