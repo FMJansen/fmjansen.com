@@ -148,6 +148,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [DPD AI chatbot swears, calls itself ‘useless’ and criticises delivery firm](https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-firm)
 - AI art quickly developed the same status as [stock images](https://ia.net/topics/ai-art-is-the-new-stock-image)
 - [Clock are telling the wrong time](https://arstechnica.com/information-technology/2024/01/rhyming-ai-powered-clock-sometimes-lies-about-the-time-makes-up-words/)
+- Cursor, an AI tool, had an AI behind their support email, which [replied with a fake policy](https://news.ycombinator.com/item?id=43683012), leading customers to cancel their subscription   
 
 ### Used by companies to devalue our work
 
