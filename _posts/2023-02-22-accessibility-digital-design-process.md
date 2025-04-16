@@ -141,7 +141,7 @@ For each interaction, it’s nice to start with a keyboard-only version. So if w
 Start with a priority guide, then enhance (without throwing out the textual versions)
 {: .take-away}
 
-## Test what you design
+## Test what you design
 
 Testing is part of any good design process. We test our prototypes to figure out whether we’re designing the right thing, or to find usability problems. And either we or our [quality assurance](https://en.wikipedia.org/wiki/Quality_assurance) team check whether there are bugs in our products before we launch them. The same can apply to accessibility. We figure out if the interaction works and whether our technical implementation doesn’t cause problems. 
 
