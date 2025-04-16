@@ -26,7 +26,7 @@ The default ‘Protect Mail Activity’ loads all images, but just routes them t
 That’s not the behaviour I wanted: I want to stop images from loading in messages in my Junk folder (and some in other folders) entirely. This way, spammers (or marketeers) also don’t learn whether the email has arrived or has been opened at all.
 
 ## The right configuration
-It took me a while to figure out you can still achieve this by unchecking ‘Protect Mail Activity’, and checking ‘Block All Remote Content’. This way, I have to click ‘Load Remote Content’ for emails where I _do_ want to see the images in it, but that’s fine for me.
+It took me a while to figure out you can still achieve this by unchecking ‘Protect Mail Activity’, and checking ‘Block All Remote Content’. This way, I have to click ‘Load Remote Content’ for emails where I _do_ want to see the images in it, but that’s fine for me.
 
 ![The macOS Mail settings with the Privacy tab activated. Protect Mail Activity is unchecked, ‘Hide IP Address’ and ‘Block All Remote Content’ are checked.](/static/img/macos-mail-privacy-settings.png)
 
