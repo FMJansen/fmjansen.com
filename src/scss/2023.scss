@@ -559,7 +559,7 @@ div.highlight {
 	width: fit-content;
 }
 
-@media (prefers-color-scheme: light) {
+.light {
 	.nt {
 		color: oklch(from var(--color) calc(l - 0.1) c h);
 	}
@@ -569,7 +569,7 @@ div.highlight {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
+.dark {
 	.nt {
 		color: oklch(from var(--color) calc(l + 0.1) c h);
 	}
