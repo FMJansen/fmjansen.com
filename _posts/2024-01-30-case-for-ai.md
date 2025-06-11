@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 16th April 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 11th June 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -132,6 +132,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 
 - Several ‘chat’ tools [use your input for future training](https://www.washingtonpost.com/technology/2023/04/27/chatgpt-messages-privacy/); which, looking at the already spat out [personal information](#based-on-stealing-content-and-privacy-infringements) and near-exact copies of training data, doesn’t bode well for your own private information or NDA protected content
 - Feeding similar private information (known to a malicious party) to a model, led to ChatGPT on GPT-3.5 to outputting unknown [private information](https://www.nytimes.com/interactive/2023/12/22/technology/openai-chatgpt-privacy-exploit.html)
+- GitHub’s Model Context Protocol [leaked private repository information](https://invariantlabs.ai/blog/mcp-github-vulnerability)
 
 ### Doing your work in a worse way
 
