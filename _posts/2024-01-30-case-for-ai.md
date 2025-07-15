@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 11th June 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 15th July 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -99,9 +99,10 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - GPT was [better at writing phishing emails than humans](https://www.wired.com/story/ai-phishing-emails/), already in 2021
 - [Microsoft](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/how-ai-changing-phishing-scams), a major investor in OpenAI, is afraid of ChatGPT based phishing attacks
 
-### Facilitating time-wasting
+### Costing us time
 
 - People submit [fake security vulnerability reports](https://daniel.haxx.se/blog/2024/01/02/the-i-in-llm-stands-for-intelligence/) trying to get a reward, wasting the time of software and [website maintainers](https://dice.camp/@gluesticks/111721320932937265)
+- METR found [using AI slowed down developers](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 ### Increasing energy consumption and water consumption
 
