@@ -79,6 +79,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Researchers warn about possible misinformation](https://www.nytimes.com/2023/02/08/technology/ai-chatbots-disinformation.html), but it’s already happening in [political campaigns in the USA](https://www.cnet.com/news/misinformation/ai-misinformation-how-it-works-and-ways-to-spot-it/) and [Israel](https://www.newsguardtech.com/special-reports/ai-generated-site-sparks-viral-hoax-claiming-the-suicide-of-netanyahus-purported-psychiatrist/), for example
 - AI models which replicate voices are also used to [imitate politicians and influence voting](https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocall-tells-new-hampshire-democrats-not-vote-tuesday-rcna134984)
 - A state funded network of websites had its content used in the training of models, leading to those models [parroting Russian propaganda](https://web.archive.org/web/20250308143132/https://www.newsguardrealitycheck.com/p/a-well-funded-moscow-based-global)
+- AI has been used to [influence elections](https://www.nytimes.com/2025/06/26/technology/ai-elections-democracy.html?unlocked_article_code=1.R08.X0e2.2GQoy_issYnO)
 
 ### Causing information pollution
 
@@ -92,7 +93,8 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Image generating models are already [trained with models](https://knowingmachines.org/models-all-the-way) trained with models, with arbitrary cut-off points 
 - News, videos for kids and books are generated with [low-quality content](https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by)
 - Image and text generators will [turn to mush](https://www.nature.com/articles/d41586-024-02420-7) by training on their own output
-- [Over 40% of new articles](https://www.wired.com/story/ai-generated-medium-posts-content-moderation/) on Medium are AI slop 
+- [Over 40% of new articles](https://www.wired.com/story/ai-generated-medium-posts-content-moderation/) on Medium are AI slop
+- The [bullshitting](https://www.nytimes.com/2025/05/05/technology/ai-hallucinations-chatgpt-google.html) of ChatGPT is getting worse
 
 ### Making phishing easier and more sophisticated
 
@@ -128,6 +130,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - BBC found that just over half of answers on questions about BBC news articles contained significant issues, and [a fifth contained clear factual errors (PDF, 1.7MB)](https://www.bbc.co.uk/aboutthebbc/documents/bbc-research-into-ai-assistants.pdf)
 - The Columbia Journalist Review found [37% to 94% error rates](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php) when answering citation questions
 - AI mistakes are also [different from human mistakes](https://www.schneier.com/blog/archives/2025/01/ai-mistakes-are-very-different-from-human-mistakes.html), making it hard to spot them
+- LLMs [overgeneralize scientific studies](https://royalsocietypublishing.org/doi/10.1098/rsos.241776) in summarizing
 
 ### Exposing your private information
 
@@ -144,6 +147,8 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Fake users](https://www.syntheticusers.com/) to design “with confidence” even though research is about the specifics, details and behaviour of real people
 - [AI generated promotion social media posts](https://replyguy.com/) are just repackaged spam with unreliable results, which might lead to the next point
 - LLMs write [non-existing packages](https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/) which are then created by bad actors to load malware, leading to security issues
+- Companies are [hiring humans](https://futurism.com/companies-fixing-ai-replacement-mistakes) after AI tools didn’t do a good enough job
+- LLMs lead to [cognitive debt](https://arxiv.org/abs/2506.08872) when used for essay writing
 
 ### Devaluing your brand
 
