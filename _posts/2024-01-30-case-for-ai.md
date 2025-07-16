@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 15th July 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 16th July 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -131,12 +131,14 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - The Columbia Journalist Review found [37% to 94% error rates](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php) when answering citation questions
 - AI mistakes are also [different from human mistakes](https://www.schneier.com/blog/archives/2025/01/ai-mistakes-are-very-different-from-human-mistakes.html), making it hard to spot them
 - LLMs [overgeneralize scientific studies](https://royalsocietypublishing.org/doi/10.1098/rsos.241776) in summarizing
+- Googe’s AI Overview claimed the [wrong airplane manufacturer was involved in a crash](https://arstechnica.com/ai/2025/06/google-ai-mistakenly-says-fatal-air-india-crash-involved-airbus-instead-of-boeing/)
 
 ### Exposing your private information
 
 - Several ‘chat’ tools [use your input for future training](https://www.washingtonpost.com/technology/2023/04/27/chatgpt-messages-privacy/); which, looking at the already spat out [personal information](#based-on-stealing-content-and-privacy-infringements) and near-exact copies of training data, doesn’t bode well for your own private information or NDA protected content
 - Feeding similar private information (known to a malicious party) to a model, led to ChatGPT on GPT-3.5 to outputting unknown [private information](https://www.nytimes.com/interactive/2023/12/22/technology/openai-chatgpt-privacy-exploit.html)
 - GitHub’s Model Context Protocol [leaked private repository information](https://invariantlabs.ai/blog/mcp-github-vulnerability)
+- Meta’s AI App made [personal chats public](https://www.wired.com/story/meta-artificial-intelligence-chatbot-conversations/) (apparently after an opt-in)
 
 ### Doing your work in a worse way
 
@@ -172,3 +174,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Free and open source software hosters](https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/) face the same problems
 - Amazon’s crawler pushed someone with a git server to [build a tool blocking AI crawlers](https://xeiaso.net/notes/2025/amazon-crawler/) because of the increased costs
 - 65% of [Wikimedia’s most expensive traffic](https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/) comes from bots
+- (National) [archives and museums](https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline/) note problems due to (AI) bots in a survey by GLAM-E Lab
