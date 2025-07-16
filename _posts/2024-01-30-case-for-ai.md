@@ -114,6 +114,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - [Microsoft’s CO2 emissions](https://www.theverge.com/2024/5/15/24157496/microsoft-ai-carbon-footprint-greenhouse-gas-emissions-grow-climate-pledge) have risen instead of shrunk due to AI, “jeopardizing its climate ambitions”
 - Google says [reducing emissions is hard](https://www.npr.org/2024/07/12/g-s1-9545/ai-brings-soaring-emissions-for-google-and-microsoft-a-major-contributor-to-climate-change) to combine with building and implementing more AI
 - [Phasing out fossil fuels is halted](https://wimvanderbauwhede.codeberg.page/articles/the-real-problem-with-AI/) and lots of new materials are mind for the AI hype
+- Meta’s data centers pose [problems for the water source](https://www.nytimes.com/2025/07/14/technology/meta-data-center-water.html) of people nearby
 
 ### Leading to the statistical average
 
