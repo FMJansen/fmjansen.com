@@ -6,9 +6,9 @@ title: Home
 
 
 
-# Hej ✨ I’m Floris
+# Floris Jansen
 
-I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability. ❤️ 🌱
+I’m a designer & developer. I care about inclusion, accessibility, privacy and sustainability.
 {: .intro}
 
 ## I wrote about
