@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 16th July 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 28th September 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -28,7 +28,12 @@ Recently, the UK government published a framework which includes [ten principles
 
 The UK government framework also lists [use cases to avoid](https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html#use-cases-to-avoid), but I must say I find it harder to find any [use case](https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html#identifying-use-cases) which remains when you actually take all those concerns into account. Large language models, although called ‘artificial intelligence’, [aren’t actually intelligent](https://buttondown.email/ninelives/archive/language-is-a-poor-heuristic-for-intelligence/), of course. And because of its nature, generative AI _will_ make mistakes and it _will_ perpetuate biases.
 
-You _could_ leave some concerns aside. For example, worker exploitation and environmental destruction are inherent to the capitalist system, and it’s impossible to stop that completely by spending your money otherwise. Some use cases might then indeed be excusable, like summarising content you already know, or could verify easily. Heck, it makes translations and transcriptions available in more situations, which improves the accessibility of information. So there might be some good in its use.
+You _could_ leave some concerns aside. For example, worker exploitation and environmental destruction are inherent 
+to the capitalist system, and it’s impossible to stop that completely by spending your money otherwise. Some use 
+cases might then indeed be excusable, like summarising content you already know, or could verify easily. Heck, it 
+makes translations and transcriptions available in more situations, which improves the accessibility of information. 
+So there might be some good in its use. (I still 
+[hate it](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) though.)
 
 ---
 
