@@ -4,16 +4,6 @@
 	font-display: swap;
 	font-family: 'Apfel Grotezk';
 	src: local("Apfel Grotezk"),
-	url('../fonts/ApfelGrotezk-Regular.woff2') format('woff2'),
-	url('../fonts/ApfelGrotezk-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-display: swap;
-	font-family: 'Apfel Grotezk';
-	src: local("Apfel Grotezk"),
 		 url('../fonts/ApfelGrotezk-Fett.woff2') format('woff2'),
 		 url('../fonts/ApfelGrotezk-Fett.woff') format('woff');
 	font-weight: bold;
@@ -75,7 +65,8 @@
 	--pad: 7vw;
 	--sans-serif: "Satoshi", "Inter", "Helvetica Neue", Arial,
 		sans-serif;
-	--serif: "Apfel Grotezk", "Syne", "Baskerville", sans-serif;
+	--serif: "Apfel Grotezk", "Syne", "Helvetica Neue", Arial,
+		sans-serif;
 	--sand: oklch(0.93 0.02 68.95);
 	--pink: oklch(0.57 0.23 29);
 	--pink-light: oklch(from var(--pink) calc(l + .3) calc(c - .1) h);
