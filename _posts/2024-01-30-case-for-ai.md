@@ -162,6 +162,8 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - LLMs write [non-existing packages](https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/) which are then created by bad actors to load malware, leading to security issues
 - Companies are [hiring humans](https://futurism.com/companies-fixing-ai-replacement-mistakes) after AI tools didn’t do a good enough job
 - LLMs lead to [cognitive debt](https://arxiv.org/abs/2506.08872) when used for essay writing
+- LLM ‘agents’ [failed 42% of single-step tasks](https://www.theregister.com/2025/06/16/salesforce_llm_agents_benchmark/) in a CRM, 65% of multi-step tasks, and weren’t good at handling 
+  confidentiality, a study found
 
 ### Devaluing your brand
 
