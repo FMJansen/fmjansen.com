@@ -541,10 +541,28 @@ tr:nth-child(2n) {
 	background-color: oklch(from var(--text) l c h / calc(alpha - 0.9));
 }
 
+thead tr {
+	background-color: none;
+	border-bottom: 2px solid var(--text);
+}
+
+tfoot tr {
+	border-top: 1px solid var(--text);
+}
+
 td,
 th {
 	white-space: pre;
 	padding: .1em .7em .1em 0;
+}
+
+table:has(tfoot) {
+	tr:nth-child(2n+1) td {
+		padding-block: .4em;
+	}
+	tr:nth-child(2n) td:first-child {
+		padding-inline: .5em;
+	}
 }
 
 .language-html {
