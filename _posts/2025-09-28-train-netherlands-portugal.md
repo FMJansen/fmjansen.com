@@ -33,8 +33,8 @@ center of Amsterdam straight to London in less time than the flight with securit
 is not as quick and easy to reach by train. 
 
 There are no direct trains to Portugal, you can’t book the trip at one point of sale, it takes at least two full travel 
-days, and it ‘only’ saves about 85%  on the journey’s CO2 emissions[^1] because of the longer distance (actually, 
-that’s  still quite good, isn’t it?). Oh, and it can easily set you back twice the cost of a plane ticket, excluding 
+days, and it ‘only’ saves about 85% on the journey’s CO2 emissions[^1] because of the longer distance (actually, 
+that’s still quite good, isn’t it?). Oh, and it can easily set you back twice the cost of a plane ticket, excluding 
 the price to stay the night halfway there. However, I hate sitting in a plane, I do like trains, I had the time and 
 I thought the experiment was worth the try.
 
@@ -179,9 +179,9 @@ the stations.
 | TGV 9708      | 9:28 Barcelona Sants     | 16:13 Paris Gare de Lyon   | [NS International](https://www.nsinternational.com/en)   |        €394,00 |
 | transfer      | 59 minutes               | includes metro ride        |
 | Eurostar 9369 | 17:12 Paris Nord         | 20:50 Amsterdam Centraal   |                                                          |                |
-| ===========   | ======================== | ========================== | ======================================================== | ============== |
+| ============= | ======================== | ========================== | ======================================================== | ============== |
 |               |                          |                            | Total                                                    |        €498,20 |
-| -----------   | ------------------------ | -------------------------- | -------------------------------------------------------- | -------------- |
+| ------------- | ------------------------ | -------------------------- | -------------------------------------------------------- | -------------- |
 
 <ol>
 	<li>
@@ -196,8 +196,8 @@ the stations.
 		<details>
 			<summary><strong>Raiano 481:</strong> Entroncamento to Badajoz</summary>
 			<p>Ooph. At Entroncamento, my CP app said the train would leave from track 2. I hauled myself up the stairs 
-			and down the other side of the walk bridge, only to find an empty train. One minute before departure, I  
-			heard the announcement that the train to Badajoz from platform 6 would leave soon. So I ran back and...  
+			and down the other side of the walk bridge, only to find an empty train. One minute before departure, I 
+			heard the announcement that the train to Badajoz from platform 6 would leave soon. So I ran back and... 
 			easily caught the train because it was still waiting for a different connecting train. Lucky me.</p>
 			<p>A better app and more present information on the platforms would have saved a bit of stress, though.</p>
 			<p>The train itself is a <a href="https://en.wikipedia.org/wiki/CP_Class_0350">one-carriage diesel powered 
@@ -224,8 +224,8 @@ the stations.
 			<summary><strong>Avant 08191:</strong> Puertollano to Madrid Puerta Atocha - Almudena Grandes</summary>
 			<p>The transfer at Puertollano was a bit stressful, but smooth. When I got off the train, a staff member of 
 			Renfe asked whether I had to make the transfer to Madrid and directed me down the stairs and to the right. 
-			There, a security staffer told me I had to go straight, up, and through security (of course! I was getting  
-			back on Spanish high speed trains!) After a quick bag check, my ticket was scanned, and I could head back  
+			There, a security staffer told me I had to go straight, up, and through security (of course! I was getting 
+			back on Spanish high speed trains!) After a quick bag check, my ticket was scanned, and I could head back 
 			down and to the right platform.</p>
 			<p>The train was nice, but it lacked power outlets at the chairs. Nothing too major, but perhaps good to 
 			know.</p>
@@ -241,7 +241,7 @@ the stations.
 			figure out that this OGV train is run by Ouigo (a part of the French SNCF) and can only be booked through 
 			<a href="https://www.ouigo.com/en/">their website</a>.</p>
 			<p>The transfer was perfect, though, because as I entered the arrivals/departures hall at Madrid, the OGV 
-			started boarding. I could just get a sandwich at the shop in the hall, and join the queue to get my ticket  
+			started boarding. I could just get a sandwich at the shop in the hall, and join the queue to get my ticket 
 			checked. It took a few minutes to walk by the 15-something double-decker coaches to get to my seat, but 
 			there was more than enough time to do that.</p>
 		</details>
@@ -251,7 +251,7 @@ the stations.
 			<summary><strong>TGV 9708</strong> Barcelona Sants to Paris Gare de Lyon</summary>
 			<p>Booking this day was the easiest part of booking, since Barcelona to Amsterdam can be booked through 
 			NS International.</p>
-			<p>I started my last travel day by going through security about 45 minutes before departure. There was only  
+			<p>I started my last travel day by going through security about 45 minutes before departure. There was only 
 			a short queue to do so, and I could sit in the waiting area.</p>
 		</details>
 	</li>
@@ -273,7 +273,7 @@ the stations.
 
 ## Doing it yourself
 
-So lets say you want to try this, too. I’m not sure if I really recommend this, but it worked and I had a reasonably  
+So lets say you want to try this, too. I’m not sure if I really recommend this, but it worked and I had a reasonably 
 good time.
 
 One tip: check out [Seat61](https://www.seat61.com/european-train-travel.htm), I just figured out they have listed a possibly better itinerary from Lisbon to 
