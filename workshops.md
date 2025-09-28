@@ -8,7 +8,8 @@ excerpt: I have been giving several workshops at TU Delft on different design to
 
 ## Work
 
-- **Designing with accessibility in mind** Developed and ran for clients at Hike One
+- **Designing with accessibility in mind** Developed and ran for clients at [Hike One](https://hike.one)
+- **Auditing websites with the WCAG** Created while working at Hike One
 {: .workshops}
 
 ## University

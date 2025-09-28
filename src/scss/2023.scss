@@ -1,26 +1,32 @@
 @use 'sass:math';
 
-/*-------------------------------------*\
-
-  Home
-
-  - Floris Jansen, hey@fmjansen.nl
-
-  2023.scss
-  + Fonts
-  + CSS Variables
-  + Reset
-  + Paragraph styles
-
-\*-------------------------------------*/
+@font-face {
+	font-display: swap;
+	font-family: 'Apfel Grotezk';
+	src: local("Apfel Grotezk"),
+	url('../fonts/ApfelGrotezk-Regular.woff2') format('woff2'),
+	url('../fonts/ApfelGrotezk-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
 	font-display: swap;
-	font-family: 'Instrument Serif';
-	src: local("Instrument Serif"),
-		 url('../fonts/instrumentserif-regular.woff2') format('woff2'),
-		 url('../fonts/instrumentserif-regular.woff') format('woff');
-	font-weight: normal;
+	font-family: 'Apfel Grotezk';
+	src: local("Apfel Grotezk"),
+		 url('../fonts/ApfelGrotezk-Fett.woff2') format('woff2'),
+		 url('../fonts/ApfelGrotezk-Fett.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Apfel Grotezk';
+	src: local("Apfel Grotezk"),
+	url('../fonts/ApfelGrotezk-Satt.woff2') format('woff2'),
+	url('../fonts/ApfelGrotezk-Satt.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 
@@ -69,11 +75,11 @@
 	--pad: 7vw;
 	--sans-serif: "Satoshi", "Inter", "Helvetica Neue", Arial,
 		sans-serif;
-	--serif: "Instrument Serif", "Gambarino", "Baskerville", serif;
-	--sand: oklch(0.93 0.05 68.95);
-	--pink: oklch(0.63 0.19 17.8);
+	--serif: "Apfel Grotezk", "Syne", "Baskerville", sans-serif;
+	--sand: oklch(0.93 0.02 68.95);
+	--pink: oklch(0.57 0.23 29);
 	--pink-light: oklch(from var(--pink) calc(l + .3) calc(c - .1) h);
-	--blue: oklch(0.19 0.02 251.72);
+	--blue: oklch(0.05 0.22 251.72);
 }
 
 /*-------------------------------------*\
@@ -170,35 +176,32 @@ h1,
 h2,
 h3 {
 	font-family: var(--serif);
-	font-weight: 400;
-	line-height: 1.05;
+	font-weight: 700;
+	line-height: 1.0;
 }
 
 h1 {
-	font-size: Min(16vw, 6rem);
+	font-size: Min(13vw, 6rem);
 	grid-column: wide;
 	margin: 0 0 .5em;
 	text-wrap: balance;
 }
 
 .home h1 {
-	font-size: Min(15vw, 7rem);
-	margin: Calc(2.5em + var(--pad)) 0 1em;
+	font-size: 13.0vw;
+	font-weight: 900;
+	line-height: .85;
+	margin: calc(-1 * var(--pad) + 2vw) calc(-1 * var(--pad)) 0;
 	text-align: center;
+	text-transform: uppercase;
+	color: var(--color);
 
-	&::after {
-		width: 45vw;
-		height: 45vw;
-		content: "";
-		background: none;
-		display: block;
-		position: absolute;
-		pointer-events: none;
-		border-radius: 50% 50% 0 0;
-		box-shadow: -4vw -4vw 3vw -4vw;
-		opacity: 0.25;
-		top: Max(14vh, 12vw);
-		left: 8vw;
+	@media (max-width: 375px) {
+		font-size: 25.0vw;
+
+		&:first-line {
+			font-size: 28.5vw;
+		}
 	}
 }
 
@@ -388,11 +391,11 @@ nav {
 	line-height: 1.4;
 	max-width: 27ch;
 	grid-column-end: filler-end;
-
-	@media (min-width: 40em) {
-		margin-block-end: 10vw;
-		margin-inline-start: 25vw;
-	}
+	margin-block-start: 10vw;
+	margin-block-end: 5vw;
+	margin-inline: auto;
+	text-align: center;
+	text-wrap: balance;
 }
 
 .activities {
@@ -566,7 +569,7 @@ table:has(tfoot) {
 }
 
 .language-html {
-	background-color: oklch(from var(--text) l c h / calc(alpha - 0.9));
+	background-color: oklch(from var(--text) l c h / calc(alpha - 0.95));
 	grid-column: wide;
 	margin-block: 1em;
 	overflow: auto;
