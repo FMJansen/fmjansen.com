@@ -104,14 +104,6 @@ gulp.task('copy-fonts', function() {
 
 
 
-// Copy og images
-gulp.task('og-images', function() {
-    return gulp.src(src + 'og/*')
-        .pipe(gulp.dest(dest + 'og'));
-});
-
-
-
 // Copy & min images
 gulp.task('images', function() {
     return gulp.src(src + 'img/*',  { encoding: false })
@@ -158,14 +150,14 @@ gulp.task('serve', function() {
 gulp.task('default',
     gulp.series(
         'serve',
-        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss', 'og-images')
+        gulp.parallel('sassDev', 'scriptsDev', 'copy-scss')
     )
 );
 
 
 
 // Build task: everything minified only
-gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'og-images', 'images'));
+gulp.task('build', gulp.parallel('scripts', 'sass', 'copy-fonts', 'images'));
 
 
 
