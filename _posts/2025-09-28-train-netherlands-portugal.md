@@ -84,13 +84,13 @@ the stations.
 
 | Train       | Departure                | Arrival                    | Booked through                                           |          Price |
 |:------------|:-------------------------|:---------------------------|:---------------------------------------------------------|---------------:|
-| ED 9520     | 8:03 Amsterdam Zuid      | 10:03 Bruxelles Midi       | [NS International](https://www.nsinternational.com/en)   |        €119.00 |
+| ED 9520     | 8:03 Amsterdam Zuid      | 10:03 Bruxelles Midi       | [NS International](https://www.nsinternational.com/en)   |        €119,00 |
 | transfer    | 14 minutes               |
 | TGV 9826    | 10:17 Bruxelles Midi     | 14:45 Valence TGV          |                                                          |                |
 | transfer    | 26 minutes               |
-| AVE 9742    | 15:11 Valence TGV        | 19:33 Barcelona Sants      | [Renfe](https://www.renfe.com/es/en)                     |        €119.00 |
+| AVE 9742    | 15:11 Valence TGV        | 19:33 Barcelona Sants      | [Renfe](https://www.renfe.com/es/en)                     |        €124,00 |
 | transfer    | 27 minutes               | includes security check    |
-| AVLO 6310   | 20:00 Barcelona Sants    | 23:19 Madrid Pta. Atocha   | [Renfe](https://www.renfe.com/es/en)                     |         €29.00 |
+| AVLO 6310   | 20:00 Barcelona Sants    | 23:19 Madrid Pta. Atocha   | [Renfe](https://www.renfe.com/es/en)                     |         €29,00 |
 | stay        | Night in Barcelona       |
 | AVE 4505    | 10:04 Madrid Chamartín   | 14:11 Vigo Urzaiz          | [Renfe](https://www.renfe.com/es/en)                     |         €89,55 |
 | transfer    | 5 hour 45 minutes        | includes 15 minute walk    |
