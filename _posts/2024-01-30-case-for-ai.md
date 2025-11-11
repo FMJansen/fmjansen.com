@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 28th September 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 11th November 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -138,6 +138,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - When used specifically for the knowledge base of MDN, an LLM still produced [lies and half-truths](https://seirdy.one/posts/2024/04/04/mdn-ai-help-and-lucid-lies/)
 - A New York City chatbot, meant to help local businesses, was telling those businesses to [break the law](https://apnews.com/article/new-york-city-chatbot-misinformation-6ebc71db5b770b9969c906a7ee4fae21) (“Yes, you can still serve the cheese to customers if it has rat bites,”)
 - BBC found that just over half of answers on questions about BBC news articles contained significant issues, and [a fifth contained clear factual errors (PDF, 1.7MB)](https://www.bbc.co.uk/aboutthebbc/documents/bbc-research-into-ai-assistants.pdf)
+- Later, BBC found it [misrepresents news content 45% of the time](https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content)
 - The Columbia Journalist Review found [37% to 94% error rates](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php) when answering citation questions
 - AI mistakes are also [different from human mistakes](https://www.schneier.com/blog/archives/2025/01/ai-mistakes-are-very-different-from-human-mistakes.html), making it hard to spot them
 - LLMs [overgeneralize scientific studies](https://royalsocietypublishing.org/doi/10.1098/rsos.241776) in summarizing
