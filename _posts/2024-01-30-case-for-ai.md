@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 11th November 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 21st December 2025)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -144,6 +144,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - LLMs [overgeneralize scientific studies](https://royalsocietypublishing.org/doi/10.1098/rsos.241776) in summarizing
 - Googe’s AI Overview claimed the [wrong airplane manufacturer was involved in a crash](https://arstechnica.com/ai/2025/06/google-ai-mistakenly-says-fatal-air-india-crash-involved-airbus-instead-of-boeing/)
 - The same AI Overview [recommends non-existing products](https://housefresh.com/beware-of-the-google-ai-salesman/) and is in general positive about any product
+- AI based news articles [accused a photographer of murder](https://mumbrella.com.au/a-terrible-few-days-for-ai-bots-bunnings-and-sca-909801) because their photo was used with a news article
 
 ### Exposing your private information
 
@@ -151,6 +152,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Feeding similar private information (known to a malicious party) to a model, led to ChatGPT on GPT-3.5 to outputting unknown [private information](https://www.nytimes.com/interactive/2023/12/22/technology/openai-chatgpt-privacy-exploit.html)
 - GitHub’s Model Context Protocol [leaked private repository information](https://invariantlabs.ai/blog/mcp-github-vulnerability)
 - Meta’s AI App made [personal chats public](https://www.wired.com/story/meta-artificial-intelligence-chatbot-conversations/) (apparently after an opt-in)
+- Grok [answered with accurate residential addresses](https://futurism.com/artificial-intelligence/grok-doxxing) when for them
 
 ### Doing your work in a worse way
 
@@ -165,6 +167,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - LLMs lead to [cognitive debt](https://arxiv.org/abs/2506.08872) when used for essay writing
 - LLM ‘agents’ [failed 42% of single-step tasks](https://www.theregister.com/2025/06/16/salesforce_llm_agents_benchmark/) in a CRM, 65% of multi-step tasks, and weren’t good at handling 
   confidentiality, a study found
+- Google’s agentic AI [deleted an entire hard drive](https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-agentic-ai-wipes-users-entire-hard-drive-without-permission-after-misinterpreting-instructions-to-clear-a-cache-i-am-deeply-deeply-sorry-this-is-a-critical-failure-on-my-part) 
 
 ### Devaluing your brand
 
@@ -196,3 +199,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 
 - Gemini for Workspace from Google [responds to prompt injection in email](https://0din.ai/blog/phishing-for-gemini)
 - A calendar invite was also used to [take over a smart home](https://www.wired.com/story/google-gemini-calendar-invite-hijack-smart-home/)
+- Safety filters are [bypassed by poetry](https://dataconomy.com/2025/12/01/study-finds-poetry-bypasses-ai-safety-filters-62-percent-of-time/)
