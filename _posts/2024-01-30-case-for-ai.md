@@ -7,7 +7,7 @@ excerpt: Generative artificial intelligence (AI) is quite the hype, but it has s
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 21st December 2025)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 14th January 2026)
 {: .date}
 
 {::options parse_block_html="true" /}
@@ -145,6 +145,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Googe’s AI Overview claimed the [wrong airplane manufacturer was involved in a crash](https://arstechnica.com/ai/2025/06/google-ai-mistakenly-says-fatal-air-india-crash-involved-airbus-instead-of-boeing/)
 - The same AI Overview [recommends non-existing products](https://housefresh.com/beware-of-the-google-ai-salesman/) and is in general positive about any product
 - AI based news articles [accused a photographer of murder](https://mumbrella.com.au/a-terrible-few-days-for-ai-bots-bunnings-and-sca-909801) because their photo was used with a news article
+- Google’s AI Overviews gave [dangerous health recommendations](https://www.theguardian.com/technology/2026/jan/02/google-ai-overviews-risk-harm-misleading-health-information)
 
 ### Exposing your private information
 
