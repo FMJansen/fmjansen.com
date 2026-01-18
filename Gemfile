@@ -6,6 +6,7 @@ gem "jekyll", "~> 4.4.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-webmention_io"
 end
 
 # Performance-booster for watching directories on Windows

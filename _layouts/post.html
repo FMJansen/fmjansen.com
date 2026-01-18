@@ -10,6 +10,10 @@
 	{{ content }}
 </main>
 
+<aside class="webmentions">
+	{% webmentions page.url %}
+</aside>
+
 {% if page.previous.url or page.next.url %}
 <nav aria-labelledby="posts">
 	<h2 id="posts">Older and newer posts</h2>
