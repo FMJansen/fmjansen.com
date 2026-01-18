@@ -24,7 +24,7 @@ I’m a designer & developer. I care about inclusion, accessibility, privacy and
 
 ## What I do
 - I’m a PhD candidate at [iHub](https://ihub.ru.nl/) working on the design of identity wallet implementations
-- before, I was doing interaction design and research at at [Hike&nbsp;One](https://hike.one/)
+- before, I was working as an interaction designer and researcher at [Hike&nbsp;One](https://hike.one/)
 - with some friends I’ve been making [Op wie kan ik stemmen](https://opwiekanikstemmen.nl/) in 2021, 2023 and 2025 for the Dutch elections
 - [Inclusief&nbsp;Design](https://inclusief.design/) is my side project about inclusion in design
 - I build websites for things like [This&nbsp;is&nbsp;Gendered](https://thisisgendered.org) and [Scouting&nbsp;Oost&nbsp;1](https://scoutingoost1.nl/)
