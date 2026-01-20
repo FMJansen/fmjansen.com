@@ -1,0 +1,78 @@
+{% if types %}
+{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
+{% endif %}
+
+{% if webmentions[0] %}
+<aside>
+	<h2>Webmentions</h2>
+	<div class="webmentions" data-webmention-types="{{ webmention_types }}"
+		 {% if html_proofer_ignore == "all" %} data-proofer-ignore {% endif %} >
+
+		<ol class="webmentions__list">
+			{% for webmention in webmentions %}
+			<li id="webmention-{{ webmention.id }}" class="webmention webmentions__item webmention--{{ webmention.type }}">
+				<article class="h-cite
+					{% unless webmention.author %}webmention--no-author{% endunless %}
+					{% unless webmention.author.photo %}webmention--no-photo{% endunless %}
+					">
+					{% if webmention.author %}
+						{% if webmention.author.photo %}
+						<img class="webmention__author__photo u-photo" alt=""
+							src="{{ webmention.author.photo }}"
+							title="{{ webmention.author.name }}">
+						{% endif %}
+					{% endif %}
+
+					<div>
+						{% if webmention.author %}
+							{% if webmention.author.url %}
+								<a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
+								{% if webmention.author.name %}
+									<span class="webmention__author__name p-name">{{ webmention.author.name }}</span>
+								{% endif %}
+								</a>
+							{% else %}
+								{% if webmention.author.name %}
+									<span class="webmention__author__name p-name">{{ webmention.author.name }}</span>
+								{% endif %}
+							{% endif %}
+							{% if webmention.pubdate %}
+								wrote on
+								<a class="webmention__source u-url" href="{{ webmention.uri }}" rel="nofollow">
+									<time class="webmention__pubdate dt-published"
+										  datetime="{{ webmention.pubdate | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+										{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+								</a>:
+							{% else %}
+								<a class="webmention__source u-url" href="{{ webmention.uri }}" rel="nofollow">
+									wrote
+								</a>:
+							{% endif %}
+						{% else %}
+							Mentioned at
+							<a class="webmention__source u-url" href="{{ webmention.uri }}" rel="nofollow">
+								{{ webmention.uri }}
+							</a>
+							{% if webmention.pubdate %}
+								on
+								<time class="webmention__pubdate dt-published"
+									  datetime="{{ webmention.pubdate | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+										{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+							{% endif %}
+						{% endif %}
+
+						<div class="webmention__content p-content">
+							{% if webmention.content %}
+							{{ webmention.content }}
+							{% else %}
+							{{ webmention.title }}
+							{% endif %}
+						</div>
+					</div>
+				</article>
+			</li>
+			{% endfor %}
+		</ol>
+	</div>
+</aside>
+{% endif %}

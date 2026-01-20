@@ -595,6 +595,40 @@ div.highlight {
 	grid-column: content;
 }
 
+aside {
+	background: oklch(from var(--text) l c h/calc(alpha - 0.93));
+
+	h2 {
+		margin-block-start: .5em;
+	}
+}
+
+.count {
+	color: oklch(from var(--text) l c h / calc(alpha - 0.4));
+}
+
+.webmentions {
+	grid-column: content;
+
+	&__list {
+		list-style: none;
+		padding: 0;
+	}
+
+	article {
+		display: flex;
+		flex-direction: row;
+		gap: 1em;
+	}
+
+	img {
+		flex-shrink: 0;
+		width: 4em;
+		height: 4em;
+		border-radius: 10%;
+	}
+}
+
 .chrono-links {
 	display: grid;
 	gap: 1em;
