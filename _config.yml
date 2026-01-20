@@ -15,6 +15,11 @@ collections:
     permalink: /:collection/:title/
     output: true
 
+webmentions:
+  username: "fmjansen.com"
+  templates:
+    webmentions: _includes/webmentions/webmentions.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
