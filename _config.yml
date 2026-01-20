@@ -15,7 +15,7 @@ collections:
     permalink: /:collection/:title/
     output: true
 
-webmention:
+webmentions:
   username: "fmjansen.com"
 
 # Exclude from processing.
