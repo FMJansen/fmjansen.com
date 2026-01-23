@@ -2,6 +2,7 @@
 layout: post
 title: Stop Mail on macOS from loading images
 excerpt: .
+tags: [privacy]
 ---
 
 # Stop Mail on macOS from loading images

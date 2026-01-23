@@ -2,6 +2,7 @@
 layout: post
 title: Billionaires are already producing paperclips
 excerpt: AI companies are destroying the environment while trying to have us believe they are saving us.
+tags: [ethics, ai]
 ---
 
 # Billionaires are already producing paperclips

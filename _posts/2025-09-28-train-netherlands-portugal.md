@@ -2,6 +2,7 @@
 layout: post
 title: Taking the train from The Netherlands to Portugal and back
 excerpt: Taking the train from Amsterdam to Porto and back from Lisbon to Amsterdam can be a hassle.
+tags: [train]
 ---
 
 # Taking the train from The Netherlands to Portugal and back

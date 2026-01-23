@@ -2,6 +2,7 @@
 layout: post
 title: The case for AI
 excerpt: Generative artificial intelligence (AI) is quite the hype, but it has serious downsides. I wanted to keep an overview of those downsides, so I collected some links.
+tags: [ethics, ai]
 ---
 
 # The case for AI

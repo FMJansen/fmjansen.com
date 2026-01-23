@@ -2,6 +2,7 @@
 layout: post
 title: Firefox button-anchor almost keyboard trap
 excerpt: A flex container button within an anchor creates half a keyboard trap in Firefox, but not in other browsers.
+tags: [accessibility, development]
 ---
 
 # Firefox button-anchor keyboard trap

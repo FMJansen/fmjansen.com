@@ -2,6 +2,7 @@
 layout: post
 title: PhD on applications for identity wallets
 excerpt: I’ve started my PhD on voting, signing and communication applications for identity wallets.
+tags: [phd, academia]
 ---
 
 # PhD on applications for identity wallets

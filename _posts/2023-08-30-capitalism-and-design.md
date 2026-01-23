@@ -1,7 +1,8 @@
 ---
 layout: post
 title: (No) ethical design under capitalism
-excerpt: Designing in an ethical way is difficult. I think capitalism is the reason why, so I try to find ways to escape or dismantle it. 
+excerpt: Designing in an ethical way is difficult. I think capitalism is the reason why, so I try to find ways to escape or dismantle it.
+tags: [ethics, design]
 ---
 
 # (No) ethical design under capitalism
