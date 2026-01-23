@@ -1,0 +1,30 @@
+{% include head.html %}
+
+{% include top.html %}
+
+<main>
+	<p class="date">{{ page.posts.size }} post{% if page.posts.size > 1 %}s{% endif %} in:</p>
+	<h1>#{{ page.tag }}</h1>
+
+	<ul class="posts">
+		{% for post in page.posts %}
+			<li>
+				<a href="{{ post.url }}" class="title">{{ post.title }}</a>
+				{{post.date | date_to_long_string: "ordinal" }}
+			</li>
+		{% endfor %}
+	</ul>
+</main>
+
+<aside id="tag-cloud">
+	<h2>Other tags</h2>
+	<ul class="tags">
+	{% for tag in site.tags %}
+		<li>
+			<a href="/tag/{{ tag[0] }}/">#{{ tag[0] }}</a> ({{ tag[1].size }})
+		</li>
+	{% endfor %}
+	</ul>
+</aside>
+
+{% include foot.html %}
