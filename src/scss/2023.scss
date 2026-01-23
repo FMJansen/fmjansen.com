@@ -540,7 +540,7 @@ tr:nth-child(2n) {
 }
 
 thead tr {
-	background-color: none;
+	background-color: unset;
 	border-bottom: 2px solid var(--text);
 }
 
