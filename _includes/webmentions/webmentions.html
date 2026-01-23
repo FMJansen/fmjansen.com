@@ -3,7 +3,7 @@
 {% endif %}
 
 {% if webmentions[0] %}
-<aside>
+<aside class="webmentions">
 	<h2>Webmentions</h2>
 	<div class="webmentions" data-webmention-types="{{ webmention_types }}"
 		 {% if html_proofer_ignore == "all" %} data-proofer-ignore {% endif %} >

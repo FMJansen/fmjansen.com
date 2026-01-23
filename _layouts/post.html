@@ -6,6 +6,19 @@
 	{{ content }}
 </main>
 
+{% if page.tags.size > 0 %}
+<aside>
+	<ul class="tags">
+		<li>tagged:</li>
+		{% for tag in page.tags %}
+			<li>
+				<a href="/tag/{{ tag }}/">{{ tag }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</aside>
+{% endif %}
+
 {% webmentions page.url %}
 
 {% if page.previous.url or page.next.url %}

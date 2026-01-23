@@ -223,6 +223,10 @@ hr {
 	color: currentColor;
 	margin: 10vw 0;
 	grid-column: full;
+
+	& + h2 {
+		margin-block-start: .5em;
+	}
 }
 
 p,
@@ -596,15 +600,38 @@ div.highlight {
 }
 
 aside {
-	background: oklch(from var(--text) l c h/calc(alpha - 0.93));
+	border-block-start: 1px solid var(--text);
+
+	&:last-of-type {
+		border-block-end: 1px solid var(--text);
+	}
 
 	h2 {
 		margin-block-start: .5em;
+	}
+
+	&:has(.webmentions) {
+		background: oklch(from var(--text) l c h/calc(alpha - 0.93));
 	}
 }
 
 .count {
 	color: oklch(from var(--text) l c h / calc(alpha - 0.4));
+}
+
+.tags {
+	margin: 0;
+	padding: 0;
+	gap: 1em;
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	grid-column: centered;
+
+	li {
+		text-wrap: nowrap;
+		margin-block: 0;
+	}
 }
 
 .webmentions {
