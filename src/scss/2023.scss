@@ -63,10 +63,6 @@
 \*-------------------------------------*/
 :root {
 	--pad: 7vw;
-	--sans-serif: "Satoshi", "Inter", "Helvetica Neue", Arial,
-		sans-serif;
-	--serif: "Apfel Grotezk", "Syne", "Helvetica Neue", Arial,
-		sans-serif;
 	--sand: oklch(0.93 0.05 68.95);
 	--pink: oklch(0.63 0.19 17.8);
 	--pink-light: oklch(from var(--pink) calc(l + .3) calc(c - .1) h);
@@ -126,7 +122,7 @@ body {
 		minmax(0, 1fr) [filler-end centered-end]
 		minmax(0, var(--pad)) [wide-end]
 		var(--pad) [full-end];
-	font-family: var(--sans-serif);
+	font-family: "Satoshi", "Inter", "Helvetica Neue", Arial, sans-serif;
 	font-size: clamp(1.1em, 4vw, 1.35em);
 	font-weight: 400;
 	line-height: 1.6;
@@ -166,7 +162,7 @@ body {
 h1,
 h2,
 h3 {
-	font-family: var(--serif);
+	font-family: "Apfel Grotezk", "Syne", "Helvetica Neue", Arial, sans-serif;
 	font-weight: 700;
 	line-height: 1.0;
 }
