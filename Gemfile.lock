@@ -110,6 +110,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll-webmention_io (4.1.0)
@@ -162,6 +164,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.0-x86_64-linux-musl)
       racc (~> 1.4)
+    nuggets (1.6.1)
     openssl (3.3.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -233,7 +236,6 @@ PLATFORMS
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
-  ruby
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -246,6 +248,7 @@ DEPENDENCIES
   csv
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17)
+  jekyll-tagging
   jekyll-webmention_io
   webrick (~> 1.9.2)
 

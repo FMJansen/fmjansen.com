@@ -7,6 +7,7 @@ gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-webmention_io"
+  gem "jekyll-tagging"
 end
 
 # Performance-booster for watching directories on Windows
