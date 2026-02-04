@@ -559,16 +559,25 @@ table:has(tfoot) {
 	}
 }
 
-.language-html {
+div:has(pre.highlight) {
+	grid-column: wide;
+}
+
+pre.highlight {
 	background-color: oklch(from var(--text) l c h / calc(alpha - 0.95));
 	grid-column: wide;
 	margin-block: 1em;
 	overflow: auto;
+	font-size: .8em;
+
+	code {
+		padding: 2em;
+		display: block;
+	}
 }
 
-div.highlight {
-	padding: 1em var(--pad);
-	width: fit-content;
+.light pre.highlight {
+	background-color: oklch(from white l c h / calc(alpha - 0.6));
 }
 
 .light {
