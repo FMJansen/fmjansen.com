@@ -31,7 +31,8 @@ itinerary and experience for the next fool who wants to try.
 Because of plans in Porto, I wanted to travel there. Most people would take the plane – and rightfully so. Taking the 
 train to a place like London works well and saves you about [95%](https://www.eurostar.com/rw-en/sustainability#Carbon-emissions) of the CO2 emissions, and brings you from the city 
 center of Amsterdam straight to London in less time than the flight with security added on. Portugal, on the other hand, 
-is not as quick and easy to reach by train. 
+is not as quick and easy to reach by train.
+{: #start}
 
 There are no direct trains to Portugal, you can’t book the trip at one point of sale, it takes at least two full travel 
 days, and it ‘only’ saves about 85% on the journey’s CO2 emissions[^1] because of the longer distance (actually, 
