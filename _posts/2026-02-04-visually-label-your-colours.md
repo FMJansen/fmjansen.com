@@ -82,7 +82,7 @@ So, what would be a good approach? Use links with the colour names in an unorder
       </a>
     </li>
     <li>
-      <a href="#" class="vermilion" id="vermilion">
+      <a href="#vermilion" class="vermilion" id="vermilion">
         vermilion
       </a>
     </li>
@@ -92,7 +92,7 @@ So, what would be a good approach? Use links with the colour names in an unorder
       </a>
     </li>
   </ul>
-  <p>Our vermilion is a friendly, medium bright red, close to orange.</p>
+  <p class="vermilion-descr">Our vermilion is a friendly, medium bright red, close to orange.</p>
 </nav>
 
 ```html

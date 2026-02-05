@@ -737,7 +737,7 @@ footer {
 		text-decoration: none;
 		animation: none !important;
 
-		&[href="#"] {
+		&:target {
 			font-weight: bold;
 			background: var(--text);
 			color: var(--background);
@@ -770,6 +770,14 @@ footer {
 	p {
 		grid-column: content;
 	}
+}
+
+.vermilion-descr {
+	display: none;
+}
+
+.colour-switcher:has(#vermilion:target) .vermilion-descr {
+	display: block;
 }
 
 .t-shirt {
