@@ -747,6 +747,10 @@ footer {
 			background: oklch(from currentColor l c h / calc(alpha - 0.8));
 		}
 
+		&:target:hover {
+			background: oklch(from var(--text) l c h / calc(alpha - 0.2));
+		}
+
 		&::before {
 			content: "";
 			border-radius: 50%;
