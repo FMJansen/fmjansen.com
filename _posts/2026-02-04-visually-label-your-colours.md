@@ -96,6 +96,7 @@ So, what would be a good approach? Use links with the colour names in an unorder
 </nav>
 
 ```html
+<!-- On the product page of the vermilion version -->
 <nav aria-labelledby="colours" class="colour-switcher">
   <h2 id="colours">Colours</h2>
   <ul>

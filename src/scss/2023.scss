@@ -574,6 +574,10 @@ pre.highlight {
 		padding: 2em;
 		display: block;
 	}
+
+	.c {
+		color: oklch(from var(--text) l c h / calc(alpha - 0.35));
+	}
 }
 
 .light pre.highlight {
