@@ -291,7 +291,8 @@ img {
 	color: oklch(from var(--text) l c h / calc(alpha - 0.3));
 }
 
-button {
+button,
+a.button {
 	--shadow: rgba(0, 0, 0, 0.2);
 	
 	background-color: var(--text);
