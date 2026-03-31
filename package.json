@@ -1,7 +1,7 @@
 {
-  "name": "fmjansen.com",
+  "name": "fmjansen.nl",
   "version": "0.0.1",
-  "description": "Build script for fmjansen.com Jekyll site",
+  "description": "Build script for fmjansen.nl Jekyll site",
   "main": "gulpfile.js",
   "type": "module",
   "dependencies": {

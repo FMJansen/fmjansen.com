@@ -3,7 +3,7 @@ title: Floris Jansen
 description: >-
   Hej! I’m Floris, I design and develop for inclusion, accessibility, privacy and sustainability.
 baseurl: "" # the subpath
-url: "https://fmjansen.com"
+url: "https://fmjansen.nl"
 github_username:  fmjansen
 
 # Build settings
@@ -16,7 +16,7 @@ collections:
     output: true
 
 webmentions:
-  username: "fmjansen.com"
+  username: "fmjansen.nl"
   templates:
     webmentions: _includes/webmentions/webmentions.html
 
