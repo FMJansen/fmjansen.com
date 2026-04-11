@@ -22,6 +22,13 @@ Then, you need to **turn on Developer mode**, by:
 
 [Try the demo](https://decidos.fmjansen.com){: .button}
 
+### Alternatives
+
+We’re planning to test three alternatives, each with increasing amount of communication about the split between the three servers:
+- A [bare version](https://decidos.fmjansen.com/en/?version=bare) 
+- A [banner version](https://decidos.fmjansen.com/en/?version=banner) 
+- A [branded version](https://decidos.fmjansen.com/en/?version=branded)
+
 ## Let’s chat
 
 If want to chat, you can send Floris a message on [Telegram](https://telegram.me/fmjansen), or email chi2026@fmjansen.nl.
