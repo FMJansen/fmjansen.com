@@ -133,9 +133,9 @@ body {
 	@supports (font-variant-ligatures: discretionary-ligatures) {
 		font-variant-ligatures: discretionary-ligatures;
 	}
-	@supports (font-variant-numeric: diagonal-fractions) {
-		font-variant-numeric: diagonal-fractions;
-	}
+	//@supports (font-variant-numeric: diagonal-fractions) {
+	//	font-variant-numeric: diagonal-fractions;
+	//}
 }
 
 *:focus-visible {
