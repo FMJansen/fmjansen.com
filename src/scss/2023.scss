@@ -800,3 +800,12 @@ footer {
 	background: oklch(from var(--text) l c h / calc(alpha - 0.9));
 	border-radius: .3em;
 }
+
+svg {
+	fill: var(--color);
+	grid-column: centered;
+	max-width: min(20em, 40vw);
+	max-height: 30vh;
+	margin-block: calc(-1 * var(--pad)) var(--pad);
+	margin-inline: auto;
+}
