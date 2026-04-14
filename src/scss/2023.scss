@@ -809,3 +809,8 @@ svg {
 	margin-block: calc(-1 * var(--pad)) var(--pad);
 	margin-inline: auto;
 }
+
+.qr {
+	max-height: 55vh;
+	max-width: 100%;
+}
