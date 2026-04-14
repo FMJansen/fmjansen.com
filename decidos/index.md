@@ -5,7 +5,12 @@ title: Decidos
 
 # Decidos
 
-Thanks for checking out our poster! Download the [full paper](https://bodi-project.nl/wp-content/uploads/2026/03/chiea26-684-decidos.pdf) or check out the prototype.
+Thanks for checking out our poster!
+ - Download the [full paper (PDF, 2.3MB)](https://bodi-project.nl/wp-content/uploads/2026/03/chiea26-684-decidos.pdf)
+ - Or the [poster (PDF, 1.9MB)](/static/img/decidos-chi2026-poster.pdf)
+ - Check out [the prototype (↓)](#prototype)
+
+---
 
 ## Prototype
 
@@ -28,6 +33,8 @@ We’re planning to test three alternatives, each with increasing amount of comm
 - A [bare version](https://decidos.fmjansen.com/en/?version=bare) 
 - A [banner version](https://decidos.fmjansen.com/en/?version=banner) 
 - A [branded version](https://decidos.fmjansen.com/en/?version=branded)
+
+---
 
 ## Let’s chat
 
