@@ -804,9 +804,9 @@ footer {
 svg {
 	fill: var(--color);
 	grid-column: centered;
-	max-width: min(20em, 40vw);
-	max-height: 30vh;
-	margin-block: calc(-1 * var(--pad)) var(--pad);
+	max-width: min(25em, 50vw);
+	max-height: 32.5vh;
+	margin-block: calc(-0.75 * var(--pad)) calc(0.75 * var(--pad));
 	margin-inline: auto;
 }
 
