@@ -645,7 +645,10 @@ aside {
 }
 
 .webmentions {
-	grid-column: content;
+	h2,
+	div {
+		grid-column: content;
+	}
 
 	&__list {
 		list-style: none;
