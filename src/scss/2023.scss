@@ -804,7 +804,7 @@ footer {
 	border-radius: .3em;
 }
 
-svg {
+main > svg {
 	fill: var(--color);
 	grid-column: centered;
 	max-width: min(25em, 50vw);
