@@ -34,8 +34,8 @@
 	font-style: italic;
 	font-weight: 300 900;
 	src: local("Satoshi Variable Italic"),
-		 url('../fonts/satoshi-variableitalic.woff2') format('woff2'),
-		 url('../fonts/satoshi-variableitalic.woff') format('woff');
+		 url('../fonts/satoshi-variableItalic.woff2') format('woff2'),
+		 url('../fonts/satoshi-variableItalic.woff') format('woff');
 }
 
 @keyframes changeBackground {
