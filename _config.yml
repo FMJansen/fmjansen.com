@@ -5,6 +5,7 @@ description: >-
 baseurl: "" # the subpath
 url: "https://fmjansen.nl"
 github_username:  fmjansen
+orcid_id: "0009-0008-6667-1129"
 
 # Build settings
 markdown: kramdown
