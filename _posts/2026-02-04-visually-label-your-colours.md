@@ -27,13 +27,13 @@ Let’s say you’re selling a product in different colours and you’ve put the
 
 Maybe it has seven colours, three of which are blue…
 
-![Screenshot of a colour switcher under the text Color: blue. There are seven swatches, three of which are a shade of blue, one is underlined.](/static/img/color-switcher-t-shirt.png){: .t-shirt}
+![Screenshot of a colour switcher under the text Color: blue. There are seven swatches, three of which are a shade of blue, one is underlined.](/assets/img/color-switcher-t-shirt.png){: .t-shirt}
 
 _(This is bad)_
 
 Or maybe there are fifty shades and you make a very small image just a tiny bit larger while showing its name twice…
 
-![Screenshot of a colour switcher with fifty swatches under the text ‘Kleur Champagne’. One has a tooltip which shows the same swatch about twice as big, and a floating title attribute ‘Champagne’.](/static/img/color-switcher-curtains.png){: .curtains}
+![Screenshot of a colour switcher with fifty swatches under the text ‘Kleur Champagne’. One has a tooltip which shows the same swatch about twice as big, and a floating title attribute ‘Champagne’.](/assets/img/color-switcher-curtains.png){: .curtains}
 
 _(This is also bad)_
 
