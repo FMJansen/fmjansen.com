@@ -74,18 +74,6 @@ html {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 
-	@media (prefers-color-scheme: light) {
-		--background: var(--sand);
-		--color: var(--pink);
-		--text: var(--blue);
-	}
-
-	@media (prefers-color-scheme: dark) {
-		--background: var(--blue);
-		--color: var(--pink);
-		--text: var(--sand);
-	}
-
 	&.light {
 		--background: var(--sand);
 		--color: var(--pink);
@@ -106,6 +94,22 @@ html {
 			animation: changeColor auto linear forwards;
 			animation-timeline: scroll(root);
 		}
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	html {
+		--background: var(--sand);
+		--color: var(--pink);
+		--text: var(--blue);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--background: var(--blue);
+		--color: var(--pink);
+		--text: var(--sand);
 	}
 }
 
