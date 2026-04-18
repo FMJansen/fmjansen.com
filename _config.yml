@@ -26,6 +26,9 @@ tag_page_dir: tag
 feed:
   tags: true
 
+deploy:
+  - rsync -avz -e "ssh -p 4444"  ./ floris@fmjansen.nl:/var/www/fmjansen/html/
+
 plugins:
   - jekyll-subresource-integrity-hook
 

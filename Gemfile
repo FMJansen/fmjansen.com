@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-webmention_io"
   gem "jekyll-tagging"
+  gem "jekyll-deploy"
   gem 'jekyll-subresource-integrity-hook', git: "https://github.com/Garanas/jekyll-subresource-integrity-hook"
 end
 
