@@ -19,6 +19,13 @@ webmentions:
   username: "fmjansen.nl"
   templates:
     webmentions: _includes/webmentions/webmentions.html
+  throttle_lookups:
+    last_week: daily
+    last_month: weekly
+    last_year: every 2 weeks
+    older: monthly
+  js:
+    source: false
 
 tag_page_layout: tag_page
 tag_page_dir: tag
