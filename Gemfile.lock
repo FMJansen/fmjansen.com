@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/Garanas/jekyll-subresource-integrity-hook
+  revision: c3e122eb940e854b5b630b6e7865590ff10e3880
+  specs:
+    jekyll-subresource-integrity-hook (0.0.1)
+      jekyll (> 3.3, < 5.0)
+      nokogiri (~> 1.18.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -144,24 +152,24 @@ GEM
     mini_portile2 (2.8.9)
     minitest (5.27.0)
     multi_json (1.19.1)
-    nokogiri (1.19.1)
+    nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.19.1-aarch64-linux-gnu)
+    nokogiri (1.18.10-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.19.1-aarch64-linux-musl)
+    nokogiri (1.18.10-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.19.1-arm-linux-gnu)
+    nokogiri (1.18.10-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.19.1-arm-linux-musl)
+    nokogiri (1.18.10-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.19.1-arm64-darwin)
+    nokogiri (1.18.10-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.19.1-x86_64-darwin)
+    nokogiri (1.18.10-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.19.1-x86_64-linux-gnu)
+    nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.19.1-x86_64-linux-musl)
+    nokogiri (1.18.10-x86_64-linux-musl)
       racc (~> 1.4)
     nuggets (1.6.1)
     openssl (3.3.2)
@@ -246,6 +254,7 @@ DEPENDENCIES
   csv
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17)
+  jekyll-subresource-integrity-hook!
   jekyll-tagging
   jekyll-webmention_io
   webrick (~> 1.9.2)
