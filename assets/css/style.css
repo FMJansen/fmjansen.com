@@ -117,9 +117,9 @@ body {
 	background: var(--background);
 	color: var(--text);
 	display: grid;
-	grid-template-columns: 
+	grid-template-columns:
 		[full-start] var(--pad)
-		[wide-start] minmax(0, var(--pad)) 
+		[wide-start] minmax(0, var(--pad))
 		[content-start centered-start] minmax(min(50ch, calc(100vw - 2 * var(--pad))), 1fr) [content-end filler-start]
 		minmax(0, 1fr) [filler-end centered-end]
 		minmax(0, var(--pad)) [wide-end]
