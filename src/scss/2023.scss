@@ -694,6 +694,12 @@ footer {
 	p {
 		grid-column: centered;
 	}
+
+	img {
+		grid-column: centered;
+		width: 6em;
+		margin: calc(-1 * var(--pad)) auto var(--pad);
+	}
 }
 
 .light .colour-switcher {
