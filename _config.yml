@@ -4,7 +4,7 @@ description: >-
   Hej! I’m Floris, I design and develop for inclusion, accessibility, privacy and sustainability.
 baseurl: "" # the subpath
 url: "https://fmjansen.nl"
-github_username:  fmjansen
+github_username: fmjansen
 orcid_id: "0009-0008-6667-1129"
 
 # Build settings
