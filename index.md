@@ -16,10 +16,29 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
 {: .posts}
 {% for post in site.posts %}
 {% if post.link %}
-- Written for {{ post.for }}: [{{ post.title }}]({{ post.link }}){: .title} {{post.date | date_to_long_string: "ordinal" }}&emsp;•&emsp;tagged: {{ post.tags | sort | join: ", " }}
+
 {% else %}
 - [{{ post.title }}]({{ post.url }}){: .title} {{post.date | date_to_long_string: "ordinal" }}&emsp;•&emsp;tagged: {{ post.tags | sort | join: ", " }}
 {% endif %}
+{% endfor %}
+
+## Publications
+
+{% assign publications = site.data.orcid.groups %}
+{: .posts}
+{% for item in publications %}
+  {% assign publication = item.works[0] %}
+  {% assign date = publication.publicationDate %}
+  - {% if publication.journalTitle.value %}
+      {{ publication.journalTitle.value }} ({{ date.year }})
+    {% else %}
+      {{ date.year }}
+    {% endif %}
+    [{{ publication.title.value }}]({{ publication.workExternalIdentifiers[0].url.value }}){: .title}
+    {% for author in publication.contributorsGroupedByOrcid %}
+      {{ author.creditName.content }}{% unless forloop.last %},{% endunless %} {% endfor %}
+    
+    DOI: {{ publication.workExternalIdentifiers[0].externalIdentifierId.value }}
 {% endfor %}
 
 ## Side projects
