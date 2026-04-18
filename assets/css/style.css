@@ -91,7 +91,7 @@ html {
 		--color: var(--pink);
 		--text: var(--blue);
 
-		body, a {
+		body {
 			animation: changeBackground auto linear forwards;
 			animation-timeline: scroll(root);
 		}
@@ -102,7 +102,7 @@ html {
 		--color: var(--pink);
 		--text: var(--sand);
 
-		body, a {
+		body {
 			animation: changeColor auto linear forwards;
 			animation-timeline: scroll(root);
 		}
@@ -251,7 +251,7 @@ a {
 
 .light {
 	a {
-		color: var(--text);
+		color: currentColor;
 		text-decoration-color: mediumblue;
 		
 		&[href^="http"]::after {
@@ -262,7 +262,7 @@ a {
 
 .dark {
 	a {
-		color: var(--text);
+		color: currentColor;
 		text-decoration-color: var(--pink);
 	}
 
@@ -395,6 +395,10 @@ nav {
 		&:last-child {
 			border: none;
 		}
+	}
+
+	a {
+		color: var(--text);
 	}
 }
 
