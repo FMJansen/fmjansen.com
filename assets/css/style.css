@@ -257,7 +257,7 @@ a {
 	a {
 		color: currentColor;
 		text-decoration-color: mediumblue;
-		
+
 		&[href^="http"]::after {
 			color: var(--color);
 		}
@@ -302,7 +302,7 @@ a.button {
 	padding: .6em 1em;
 	text-shadow: 0 .05em .1em oklch(from var(--background) l c h / calc(alpha - 0.8));
 	transition: all 250ms cubic-bezier(.19,1,.22,1);
-	
+
 	@media (prefers-color-scheme: dark) {
 		--shadow: rgba(0, 0, 0, 1);
 	}
@@ -507,7 +507,7 @@ nav {
 			left: 0;
 		}
 	}
-	
+
 	em {
 		font-style: normal;
 		position: relative;
@@ -731,7 +731,7 @@ aside {
 	display: grid;
 	gap: 1em;
 	grid-column: centered;
-	grid-template-columns: 
+	grid-template-columns:
 		[newer-start] 1fr
 		[newer-end older-start] 1fr
 		[older-end];
