@@ -7,3 +7,4 @@ server_configs
 .jekyll-cache
 .bundle/config
 .idea
+_data/orcid.json
