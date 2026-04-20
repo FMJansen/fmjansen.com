@@ -70,7 +70,8 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
 - 💼 [LinkedIn](https://linkedin.com/in/florismartijnjansen){: rel="me"}
 - 💻 [Github](https://github.com/fmjansen){: rel="me"}
 - 🎧 [Last.fm](https://www.last.fm/user/lastfmjansen){: rel="me"}
-- 💬 [Telegram](https://telegram.me/fmjansen){: rel="me"}
+- 💬 [Delta Chat](https://i.delta.chat/#FB60730389417E0221B312AFA1109D285021A9DC&v=3&i=70lZf7fOpNJwrWwnOoMMqwOz&s=-iSBbDKGeJm9dLeVNBuW2T_e&a=go%40chat.fmjansen.com&n=Floris+M+Jansen){: rel="me"}
+- 📮 [Telegram](https://telegram.me/fmjansen){: rel="me"}
 - 💌 [E-mail](mailto:hej@fmjansen.nl)
 {: .social}
 
