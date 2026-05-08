@@ -10,7 +10,7 @@ tags: [ethics, ai]
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 9th March 2026)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 8th May 2026)
 {: .date}
 
 Illustration inspired by [Dead Robot](https://deadrobot.cc/)
@@ -130,6 +130,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - Data centers [drive up electricity prices](https://www.fastcompany.com/91368903/ai-data-centers-require-massive-amounts-of-power-making-electricity-more-expensive-for-everyone-around-them) for people living around them
 - In Texas, residents are [asked to cut back on showers](https://economictimes.indiatimes.com/news/international/us/texas-ai-data-centers-water-usage-texas-ai-centers-guzzle-463-million-gallons-now-residents-are-asked-to-cut-back-on-showers-ai-news/articleshow/122983253.cms) while AI data centers are using major amounts of water
 - In Wyoming, the electricity demand from new data centers would [surpass that of human residents](https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/)
+- Plans for new data centers could emit more than [129M tons of CO2](https://arstechnica.com/ai/2026/04/greenhouse-gases-from-data-center-boom-could-outpace-entire-nations/) which is more than several countries
 
 ### Leading to the statistical average
 
@@ -175,6 +176,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - LLM ‘agents’ [failed 42% of single-step tasks](https://www.theregister.com/2025/06/16/salesforce_llm_agents_benchmark/) in a CRM, 65% of multi-step tasks, and weren’t good at handling 
   confidentiality, a study found
 - Google’s agentic AI [deleted an entire hard drive](https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-agentic-ai-wipes-users-entire-hard-drive-without-permission-after-misinterpreting-instructions-to-clear-a-cache-i-am-deeply-deeply-sorry-this-is-a-critical-failure-on-my-part) 
+- South Africa’s AI policy contained [fictitious sources](https://www.reuters.com/world/africa/south-africa-withdraws-ai-policy-due-fake-ai-generated-sources-2026-04-27/)
 
 ### Devaluing your brand
 
@@ -205,6 +207,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 ### Creating security problems
 
 - Gemini for Workspace from Google [responds to prompt injection in email](https://0din.ai/blog/phishing-for-gemini)
+- ...and it’s summarising feature is easy to fool into [saying something nefarious is safe](https://mike-sheward.medium.com/recruiting-google-geminis-email-summarizer-as-a-phishing-aid-417055295ba7)
 - A calendar invite was also used to [take over a smart home](https://www.wired.com/story/google-gemini-calendar-invite-hijack-smart-home/)
 - Safety filters are [bypassed by poetry](https://dataconomy.com/2025/12/01/study-finds-poetry-bypasses-ai-safety-filters-62-percent-of-time/)
 - An AI director of AI safety had an agent [delete all her email](https://www.404media.co/meta-director-of-ai-safety-allows-ai-agent-to-accidentally-delete-her-inbox/)
