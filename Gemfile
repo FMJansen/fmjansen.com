@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-webmention_io"
   gem "jekyll-tagging"
   gem "jekyll-deploy"
-  gem 'jekyll-subresource-integrity-hook', git: "https://github.com/Garanas/jekyll-subresource-integrity-hook"
+  gem 'jekyll-subresource-integrity-hook', git: "https://github.com/FMJansen/jekyll-subresource-integrity-hook"
 end
 
 # Performance-booster for watching directories on Windows

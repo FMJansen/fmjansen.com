@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/Garanas/jekyll-subresource-integrity-hook
-  revision: c3e122eb940e854b5b630b6e7865590ff10e3880
+  remote: https://github.com/FMJansen/jekyll-subresource-integrity-hook
+  revision: a67da7c1d1417d4c228ecb8a975a7d241dc667e2
   specs:
     jekyll-subresource-integrity-hook (0.0.1)
       jekyll (> 3.3, < 5.0)
