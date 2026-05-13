@@ -44,7 +44,7 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
 ## Side projects
 
 - ![](/assets/img/owkis.svg){:loading='lazy'}
-  [Op wie kan ik stemmen (NL)](https://opwiekanikstemmen.nl/)
+  [Op wie kan ik stemmen](https://opwiekanikstemmen.nl/)
   _candidate list for Dutch national elections_
 - ![](/assets/img/inc.svg){:loading='lazy'}
   [Inclusief Design](https://inclusief.design/)
