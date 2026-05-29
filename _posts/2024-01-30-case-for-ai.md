@@ -10,7 +10,7 @@ tags: [ethics, ai]
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 8th May 2026)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 29th May 2026)
 {: .date}
 
 Illustration inspired by [Dead Robot](https://deadrobot.cc/)
@@ -131,6 +131,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - In Texas, residents are [asked to cut back on showers](https://economictimes.indiatimes.com/news/international/us/texas-ai-data-centers-water-usage-texas-ai-centers-guzzle-463-million-gallons-now-residents-are-asked-to-cut-back-on-showers-ai-news/articleshow/122983253.cms) while AI data centers are using major amounts of water
 - In Wyoming, the electricity demand from new data centers would [surpass that of human residents](https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/)
 - Plans for new data centers could emit more than [129M tons of CO2](https://arstechnica.com/ai/2026/04/greenhouse-gases-from-data-center-boom-could-outpace-entire-nations/) which is more than several countries
+- Google [lies](https://www.theguardian.com/technology/2026/may/09/google-developers-significantly-misstate-carbon-emissions-of-proposed-uk-datacentres) about their carbon emissions
 
 ### Leading to the statistical average
 
