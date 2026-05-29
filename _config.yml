@@ -15,6 +15,9 @@ collections:
   posts:
     permalink: /:collection/:title/
     output: true
+  talks:
+    permalink: /:collection/:title/
+    output: true
 
 webmentions:
   username: "fmjansen.nl"
