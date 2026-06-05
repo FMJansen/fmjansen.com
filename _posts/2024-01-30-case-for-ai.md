@@ -10,7 +10,7 @@ tags: [ethics, ai]
 # The case for AI
 {:.no_toc}
 
-Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 29th May 2026)
+Published: {{page.date | date_to_long_string: "ordinal"}} (Updated 5th June 2026)
 {: .date}
 
 Illustration inspired by [Dead Robot](https://deadrobot.cc/)
@@ -214,3 +214,4 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - An AI director of AI safety had an agent [delete all her email](https://www.404media.co/meta-director-of-ai-safety-allows-ai-agent-to-accidentally-delete-her-inbox/)
 - Someone had an AI bot drain their account balance because it [checked the time every half hour](https://x.com/BenjaminDEKR/status/2017644773356548532?ref=404media.co)
 - A node package was used to [compromise machines](https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another) because an AI tool was trusted
+- Meta’s support chatbot [helped hack accounts](https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/) 
