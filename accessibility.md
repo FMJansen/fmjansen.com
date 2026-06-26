@@ -8,7 +8,7 @@ excerpt: I try to make my website as accessible as possible.
 
 ## Conformance status
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements to improve accessibility for for things like websites. There are conformance levels (A, AA and AAA) and versions. My website is partially conformant with WCAG 2.2 level AA. This means that some parts do not fully conform to the accessibility standard.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements to improve accessibility for things like websites. There are conformance levels (A, AA and AAA) and versions. My website is partially conformant with WCAG 2.2 level AA. This means that some parts do not fully conform to the accessibility standard.
 
 ## Feedback
 
