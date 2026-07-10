@@ -85,6 +85,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - A tool promising to remove bias from applications [perpetuated several kinds of bias](https://interaktiv.br.de/ki-bewerbung/en/)
 - The Los Angeles Times application of AI [defended the KKK](https://web.archive.org/web/20250306115751/https://www.thedailybeast.com/maga-newspaper-owners-ai-bot-defends-kkk/)
 - An often cited, non-generative AI model [doesn’t detect diseases in marginalised groups](https://www.science.org/content/article/ai-models-miss-disease-black-female-patients) properly
+- LLMs more often select [references written by men](https://arxiv.org/abs/2508.02740) according to a preprint 
 
 ### Making it easier to spread misinformation
 
@@ -132,6 +133,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
 - In Wyoming, the electricity demand from new data centers would [surpass that of human residents](https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/)
 - Plans for new data centers could emit more than [129M tons of CO2](https://arstechnica.com/ai/2026/04/greenhouse-gases-from-data-center-boom-could-outpace-entire-nations/) which is more than several countries
 - Google [lies](https://www.theguardian.com/technology/2026/may/09/google-developers-significantly-misstate-carbon-emissions-of-proposed-uk-datacentres) about their carbon emissions
+- Lake Tahoe residents need a different energy source because the utility company will [move capacity over to data centers](https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/)
 
 ### Leading to the statistical average
 
