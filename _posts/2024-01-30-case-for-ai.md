@@ -180,6 +180,7 @@ So should you use it? That’s hardly up to me. Either way, I think it’s impor
   confidentiality, a study found
 - Google’s agentic AI [deleted an entire hard drive](https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-agentic-ai-wipes-users-entire-hard-drive-without-permission-after-misinterpreting-instructions-to-clear-a-cache-i-am-deeply-deeply-sorry-this-is-a-critical-failure-on-my-part) 
 - South Africa’s AI policy contained [fictitious sources](https://www.reuters.com/world/africa/south-africa-withdraws-ai-policy-due-fake-ai-generated-sources-2026-04-27/)
+- Starbucks used AI to generate a [culturally insensitive ad campaign](https://www.theguardian.com/world/2026/jun/06/starbucks-south-korea-tank-day-promotion-blunder) 
 
 ### Devaluing your brand
 
