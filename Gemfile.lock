@@ -132,7 +132,7 @@ GEM
       openssl (>= 2.0, < 4.0)
       uglifier (~> 4.1)
       webmention (~> 7.0)
-    json (2.19.5)
+    json (2.19.9)
     jsonpath (1.0.7)
       multi_json
     kramdown (2.5.2)
