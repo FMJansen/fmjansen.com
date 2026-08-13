@@ -1,0 +1,36 @@
+{% include head.html %}
+
+{% include top.html %}
+
+<main class="default" id="site-content">
+
+	<div class="meta">
+
+		<p class="pre-heading">Literature I read</p>
+
+		<h1>{{ page.title }}</h1>
+
+		<div class="references">
+			<h2>The literature</h2>
+			<ul>
+				{% for reference in page.references %}
+					<li>
+						{{ reference.title }}
+						<a href="https://doi.org/{{reference.doi}}">{{reference.doi}}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<p class="date">{{page.date | date_to_long_string: "ordinal"}}</p>
+
+	</div>
+
+	<div class="reading">
+		<p>{{ page.excerpt }}</p>
+		{{ content }}
+	</div>
+
+</main>
+
+{% include foot.html %}

@@ -18,6 +18,15 @@ collections:
   talks:
     permalink: /:collection/:title/
     output: true
+  literature:
+    permalink: /:collection/:title/
+    output: true
+
+defaults:
+  - scope:
+      type: literature
+    values:
+      layout: literature
 
 webmentions:
   username: "fmjansen.nl"
@@ -36,6 +45,8 @@ tag_page_dir: tag
 
 feed:
   tags: true
+  collections:
+    - literature
 
 deploy:
   - rsync -avz -e "ssh -p 4444"  ./ floris@fmjansen.nl:/var/www/fmjansen/html/
