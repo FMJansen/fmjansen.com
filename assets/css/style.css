@@ -553,7 +553,8 @@ h2 + .toc {
 	margin: 0;
 }
 
-.summary {
+.summary,
+.references {
 	background-color: oklch(from var(--text) l c h / calc(alpha - 0.93));
 	border: 2px solid var(--text);
 	border-radius: .4em;
@@ -884,4 +885,43 @@ main > svg {
 .qr {
 	max-height: 55vh;
 	max-width: 100%;
+}
+
+.pre-heading {
+	font-weight: bold;
+	color: var(--color);
+	grid-column: wide;
+	font-size: 1.2em;
+	margin-block-start: 0;
+}
+
+.meta {
+	grid-column: content;
+}
+
+.reading {
+	grid-column: content;
+
+	p:first-child {
+		font-weight: bold;
+		font-size: 1.4em;
+		text-wrap: balance;
+		line-height: 1.2;
+	}
+}
+
+@media (min-width: 1800px) {
+	.meta {
+		grid-column: wide-start / content-end;
+		margin-right: var(--pad);
+		height: min-content;
+	}
+
+	.reading {
+		grid-column: filler-start / filler-end;
+
+		:first-child {
+			margin-block-start: 0;
+		}
+	}
 }
