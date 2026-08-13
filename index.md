@@ -41,6 +41,14 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
     DOI: {{ publication.workExternalIdentifiers[0].externalIdentifierId.value }}
 {% endfor %}
 
+## Literature I read
+
+{: .posts}
+{% for item in site.literature %}
+- [{{ item.title }}]({{ item.url }}){: .title} {{item.date | date_to_long_string: "ordinal" }}
+{% endfor %}
+
+
 ## Side projects
 
 - ![](/assets/img/owkis.svg){:loading='lazy'}
