@@ -6,8 +6,6 @@ title: Home
 
 
 
-# Floris Jansen
-
 I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radboud University. I care about inclusion, accessibility, privacy and sustainability.
 {: .intro}
 
