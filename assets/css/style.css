@@ -412,6 +412,10 @@ nav.main {
 		margin-block: 0;
 		width: max-content;
 	}
+
+	.current {
+		font-weight: bold;
+	}
 }
 
 header + nav.main {

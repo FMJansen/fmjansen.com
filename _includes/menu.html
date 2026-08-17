@@ -2,7 +2,7 @@
 	<a href="#site-content" class="skip">Skip to content</a>
 	<ul>
 		{% for item in site.data.menu.items %}
-		<li>
+		<li class="{% if item.url == page.url %}current{% endif %}">
 			<a href="{{ item.url }}">{{ item.title }}</a>
 			{% if page.url != '/' and item.url == '/' %} (Floris Jansen) {% endif %}
 		</li>
