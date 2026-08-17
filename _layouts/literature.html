@@ -16,7 +16,12 @@
 				{% for reference in page.references %}
 					<li>
 						{{ reference.title }}
-						<a href="https://doi.org/{{reference.doi}}">{{reference.doi}}</a>
+						({{reference.authors}}; {{reference.date}})
+						{% if reference.url %}
+							<a href="{{reference.url}}">{{reference.url}}</a>
+						{% else if reference.doi %}
+							<a href="https://doi.org/{{reference.doi}}">{{reference.doi}}</a>
+						{% endif %}
 					</li>
 				{% endfor %}
 			</ul>
