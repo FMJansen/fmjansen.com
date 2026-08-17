@@ -970,3 +970,7 @@ main > svg {
 		}
 	}
 }
+
+.bio {
+	grid-column: content;
+}
