@@ -12,7 +12,7 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
 ## I wrote about
 
 {: .posts}
-{% for post in site.posts %}
+{% for post in site.posts limit:2 %}
 {% if post.link %}
 
 {% else %}
@@ -20,32 +20,34 @@ I’m a designer, developer and [PhD student](/posts/started-phd/) at iHub, Radb
 {% endif %}
 {% endfor %}
 
-## Publications
+[All my posts →](/posts)
 
-{% assign publications = site.data.orcid.groups %}
-{: .posts}
-{% for item in publications %}
-  {% assign publication = item.works[0] %}
-  {% assign date = publication.publicationDate %}
-  - {% if publication.journalTitle.value %}
-      {{ publication.journalTitle.value }} ({{ date.year }})
-    {% else %}
-      {{ date.year }}
-    {% endif %}
-    [{{ publication.title.value }}]({{ publication.workExternalIdentifiers[0].url.value }}){: .title}
-    {% for author in publication.contributorsGroupedByOrcid %}
-      {{ author.creditName.content }}{% unless forloop.last %},{% endunless %} {% endfor %}
+
+## Latest publication
+
+{% assign publication = site.data.orcid.groups[0].works[0] %}
+{% assign date = publication.publicationDate %}
+{% if publication.journalTitle.value %}
+  {{ publication.journalTitle.value }} ({{ date.year }})
+{% else %}
+  {{ date.year }}
+{% endif %}
+[{{ publication.title.value }}]({{ publication.workExternalIdentifiers[0].url.value }}){: .title}
+{% for author in publication.contributorsGroupedByOrcid %}
+{{ author.creditName.content }}{% unless forloop.last %},{% endunless %} {% endfor %}
     
-    DOI: {{ publication.workExternalIdentifiers[0].externalIdentifierId.value }}
-{% endfor %}
+  DOI: {{ publication.workExternalIdentifiers[0].externalIdentifierId.value }}
+
+[All my publications →](/publications)
 
 ## Literature I read
 
 {: .posts}
-{% for item in site.literature %}
+{% for item in site.literature limit:2 %}
 - [{{ item.title }}]({{ item.url }}){: .title} {{item.date | date_to_long_string: "ordinal" }}
 {% endfor %}
 
+[All my posts about literature →](/literature)
 
 ## Side projects
 
