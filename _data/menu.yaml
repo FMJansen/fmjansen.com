@@ -1,0 +1,11 @@
+items:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Posts
+  url: /posts/
+- title: Literature
+  url: /literature/
+- title: Publications
+  url: /publications/
