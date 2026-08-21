@@ -996,7 +996,7 @@ main > svg {
 	.smallest {
 		aspect-ratio: 1549 / 2104;
 
-		@media (min-width: 451px) {
+		@media (min-width: 376px) {
 			display: none;
 		}
 	}
@@ -1004,7 +1004,7 @@ main > svg {
 	.small {
 		aspect-ratio: 2353 / 2104;
 
-		@media (max-width: 450px) {
+		@media (max-width: 375px) {
 			display: none;
 		}
 		@media (min-width: 651px) {
