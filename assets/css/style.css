@@ -978,6 +978,10 @@ main > svg {
 	grid-column: content;
 }
 
+.symbols {
+	display: none;
+}
+
 .room {
 	grid-column: wide;
 	margin-block-start: 1em;
